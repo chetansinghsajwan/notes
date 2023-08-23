@@ -26,6 +26,24 @@ Bazel is a build system developed by google.
 
 7. Rule
 
+#### Rule
+
+#### Action
+
+#### Target
+
+#### Rule Target
+
+#### Attribute
+Attributes are the parameters for a rule.
+
+**For example,**
+```python
+cc_library(     name = "my_lib",     srcs = ["my_lib.cpp", "helper.cpp"],     hdrs = ["my_lib.h", "helper.h"],     visibility = ["//visibility:public"],     deps = ["//path/to:other_lib"], )
+```
+
+In this example, we're defining a C++ library target named **"my_lib"**. We specify the source files (**"srcs"**) and header files (**"hdrs"**) and dependencies (**"deps"**) associated with this library. All these are attributes used to define the rule.
+
 #### Providers
 Providers are pieces of information that a rule exposes to other rules that depend on it. 
 
