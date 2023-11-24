@@ -1,0 +1,1 @@
+The `continue()` command allows a cmake script to abort the rest of the current iteration of a [[foreach command]] or [[while command]] loop, and start at the top of the next iteration.

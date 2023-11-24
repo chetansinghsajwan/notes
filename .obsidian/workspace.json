@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bazel/Bazel.md",
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bazel/Bazel.md",
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bazel/Bazel.md",
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bazel/Bazel.md"
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md"
               }
             }
           }
@@ -143,22 +143,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "529b7e216837b9f4",
   "lastOpenFiles": [
-    "Build Systems vs Scripts vs Compilers.md",
-    "Bazel/Bazel.md",
-    "Bazel",
-    "2023-08-22.md",
+    "Notion/Programming/Tools/CMake/CMake Language/CMake Language.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/break command.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/cmake_policy command.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2).md",
+    "2023-11-24.md",
     "Untitled.canvas",
-    "Nix/Data Types.md",
-    "Nix/Overview.md",
-    "Nix/Derivations.md",
-    "Nix/Nix.Os.md",
-    "NixOs",
-    "Nix/Language",
-    "Nix"
+    "6.md",
+    "Notion/Programming/Languages/C++/Idioms.md",
+    "Notion/Programming/Tools/CMake/CMake.md",
+    "Notion/Programming/Languages/C/C.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md",
+    "CMake/CMake.md",
+    "68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f33373039 2.",
+    "tb7jhgef5iovejo7jwjz 2.gif",
+    "Untitled 13.png",
+    "Untitled 2 4.png",
+    "Untitled 1 3.png",
+    "Untitled 12.png",
+    "Untitled 11.png",
+    "Untitled 10.png",
+    "Untitled 2 3.png",
+    "Untitled 1 2.png",
+    "Untitled 9.png",
+    "atom-engine-logo-zip-file.zip",
+    "68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f33373039",
+    "Wissen_Questions.pdf",
+    "giphy-city.mp4",
+    "Notion/Computer Science/Operating System/Linux Operating System/NixOS/Nix Language/Comments.md",
+    "Notion/Computer Science/Operating System/Linux Operating System/NixOS/Nix Language/Data Types.md",
+    "Notion/Computer Science/Operating System/Linux Operating System/NixOS/Nix Language/Overview.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Variables/cmake_minimum_required_version variable.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 9.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 8.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 7.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 6.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 5.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 4.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 3.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 2.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (1).md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/endif command.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/elseif command.md",
+    "Notion/Computer Science/Operating System/Linux Operating System/NixOS/Nix Language",
+    "Notion/Programming/Tools/CMake/CMake Presets/Macro Expansion",
+    "Notion/Programming/Tools/CMake/CMake Presets/Condition",
+    "Notion/Programming/Tools/CMake/CMake Presets/Workflow Preset",
+    "Notion/Programming/Tools/CMake/CMake Presets/Package Preset"
   ]
 }

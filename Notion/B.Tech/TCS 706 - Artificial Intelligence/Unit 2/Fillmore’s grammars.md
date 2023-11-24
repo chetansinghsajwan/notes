@@ -1,0 +1,5 @@
+Also known as Case grammars or frame sementics, are linguistic theories developed by Charles J. Fillmore, an American linguist.
+These grammars focus on the relationship between words in a sentence and the specific roles they play in the overall meaning of the sentence.
+In Fillmore's approach, words are seen as being associated with specific semantic roles, or "cases," within a sentence. These roles define the word's function in a particular situation.
+**Example**
+In the sentence "The cat chased the mouse." "cat" and "mouse" have different roles. "cat" is the agent (the one doing the action), and "mouse" is the patient (the one receiving the action). Fillmore's grammars aim to capture these semantic relationships and provide a more detailed understanding of how words contribute to the meaning of a sentence.

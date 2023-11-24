@@ -1,0 +1,51 @@
+### Unit 1
+- Fundamentals
+    - Computer Architecture and Technology Trends
+    - Moore's Law
+    - Classes of Parallelism and Parallel Architectures
+- Instruction Set Architecture
+    - The Myopic View of Computer Architecture
+    - Trends in Technology
+    - Trends in Cost
+    - Processor Speed, Cost, Power, Power Consumption
+- Fabrication Yield Performance Metrics and Evaluation
+    - Measuring Performance
+    - Benchmark Standards
+    - Iron Law of Performance
+    - Amdahl's Law
+    - Lhadma's Law
+### Unit 2
+- Memory Hierarchy Design
+    - Basics of Memory Hierarchy
+    - Coherence and locality properties
+    - Cache memory organizations
+    - Cache Performance
+    - Cache optimization techniques
+    - Virtual Memory
+    - Techniques for Fast Address Translation
+### Unit 3
+- Pipelining
+    - What is pipelining
+    - Basics of a RISC ISA
+    - The classic five-stage pipeline for a RISC processor
+    - Performance issues in pipelining
+    - Pipeline Hazards
+### Unit 4
+- Branches and Prediction
+    - Branch Prediction
+    - Direction Predictor
+    - Hierarchical Predictors
+    - If Conversion
+    - Conditional Move
+- Instruction Level Parallelism
+    - Introduction
+    - RAW and WAW
+    - Dependencies
+    - Duplicating Register Values
+    - ILP
+### Unit 5
+- Multiprocessor architecture
+    - Taxonomy of parallel architectures
+    - Centralized shared-memory
+    - Distributed shared-memory architecture
+    - Message passing vs Shared Memory
