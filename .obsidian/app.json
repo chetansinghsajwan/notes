@@ -1,3 +1,17 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
