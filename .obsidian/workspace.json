@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9ba3dda6decd30dd",
+        "id": "7475db4db5c6f078",
         "type": "tabs",
         "children": [
           {
-            "id": "0fabd9b7db36c6b0",
+            "id": "d5af76b3d279df66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/include command.md",
-                "mode": "preview",
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/add_executable command.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/include command.md",
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/add_executable command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/include command.md",
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/add_executable command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/include command.md"
+                "file": "Notion/Programming/Tools/CMake/CMake Language/Commands/add_executable command.md"
               }
             }
           },
@@ -159,10 +158,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ec173f60eceaae3e",
+  "active": "d5af76b3d279df66",
   "lastOpenFiles": [
-    "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/add_executable command.md",
+    "Untitled.md",
+    "add_executable command.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/add_library command.md",
+    "Notion/Programming/Tools/CMake/CMake Presets/CMake Presets.md",
+    "cmake-build-system/interface-libraries.md",
+    "cmake-build-system",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/\"add_executable.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/add_executable.md",
+    "cmake-build-system/object-libraries.md",
+    "Notion/Programming/Tools/CMake/CMake Presets/Untitled.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/include command.md",
+    "Notion/Programming/Tools/CMake/CMake Language/Commands/Commands.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/if command.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/cmake_path.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/().md",
@@ -172,8 +182,6 @@
     "Notion/Programming/Tools/CMake/CMake Language/Commands/command 3.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/command (1).md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/command 2.md",
-    "Notion/Programming/Tools/CMake/CMake Language/Commands/command 1.md",
-    "Notion/Programming/Tools/CMake/CMake Language/Commands/Untitled.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/block command.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2) 9.md",
     "5fa66423c18fcdf85af6c318d82bae08ad22.png",
@@ -182,14 +190,7 @@
     "Notion/Programming/Tools/CMake/CMake Language/CMake Language.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/break command.md",
     "Notion/Programming/Tools/CMake/CMake Language/Commands/cmake_policy command.md",
-    "Notion/Programming/Tools/CMake/CMake Language/Commands/command (2).md",
-    "2023-11-24.md",
     "Untitled.canvas",
-    "6.md",
-    "Notion/Programming/Languages/C++/Idioms.md",
-    "Notion/Programming/Tools/CMake/CMake.md",
-    "Notion/Programming/Languages/C/C.md",
-    "CMake/CMake.md",
     "68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f33373039 2.",
     "tb7jhgef5iovejo7jwjz 2.gif",
     "Untitled 13.png",
@@ -203,10 +204,8 @@
     "68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f33373039",
     "Wissen_Questions.pdf",
     "giphy-city.mp4",
-    "Notion/Computer Science/Operating System/Linux Operating System/NixOS/Nix Language/Comments.md",
     "Notion/Computer Science/Operating System/Linux Operating System/NixOS/Nix Language",
     "Notion/Programming/Tools/CMake/CMake Presets/Macro Expansion",
-    "Notion/Programming/Tools/CMake/CMake Presets/Condition",
-    "Notion/Programming/Tools/CMake/CMake Presets/Workflow Preset"
+    "Notion/Programming/Tools/CMake/CMake Presets/Condition"
   ]
 }

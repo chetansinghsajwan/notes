@@ -1,4 +1,4 @@
-Load and run CMake code from a file or module.
+Load and run code from a cmake module.
 
 ###### Syntax
 
@@ -9,6 +9,12 @@ include(<file|module> [OPTIONAL] [RESULT_VARIABLE <var>] [NO_POLICY_SCOPE])
 ```
 
 #### Parameters
+
+###### `<file|module>`
+
+Includes the code from the file specified.
+
+If a module is specified instead of a file, the file with name `<module>.cmake` is searched first in [`cmake_module_path`](cmake-language/variables/cmake-module-path), then in the CMake module directory.
 
 ###### `OPTIONAL` #optional 
 

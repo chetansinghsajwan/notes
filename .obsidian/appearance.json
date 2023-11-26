@@ -3,5 +3,7 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "indentation"
-  ]
+  ],
+  "cssTheme": "Atom",
+  "baseFontSize": 16
 }
