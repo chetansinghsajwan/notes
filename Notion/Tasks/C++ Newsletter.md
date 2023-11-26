@@ -1,5 +1,0 @@
----
-tags:
-  - Today
-Status: Completed
----

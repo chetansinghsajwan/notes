@@ -1,3 +1,0 @@
-  
-[[Naming Guidelines]]
-[[Idioms]]

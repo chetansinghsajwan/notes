@@ -1,0 +1,7 @@
+[[Atom.Core]]
+[[Atom.Math]]
+[[Atom.Logging]]
+[[Atom.Engine]]
+[[UnityLibs]]
+[[UnityLibs.Serilog]]
+[[Titanfall-Unity]]
