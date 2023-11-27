@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a787728d35b2c212",
+        "id": "31addb4eac26292f",
         "type": "tabs",
         "children": [
           {
-            "id": "5e90b93dcce2f3f2",
+            "id": "371e980d5c7e06a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/powershell-shell.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/Databases/Database Views/Database Views.md",
+                "file": "programming/powershell-shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/Databases/Database Views/Database Views.md",
+                "file": "programming/powershell-shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/Databases/Database Views/Database Views.md"
+                "file": "programming/powershell-shell.md"
               }
             }
           },
@@ -166,32 +170,33 @@
   },
   "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
-    "Job and Internship Applications/Round 1 - Online Test.md",
-    "Notion/Databases/Database Views/Database Views.md",
-    "Dictionary.md",
-    "Untitled 2.png.md",
-    "Notion/Databases/Database.md",
-    "Projects/Atom.Core/Atom.Core.md",
-    "Projects/UnityLibs.Serilog.md",
-    "Projects/UnityLibs.md",
-    "Projects/Titanfall-Unity.md",
-    "Projects/Projects.md",
-    "Projects/Atom.Math.md",
-    "Projects/Atom.Logging.md",
-    "Projects/Atom.Engine.md",
-    "Projects/Atom.Core/Logos.md",
-    "Competitive Programming/Questions/Maximum Subarray.md",
-    "Competitive Programming/Competitive Programming.md",
-    "Competitive Programming/Questions/Best Time to Buy and Sell Stock.md",
-    "Android/Partition System.md",
-    "Android/Bricked Device.md",
-    "Android/Bootloader.md",
-    "Android/Firmware Tools/SP MDT Tool.md",
-    "Android/Firmware Tools/SP Flash Tool.md",
-    "Android/Firmware Tools/mtkclient.md",
-    "Android/Firmware Tools/Firmware Tools.md",
-    "Uncategorized Notes/Famous People.md",
+    "Android/firmware-tools/Firmware Tools.md",
+    "programming/powershell-shell.md",
+    "programming/Programming.md",
+    "programming/powershell.md",
+    "programming/pester.md",
+    "programming/tools/vs-ide/project-vs-solution.md",
+    "programming/tools/ide/vs-ide/Visual Studio.md",
+    "programming/tools/ide/IDE.md",
+    "programming/tools/Tools.md",
+    "programming/tools/Build Systems.md",
+    "projects/atom-math.md",
+    "programming/languages/Languages.md",
+    "projects/unity-libs.md",
+    "projects/titanfall-unity.md",
+    "uncategorized-notes/to-read-list.md",
+    "Projects/projects.md",
+    "Uncategorized Notes/uncategorized-notes.md",
+    "computer-science/os/windows-os/virtual-hard-disk.md",
     "Uncategorized Notes/Quick Notes.md",
+    "computer-science/os/windows-os/refs.md",
+    "computer-science/os/linux-os/fedora.md",
+    "computer-science/os/linux-os/nix-os/resources.md",
+    "computer-science/os/linux-os/nix-os/nix-os.md",
+    "computer-science/memory-access.md",
+    "computer-science/ramdisk.md",
+    "computer-science/software.md",
+    "cmake-commands",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",
     "Untitled 1 2.png",
@@ -210,8 +215,7 @@
     "68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f33373039",
     "Wissen_Questions.pdf",
     "giphy-city.mp4",
-    "Computer Science/Operating System/Linux Operating System/NixOS/Nix Language",
-    "Programming/Tools/CMake/CMake Presets/Macro Expansion",
-    "Programming/Tools/CMake/CMake Presets/Condition"
+    "programming/languages/nix-language",
+    "programming/tools/cmake/CMake Presets/Macro Expansion"
   ]
 }

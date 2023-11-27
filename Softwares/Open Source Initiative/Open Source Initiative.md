@@ -8,4 +8,4 @@ The OSI is responsible for maintaining the [[Open Source Definition]].
 ![[Untitled.png]]
 
 > [!important]  
-> OSI is also known as the [[Dictionary]] of [[Open Source Definition]][[Open Source Definition]].
+> OSI is also known as the [[dictionary]] of [[Open Source Definition]][[Open Source Definition]].

@@ -1,0 +1,1 @@
+The `<min>` version of CMake given to the most recent call to the [[cmake_minimum_required]] command in the current variable scope or any parent variable scope.

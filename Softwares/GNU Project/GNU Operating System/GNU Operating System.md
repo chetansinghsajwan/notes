@@ -1,4 +1,4 @@
-**GNU** is an [[Operating System]] which is 100% free software. It was launched in 1983 by [[Richard Stallman]] and has been developed by many people working together for the sake of freedom of all software users to control their computing. Technically, GNU is generally like Unix. But unlike [[Unix Operating System]], GNU gives its users freedom.
+**GNU** is an [[os]] which is 100% free software. It was launched in 1983 by [[richard-stallman]] and has been developed by many people working together for the sake of freedom of all software users to control their computing. Technically, GNU is generally like Unix. But unlike [[unix-os]], GNU gives its users freedom.
 **GNU is a part of** [[GNU Project]].
 
 > [!info] The GNU Operating System and the Free Software Movement  
