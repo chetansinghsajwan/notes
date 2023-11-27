@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "31addb4eac26292f",
+        "id": "c0ea5682649c7b68",
         "type": "tabs",
         "children": [
           {
-            "id": "371e980d5c7e06a9",
+            "id": "2145956c8ae33ab4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/powershell-shell.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/powershell-shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/powershell-shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "programming/powershell-shell.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,13 +160,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "2145956c8ae33ab4",
   "lastOpenFiles": [
-    "Android/firmware-tools/Firmware Tools.md",
     "programming/powershell-shell.md",
-    "programming/Programming.md",
     "programming/powershell.md",
     "programming/pester.md",
+    "programming/languages/psh-language/New Notes.md",
+    "programming/languages/nix-language/nix-language.md",
+    "programming/concepts/Data Structure Alignment.md",
+    "programming/languages/cpp-language/alignment.md",
+    "Android/firmware-tools/Firmware Tools.md",
+    "programming/Programming.md",
     "programming/tools/vs-ide/project-vs-solution.md",
     "programming/tools/ide/vs-ide/Visual Studio.md",
     "programming/tools/ide/IDE.md",
@@ -192,10 +188,6 @@
     "computer-science/os/windows-os/refs.md",
     "computer-science/os/linux-os/fedora.md",
     "computer-science/os/linux-os/nix-os/resources.md",
-    "computer-science/os/linux-os/nix-os/nix-os.md",
-    "computer-science/memory-access.md",
-    "computer-science/ramdisk.md",
-    "computer-science/software.md",
     "cmake-commands",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",

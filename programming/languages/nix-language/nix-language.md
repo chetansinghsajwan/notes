@@ -17,9 +17,9 @@ _dynamically typed_
 Type errors are only detected when expressions are evaluated.
 _nix-expression_: Every thing in nix-language is an expression.
   
-[[Overview]]
-[[Data Types]]
-[[programming/languages/nix-language/Comments|Comments]]
+[[overview]]
+[[data-types]]
+[[programming/languages/nix-language/comments|comments]]
 # References
 
 > [!info] Nix Language - Nix Reference Manual  

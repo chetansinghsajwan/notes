@@ -42,7 +42,7 @@
 |[[Bitwise Right Shift Assignment]]|`a >>= b`||Assignment|Binary|C++|17|Right to Left|R& K::**operator** >>=(S b);|R& **operator** >>=(K& a, S b);|Inherited|
 |[[Subscript]]|`a[b]`||Member Access|Other|C++|2|Left to Right|R& K::**operator** [](S b);||Inherited|
 |[[Indirection]]|`*a`||Member Access|Unary|C++|3|Right to Left|R& K::**operator** *();|R& **operator** *(K a);|Inherited|
-|[[programming/languages/cpp-language/Operators/Operators/Address Of]]|`&a`|bitand|Member Access|Unary|C++|3|Right to Left|R* K::**operator** &();|R* **operator** &(K a);|Inherited|
+|[[programming/languages/cpp-language/operators/Operators/Address Of]]|`&a`|bitand|Member Access|Unary|C++|3|Right to Left|R* K::**operator** &();|R* **operator** &(K a);|Inherited|
 |[[Structure Dereference]]|`a->b`||Member Access|Binary|C++|2|Left to Right|R* K::**operator** ->();||Inherited|
 |[[Structure Reference]]|`a.b`||Member Access|Binary|C++|2|Left to Right|||Inherited|
 |[[Member selected by pointer to member b of object pointed to by a]]|`a->*b`||Member Access|Binary|C++|4|Left to Right|R& K::**operator** ->*(S b);|R& **operator** ->*(K a, S b);|Inherited|
