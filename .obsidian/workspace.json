@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c0ea5682649c7b68",
+        "id": "d3151f489b54fa9e",
         "type": "tabs",
         "children": [
           {
-            "id": "2145956c8ae33ab4",
+            "id": "5fae9c82b96a3233",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,8 +160,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2145956c8ae33ab4",
+  "active": "5fae9c82b96a3233",
   "lastOpenFiles": [
+    "Softwares/Open Source Software/Open Source Software.md",
+    "Softwares/Open Source License/Open Source License.md",
+    "programming/languages/cmake-language/condition-expressions.md",
     "programming/powershell-shell.md",
     "programming/powershell.md",
     "programming/pester.md",
@@ -185,9 +188,6 @@
     "Uncategorized Notes/uncategorized-notes.md",
     "computer-science/os/windows-os/virtual-hard-disk.md",
     "Uncategorized Notes/Quick Notes.md",
-    "computer-science/os/windows-os/refs.md",
-    "computer-science/os/linux-os/fedora.md",
-    "computer-science/os/linux-os/nix-os/resources.md",
     "cmake-commands",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",
