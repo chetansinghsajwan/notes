@@ -1,7 +1,11 @@
 [
   "obsidian-git",
   "obsidian-importer",
-  "table-editor-obsidian",
   "obsidian-kanban",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "rss-reader",
+  "remember-cursor-position",
+  "ninja-cursor",
+  "obsidian-pocket",
+  "table-editor-obsidian"
 ]

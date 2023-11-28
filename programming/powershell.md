@@ -1,6 +1,6 @@
 PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. PowerShell runs on Windows, Linux, and macOS.
 [[powershell-shell]]
-[[Powershell Language]]
+[[old-notes]]
 ## History
 ### Monad
 - By 2002, Microsoft had started to develop a new approach to command-line management, including a CLI called Monad (also known as Microsoft Shell or MSH).

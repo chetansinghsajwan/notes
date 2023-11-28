@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "newFileLocation": "current",
-  "livePreview": true,
+  "livePreview": false,
   "defaultViewMode": "source",
   "strictLineBreaks": false,
   "showLineNumber": false,
