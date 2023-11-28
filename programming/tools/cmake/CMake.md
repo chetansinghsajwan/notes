@@ -1,4 +1,4 @@
-[[cmake-language]]
+[[programming/languages/cmake/cmake]]
 [[CMake Options]]
 [[CMake Variables]]
 [[CMake Toolchain]]

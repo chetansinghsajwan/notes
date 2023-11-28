@@ -18,58 +18,50 @@ Compound conditions are evaluated in the following order of precedence.
 
 ### Basic Expressions
 
-#### `<constant>`
+> ##### `<constant>`
+> 
+> True if the constant is `1`, `ON`, `YES`, `TRUE`, `Y`, or a non-zero number (including floating point numbers).
+> 
+> False if the constant is `0`, `OFF`, `NO`, `FALSE`, `N`, `IGNORE`, `NOTFOUND`, the empty string, or ends in the suffix `-NOTFOUND`.
+> 
+> Named boolean constants are case-insensitive.
+> 
+> If the argument is not one of these specific constants, it is treated as a variable or string.
 
-True if the constant is `1`, `ON`, `YES`, `TRUE`, `Y`, or a non-zero number (including floating point numbers).
+> ##### `<variable>`
+> 
+> `true` it the variable is defined and its value is not `false` constant.
 
-False if the constant is `0`, `OFF`, `NO`, `FALSE`, `N`, `IGNORE`, `NOTFOUND`, the empty string, or ends in the suffix `-NOTFOUND`.
-
-Named boolean constants are case-insensitive.
-
-If the argument is not one of these specific constants, it is treated as a variable or string.
-
-#### `<variable>`
-
-`true` it the variable is defined and its value is not `false` constant.
-
-#### `<string>`
-
-`true` if the strings value is one of the `true` constants.
+> ##### `<string>`
+> 
+> `true` if the strings value is one of the `true` constants.
 
 ### Logic Operators
 
----
-
-> **`NOT <condition>`**
+> ##### `NOT <condition>`
 > 
 > `true` if the condition is not true.
 
----
-
-> **`<cond1> AND <cond2>`**
+> ##### `<cond1> AND <cond2>`
 > 
 > `true` if both conditions are `true`.
 
----
-
-> **`<cond1> OR <cond2>`**
+> ##### `<cond1> OR <cond2>`
 > 
 > `true` if either condition is `true`.
 
----
-
 ### Numeric Comparisons
 
-##### `<variable|string> <num-cmp-op> <variable|string>`
-
-where `<num-cmp-op>` is one of:
-- `EQUAL`
-- `LESS`
-- `GREATER`
-- `LESS_EQUAL`
-- `GREATER_EQUAL`
-
-`true` if the given string or variable's value parses as a real number and the relevant comparison is also `true`.
+> ##### `<variable|string> <num-cmp-op> <variable|string>`
+> 
+> where `<num-cmp-op>` is one of:
+> - `EQUAL`
+> - `LESS`
+> - `GREATER`
+> - `LESS_EQUAL`
+> - `GREATER_EQUAL`
+> 
+> `true` if the given string or variable's value parses as a real number and the relevant comparison is also `true`.
 
 ### String Comparisons
 
@@ -86,93 +78,93 @@ where `<num-cmp-op>` is one of:
 > 
 > If any argument is a defined variable, its value is used, else the literal itself is used.
 
-##### `<variable|string> MATCHES <regex>`
-
-`true` if the given string or variable's value matches the given [regex](cmake-langauge/regex).
+> ##### `<variable|string> MATCHES <regex>`
+> 
+> `true` if the given string or variable's value matches the given [regex](cmake-langauge/regex).
 
 ### Version Comparisons
 
-##### `if (<variable|string> <version-cmp-op> <variable|string>)`
-
-where `<version-cmp-op>` is one of:
-- `VERSION_EQUAL`
-- `VERSION_LESS`
-- `VERSION_GREATER`
-- `VERSION_LESS_EQUAL`
-- `VERSION_GREATER_EQUAL`
-
-Performs component-wise integer version number comparison.
-
-Omitted components are treated as zero.
-
-If any argument is a defined variable, its value is used, else the literal itself is used.
-
-
-> [!note]
-> Any non-integer version component or non-integer trailing part of a version component effectively truncates the string at that point.
+> ##### `if (<variable|string> <version-cmp-op> <variable|string>)`
+> 
+> where `<version-cmp-op>` is one of:
+> - `VERSION_EQUAL`
+> - `VERSION_LESS`
+> - `VERSION_GREATER`
+> - `VERSION_LESS_EQUAL`
+> - `VERSION_GREATER_EQUAL`
+> 
+> Performs component-wise integer version number comparison.
+> 
+> Omitted components are treated as zero.
+> 
+> If any argument is a defined variable, its value is used, else the literal itself is used.
+> 
+> 
+> > [!note]
+> > Any non-integer version component or non-integer trailing part of a version component effectively truncates the string at that point.
 
 ### Path Comparisons
 
-##### `if (<variable|string> PATH_EQUAL <variable|string>)`
-
-Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](cmake_path command/query)
+> ##### `if (<variable|string> PATH_EQUAL <variable|string>)`
+> 
+> Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](cmake/commands/cmake_path/query)
 
 ### Existence Checks
 
-##### `COMMAND <command-name>`
+> ##### `COMMAND <command-name>`
+> 
+> `true` if the given name is a command, macro or function.
 
-`true` if the given name is a command, macro or function.
+> ##### `POLICY <policy-id>`
+> 
+> `true` if the given is a policy.
+> 
+> `<policy-id>` is of the from `CMP<NNNN>`.
 
-##### `POLICY <policy-id>`
+> ##### `TARGET <target-name>`
+> 
+> `true` if a target of name `<target-name>` exists.
 
-`true` if the given is a policy.
+> ##### `TEST <test-name>`
+> 
+> `true` if a test of name `<test-name>` exists.
 
-`<policy-id>` is of the from `CMP<NNNN>`.
+> ##### `DEFINED <name>`
+> 
+> `true` if a variable, cache variable of environment variable of name `<name>` is defined.
 
-##### `TARGET <target-name>`
-
-`true` if a target of name `<target-name>` exists.
-
-##### `TEST <test-name>`
-
-`true` if a test of name `<test-name>` exists.
-
-##### `DEFINED <name>`
-
-`true` if a variable, cache variable of environment variable of name `<name>` is defined.
-
-##### `<variable|string> IN_LIST <variable>`
-
-`true` if the given element is contained in the named list `<variable>`.
+> ##### `<variable|string> IN_LIST <variable>`
+> 
+> `true` if the given element is contained in the named list `<variable>`.
 
 ### File Operations
 
-##### `if (EXISTS <path-to-file-or-directory>)`
+> ##### `if (EXISTS <path-to-file-or-directory>)`
+> 
+> `true` if the named file or directory exists and is readable.
+> 
+> Resolves symbolic links, i.e. if the named file or directory is a symbolic link, returns true if the target of the symbolic link exists.
 
-`true` if the named file or directory exists and is readable.
+> ##### `if (<file1> IS_NEWER_THAN <file2>)`
+> 
+> `true` if `<file1>` is newer than or same old as `<file2>` or if one of the two files doesn't exist.
 
-Resolves symbolic links, i.e. if the named file or directory is a symbolic link, returns true if the target of the symbolic link exists.
+> ##### `if (IS_DIRECTORY <path>)`
+> 
+> `true` if the path exists and is a directory.
 
-##### `if (<file1> IS_NEWER_THAN <file2>)`
+> ##### `if (IS_SYMLINK <path>)`
+> 
+> `true` if the given path is a symbolic link.
 
-`true` if `<file1>` is newer than or same old as `<file2>` or if one of the two files doesn't exist.
-
-##### `if (IS_DIRECTORY <path>)`
-
-`true` if the path exists and is a directory.
-
-##### `if (IS_SYMLINK <path>)`
-
-`true` if the given path is a symbolic link.
-
-##### `if (IS_ABSOLUTE <path>)`
-
-`true` if the given path is an absolute path and not empty.
-
-#review
-On windows, any `path` that begins with a drive letter and colon (e.g. `C:`), a forward slash or a backslash will evaluate to true. This means a path like `C:no\base\dir` will evaluate to true, even though the non-drive part of the path is relative.
-
-On non windows, any `path` that begins with a tilde (`~`) evaluates to `true`.
+> ##### `if (IS_ABSOLUTE <path>)`
+> 
+> `true` if the given path is an absolute path and not empty.
+> 
+> #review
+> On windows, any `path` that begins with a drive letter and colon (e.g. `C:`), a forward slash or a backslash will evaluate to true. This means a path like `C:no\base\dir` will evaluate to true, even though the non-drive part of the path is relative.
+> 
+> On non windows, any `path` that begins with a tilde (`~`) evaluates to `true`.
 
 ## References
 

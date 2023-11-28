@@ -11,8 +11,12 @@
             "id": "36421bbaa5eb7fa4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/languages/cmake/condition-expressions.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/languages/cmake/condition-expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/languages/cmake/condition-expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/languages/cmake/condition-expressions.md"
+              }
             }
           },
           {
@@ -176,8 +184,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "36421bbaa5eb7fa4",
   "lastOpenFiles": [
+    "programming/languages/cmake/comments.md",
+    "programming/tools/cmake/CMake.md",
+    "programming/languages/cmake/commands.md",
+    "programming/languages/cmake/cmake.md",
     "programming/concepts/Data Structure Alignment.md",
     "programming/databases/databases.md",
     "programming/databases/Questions.md",
@@ -200,11 +212,7 @@
     "programming/languages/sql/statements/delete.md",
     "programming/languages/sql/statements/create-database.md",
     "programming/languages/sql/constraints.md",
-    "programming/languages/sql/comments.md",
-    "programming/languages/sql/statements/backup-database.md",
-    "programming/languages/sql/statements/alter-table.md",
     "programming/languages/sql/statements",
-    "programming/languages/sql/constraints/unique.md",
     "programming/languages/sql/clauses",
     "cmake-language/target-properties",
     "cmake-language",
