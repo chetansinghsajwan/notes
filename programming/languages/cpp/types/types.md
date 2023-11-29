@@ -1,6 +1,10 @@
-# **Type classification**
+# Types
+
+## Type classification
+
 The C++ type system consists of the following types:
-- [[Fundamental Types]].
+
+- [[fundamental]].
     - `void` type
     - `std::nullptr_t` type
     - Arithmetic Types
@@ -56,6 +60,3 @@ The C++ type system consists of the following types:
     - [class types](https://en.cppreference.com/w/cpp/language/class):
         - non-union types (see also [std::is_class](https://en.cppreference.com/w/cpp/types/is_class));
         - [union types](https://en.cppreference.com/w/cpp/language/union) (see also [std::is_union](https://en.cppreference.com/w/cpp/types/is_union)).
-# Store
-[[Fundamental Types]]
-[[Compound Types]]

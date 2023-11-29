@@ -18,11 +18,11 @@ Arithmetic Types contains:
 - Integer Types
 - Floating Point Type
 ### Integral Types
-[[Boolean Type]]
-[[Character Types]]
-[[Integer Types]]
+[[bool]]
+[[chars]]
+[[ints]]
 ### Floating Point Types
-[[Floating Point Types]]
+[[floats]]
 ### Size
 Besides the minimal bit counts, the C++ Standard guarantees that
 1 == sizeof(char) ≤ sizeof(short) ≤ sizeof(int) ≤ sizeof(long) ≤ sizeof(long long).

@@ -1,17 +1,17 @@
-# `add_library` command
+# `add_library()` command
 
 #not-completed
 
 Add a library to the project using the specified source files.
 
-##### `add_library(<name> [STATIC | SHARED | MODULE [EXCLUDE_FROM_ALL] [<source>...])`
+#### `add_library(<name> [STATIC | SHARED | MODULE [EXCLUDE_FROM_ALL] [<source>...])`
 
 Adds a library target called `<name>` to be built from the source files listed in the command invocation.
 
 The `<name>` corresponds to the logical target name and must be globally unique within a project.
 
 The actual file name of the library built is constructed based on conventions of the native platform (such as `lib<name>.a` or `<name>.lib`).
->
+
 > ##### Parameters
 > 
 > ###### `STATIC | SHARED | MODULE`
@@ -28,14 +28,14 @@ The actual file name of the library built is constructed based on conventions of
 
 > Creates an [Object Library](cmake-build-system/object-libraries).
 
-##### `add_library(<name> INTERFACE [<source>...] [EXCLUDE_FROM_ALL])`
+#### `add_library(<name> INTERFACE [<source>...] [EXCLUDE_FROM_ALL])`
 
->Creates an [Interface Library](cmake-build-system/interface-libraries).
+> Creates an [Interface Library](cmake-build-system/interface-libraries).
 
-##### `add_library(<name> ALIAS <target>)`
+#### `add_library(<name> ALIAS <target>)`
 
->Creates an [Alias Target](cmake-build-system/alias-targets), for`<target>`.
->
->The `<name>` does not appear in the generated build-system as a make target.
->
->The `<target>` itself cannot be an `ALIAS`.
+> Creates an [Alias Target](cmake-build-system/alias-targets), for`<target>`.
+> 
+> The `<name>` does not appear in the generated build-system as a make target.
+> 
+> The `<target>` itself cannot be an `ALIAS`.

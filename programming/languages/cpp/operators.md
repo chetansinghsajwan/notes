@@ -42,7 +42,7 @@
 |[[Bitwise Right Shift Assignment]]|`a >>= b`||Assignment|Binary|C++|17|Right to Left|R& K::**operator** >>=(S b);|R& **operator** >>=(K& a, S b);|Inherited|
 |[[Subscript]]|`a[b]`||Member Access|Other|C++|2|Left to Right|R& K::**operator** [](S b);||Inherited|
 |[[Indirection]]|`*a`||Member Access|Unary|C++|3|Right to Left|R& K::**operator** *();|R& **operator** *(K a);|Inherited|
-|[[programming/languages/cpp/operators/Operators/Address Of]]|`&a`|bitand|Member Access|Unary|C++|3|Right to Left|R* K::**operator** &();|R* **operator** &(K a);|Inherited|
+|[[programming/languages/cpp/operators/Address Of]]|`&a`|bitand|Member Access|Unary|C++|3|Right to Left|R* K::**operator** &();|R* **operator** &(K a);|Inherited|
 |[[Structure Dereference]]|`a->b`||Member Access|Binary|C++|2|Left to Right|R* K::**operator** ->();||Inherited|
 |[[Structure Reference]]|`a.b`||Member Access|Binary|C++|2|Left to Right|||Inherited|
 |[[Member selected by pointer to member b of object pointed to by a]]|`a->*b`||Member Access|Binary|C++|4|Left to Right|R& K::**operator** ->*(S b);|R& **operator** ->*(K a, S b);|Inherited|
@@ -64,7 +64,7 @@
 |[[Reinterpret Cast]]|`reinterpret_cast<type>(a)`||Other|Unary|C++|2|Left to Right|||Inherited|
 |[[New]]|`new type`||Other|Unary|C++|3|Right to Left|void* K::**operator** **new**(size_t a);|void* **operator** **new**(size_t x);|Inherited|
 |[[New Array]]|`new type[n]`||Other|Unary|C++|3|Right to Left|void* K::**operator** **new**[](size_t a);|void* **operator** **new**[](size_t a);|Inherited|
-|[[programming/languages/cpp/operators/Operators/Delete]]|`delete a`||Other|Unary|C++|3|Right to Left|void K::**operator** **delete**(void* a);|void **operator** **delete**(void* a);|Inherited|
+|[[programming/languages/cpp/operators/Delete]]|`delete a`||Other|Unary|C++|3|Right to Left|void K::**operator** **delete**(void* a);|void **operator** **delete**(void* a);|Inherited|
 |[[Delete Array]]|`delete[] a`||Other|Unary|C++|3|Right to Left|void K::**operator** **delete**[](void* a);|void **operator** **delete**[](void* a);|Inherited|
 |[[Exception Check]]|`noexcept(a)`||Other|Other|C++|-1|None|||Inherited|
 |[[Throw]]|`throw a throw`||Other|Unary|C++|16|Right to Left|||Inherited|

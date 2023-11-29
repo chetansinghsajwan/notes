@@ -4,10 +4,10 @@ A [**compound type**](https://www.oreilly.com/library/view/c-primer-fifth/97801
 [[Reference Types]]
 [[Pointer Types]]
 [[Pointer To Member Types]]
-[[Array Types]]
+[[arrays]]
 [[Function Types]]
 [[Enumeration Types]]
-[[Class Types]]
+[[class]]
 # References
 
 > [!info] 12.1 — Introduction to compound data types  
