@@ -1,4 +1,4 @@
-# `foreach()` command
+# `foreach` command
 
 Evaluate a group of commands for each value in a list.
 

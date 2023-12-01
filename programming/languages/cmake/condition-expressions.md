@@ -1,56 +1,49 @@
 # Condition Expressions
 
-#not-completed 
-
-### Precedence
-
-Compound conditions are evaluated in the following order of precedence.
-
-1. [Parentheses](#parentheses).
-    
-2. Unary tests such as [EXISTS](#exists), [COMMAND](#command), and [DEFINED](#defined).
-    
-3. Binary tests such as [EQUAL](#equal), [LESS](#less), [LESS_EQUAL](#less-equal), [GREATER](#greater), [GREATER_EQUAL](#greater-equal), [STREQUAL](#strequal), [STRLESS](#strless-equal), [STRGREATER](#strgreater), [STRGREATER_EQUAL](#strgreater-equal), [VERSION_EQUAL](#version-equal), [VERSION_LESS](#version-less), [VERSION_LESS_EQUAL](#version-less-equal), [VERSION_GREATER](#version-greater), [VERSION_GREATER_EQUAL](#version-greater-equal), [PATH_EQUAL](#path-equal), and [MATCHES](#matches).
-    
-4. Unary logical operator [NOT](#not).
-    
-5. Binary logical operators [AND](#and) and [OR](#or), from left to right, without any short-circuit.
-
-### Basic Expressions
+## Basic Expressions
 
 > ##### `<constant>`
 > 
-> True if the constant is `1`, `ON`, `YES`, `TRUE`, `Y`, or a non-zero number (including floating point numbers).
+> `true` if the constant is `1`, `ON`, `YES`, `TRUE`, `Y`, or a non-zero number (including floating point numbers).
 > 
-> False if the constant is `0`, `OFF`, `NO`, `FALSE`, `N`, `IGNORE`, `NOTFOUND`, the empty string, or ends in the suffix `-NOTFOUND`.
-> 
-> Named boolean constants are case-insensitive.
+> `false` if the constant is `0`, `OFF`, `NO`, `FALSE`, `N`, `IGNORE`, `NOTFOUND`, the empty string, or ends in the suffix `-NOTFOUND`.
 > 
 > If the argument is not one of these specific constants, it is treated as a variable or string.
+^constants
 
 > ##### `<variable>`
 > 
-> `true` it the variable is defined and its value is not `false` constant.
+> `true` if the variable is defined and its value is not [false constant](#^constants).
+^variable
 
 > ##### `<string>`
 > 
-> `true` if the strings value is one of the `true` constants.
+> `true` if the strings value is one of the [true constants](#^constants).
+^string
 
-### Logic Operators
+## Logic Operators
 
 > ##### `NOT <condition>`
 > 
 > `true` if the condition is not true.
+^not
 
 > ##### `<cond1> AND <cond2>`
 > 
 > `true` if both conditions are `true`.
+^and
 
 > ##### `<cond1> OR <cond2>`
 > 
 > `true` if either condition is `true`.
+^or
 
-### Numeric Comparisons
+> ##### `(condition) AND (condition OR (condition))`
+> 
+> The conditions inside the parenthesis are evaluated first and then the remaining conditions are evaluated.
+^parenthesis
+
+## Numeric Comparisons
 
 > ##### `<variable|string> <num-cmp-op> <variable|string>`
 > 
@@ -63,7 +56,7 @@ Compound conditions are evaluated in the following order of precedence.
 > 
 > `true` if the given string or variable's value parses as a real number and the relevant comparison is also `true`.
 
-### String Comparisons
+## String Comparisons
 
 > ##### `<variable|string> <string-cmp-op> <variable|string>`
 >
@@ -82,9 +75,9 @@ Compound conditions are evaluated in the following order of precedence.
 > 
 > `true` if the given string or variable's value matches the given [regex](cmake-langauge/regex).
 
-### Version Comparisons
+## Version Comparisons
 
-> ##### `if (<variable|string> <version-cmp-op> <variable|string>)`
+> ##### `<variable|string> <version-cmp-op> <variable|string>`
 > 
 > where `<version-cmp-op>` is one of:
 > - `VERSION_EQUAL`
@@ -93,21 +86,21 @@ Compound conditions are evaluated in the following order of precedence.
 > - `VERSION_LESS_EQUAL`
 > - `VERSION_GREATER_EQUAL`
 > 
-> Performs component-wise integer version number comparison.
+> Performs component-wise integer number comparison.
 > 
 > Omitted components are treated as zero.
 > 
 > If any argument is a defined variable, its value is used, else the literal itself is used.
 > 
-> 
 > > [!note]
-> > Any non-integer version component or non-integer trailing part of a version component effectively truncates the string at that point.
+> > 
+> > Stops parsing the version components when first non-integer component is encountered.
 
-### Path Comparisons
+## Path Comparisons
 
-> ##### `if (<variable|string> PATH_EQUAL <variable|string>)`
+> ##### `<variable|string> PATH_EQUAL <variable|string>`
 > 
-> Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](cmake/commands/cmake_path/query)
+> Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](programming/languages/cmake/commands/cmake_path#^query)
 
 ### Existence Checks
 
@@ -117,7 +110,7 @@ Compound conditions are evaluated in the following order of precedence.
 
 > ##### `POLICY <policy-id>`
 > 
-> `true` if the given is a policy.
+> `true` if the given id is a policy.
 > 
 > `<policy-id>` is of the from `CMP<NNNN>`.
 
@@ -137,27 +130,27 @@ Compound conditions are evaluated in the following order of precedence.
 > 
 > `true` if the given element is contained in the named list `<variable>`.
 
-### File Operations
+## File Checks
 
-> ##### `if (EXISTS <path-to-file-or-directory>)`
+> ##### `EXISTS <path-to-file-or-directory>`
 > 
 > `true` if the named file or directory exists and is readable.
 > 
 > Resolves symbolic links, i.e. if the named file or directory is a symbolic link, returns true if the target of the symbolic link exists.
 
-> ##### `if (<file1> IS_NEWER_THAN <file2>)`
+> ##### `<file1> IS_NEWER_THAN <file2>`
 > 
 > `true` if `<file1>` is newer than or same old as `<file2>` or if one of the two files doesn't exist.
 
-> ##### `if (IS_DIRECTORY <path>)`
+> ##### `IS_DIRECTORY <path>`
 > 
 > `true` if the path exists and is a directory.
 
-> ##### `if (IS_SYMLINK <path>)`
+> ##### `IS_SYMLINK <path>`
 > 
 > `true` if the given path is a symbolic link.
 
-> ##### `if (IS_ABSOLUTE <path>)`
+> ##### `IS_ABSOLUTE <path>`
 > 
 > `true` if the given path is an absolute path and not empty.
 > 
@@ -166,6 +159,20 @@ Compound conditions are evaluated in the following order of precedence.
 > 
 > On non windows, any `path` that begins with a tilde (`~`) evaluates to `true`.
 
+## Precedence
+
+Compound conditions are evaluated in the following order of precedence.
+
+1. [Parentheses](#parentheses).
+    
+2. Unary tests such as [EXISTS](#exists), [COMMAND](#command), and [DEFINED](#defined).
+    
+3. Binary tests such as [EQUAL](#equal), [LESS](#less), [LESS_EQUAL](#less-equal), [GREATER](#greater), [GREATER_EQUAL](#greater-equal), [STREQUAL](#strequal), [STRLESS](#strless-equal), [STRGREATER](#strgreater), [STRGREATER_EQUAL](#strgreater-equal), [VERSION_EQUAL](#version-equal), [VERSION_LESS](#version-less), [VERSION_LESS_EQUAL](#version-less-equal), [VERSION_GREATER](#version-greater), [VERSION_GREATER_EQUAL](#version-greater-equal), [PATH_EQUAL](#path-equal), and [MATCHES](#matches).
+    
+4. Unary logical operator [NOT](#not).
+    
+5. Binary logical operators [AND](#and) and [OR](#or), from left to right, without any short-circuit.
+
 ## References
 
-> [cmake-official-docs](https://cmake.org/cmake/help/latest/command/if.html)
+> https://cmake.org/cmake/help/latest/command/if.html

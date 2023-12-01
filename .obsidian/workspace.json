@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cb08452217128754",
+        "id": "5a891d89635d4e9c",
         "type": "tabs",
         "children": [
           {
-            "id": "ef9158bef56365ff",
+            "id": "7722353aa05c5d67",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/languages/cmake/commands/add_custom_command.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/languages/cmake/commands/add_custom_command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/languages/cmake/commands/add_custom_command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/languages/cmake/commands/add_custom_command.md"
+              }
             }
           },
           {
@@ -160,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "programming/languages/cmake/commands/add_custom_command.md"
+              }
             }
           }
         ],
@@ -184,18 +194,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ef9158bef56365ff",
+  "active": "7722353aa05c5d67",
   "lastOpenFiles": [
+    "programming/languages/cmake/commands/endwhile.md",
+    "programming/languages/cmake/commands/add_custom_command.md",
+    "programming/languages/cmake/commands/while.md",
+    "programming/languages/cmake/condition-expressions.md",
+    "programming/languages/cmake/commands/break.md",
+    "programming/languages/cmake/commands/continue.md",
+    "programming/languages/cmake/commands/if.md",
+    "programming/languages/cmake/commands/cmake_path.md",
+    "programming/languages/cmake/commands/foreach.md",
     "programming/languages/cmake/commands/else.md",
     "programming/languages/cmake/commands/elseif.md",
     "programming/languages/cmake/commands/endif.md",
     "programming/languages/cmake/commands/function.md",
-    "programming/languages/cmake/commands/foreach.md",
-    "programming/languages/cmake/commands/continue.md",
     "programming/languages/cmake/commands/cmake_policy.md",
-    "programming/languages/cmake/commands/cmake_path.md",
     "programming/languages/cmake/commands/cmake_minimum_required.md",
-    "programming/languages/cmake/commands/break.md",
     "programming/languages/cmake/commands/block.md",
     "programming/languages/cmake/commands/add_library.md",
     "programming/languages/cmake/commands/add_executable.md",
@@ -209,15 +224,10 @@
     "programming/languages/nix/language-constructs/comments.md",
     "projects/atom-core/tasks.md",
     "projects/atom-core/tasks/better-enums.md",
-    "tasks.md",
-    "projects/atom-core/tasks/string-formatting.md",
-    "projects/atom-math.md",
     "projects/atom-core/logos/svg/logo-no-background.svg",
     "projects/atom-core/logos/svg/logo-white.svg",
     "projects/atom-core/logos/svg/logo-black.svg",
     "projects/atom-core/logos/svg/logo-color.svg",
-    "dictionary.md",
-    "projects/atom-core/Untitled.md",
     "tasks",
     "projects/atom-core/tasks",
     "projects/atom-core/logos/pdf/logo-white.pdf",

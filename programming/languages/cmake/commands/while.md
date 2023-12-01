@@ -1,15 +1,27 @@
-# `while()` command
+# `while` command
 
-#not-completed 
+#todo add info about break and continue commands.
 
-### `while (<condition-expr>)`
+Evaluate a group of commands while a condition is true.
 
-#### Parameters
+[[endwhile]] command is used to mark the end of the while loop.
 
-##### `<condition-expr>`
+The commands [[break]] and [[continue]] provide means to escape from the normal control flow.
 
-An expression of type [condition expressions](condition-expressions.md).
+## Syntax
+
+```cmake
+while(<condition>)
+  <commands>
+endwhile()
+```
+
+## Parameters
+
+> ##### `<condition>`
+> 
+> An expression of type [condition expressions](condition-expressions.md).
 
 ## References
 
-> [cmake-official-docs](https://cmake.org/cmake/help/latest/command/while.html)
+> https://cmake.org/cmake/help/latest/command/while.html

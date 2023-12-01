@@ -1,19 +1,17 @@
-# `if()` command
+# `if` command
 
-#not-completed 
+## Syntax
 
-### `if (<condition-expr>)`
+```cmake
+if (<condition-expr>)
+```
 
-#### Parameters
+## Parameters
 
----
-
-**`<condition-expr>`**
-
-An expression of type [condition expressions](condition-expressions.md).
-
----
+> ##### `<condition-expr>`
+> 
+> An expression of type [condition expressions](condition-expressions.md).
 
 ## References
 
-> [cmake-official-docs](https://cmake.org/cmake/help/latest/command/if.html)
+> https://cmake.org/cmake/help/latest/command/if.html
