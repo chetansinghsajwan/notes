@@ -1,16 +1,18 @@
+# `block` command
+
 Evaluate a group of commands with a dedicated variable and/or policy scope.
 
-> [!syntax]
-> 
-> ```
-> block([SCOPE_FOR [POLICIES] [VARIABLES] ] [PROPAGATE <var-name>...])
->   <commands>
-> endblock()
-> ```
-> 
-> All commands between `block()` and the matching [`endblock()`](https://cmake.org/cmake/help/latest/command/endblock.html#command:endblock) are recorded without being invoked. Once the [`endblock()`](https://cmake.org/cmake/help/latest/command/endblock.html#command:endblock) is evaluated, the recorded list of commands is invoked inside the requested scopes, then the scopes created by the `block()` command are removed.
+## Syntax
 
-##### Parameters
+```cmake
+block([SCOPE_FOR [POLICIES] [VARIABLES] ] [PROPAGATE <var-name>...])
+  <commands>
+endblock()
+```
+
+All commands between `block()` and the matching [`endblock()`](https://cmake.org/cmake/help/latest/command/endblock.html#command:endblock) are recorded without being invoked. Once the [`endblock()`](https://cmake.org/cmake/help/latest/command/endblock.html#command:endblock) is evaluated, the recorded list of commands is invoked inside the requested scopes, then the scopes created by the `block()` command are removed.
+
+## Parameters
 
 > ##### `SCOPE_FOR`
 > 
@@ -51,3 +53,7 @@ Evaluate a group of commands with a dedicated variable and/or policy scope.
 > This option is only allowed when a variable scope is created. An error will be raised in the other cases.
 > 
 > When the `block()` is inside a `foreach()` or `while()` command, the `break()` and `continue()` commands can be used inside the block.
+
+## References
+
+> https://cmake.org/cmake/help/latest/command/block.html

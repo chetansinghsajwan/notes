@@ -1,5 +1,4 @@
 # Assertions
-^main
 
 > [!syntax]
 > 
@@ -9,9 +8,8 @@
 > 
 > where `e1` and `e2` are expressions.
 
-If expression `e1` evaluates to `true`, `e2` is returned, otherwise expression evaluation is aborted and a backtrace is printed.
+If expression `e1` evaluates to `true`, `e2` is returned, otherwise evaluation is aborted and a backtrace is printed.
 
-## References
-^references
-
-> https://nixos.org/manual/nix/stable/language/constructs#assertions
+> [!references]
+> 
+> > https://nixos.org/manual/nix/stable/language/constructs#assertions

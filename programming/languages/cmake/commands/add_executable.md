@@ -1,14 +1,20 @@
-# `add_executable()`
+# `add_executable` command
 
-Add an executable to the project using the specified source files.
+Add an executable target to the project using the specified source files.
 
-#### `add_executable(<name> [WIN32] [MACOSX_BUNDLE] [EXCLUDE_FROM_ALL] [sources...])`
+## Normal Executable
 
 Adds an executable target called `<name>` to be built from the source files listed in the command invocation.
 
 The target name has scope in the directory in which it is created and below.
 
-##### Parameters
+### Syntax
+
+```cmake
+`add_executable(<name> [WIN32] [MACOSX_BUNDLE] [EXCLUDE_FROM_ALL] [sources...])`
+```
+
+### Parameters
 
 > ##### `<name>` #required
 > 
@@ -32,11 +38,17 @@ The target name has scope in the directory in which it is created and below.
 > 
 > The source files can be omitted if they are added later using [`target_sources()`](cmake-commands/target-sources").
 
-##### `add_executable(<name> IMPORTED [GLOBAL])`
+## Imported Target
 
 Creates an [imported target](cmake-buildsystem/imported-targets) of name `<name>` for `<target>`.
 
-##### Parameters
+### Syntax
+
+```cmake
+`add_executable(<name> IMPORTED [GLOBAL])
+```
+
+### Parameters
 
 > ##### `<name>`
 > 
@@ -46,11 +58,17 @@ Creates an [imported target](cmake-buildsystem/imported-targets) of name `<name>
 > 
 > The global option extends visibility to global level.
 
-#### `add_executable(<name> ALIAS <target>)`
+## Alias Target
 
 Creates an [alias target](cmake-buildsystem/alias-target) of name `<name>` for `<target>`.
 
-##### Parameters
+### Syntax
+
+```cmake
+add_executable(<name> ALIAS <target>)
+```
+
+### Parameters
 
 > ##### `<name>`
 > 
@@ -59,3 +77,7 @@ Creates an [alias target](cmake-buildsystem/alias-target) of name `<name>` for `
 > ##### `<target>`
 > 
 > The `<target>` itself cannot be an `ALIAS`.
+
+## References
+
+> https://cmake.org/cmake/help/latest/command/add_executable.html

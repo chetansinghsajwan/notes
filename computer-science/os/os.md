@@ -25,6 +25,6 @@ Really good explanation on **Quora** by ABC on difference between **OS** and **K
 ## List of major Operating systems
 
 - [[unix-os]]
-- [[linux-os]]
+- [[linux]]
 - [[windows-os]]
 - [[GNU Operating System]]

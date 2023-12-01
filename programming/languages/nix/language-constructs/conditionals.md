@@ -1,5 +1,4 @@
 # Conditionals
-^main
 
 > [!sytnax]
 > 
@@ -11,7 +10,6 @@
 
 If expression `e1` evaluates to `true` expression `e2` is evaluted, else `e3` is evaluted.
 
-## References
-^references
-
-> https://nixos.org/manual/nix/stable/language/constructs#conditionals
+> [!references]
+> 
+> > https://nixos.org/manual/nix/stable/language/constructs#conditionals
