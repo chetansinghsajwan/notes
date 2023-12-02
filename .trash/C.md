@@ -1,1 +1,0 @@
-[[Programming/Languages/c-language/Guidelines|Guidelines]]

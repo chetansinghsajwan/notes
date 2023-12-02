@@ -1,7 +1,0 @@
-[[Atom.Core]]
-[[atom-math]]
-[[atom-logging]]
-[[atom-engine]]
-[[unity-libs]]
-[[unity-libs-serilog]]
-[[titanfall-unity]]

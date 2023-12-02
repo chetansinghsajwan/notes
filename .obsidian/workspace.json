@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5a891d89635d4e9c",
+        "id": "72ec2731105405e1",
         "type": "tabs",
         "children": [
           {
-            "id": "7722353aa05c5d67",
+            "id": "34329189ea3c5c36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/cmake/commands/add_custom_command.md",
-                "mode": "preview",
+                "file": "programming/languages/cmake/commands/target_include_directories.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/cmake/commands/add_custom_command.md",
+                "file": "programming/languages/cmake/commands/target_include_directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/cmake/commands/add_custom_command.md",
+                "file": "programming/languages/cmake/commands/target_include_directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/cmake/commands/add_custom_command.md"
+                "file": "programming/languages/cmake/commands/target_include_directories.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/cmake/commands/add_custom_command.md"
+                "file": "programming/languages/cmake/commands/target_include_directories.md"
               }
             }
           }
@@ -194,14 +194,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7722353aa05c5d67",
+  "active": "34329189ea3c5c36",
   "lastOpenFiles": [
-    "programming/languages/cmake/commands/endwhile.md",
+    "programming/languages/cmake/commands/add_compile_defintions.md",
+    "programming/languages/cmake/commands/target_include_directories.md",
+    "programming/languages/cmake/properties/directory/compile_defintions.md",
+    "programming/languages/cmake/properties/directory",
+    "programming/languages/cmake/properties/target/compile_defintions.md",
+    "programming/language/cmake/properties/directory/compile_defintions.md",
+    "programming/language/cmake/properties/directory",
+    "programming/language/cmake/properties",
+    "programming/language/cmake",
+    "programming/language",
+    "programming/languages/cmake/commands/target_compile_definitions.md",
+    "programming/languages/cmake/properties/target/interface_compile_defintions.md",
+    "programming/languages/cmake/properties/target",
+    "programming/languages/cmake/properties",
+    "programming/languages/cmake/commands/continue.md",
+    "programming/languages/cmake/cmake.md",
     "programming/languages/cmake/commands/add_custom_command.md",
+    "programming/tools/bazel/note.md",
+    "programming/tools/bazel.md",
+    "programming/tools/bazel",
+    "programming/languages/cmake/commands/endwhile.md",
     "programming/languages/cmake/commands/while.md",
     "programming/languages/cmake/condition-expressions.md",
     "programming/languages/cmake/commands/break.md",
-    "programming/languages/cmake/commands/continue.md",
     "programming/languages/cmake/commands/if.md",
     "programming/languages/cmake/commands/cmake_path.md",
     "programming/languages/cmake/commands/foreach.md",
@@ -212,34 +230,16 @@
     "programming/languages/cmake/commands/cmake_policy.md",
     "programming/languages/cmake/commands/cmake_minimum_required.md",
     "programming/languages/cmake/commands/block.md",
-    "programming/languages/cmake/commands/add_library.md",
-    "programming/languages/cmake/commands/add_executable.md",
-    "programming/languages/cmake/variables/cmake_minimum_required_version.md",
-    "programming/languages/cmake/comamnds/cmake_policy.md",
     "programming/languages/cmake/comamnds",
-    "cmake-langauge/regex.md",
     "cmake-langauge",
-    "Untitled 1.png.md",
-    "programming/languages/cpp/operators.md",
-    "programming/languages/nix/language-constructs/comments.md",
-    "projects/atom-core/tasks.md",
-    "projects/atom-core/tasks/better-enums.md",
     "projects/atom-core/logos/svg/logo-no-background.svg",
     "projects/atom-core/logos/svg/logo-white.svg",
     "projects/atom-core/logos/svg/logo-black.svg",
     "projects/atom-core/logos/svg/logo-color.svg",
-    "tasks",
-    "projects/atom-core/tasks",
-    "projects/atom-core/logos/pdf/logo-white.pdf",
-    "projects/atom-core/logos/pdf/logo-no-background.pdf",
-    "projects/atom-core/logos/pdf/logo-color.pdf",
     "projects/atom-core/logos/png/logo-white.png",
     "projects/atom-core/logos/png/logo-color.png",
     "projects/atom-core/logos/png/logo-no-background.png",
     "projects/atom-core/logos/png/logo-black.png",
-    "projects/atom-core/logos/pdf/logo-black.pdf",
-    "projects/atom-core/logos/eps/logo-white.eps",
-    "projects/atom-core/logos/eps/logo-color.eps",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",
     "Untitled.canvas"
