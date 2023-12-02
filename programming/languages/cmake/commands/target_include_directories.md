@@ -26,11 +26,15 @@ target_include_directories(<target> [SYSTEM] [AFTER|BEFORE]
 
 > ##### `[AFTER|BEFORE]` #optional 
 > 
-> By using `AFTER` or `BEFORE` explicitly, you can select between appending and prepending, independent of the default.
+> `AFTER` or `BEFORE` is used to append or prepend the include directories respectively.
+> 
+> By default `AFTER` is selected.
 
 > ##### `<INTERFACE|PUBLIC|PRIVATE> [items1...]` #required 
 > 
-> The `INTERFACE`, `PUBLIC` and `PRIVATE` keywords are required to specify the [scope](https://cmake.org/cmake/help/latest/manual/cmake-buildsystem.7.html#target-usage-requirements) of the following arguments. `PRIVATE` and `PUBLIC` items will populate the [`INCLUDE_DIRECTORIES`](https://cmake.org/cmake/help/latest/prop_tgt/INCLUDE_DIRECTORIES.html#prop_tgt:INCLUDE_DIRECTORIES "INCLUDE_DIRECTORIES") property of `<target>`. `PUBLIC` and `INTERFACE` items will populate the [`INTERFACE_INCLUDE_DIRECTORIES`](https://cmake.org/cmake/help/latest/prop_tgt/INTERFACE_INCLUDE_DIRECTORIES.html#prop_tgt:INTERFACE_INCLUDE_DIRECTORIES "INTERFACE_INCLUDE_DIRECTORIES") property of `<target>`.
+> `PRIVATE` and `PUBLIC` items will populate the [`INCLUDE_DIRECTORIES`](programming/languages/cmake/properties/target/include_directories) property of `<target>`.
+> 
+> `PUBLIC` and `INTERFACE` items will populate the [`INTERFACE_INCLUDE_DIRECTORIES`](programming/languages/cmake/properties/target/interface_include_directories) property of `<target>`.
 
 ## References
 

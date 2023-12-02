@@ -28,7 +28,7 @@
     
 6. **`condition`** **:** `**Condition**`
     
-    A [[Condition]] object to determine if the preset should be enabled.
+    A [[programming/tools/cmake/presets/condition]] object to determine if the preset should be enabled.
     
     - This is allowed in preset files specifying version `3` or above.
     
@@ -37,7 +37,7 @@
     A map containing vendor-specific information.
     
     - CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-    - More on [[Vendor Maps]].
+    - More on [[vendor-maps]].
     
 8. **`generator`** **(required | optional) :** `**string**`
     
@@ -59,7 +59,7 @@
     - If a relative path is specified, it is calculated relative to the build directory, and if not found,  
         relative to the source directory.
     - This field takes precedence over any [[CMake Variables]] value.
-    - This field supports [[Macro Expansion]].
+    - This field supports [[macro-expansion]].
     - It is allowed in preset files specifying version `3` or above.
 11. **`binaryDir`** **(required | optional) :** **`string`**
     
@@ -67,7 +67,7 @@
     
     - If a relative path is specified, it is calculated relative to the source directory.
     - It is required in version `2` or below. If `binaryDir` is not specified, it must be inherited from the `inherits` preset (unless this preset is `hidden`).
-    - This field supports [[Macro Expansion]].
+    - This field supports [[macro-expansion]].
     - In version `3` or above, this field may be omitted.
 12. **`cmakeExecutable`** **:** **`string`**
     
@@ -83,7 +83,7 @@
     - The value is either:
         - `null`
         - `bool`, can also be written as `"TRUE"` or `"FALSE"`.
-        - `string` representing the value of the variable. This supports [[Macro Expansion]].
+        - `string` representing the value of the variable. This supports [[macro-expansion]].
         - An object with the following fields:
             - **`type`****:** **`string`**
                 
@@ -103,7 +103,7 @@
     
     - The key is the variable name, and the value is either `null` or a string representing the value of the variable.
     - Environment variables in this map may reference each other, and may be listed in any order, as long as such references do not cause a cycle (for example, if `ENV_1` is `$env{ENV_2}`, `ENV_2` may not be `$env{ENV_1}`.)
-    - This field supports [[Macro Expansion]].
+    - This field supports [[macro-expansion]].
     - Environment variables are inherited through the `inherits` field, and the preset's environment will be the union of its own `environment` and the `environment` from all its parents. If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
     - Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
     

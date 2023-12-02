@@ -2,7 +2,7 @@
 [[CMake Options]]
 [[CMake Variables]]
 [[CMake Toolchain]]
-[[CMake Presets]]
+[[presets]]
 [[programming/tools/cmake/Resources/Resources|Resources]]
 ---
 [[CMake Kits]]

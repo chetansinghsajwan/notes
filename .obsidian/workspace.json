@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/cmake/commands/target_include_directories.md",
-                "mode": "source",
+                "file": "programming/tools/cmake/presets/includes.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/cmake/commands/target_include_directories.md",
+                "file": "programming/tools/cmake/presets/includes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/cmake/commands/target_include_directories.md",
+                "file": "programming/tools/cmake/presets/includes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/cmake/commands/target_include_directories.md"
+                "file": "programming/tools/cmake/presets/includes.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/cmake/commands/target_include_directories.md"
+                "file": "programming/tools/cmake/presets/includes.md"
               }
             }
           }
@@ -196,50 +196,50 @@
   },
   "active": "34329189ea3c5c36",
   "lastOpenFiles": [
-    "programming/languages/cmake/commands/add_compile_defintions.md",
+    "programming/tools/cmake/CMake Presets/Untitled.md",
+    "programming/tools/cmake/presets/includes.md",
+    "programming/tools/cmake/Resources/Resources.md",
+    "programming/tools/cmake/presets/configure-preset.md",
+    "programming/tools/cmake/presets/build-preset.md",
+    "programming/tools/cmake/presets/presets.md",
+    "programming/tools/cmake/presets/Untitled.md",
+    "programming/tools/cmake/presets/condition.md",
     "programming/languages/cmake/commands/target_include_directories.md",
-    "programming/languages/cmake/properties/directory/compile_defintions.md",
-    "programming/languages/cmake/properties/directory",
-    "programming/languages/cmake/properties/target/compile_defintions.md",
-    "programming/language/cmake/properties/directory/compile_defintions.md",
-    "programming/language/cmake/properties/directory",
-    "programming/language/cmake/properties",
-    "programming/language/cmake",
-    "programming/language",
-    "programming/languages/cmake/commands/target_compile_definitions.md",
-    "programming/languages/cmake/properties/target/interface_compile_defintions.md",
-    "programming/languages/cmake/properties/target",
-    "programming/languages/cmake/properties",
-    "programming/languages/cmake/commands/continue.md",
-    "programming/languages/cmake/cmake.md",
-    "programming/languages/cmake/commands/add_custom_command.md",
-    "programming/tools/bazel/note.md",
-    "programming/tools/bazel.md",
-    "programming/tools/bazel",
-    "programming/languages/cmake/commands/endwhile.md",
-    "programming/languages/cmake/commands/while.md",
-    "programming/languages/cmake/condition-expressions.md",
-    "programming/languages/cmake/commands/break.md",
-    "programming/languages/cmake/commands/if.md",
-    "programming/languages/cmake/commands/cmake_path.md",
-    "programming/languages/cmake/commands/foreach.md",
-    "programming/languages/cmake/commands/else.md",
-    "programming/languages/cmake/commands/elseif.md",
-    "programming/languages/cmake/commands/endif.md",
-    "programming/languages/cmake/commands/function.md",
-    "programming/languages/cmake/commands/cmake_policy.md",
-    "programming/languages/cmake/commands/cmake_minimum_required.md",
-    "programming/languages/cmake/commands/block.md",
-    "programming/languages/cmake/comamnds",
-    "cmake-langauge",
-    "projects/atom-core/logos/svg/logo-no-background.svg",
+    "uncategorized-notes/posix/Posix.md",
+    "uncategorized-notes/wsl.md",
+    "uncategorized-notes/windows-api.md",
+    "uncategorized-notes/to-read-list.md",
+    "uncategorized-notes/richard-stallman.md",
+    "uncategorized-notes/posix",
+    "uncategorized-notes/msys.md",
+    "uncategorized-notes/mingwpy.md",
+    "uncategorized-notes/mingw.md",
+    "uncategorized-notes/mingw-64.md",
+    "uncategorized-notes/famous-peoples.md",
+    "uncategorized-notes/cygwin.md",
+    "uncategorized-notes/abi.md",
+    "uncategorized-notes",
+    "tasks.md",
     "projects/atom-core/logos/svg/logo-white.svg",
-    "projects/atom-core/logos/svg/logo-black.svg",
+    "projects/atom-core/logos/svg/logo-no-background.svg",
     "projects/atom-core/logos/svg/logo-color.svg",
+    "projects/atom-core/logos/svg/logo-black.svg",
     "projects/atom-core/logos/png/logo-white.png",
-    "projects/atom-core/logos/png/logo-color.png",
     "projects/atom-core/logos/png/logo-no-background.png",
+    "projects/atom-core/logos/png/logo-color.png",
     "projects/atom-core/logos/png/logo-black.png",
+    "projects/atom-core/logos/pdf/logo-white.pdf",
+    "projects/atom-core/logos/pdf/logo-no-background.pdf",
+    "projects/atom-core/logos/pdf/logo-color.pdf",
+    "projects/atom-core/logos/pdf/logo-black.pdf",
+    "projects/atom-core/logos/eps/logo-white.eps",
+    "projects/atom-core/logos/eps/logo-no-background.eps",
+    "projects/atom-core/logos/eps/logo-color.eps",
+    "projects/atom-core/logos/eps/logo-black.eps",
+    "projects/atom-core/tasks/string-formatting.md",
+    "projects/atom-core/tasks/shared-ptr.md",
+    "projects/atom-core/tasks/ranges.md",
+    "projects/atom-core/tasks/option.md",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",
     "Untitled.canvas"

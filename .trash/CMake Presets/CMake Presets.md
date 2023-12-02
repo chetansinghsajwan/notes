@@ -95,7 +95,7 @@ Presets in `CMakePresets.json` may not inherit from presets in `CMakeUserPresets
 
 ##### Preset Condition
 
->A [[Condition]] object to determine if the preset should be enabled.
+>A [[programming/tools/cmake/CMake Presets/Condition/Condition]] object to determine if the preset should be enabled.
 >
   This is allowed in preset files specifying version `3` or above.
 
