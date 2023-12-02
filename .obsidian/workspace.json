@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "72ec2731105405e1",
+        "id": "7f219006d2b3a80a",
         "type": "tabs",
         "children": [
           {
-            "id": "34329189ea3c5c36",
+            "id": "14b8d2335f4e103e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/cmake/presets/includes.md",
-                "mode": "preview",
+                "file": "programming/languages/cmake/commands/add_compile_defintions.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/cmake/presets/includes.md",
+                "file": "programming/languages/cmake/commands/add_compile_defintions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/cmake/presets/includes.md",
+                "file": "programming/languages/cmake/commands/add_compile_defintions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/cmake/presets/includes.md"
+                "file": "programming/languages/cmake/commands/add_compile_defintions.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/cmake/presets/includes.md"
+                "file": "programming/languages/cmake/commands/add_compile_defintions.md"
               }
             }
           }
@@ -194,16 +194,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "34329189ea3c5c36",
+  "active": "14b8d2335f4e103e",
   "lastOpenFiles": [
-    "programming/tools/cmake/CMake Presets/Untitled.md",
+    "programming/languages/powershell/old-notes.md",
+    "programming/languages/powershell/new-notes.md",
+    "programming/tools/clang-format.md",
+    "programming/tools/vs-ide/project-vs-solution.md",
+    "programming/tools/vcpkg/Vcpkg.md",
+    "programming/tools/vcpkg/Triplets.md",
+    "programming/tools/cmake/kits.md",
+    "programming/tools/cmake/CMake Toolchain.md",
+    "programming/tools/cmake/CMake Variables.md",
+    "programming/tools/cmake/CMake Template Page.md",
+    "programming/tools/cmake/CMake Options.md",
+    "programming/tools/cmake/presets/condition.md",
+    "programming/tools/cmake/CMake.md",
     "programming/tools/cmake/presets/includes.md",
+    "programming/tools/cmake/CMake Presets/Untitled.md",
     "programming/tools/cmake/Resources/Resources.md",
     "programming/tools/cmake/presets/configure-preset.md",
     "programming/tools/cmake/presets/build-preset.md",
     "programming/tools/cmake/presets/presets.md",
     "programming/tools/cmake/presets/Untitled.md",
-    "programming/tools/cmake/presets/condition.md",
     "programming/languages/cmake/commands/target_include_directories.md",
     "uncategorized-notes/posix/Posix.md",
     "uncategorized-notes/wsl.md",
@@ -211,15 +223,7 @@
     "uncategorized-notes/to-read-list.md",
     "uncategorized-notes/richard-stallman.md",
     "uncategorized-notes/posix",
-    "uncategorized-notes/msys.md",
-    "uncategorized-notes/mingwpy.md",
-    "uncategorized-notes/mingw.md",
-    "uncategorized-notes/mingw-64.md",
-    "uncategorized-notes/famous-peoples.md",
-    "uncategorized-notes/cygwin.md",
-    "uncategorized-notes/abi.md",
     "uncategorized-notes",
-    "tasks.md",
     "projects/atom-core/logos/svg/logo-white.svg",
     "projects/atom-core/logos/svg/logo-no-background.svg",
     "projects/atom-core/logos/svg/logo-color.svg",
@@ -236,10 +240,6 @@
     "projects/atom-core/logos/eps/logo-no-background.eps",
     "projects/atom-core/logos/eps/logo-color.eps",
     "projects/atom-core/logos/eps/logo-black.eps",
-    "projects/atom-core/tasks/string-formatting.md",
-    "projects/atom-core/tasks/shared-ptr.md",
-    "projects/atom-core/tasks/ranges.md",
-    "projects/atom-core/tasks/option.md",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",
     "Untitled.canvas"
