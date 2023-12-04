@@ -19,7 +19,7 @@ add_compile_definitions(<definition> ...)
 > Definitions are specified using the syntax `VAR` or `VAR=value`. 
 > 
 > Function-style definitions are not supported.
-> 
+> **
 > Any leading `-D` on an item will be removed.
 
 ## References
