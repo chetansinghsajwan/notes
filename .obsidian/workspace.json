@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7f219006d2b3a80a",
+        "id": "51bff851f2f17344",
         "type": "tabs",
         "children": [
           {
-            "id": "14b8d2335f4e103e",
+            "id": "1be31c17c1816036",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software/foss.md",
+                "file": "tasks.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software/foss.md",
+                "file": "tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software/foss.md",
+                "file": "tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software/foss.md"
+                "file": "tasks.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "software/foss.md"
+                "file": "tasks.md"
               }
             }
           }
@@ -194,8 +194,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "1be31c17c1816036",
   "lastOpenFiles": [
+    "to-read-list.md",
+    "5 Code Refactoring Techniques to Improve Your Code - DEV Community.md",
+    "computer-science/abi.md",
+    "computer-science/wsl.md",
+    "computer-science/posix.md",
+    "computer-science/windows-api.md",
+    "computer-science/cygwin.md",
+    "computer-science/mingw-64.md",
+    "uncategorized-notes/famous-peoples.md",
+    "peoples",
+    "peoples/richard-stallman.md",
+    "computer-science/mingw.md",
+    "software/foss.md",
     "software/gnu-license.md",
     "software/gnu-linux.md",
     "software/gnu-kernel.md",
@@ -205,23 +218,11 @@
     "software/open-source-software.md",
     "Softwares/Open Source License/Open Source License.md",
     "software/free-vs-open-source-software.md",
-    "software/foss.md",
     "Softwares/Git Hub.md",
     "software/free-software.md",
     "software/free-software-definition.md",
     "software/software-development/design-pattern.md",
     "Softwares/Softwares.md",
-    "Softwares/Software License/Software License.md",
-    "Softwares/software-development/platforms 1.md",
-    "software/software-development/platform.md",
-    "software/software-development/principle.md",
-    "Softwares/software-development/uml-diagram.md",
-    "Softwares/software-development/uml-diagram-tools.md",
-    "software/software-development/design-patterns/visitor.md",
-    "Softwares/software-development/UML Digram/Untitled.md",
-    "software/software-development/design-patterns/template-method.md",
-    "software/software-development/design-patterns/strategy.md",
-    "software/software-development/design-patterns/state.md",
     "uncategorized-notes/posix",
     "uncategorized-notes",
     "projects/atom-core/logos/svg/logo-white.svg",
@@ -239,7 +240,6 @@
     "projects/atom-core/logos/eps/logo-white.eps",
     "projects/atom-core/logos/eps/logo-no-background.eps",
     "projects/atom-core/logos/eps/logo-color.eps",
-    "projects/atom-core/logos/eps/logo-black.eps",
     "Untitled 2.png",
     "02HDufdqeRUDu3tl0NnY2qZ-2.webp",
     "Untitled.canvas"
