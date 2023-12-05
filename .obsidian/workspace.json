@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d25d0b0ba68cca7b",
+        "id": "f9ee0890094f2feb",
         "type": "tabs",
         "children": [
           {
-            "id": "6ca38793e288d6d9",
+            "id": "5c00eea64d9c89f6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#optional",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -184,37 +184,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ca38793e288d6d9",
+  "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
-    "computer-science/android/bootloader.md",
-    "computer-science/android/android.md",
-    "computer-science/abi.md",
-    "computer-science/bios.md",
-    "computer-science/bios-mbr-boot-process.md",
-    "computer-science/cygwin.md",
-    "computer-science/firmware.md",
-    "computer-science/memory-access.md",
-    "computer-science/mingw.md",
-    "computer-science/mingw-64.md",
-    "computer-science/mingwpy.md",
-    "computer-science/msys.md",
-    "computer-science/pester.md",
-    "computer-science/uefi.md",
-    "computer-science/uri.md",
-    "computer-science/wsl.md",
-    "computer-science/windows-api.md",
-    "computer-science/uuid.md",
+    "programming/languages/cmake/properties/target/compile_defintions.md",
+    "programming/languages/cmake/commands/while.md",
+    "programming/languages/cmake/commands/endwhile.md",
+    "programming/languages/cmake/commands/add_custom_command.md",
+    "programming/languages/cmake/commands/add_library.md",
+    "programming/languages/cmake/commands/break.md",
+    "programming/languages/cmake/commands/cmake_minimum_required.md",
+    "programming/languages/cmake/commands/cmake_path.md",
+    "programming/languages/cmake/commands/cmake_policy.md",
+    "programming/languages/cmake/commands/continue.md",
+    "programming/languages/cmake/commands/else.md",
+    "programming/languages/cmake/commands/elseif.md",
+    "programming/languages/cmake/commands/endif.md",
+    "programming/languages/cmake/commands/execute_process.md",
+    "programming/languages/cmake/commands/foreach.md",
+    "programming/languages/cmake/commands/function.md",
+    "programming/languages/cmake/commands/if.md",
+    "programming/languages/cmake/commands/separate_arguments.md",
+    "programming/languages/cmake/commands/project.md",
+    "programming/languages/cmake/commands/macro.md",
+    "programming/languages/cmake/commands/include.md",
+    "programming/languages/cmake/commands/add_executable.md",
+    "programming/languages/cmake/commands/add_dependencies.md",
+    "programming/languages/cmake/commands/add_compile_defintions.md",
+    "programming/languages/cmake/commands/add_custom_target.md",
+    "programming/languages/cmake/commands/`add_custom_command`.md",
+    "Untitled.canvas",
     "computer-science/uuid/v1-diagram.svg",
     "computer-science/uuid/v4-diagram.png",
     "computer-science/uuid",
-    "computer-science/ramdisk.md",
-    "computer-science/uefi-oldnotes.md",
-    "tasks.md",
-    "dictionary.md",
-    "programming/powershell-shell.md",
-    "programming/powershell.md",
-    "programming/languages/cmake/commands/execute_process.md",
-    "software/software-development/design-patterns/visitor.md",
     "software/software-development/design-patterns",
     "software/software-development",
     "software",
@@ -231,7 +232,6 @@
     "projects/atom-core/logos/png/logo-black.png",
     "projects/atom-core/logos/pdf/logo-white.pdf",
     "projects/atom-core/logos/pdf/logo-no-background.pdf",
-    "projects/atom-core/logos/pdf/logo-color.pdf",
-    "Untitled.canvas"
+    "projects/atom-core/logos/pdf/logo-color.pdf"
   ]
 }

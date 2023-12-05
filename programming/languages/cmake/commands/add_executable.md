@@ -1,6 +1,5 @@
 # `add_executable` command
 
-Add an executable target to the project using the specified source files.
 
 ## Normal Executable
 
@@ -16,23 +15,23 @@ The target name has scope in the directory in which it is created and below.
 
 ### Parameters
 
-> ##### `<name>` #required
+> ###### `<name>` (required)
 > 
 > The name of the target and must be globally unique within a project.
 
-> ##### `[WIN32]`
+> ###### `[WIN32]`
 > 
 > The property [`win32_executable`](cmake-language/target-properties/win32-executable) will be set on the target created.
 
-> ##### `[MACOSX_BUNDLE]`
+> ###### `[MACOSX_BUNDLE]`
 > 
 > The property [`macosx_bundle`](cmake-language/target-properties/macosx-bundle) will be set on the target created.
 
-> ##### `[EXCLUDE_FROM_ALL]`
+> ###### `[EXCLUDE_FROM_ALL]`
 > 
 > The property [`exclude_from_all`](cmake-language/target-properties/exclude-from-all) will be set on the target created.
 
-> ##### `[sources...]`
+> ###### `[sources...]`
 > 
 > List of source files.
 > 
@@ -50,11 +49,11 @@ Creates an [imported target](cmake-buildsystem/imported-targets) of name `<name>
 
 ### Parameters
 
-> ##### `<name>`
+> ###### `<name>`
 > 
 > The `<name>` does not appear in the generated build-system as a make target.
 
-> ##### `[GLOBAL]`
+> ###### `[GLOBAL]`
 > 
 > The global option extends visibility to global level.
 
@@ -70,11 +69,11 @@ add_executable(<name> ALIAS <target>)
 
 ### Parameters
 
-> ##### `<name>`
+> ###### `<name>`
 > 
 > The `<name>` does not appear in the generated build-system as a make target.
 
-> ##### `<target>`
+> ###### `<target>`
 > 
 > The `<target>` itself cannot be an `ALIAS`.
 

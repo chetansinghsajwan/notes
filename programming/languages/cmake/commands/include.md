@@ -1,3 +1,5 @@
+# `include` command
+
 Load and run code from a cmake module.
 
 ###### Syntax
@@ -27,3 +29,5 @@ The variable `<var>` will be set to the full filename which has been included or
 ###### `NO_POLICY_SCOPE` #optional 
 
 Doesn't add new scope for policies.
+
+## References

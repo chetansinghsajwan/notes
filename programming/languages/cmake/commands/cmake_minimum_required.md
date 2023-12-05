@@ -24,11 +24,11 @@ cmake_minimum_required(VERSION <min>[...<policy_max>] [FATAL_ERROR])
 
 ## Parameters
 
-> ##### `min`
+> ##### `min` (required)
 > 
 > If the running version of CMake is lower than the `<min>` required version it will stop processing the project and report an error.
 
-> ##### `policy_max` #optional 
+> ##### `policy_max` (optional)
 > 
 > Version passed to [[cmake_policy]] command as `<max>`.
 
