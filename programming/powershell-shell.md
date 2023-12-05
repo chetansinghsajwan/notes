@@ -1,12 +1,17 @@
+# Powershell Shell
+
 PowerShell is a modern command shell that includes the best features of other popular shells. Unlike most shells that only accept and return text, PowerShell accepts and returns .NET objects. The shell includes the following features:
 - Robust command-line [history](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_history)
 - Tab completion and command prediction (See [about_PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline))
 - Supports command and parameter [aliases](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_aliases)
 - [Pipeline](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipelines) for chaining commands
 - In-console [help](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help) system, similar to Unix `man` pages
-## **What version of PowerShell am I running?**
+
+## What version of PowerShell am I running?
+
 There are a number of automatic variables in PowerShell that store state information. One of these variables is `$PSVersionTable`, which contains a hashtable that can be used to display the relevant PowerShell version information:
-```
+
+```shell-instance
 $PSVersionTable
 Name                           Value
 ----                           -----
@@ -21,6 +26,7 @@ SerializationVersion           1.1.0.1
 ```
 ## **Execution Policy**
 Contrary to popular belief, the execution policy in PowerShell is not a security boundary. It's designed to prevent a user from unknowingly running a script. A determined user can easily bypass the execution policy in PowerShell.
+
 - Table 1-2 shows the default execution policy for current Windows operating systems.
     
     |   |   |
