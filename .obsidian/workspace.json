@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/cmake/commands/separate_arguments.md",
+                "file": "software/foss.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/cmake/commands/separate_arguments.md",
+                "file": "software/foss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/cmake/commands/separate_arguments.md",
+                "file": "software/foss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/cmake/commands/separate_arguments.md"
+                "file": "software/foss.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/cmake/commands/separate_arguments.md"
+                "file": "software/foss.md"
               }
             }
           }
@@ -194,34 +194,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "14b8d2335f4e103e",
+  "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
-    "programming/languages/cmake/commands/target_compile_options.md",
-    "programming/languages/cmake/commands/separate_arguments.md",
-    "programming/languages/cmake/commands/add_compile_defintions.md",
-    "programming/languages/cmake/commands/execute_process.md",
-    "computer-science/uefi-oldnotes.md",
-    "programming/languages/powershell/old-notes.md",
-    "programming/languages/powershell/new-notes.md",
-    "programming/tools/clang-format.md",
-    "programming/tools/vs-ide/project-vs-solution.md",
-    "programming/tools/vcpkg/Vcpkg.md",
-    "programming/tools/vcpkg/Triplets.md",
-    "programming/tools/cmake/kits.md",
-    "programming/tools/cmake/CMake Toolchain.md",
-    "programming/tools/cmake/CMake Variables.md",
-    "programming/tools/cmake/CMake Template Page.md",
-    "programming/tools/cmake/CMake Options.md",
-    "programming/tools/cmake/presets/condition.md",
-    "programming/tools/cmake/CMake.md",
-    "programming/tools/cmake/presets/includes.md",
-    "programming/tools/cmake/CMake Presets/Untitled.md",
-    "programming/tools/cmake/Resources/Resources.md",
-    "programming/tools/cmake/presets/configure-preset.md",
-    "programming/tools/cmake/presets/build-preset.md",
-    "programming/tools/cmake/presets/presets.md",
-    "programming/tools/cmake/presets/Untitled.md",
-    "programming/languages/cmake/commands/target_include_directories.md",
+    "software/gnu-license.md",
+    "software/gnu-linux.md",
+    "software/gnu-kernel.md",
+    "software/gnu-manifesto.md",
+    "software/open-source-initiative.md",
+    "software/open-source-software-definition.md",
+    "software/open-source-software.md",
+    "Softwares/Open Source License/Open Source License.md",
+    "software/free-vs-open-source-software.md",
+    "software/foss.md",
+    "Softwares/Git Hub.md",
+    "software/free-software.md",
+    "software/free-software-definition.md",
+    "software/software-development/design-pattern.md",
+    "Softwares/Softwares.md",
+    "Softwares/Software License/Software License.md",
+    "Softwares/software-development/platforms 1.md",
+    "software/software-development/platform.md",
+    "software/software-development/principle.md",
+    "Softwares/software-development/uml-diagram.md",
+    "Softwares/software-development/uml-diagram-tools.md",
+    "software/software-development/design-patterns/visitor.md",
+    "Softwares/software-development/UML Digram/Untitled.md",
+    "software/software-development/design-patterns/template-method.md",
+    "software/software-development/design-patterns/strategy.md",
+    "software/software-development/design-patterns/state.md",
     "uncategorized-notes/posix",
     "uncategorized-notes",
     "projects/atom-core/logos/svg/logo-white.svg",

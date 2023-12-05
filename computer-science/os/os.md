@@ -27,4 +27,4 @@ Really good explanation on **Quora** by ABC on difference between **OS** and **K
 - [[unix-os]]
 - [[linux]]
 - [[windows-os]]
-- [[GNU Operating System]]
+- [[gnu-os]]

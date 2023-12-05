@@ -62,7 +62,7 @@
 |[[Dynamic Cast]]|`dynamic_cast<type>(a)`||Other|Unary|C++|2|Left to Right|||Inherited|
 |[[Const Cast]]|`const_cast<type>(a)`||Other|Unary|C++|2|Left to Right|||Inherited|
 |[[Reinterpret Cast]]|`reinterpret_cast<type>(a)`||Other|Unary|C++|2|Left to Right|||Inherited|
-|[[New]]|`new type`||Other|Unary|C++|3|Right to Left|void* K::**operator** **new**(size_t a);|void* **operator** **new**(size_t x);|Inherited|
+|[[programming/languages/cpp/operators/New]]|`new type`||Other|Unary|C++|3|Right to Left|void* K::**operator** **new**(size_t a);|void* **operator** **new**(size_t x);|Inherited|
 |[[New Array]]|`new type[n]`||Other|Unary|C++|3|Right to Left|void* K::**operator** **new**[](size_t a);|void* **operator** **new**[](size_t a);|Inherited|
 |[[programming/languages/cpp/operators/Delete]]|`delete a`||Other|Unary|C++|3|Right to Left|void K::**operator** **delete**(void* a);|void **operator** **delete**(void* a);|Inherited|
 |[[Delete Array]]|`delete[] a`||Other|Unary|C++|3|Right to Left|void K::**operator** **delete**[](void* a);|void **operator** **delete**[](void* a);|Inherited|
