@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "363a908f86341e1e",
+        "id": "a1d3a3754d68ba89",
         "type": "tabs",
         "children": [
           {
-            "id": "1feffb939a28f599",
+            "id": "15ed3e73cd65c60a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "computer-science/uuid/v1-diagram.svg"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer-science/uuid/v1-diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer-science/uuid/v1-diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer-science/uuid/v1-diagram.svg"
+              }
             }
           },
           {
@@ -160,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "computer-science/uuid/v1-diagram.svg"
+              }
             }
           }
         ]
@@ -183,8 +191,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1feffb939a28f599",
+  "active": "15ed3e73cd65c60a",
   "lastOpenFiles": [
+    "computer-science/msys.md",
+    "computer-science/pester.md",
+    "computer-science/mingwpy.md",
+    "computer-science/wsl.md",
+    "computer-science/uuid.md",
+    "computer-science/uri.md",
+    "programming/languages/cpp/default-constructor.md",
     "programming/languages/cpp/operators.md",
     "operators/direct-assignment.md",
     "operators",
@@ -205,13 +220,6 @@
     "programming/languages/cpp/initialization/aggregate-initialization.md",
     "programming/languages/cpp/initialization/constant-initialization.md",
     "programming/languages/cmake/properties/target/compile_defintions.md",
-    "programming/languages/cmake/commands/while.md",
-    "programming/languages/cmake/commands/endwhile.md",
-    "programming/languages/cmake/commands/add_custom_command.md",
-    "programming/languages/cmake/commands/add_library.md",
-    "programming/languages/cmake/commands/break.md",
-    "programming/languages/cmake/commands/cmake_minimum_required.md",
-    "programming/languages/cmake/commands/cmake_path.md",
     "Untitled.canvas",
     "computer-science/uuid/v1-diagram.svg",
     "computer-science/uuid/v4-diagram.png",
