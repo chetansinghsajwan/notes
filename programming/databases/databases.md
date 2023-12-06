@@ -1,7 +1,10 @@
+# Databases
+
 A database is an organized collection of data stored digitally.
 A database is usually controlled by a [database management system (DBMS)](https://www.oracle.com/in/database/what-is-database/#WhatIsDBMS).
 
-**Types of databases**
+### Types of databases
+
 - **Relational Databases (RDBMS)**
     
     Organize data into tables with rows and columns. Examples include MySQL, PostgreSQL, and Oracle Database.

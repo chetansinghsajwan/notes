@@ -1,3 +1,3 @@
-[[Dev Drive]]
+[[dev-drive]]
 [[refs]]
 [[virtual-hard-disk]]

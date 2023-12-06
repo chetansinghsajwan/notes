@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a1d3a3754d68ba89",
+        "id": "ee32e6554b2b786b",
         "type": "tabs",
         "children": [
           {
-            "id": "15ed3e73cd65c60a",
+            "id": "bafa584ca188629d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "computer-science/uuid/v1-diagram.svg"
+                "file": "software/nix/learning-resources.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/uuid/v1-diagram.svg",
+                "file": "software/nix/learning-resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/uuid/v1-diagram.svg",
+                "file": "software/nix/learning-resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/uuid/v1-diagram.svg"
+                "file": "software/nix/learning-resources.md"
               }
             }
           },
@@ -167,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "computer-science/uuid/v1-diagram.svg"
+                "file": "software/nix/learning-resources.md"
               }
             }
           }
@@ -191,45 +193,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "15ed3e73cd65c60a",
+  "active": "bafa584ca188629d",
   "lastOpenFiles": [
-    "computer-science/msys.md",
-    "computer-science/pester.md",
-    "computer-science/mingwpy.md",
-    "computer-science/wsl.md",
-    "computer-science/uuid.md",
-    "computer-science/uri.md",
+    "software/nix/realisation.md",
+    "software/nix/learning-resources.md",
+    "software/nix/sandboxing.md",
+    "software/nix/derivation.md",
+    "programming/languages/nix/builtin-functions/derivation.md",
+    "programming/languages/nix/builtin-functions.md",
+    "programming/languages/nix/builtin-functions",
+    "programming/languages/nix/functions",
+    "software/nix/channels.md",
+    "software/nix",
+    "programming/languages/cmake/policies.md",
+    "programming/languages/cmake/cmake.md",
+    "programming/languages/cmake/comments.md",
+    "programming/languages/cmake/condition-expressions.md",
+    "projects/atom-core/tasks/char-encoding.md",
+    "projects/atom-core/tasks/better-enums.md",
+    "projects/atom-core.md",
+    "projects/unity-libs-serilog.md",
+    "projects/unity-libs.md",
+    "projects/titanfall-unity.md",
+    "projects/atom-math.md",
+    "projects/atom-logging.md",
+    "projects/atom-engine.md",
     "programming/languages/cpp/default-constructor.md",
-    "programming/languages/cpp/operators.md",
-    "operators/direct-assignment.md",
-    "operators",
-    "programming/languages/cpp/operators/direct-assignemnt.md",
-    "programming/languages/cpp/operators/bitwise-left-shift.md",
-    "programming/languages/cpp/operators/align-of.md",
-    "programming/languages/cpp/operators/Member selected by pointer to member b of object pointed to by a.md",
-    "programming/languages/cpp/operators/Member of object a selected by pointer to member b.md",
-    "programming/languages/cpp/operators/user-defined-literals.md",
-    "programming/languages/cpp/operators/bitwise-right-shift.md",
-    "programming/languages/cpp/operators/bitwise-right-shift-assignment.md",
-    "programming/languages/cpp/operators/structure-dereference.md",
-    "programming/languages/cpp/operators/division.md",
-    "programming/languages/c/guidelines.md",
-    "programming/languages/cpp/operators/addition-assignment.md",
-    "programming/languages/cpp/template-argument-deduction.md",
-    "programming/languages/cpp/modules.md",
-    "programming/languages/cpp/initialization/aggregate-initialization.md",
-    "programming/languages/cpp/initialization/constant-initialization.md",
-    "programming/languages/cmake/properties/target/compile_defintions.md",
-    "Untitled.canvas",
+    "programming/languages/cpp/initialization.md",
+    "programming/tools/clang.md",
+    "programming/guidelines/naming-guidelines.md",
+    "programming/guidelines/idioms.md",
+    "programming/git/three-tree-arch.md",
+    "tasks",
     "computer-science/uuid/v1-diagram.svg",
+    "operators",
+    "Untitled.canvas",
     "computer-science/uuid/v4-diagram.png",
     "computer-science/uuid",
     "software/software-development/design-patterns",
     "software/software-development",
     "software",
     "peoples",
-    "uncategorized-notes/posix",
-    "uncategorized-notes",
     "projects/atom-core/logos/svg/logo-white.svg",
     "projects/atom-core/logos/svg/logo-no-background.svg",
     "projects/atom-core/logos/svg/logo-color.svg",
@@ -237,8 +241,6 @@
     "projects/atom-core/logos/png/logo-white.png",
     "projects/atom-core/logos/png/logo-no-background.png",
     "projects/atom-core/logos/png/logo-color.png",
-    "projects/atom-core/logos/png/logo-black.png",
-    "projects/atom-core/logos/pdf/logo-white.pdf",
-    "projects/atom-core/logos/pdf/logo-no-background.pdf"
+    "projects/atom-core/logos/png/logo-black.png"
   ]
 }

@@ -1,3 +1,5 @@
+# Unix Operating System
+
 Unix is a computer operating system developed in the 1970s at Bell Labs by Ken Thompson, Dennis Ritchie, and others. It was designed to be portable, multi-user, and multi-tasking, and has become one of the most widely used operating systems in the world.
 
 It is comprised of **Unix Kernel**.
