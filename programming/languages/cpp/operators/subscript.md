@@ -1,10 +1,10 @@
 ---
 category: member-access
 associativity: left-to-right
+in-class-definition: R& K::operator [](S b);
 inheritance: inherited
-priority: 4
+priority: 2
 since: cpp
-syntax: a.*b
-type: binary
-todo: fix the file name
+syntax: a[b]
+type: other
 ---

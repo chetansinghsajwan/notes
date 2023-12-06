@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f9ee0890094f2feb",
+        "id": "44809d0ca23bfc6e",
         "type": "tabs",
         "children": [
           {
-            "id": "5c00eea64d9c89f6",
+            "id": "7e984ad326cd5116",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming/languages/cpp/operators.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#optional",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming/languages/cpp/operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming/languages/cpp/operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "programming/languages/cpp/operators.md"
+              }
             }
           },
           {
@@ -160,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "programming/languages/cpp/operators.md"
+              }
             }
           }
         ],
@@ -184,8 +194,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "7e984ad326cd5116",
   "lastOpenFiles": [
+    "programming/languages/cpp/operators/bitwise-left-shift.md",
+    "programming/languages/cpp/operators.md",
+    "programming/languages/cpp/operators/align-of.md",
+    "programming/languages/cpp/operators/Member selected by pointer to member b of object pointed to by a.md",
+    "programming/languages/cpp/operators/Member of object a selected by pointer to member b.md",
+    "programming/languages/cpp/operators/user-defined-literals.md",
+    "programming/languages/cpp/operators/bitwise-right-shift.md",
+    "programming/languages/cpp/operators/bitwise-right-shift-assignment.md",
+    "programming/languages/cpp/operators/direct-assignemnt.md",
+    "programming/languages/cpp/operators/structure-dereference.md",
+    "programming/languages/cpp/operators/division.md",
+    "programming/languages/c/guidelines.md",
+    "programming/languages/cpp/operators/addition-assignment.md",
+    "programming/languages/cpp/template-argument-deduction.md",
+    "programming/languages/cpp/modules.md",
+    "programming/languages/cpp/initialization/aggregate-initialization.md",
+    "programming/languages/cpp/initialization/constant-initialization.md",
     "programming/languages/cmake/properties/target/compile_defintions.md",
     "programming/languages/cmake/commands/while.md",
     "programming/languages/cmake/commands/endwhile.md",
@@ -195,23 +222,6 @@
     "programming/languages/cmake/commands/cmake_minimum_required.md",
     "programming/languages/cmake/commands/cmake_path.md",
     "programming/languages/cmake/commands/cmake_policy.md",
-    "programming/languages/cmake/commands/continue.md",
-    "programming/languages/cmake/commands/else.md",
-    "programming/languages/cmake/commands/elseif.md",
-    "programming/languages/cmake/commands/endif.md",
-    "programming/languages/cmake/commands/execute_process.md",
-    "programming/languages/cmake/commands/foreach.md",
-    "programming/languages/cmake/commands/function.md",
-    "programming/languages/cmake/commands/if.md",
-    "programming/languages/cmake/commands/separate_arguments.md",
-    "programming/languages/cmake/commands/project.md",
-    "programming/languages/cmake/commands/macro.md",
-    "programming/languages/cmake/commands/include.md",
-    "programming/languages/cmake/commands/add_executable.md",
-    "programming/languages/cmake/commands/add_dependencies.md",
-    "programming/languages/cmake/commands/add_compile_defintions.md",
-    "programming/languages/cmake/commands/add_custom_target.md",
-    "programming/languages/cmake/commands/`add_custom_command`.md",
     "Untitled.canvas",
     "computer-science/uuid/v1-diagram.svg",
     "computer-science/uuid/v4-diagram.png",

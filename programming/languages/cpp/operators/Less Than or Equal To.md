@@ -1,11 +1,11 @@
 ---
-Category: Comparision
-Associativity: Left to Right
-In Class Definiton: bool K::operator <=(const S& a, const S& b) const;
-Inheritance: Inherited
-Outside Class Definition: bool K::operator <=(const S& a, const S& b) const;
-Priority: 9
-Since: C++
-Syntax: a <= b
-Type: Binary
+category: comparision
+associativity: left-to-right
+in-class-definition: bool K::operator <=(const S& a, const S& b) const;
+inheritance: inherited
+out-class-definition: bool K::operator <=(const S& a, const S& b) const;
+priority: 9
+since: cpp
+syntax: a <= b
+type: binary
 ---

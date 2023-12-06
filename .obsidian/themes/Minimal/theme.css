@@ -414,7 +414,7 @@ settings:
 		collapsed: false
 	-
 		id: code-comment
-		title: "Syntax: comments"
+		title: "syntax: comments"
 		description: Syntax highlighting for comments
 		type: variable-themed-color
 		format: hex
@@ -422,7 +422,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-function
-		title: "Syntax: functions"
+		title: "syntax: functions"
 		description: Syntax highlighting for functions
 		type: variable-themed-color
 		format: hex
@@ -430,7 +430,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-keyword
-		title: "Syntax: keywords"
+		title: "syntax: keywords"
 		description: Syntax highlighting for keywords
 		type: variable-themed-color
 		format: hex
@@ -438,7 +438,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-important
-		title: "Syntax: important"
+		title: "syntax: important"
 		description: Syntax highlighting for important text
 		type: variable-themed-color
 		format: hex
@@ -446,7 +446,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-operator
-		title: "Syntax: operators"
+		title: "syntax: operators"
 		description: Syntax highlighting for operators
 		type: variable-themed-color
 		format: hex
@@ -454,7 +454,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-property
-		title: "Syntax: properties"
+		title: "syntax: properties"
 		description: Syntax highlighting for properties
 		type: variable-themed-color
 		format: hex
@@ -462,7 +462,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-punctuation
-		title: "Syntax: punctuation"
+		title: "syntax: punctuation"
 		description: Syntax highlighting for punctuation
 		type: variable-themed-color
 		format: hex
@@ -470,7 +470,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-string
-		title: "Syntax: strings"
+		title: "syntax: strings"
 		description: Syntax highlighting for strings
 		type: variable-themed-color
 		format: hex
@@ -478,7 +478,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-tag
-		title: "Syntax: tags"
+		title: "syntax: tags"
 		description: Syntax highlighting for tags
 		type: variable-themed-color
 		format: hex
@@ -486,7 +486,7 @@ settings:
 		default-dark: '#'
 	-
 		id: code-value
-		title: "Syntax: values"
+		title: "syntax: values"
 		description: Syntax highlighting for values
 		type: variable-themed-color
 		format: hex

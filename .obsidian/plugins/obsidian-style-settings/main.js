@@ -9605,7 +9605,7 @@ var safeLoadAll         = renamed('safeLoadAll', 'loadAll');
 var safeDump            = renamed('safeDump', 'dump');
 
 var jsYaml = {
-	Type: Type,
+	type: Type,
 	Schema: Schema,
 	FAILSAFE_SCHEMA: FAILSAFE_SCHEMA,
 	JSON_SCHEMA: JSON_SCHEMA,

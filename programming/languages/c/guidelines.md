@@ -1,5 +1,9 @@
-## **Formatting guidelines**
+# Guidelines
+
+## Formatting guidelines
+
 ### Code
+
 - Names of classes, methods, enumerations, public fields, public properties,  
     namespaces: `PascalCase`.
 - Names of local variables, parameters: `camelCase`.
@@ -10,12 +14,16 @@
 - For casing, a “word” is anything written without internal spaces, including  
     acronyms. For example, `MyRpc` instead of ~~`MyRPC`~~.
 - Names of interfaces start with `I`, e.g. `IInterface`.
+
 ### Files
+
 - Filenames and directory names are `PascalCase`, e.g. `MyFile.cs`.
 - Where possible the file name should be the same as the name of the main  
     class in the file, e.g. `MyClass.cs`.
 - In general, prefer one core class per file.
+
 ### Organization
+
 - Modifiers occur in the following order: `public` `protected` `internal` `private` `new` `abstract` `virtual` `override` `sealed` `static` `readonly` `extern` `unsafe` `volatile` `async`.
 - Namespace `using` declarations go at the top, before any namespaces. `using`  
     import order is alphabetical, apart from `System` imports which always go  
@@ -34,7 +42,9 @@
         - Protected.
         - Private.
     - Where possible, group interface implementations together.
+
 ### Whitespace rules
+
 Developed from Google Java style.
 - A maximum of one statement per line.
 - A maximum of one assignment per statement.
@@ -57,4 +67,4 @@ Developed from Google Java style.
         subsequent line aligned with the first argument. If there is not enough  
         room for this, arguments may instead be placed on subsequent lines with  
         a four space indent. The code example below illustrates this.
-## **Coding guidelines**
+## Coding guidelines

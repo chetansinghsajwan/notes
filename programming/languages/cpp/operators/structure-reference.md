@@ -2,9 +2,8 @@
 category: member-access
 associativity: left-to-right
 inheritance: inherited
-priority: 4
+priority: 2
 since: cpp
-syntax: a.*b
+syntax: a.b
 type: binary
-todo: fix the file name
 ---
