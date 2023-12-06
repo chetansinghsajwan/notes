@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "44809d0ca23bfc6e",
+        "id": "363a908f86341e1e",
         "type": "tabs",
         "children": [
           {
-            "id": "7e984ad326cd5116",
+            "id": "1feffb939a28f599",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/languages/cpp/operators.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/cpp/operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/cpp/operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "programming/languages/cpp/operators.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,13 +160,10 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "programming/languages/cpp/operators.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,17 +183,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7e984ad326cd5116",
+  "active": "1feffb939a28f599",
   "lastOpenFiles": [
-    "programming/languages/cpp/operators/bitwise-left-shift.md",
     "programming/languages/cpp/operators.md",
+    "operators/direct-assignment.md",
+    "operators",
+    "programming/languages/cpp/operators/direct-assignemnt.md",
+    "programming/languages/cpp/operators/bitwise-left-shift.md",
     "programming/languages/cpp/operators/align-of.md",
     "programming/languages/cpp/operators/Member selected by pointer to member b of object pointed to by a.md",
     "programming/languages/cpp/operators/Member of object a selected by pointer to member b.md",
     "programming/languages/cpp/operators/user-defined-literals.md",
     "programming/languages/cpp/operators/bitwise-right-shift.md",
     "programming/languages/cpp/operators/bitwise-right-shift-assignment.md",
-    "programming/languages/cpp/operators/direct-assignemnt.md",
     "programming/languages/cpp/operators/structure-dereference.md",
     "programming/languages/cpp/operators/division.md",
     "programming/languages/c/guidelines.md",
@@ -221,7 +212,6 @@
     "programming/languages/cmake/commands/break.md",
     "programming/languages/cmake/commands/cmake_minimum_required.md",
     "programming/languages/cmake/commands/cmake_path.md",
-    "programming/languages/cmake/commands/cmake_policy.md",
     "Untitled.canvas",
     "computer-science/uuid/v1-diagram.svg",
     "computer-science/uuid/v4-diagram.png",
@@ -241,7 +231,6 @@
     "projects/atom-core/logos/png/logo-color.png",
     "projects/atom-core/logos/png/logo-black.png",
     "projects/atom-core/logos/pdf/logo-white.pdf",
-    "projects/atom-core/logos/pdf/logo-no-background.pdf",
-    "projects/atom-core/logos/pdf/logo-color.pdf"
+    "projects/atom-core/logos/pdf/logo-no-background.pdf"
   ]
 }

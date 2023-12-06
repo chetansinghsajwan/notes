@@ -12,6 +12,7 @@ type: binary
 # Direct Assignment
 
 ## Why this operator is not inherited?
+^inheritance
 
 The assignment operator is technically inherited; however, it is always hidden by an explicitly or implicitly defined assignment operator for the derived class.
 When you leave it to the compiler to define `operator =`, it defines it as follows:

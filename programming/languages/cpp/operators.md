@@ -11,7 +11,7 @@ WHERE file.folder = "programming/languages/cpp/operators"
 
 > [!related]
 > 
-> [Why `operator=` is not inherited?](operators/assignment/#inheritance)
+> [Why `operator=` is not inherited?](operators/direct-assignment/#inheritance)
 
 ## References
 
