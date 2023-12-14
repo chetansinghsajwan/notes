@@ -10,6 +10,6 @@
 
 If expression `e1` evaluates to `true` expression `e2` is evaluted, else `e3` is evaluted.
 
-> [!references]
-> 
-> > https://nixos.org/manual/nix/stable/language/constructs#conditionals
+## References
+
+> https://nixos.org/manual/nix/stable/language/constructs#conditionals

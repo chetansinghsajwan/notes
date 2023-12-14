@@ -10,6 +10,6 @@
 
 If expression `e1` evaluates to `true`, `e2` is returned, otherwise evaluation is aborted and a backtrace is printed.
 
-> [!references]
-> 
-> > https://nixos.org/manual/nix/stable/language/constructs#assertions
+## References
+
+> https://nixos.org/manual/nix/stable/language/constructs#assertions

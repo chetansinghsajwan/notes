@@ -5,7 +5,7 @@ Recursive sets are like normal [attribute sets](programming/languages/nix/data-t
 
 > [!syntax]
 > 
-> ```nix
+> ```
 > <rec-attrset> =  rec { [ <name> = <expr>; ]... }
 > ```
 

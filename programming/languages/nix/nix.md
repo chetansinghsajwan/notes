@@ -32,7 +32,7 @@ Dependencies between operations are established only through data.
 > 
 > Type errors are only detected when expressions are evaluated.
 
-nix-expression: Every thing in nix-language is an expression.
+**nix-expression:** Every statement in nix is an expression.
 
 ## References
 
