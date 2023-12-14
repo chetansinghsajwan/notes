@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea5c89dacdef3858",
+            "id": "df7f53c421df25b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/home-manager.md",
+                "file": "programming/languages/nix/builtin-functions/derivation.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/home-manager.md",
+                "file": "programming/languages/nix/builtin-functions/derivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/home-manager.md",
+                "file": "programming/languages/nix/builtin-functions/derivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/home-manager.md"
+                "file": "programming/languages/nix/builtin-functions/derivation.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "computer-science/home-manager.md"
+                "file": "programming/languages/nix/builtin-functions/derivation.md"
               }
             }
           }
@@ -193,18 +193,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea5c89dacdef3858",
+  "active": "df7f53c421df25b0",
   "lastOpenFiles": [
+    "software/nix/derivation.md",
+    "programming/languages/nix/builtin-functions/derivation.md",
+    "programming/languages/nix/builtin-functions/^^param-builder.md",
+    "programming/languages/nix/language-constructs/comments.md",
+    "computer-science/home-manager.md",
     "computer-science/terminal-emulator.md",
     "computer-science/shell.md",
-    "computer-science/home-manager.md",
     "programming/languages/nix/nix.md",
     "computer-science/terminal.md",
     "software/nix/learning-resources.md",
     "software/nix/realisation.md",
     "software/nix/sandboxing.md",
-    "software/nix/derivation.md",
-    "programming/languages/nix/builtin-functions/derivation.md",
     "programming/languages/nix/builtin-functions.md",
     "programming/languages/nix/builtin-functions",
     "programming/languages/nix/functions",
@@ -222,8 +224,6 @@
     "projects/titanfall-unity.md",
     "projects/atom-math.md",
     "projects/atom-logging.md",
-    "projects/atom-engine.md",
-    "programming/languages/cpp/default-constructor.md",
     "tasks",
     "computer-science/uuid/v1-diagram.svg",
     "operators",

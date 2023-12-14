@@ -22,11 +22,11 @@ There are also other custom derivation wrappers for specific languages, framewor
 
 For example,
 
-- [`buildGoModule`](https://nixos.org/manual/nixpkgs/stable/#sec-language-go) for [Go](https://go.dev)
+- [`buildGoModule`](https://nixos.org/manual/nixpkgs/stable/#sec-language-go) for [go language](programming/languages/go)
 
-- [`buildRustPackage`](https://nixos.org/manual/nixpkgs/stable/#rust) for [Rust](https://rust-lang.org)
+- [`buildRustPackage`](https://nixos.org/manual/nixpkgs/stable/#rust) for [rust language](programming/languages/rust)
 
-- [`buildPythonApplication`](https://nixos.org/manual/nixpkgs/stable/#python) for [Python](https://python.org)
+- [`buildPythonApplication`](https://nixos.org/manual/nixpkgs/stable/#python) for [python language](programming/languages/python)
 
 ## Related
 
