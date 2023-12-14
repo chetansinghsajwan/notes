@@ -1,5 +1,7 @@
 # `derivation` function
 
+It takes as input an attribute set, the attributes of which specify the inputs to the process. It outputs an attribute set, and produces a [store derivation](programming/tools/nix/store-derivation) as a side effect of evaluation.
+
 ## Parameters
 
 ---
@@ -12,7 +14,8 @@
 
 Name of the derivation.
 
-It is embedded into the store path of the corresponding store derivation 
+It is added to the store path of the corresponding store derivation 
+as well as to its [output paths](https://nixos.org/manual/nix/stable/glossary#gloss-output-path).
 
 > [!example]
 > 
@@ -38,9 +41,32 @@ The system type on which the [`builder`](#^param-builder) executable is meant to
 
 Path to an executable that will perform the build.
 
-> [!related]
+See [args](#^attr-args) to specify args passed to the builder executable and [builder-execution](#^builder-execution) to understand the environment in which the builder is executed.
+
+> [!example]
 > 
-> [args](#^param-args)
+> Use the file located at `/bin/bash` as the builder executable:
+> 
+> ```nix
+> derivation {
+>   # ...
+>   builder = "/bin/bash";
+>   # ...
+> };
+> ```
+
+> [!example]
+> 
+> Use a file from another derivation as the builder executable:
+> 
+> ```nix
+> let pkgs = import <nixpkgs> {}; in
+> derivation {
+>   # ...
+>   builder = "${pkgs.python}/bin/python";
+>   # ...
+> };
+> ```
 
 ---
 
@@ -48,8 +74,8 @@ Path to an executable that will perform the build.
 ^param-args
 
 **type:** [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
-**default:** `[]`
 **required:** no
+**default:** `[]`
 
 Command-line arguments to be passed to the [`builder`](#^param-builder) executable.
 
@@ -78,6 +104,9 @@ Command-line arguments to be passed to the [`builder`](#^param-builder) executab
 ---
 
 ## Builder Execution
+^builder-execution
+
+See [Builder execution](https://nixos.org/manual/nix/stable/language/derivations#builder-execution) in official docs.
 
 ## References
 

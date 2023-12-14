@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3642eabfbbe2e757",
+            "id": "7c03af8152848db9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/nix/builtin-functions/derivation.md",
+                "file": "programming/languages/nix/builtin-constants.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/nix/builtin-functions/derivation.md",
+                "file": "programming/languages/nix/builtin-constants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/nix/builtin-functions/derivation.md",
+                "file": "programming/languages/nix/builtin-constants.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/nix/builtin-functions/derivation.md"
+                "file": "programming/languages/nix/builtin-constants.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/nix/builtin-functions/derivation.md"
+                "file": "programming/languages/nix/builtin-constants.md"
               }
             }
           }
@@ -193,11 +193,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3642eabfbbe2e757",
+  "active": "7c03af8152848db9",
   "lastOpenFiles": [
+    "programming/languages/nix/builtin-functions/derivation.md",
+    "software/nix/store.md",
+    "software/nix/derivation.md",
+    "programming/languages/nix/resources.md",
+    "software/nix/channels.md",
     "programming/languages/nix/nix.md",
     "programming/languages/nix/builtin-constants.md",
-    "programming/languages/nix/builtin-functions/derivation.md",
     "programming/languages/nix/language-constructs/with-expressions.md",
     "programming/languages/nix/language-constructs/assertions.md",
     "programming/languages/nix/language-constructs/comments.md",
@@ -213,15 +217,11 @@
     "programming/languages/nix/data-types.md",
     "programming/languages/nix/data-types/list.md",
     "programming/languages/nix/data-types",
-    "software/nix/derivation.md",
     "programming/languages/nix/builtin-functions/^^param-builder.md",
     "computer-science/home-manager.md",
     "computer-science/terminal-emulator.md",
     "computer-science/shell.md",
     "computer-science/terminal.md",
-    "software/nix/learning-resources.md",
-    "software/nix/realisation.md",
-    "software/nix/sandboxing.md",
     "programming/languages/nix/builtin-functions",
     "programming/languages/nix/functions",
     "software/nix",
