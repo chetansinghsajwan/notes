@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee32e6554b2b786b",
+        "id": "363205f567622984",
         "type": "tabs",
         "children": [
           {
-            "id": "5e37010949218b43",
+            "id": "ea5c89dacdef3858",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/terminal.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9a0caac338e4a1d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/shell.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "bafa584ca188629d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/terminal-emulator.md",
+                "file": "computer-science/home-manager.md",
                 "mode": "source",
                 "source": true
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/terminal.md",
+                "file": "computer-science/home-manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/terminal.md",
+                "file": "computer-science/home-manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/terminal.md"
+                "file": "computer-science/home-manager.md"
               }
             }
           },
@@ -193,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "computer-science/terminal.md"
+                "file": "computer-science/home-manager.md"
               }
             }
           }
@@ -217,12 +193,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5e37010949218b43",
+  "active": "ea5c89dacdef3858",
   "lastOpenFiles": [
-    "computer-science/shell.md",
-    "computer-science/terminal.md",
-    "computer-science/Untitled.md",
     "computer-science/terminal-emulator.md",
+    "computer-science/shell.md",
+    "computer-science/home-manager.md",
+    "programming/languages/nix/nix.md",
+    "computer-science/terminal.md",
     "software/nix/learning-resources.md",
     "software/nix/realisation.md",
     "software/nix/sandboxing.md",
@@ -247,7 +224,6 @@
     "projects/atom-logging.md",
     "projects/atom-engine.md",
     "programming/languages/cpp/default-constructor.md",
-    "programming/languages/cpp/initialization.md",
     "tasks",
     "computer-science/uuid/v1-diagram.svg",
     "operators",
