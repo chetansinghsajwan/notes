@@ -6,7 +6,7 @@ Evaluate a group of commands while a condition is true.
 
 [[endwhile]] command is used to mark the end of the while loop.
 
-The commands [[break]] and [[continue]] provide means to escape from the normal control flow.
+The commands [[programming/languages/cmake/commands/break]] and [[continue]] provide means to escape from the normal control flow.
 
 ## Syntax
 

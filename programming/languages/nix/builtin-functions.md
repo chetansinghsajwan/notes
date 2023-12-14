@@ -18,11 +18,6 @@ For convenience, some built-ins can be accessed directly:
 > Return a string representing the type of the value e, namely "int", "bool", "string", "path", "null", "set", "list", "lambda" or "float".
 ^type-of
 
-> ##### `abort <msg>`
-> 
-> Abort Nix expression evaluation and print the error message `msg`.
-^abort
-
 > ##### `throw <msg>`
 > 
 > Throw an error message `msg`.
@@ -72,17 +67,17 @@ For convenience, some built-ins can be accessed directly:
 > Return the quotient of the numbers `<e1>` and `<e2>`.
 ^div
 
-> ##### `bitAn <e1> <e2>``
+> ##### `bitAnd <e1> <e2>``
 > 
 > Return the bitwise AND of the integers `<e1>` and `<e2>`.
 ^bit-and
 
-> ##### `bitO <e1> <e2>``
+> ##### `bitOr <e1> <e2>``
 > 
 > Return the bitwise OR of the integers `<e1>` and `<e2>`.
 ^bit-or
 
-> ##### `bitXo <e1> <e2>``
+> ##### `bitXor <e1> <e2>``
 > 
 > Return the bitwise XOR of the integers `<e1>` and `<e2>`.
 ^bit-xor
