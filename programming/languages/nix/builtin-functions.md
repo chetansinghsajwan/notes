@@ -6,10 +6,10 @@ All built-in functions are available through the global [`builtins`](builtin-con
 
 For convenience, some built-ins can be accessed directly:
 
-- [`derivation`](#^derivation)
-- [`import`](#^import)
-- [`abort`](#^abort)
-- [`throw`](#^throw)
+- [`derivation`](builtin-functions/derivation)
+- [`import`](builtin-functions/import)
+- [`abort`](builtin-functions/abort)
+- [`throw`](builtin-functions/throw)
 
 ### Core
 

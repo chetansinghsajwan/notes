@@ -18,7 +18,7 @@ Arithmetic Types contains:
 - Integer Types
 - Floating Point Type
 ### Integral Types
-[[bool]]
+[[programming/languages/cpp/types/fundamentals/bool]]
 [[chars]]
 [[ints]]
 ### Floating Point Types
