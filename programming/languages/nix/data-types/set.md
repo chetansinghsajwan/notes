@@ -20,3 +20,7 @@ An identifier must start with a letter (`a-z`, `A-Z`) or underscore (`_`), and c
 > [!related]
 > 
 > [attribute-selection](programming/languages/nix/operators/attribute-selection)
+
+> [!related]
+> 
+> [recursive-set](programming/languages/nix/language-constructs/recursive-set)

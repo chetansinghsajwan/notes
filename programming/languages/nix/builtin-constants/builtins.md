@@ -1,5 +1,4 @@
 # `builtins` constant
-^main
 
 **type:** [set](programming/languages/nix/data-types)
 
