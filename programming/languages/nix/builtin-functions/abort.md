@@ -4,8 +4,6 @@ category: core
 
 # `abort` function
 
-## Syntax
-
 ```
 abort <msg>
 ```

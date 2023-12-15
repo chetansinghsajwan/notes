@@ -64,7 +64,6 @@ See [args](#^attr-args) to specify args passed to the builder executable and [bu
 > Use a file from another derivation as the builder executable:
 > 
 > ```nix
-> let pkgs = import <nixpkgs> {}; in
 > derivation {
 >   # ...
 >   builder = "${pkgs.python}/bin/python";
@@ -99,11 +98,11 @@ Command-line arguments to be passed to the [`builder`](#^param-builder) executab
 ---
 
 #### `outputs`
-^param-outputs
+^attr-outputs
 
-**type:** [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
-**required**: no
-**default**: `[ "out" ]`
+- **type:** [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
+- **required**: no
+- **default**: `[ "out" ]`
 
 ---
 

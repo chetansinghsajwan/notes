@@ -2,12 +2,10 @@
 
 These constants are built into the Nix language evaluator.
 
-> [!todo]
-> 
-> Fix this query. List all items in 'builtin-constants/' folder.
+## List of builtin-constants
 
 ```dataview
-LIST FROM "programming/languages/nix/builtin-constants/"
+LIST WHERE contains(file.folder, "builtin-constants")
 ```
 
 ## References

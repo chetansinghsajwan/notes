@@ -1,4 +1,4 @@
-# `currentTime`
+# `currentTime` constant
 
 **type:** [integer](programming/languages/nix/data-types/integer)
 
