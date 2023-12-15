@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/nix/operators/attribute-selection.md",
+                "file": "programming/languages/nix/operators.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "66a4c15e75643662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/languages/nix/operators/attribute-selection.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,8 +206,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26b6346dbe20d1f4",
+  "active": "66a4c15e75643662",
   "lastOpenFiles": [
+    "programming/languages/nix/operators.md",
+    "programming/languages/nix/operators/attribute-selection.md",
     "programming/languages/nix/operators/logical-implication.md",
     "programming/languages/nix/operators/logical-disjunction.md",
     "programming/languages/nix/operators/logical-conjuction.md",
@@ -219,8 +234,6 @@
     "programming/languages/nix/operators/arithmetic-negation.md",
     "programming/languages/nix/operators/function-application.md",
     "programming/languages/nix/builtin-constants.md",
-    "programming/languages/nix/builtin-functions.md",
-    "programming/languages/nix/data-types.md",
     "programming/languages/nix/data-types",
     "programming/languages/nix/builtin-constants",
     "programming/languages/nix/data-types",
