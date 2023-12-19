@@ -41,4 +41,4 @@ bracket_comment ::=  '#' bracket_argument
 
 ## References
 
-> https://cmake.org/cmake/help/latest/manual/cmake-language.7.html#id24
+- https://cmake.org/cmake/help/latest/manual/cmake-language.7.html#id24

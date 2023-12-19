@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/nix/operators/update.md",
+                "file": "programming/languages/cmake/cmake.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/nix/operators/update.md",
+                "file": "programming/languages/cmake/cmake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/nix/operators/update.md",
+                "file": "programming/languages/cmake/cmake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/nix/operators/update.md"
+                "file": "programming/languages/cmake/cmake.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/nix/operators/update.md"
+                "file": "programming/languages/cmake/cmake.md"
               }
             }
           }
@@ -195,6 +195,15 @@
   },
   "active": "29fce3f38ad6d958",
   "lastOpenFiles": [
+    "programming/languages/cmake/condition-expressions.md",
+    "programming/languages/cmake/variables.md",
+    "programming/languages/cmake/policies.md",
+    "programming/languages/cmake/comments.md",
+    "programming/languages/cmake/cmake.md",
+    "programming/languages/nix/operators/attribute-selection.md",
+    "programming/languages/nix/operators/arithmetic-negation.md",
+    "programming/languages/nix/operators/addition.md",
+    "programming/languages/nix/operators/update.md",
     "programming/languages/nix/operators/subtraction.md",
     "programming/languages/nix/operators/string-path-concatenation.md",
     "programming/languages/nix/operators/string-concatenation.md",
@@ -208,19 +217,10 @@
     "programming/languages/nix/operators/less-than.md",
     "programming/languages/nix/operators/less-than-or-equal-to.md",
     "programming/languages/nix/operators/list-concatenation.md",
-    "programming/languages/nix/operators/arithmetic-negation.md",
-    "programming/languages/nix/operators/addition.md",
-    "programming/languages/nix/operators/attribute-selection.md",
     "programming/languages/nix/operators/division.md",
     "programming/languages/nix/operators/equality.md",
     "programming/languages/nix/operators/function-application.md",
     "programming/languages/nix/operators/greater-than.md",
-    "programming/languages/nix/operators/greater-than-or-equal-to.md",
-    "programming/languages/nix/operators/has-attribute.md",
-    "programming/languages/nix/operators/inequality.md",
-    "programming/languages/nix/operators/update.md",
-    "programming/languages/nix/operators.md",
-    "programming/languages/nix/language-constructs/recursive-sets.md",
     "programming/languages/nix/Untitled",
     "wallpapers",
     "programming/languages/nix/data-types",
