@@ -1,6 +1,6 @@
 # `update` operator
 
-syntax:: `<set1> || <set2>`
+syntax:: `<set1> // <set2>`
 associativity:: right
 precedence:: 9
 

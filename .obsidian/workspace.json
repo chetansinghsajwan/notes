@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e667ea05fd986b2b",
+        "id": "7769e7c4c46ffe72",
         "type": "tabs",
         "children": [
           {
-            "id": "f8a0575698edff7c",
+            "id": "29fce3f38ad6d958",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/nix/operators.md",
-                "mode": "preview",
-                "source": true
+                "file": "programming/languages/nix/operators/update.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/nix/operators.md",
+                "file": "programming/languages/nix/operators/update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/nix/operators.md",
+                "file": "programming/languages/nix/operators/update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/nix/operators.md"
+                "file": "programming/languages/nix/operators/update.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/nix/operators.md"
+                "file": "programming/languages/nix/operators/update.md"
               }
             }
           }
@@ -193,35 +193,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8a0575698edff7c",
+  "active": "29fce3f38ad6d958",
   "lastOpenFiles": [
-    "programming/languages/nix/operators/update.md",
-    "programming/languages/nix/operators/logical-negation.md",
+    "programming/languages/nix/operators/subtraction.md",
     "programming/languages/nix/operators/string-path-concatenation.md",
+    "programming/languages/nix/operators/string-concatenation.md",
     "programming/languages/nix/operators/path-string-concatenation.md",
     "programming/languages/nix/operators/path-concatenation.md",
+    "programming/languages/nix/operators/multiplication.md",
+    "programming/languages/nix/operators/logical-negation.md",
+    "programming/languages/nix/operators/logical-implication.md",
+    "programming/languages/nix/operators/logical-disjunction.md",
+    "programming/languages/nix/operators/logical-conjuction.md",
+    "programming/languages/nix/operators/less-than.md",
+    "programming/languages/nix/operators/less-than-or-equal-to.md",
+    "programming/languages/nix/operators/list-concatenation.md",
+    "programming/languages/nix/operators/arithmetic-negation.md",
     "programming/languages/nix/operators/addition.md",
-    "programming/languages/nix/operators/string-concatenation.md",
+    "programming/languages/nix/operators/attribute-selection.md",
+    "programming/languages/nix/operators/division.md",
+    "programming/languages/nix/operators/equality.md",
+    "programming/languages/nix/operators/function-application.md",
+    "programming/languages/nix/operators/greater-than.md",
+    "programming/languages/nix/operators/greater-than-or-equal-to.md",
+    "programming/languages/nix/operators/has-attribute.md",
+    "programming/languages/nix/operators/inequality.md",
+    "programming/languages/nix/operators/update.md",
+    "programming/languages/nix/operators.md",
     "programming/languages/nix/language-constructs/recursive-sets.md",
-    "programming/languages/nix/language-constructs/lookup-paths.md",
-    "programming/languages/nix/language-constructs/let-expressions.md",
-    "programming/languages/nix/language-constructs/string-interpolation.md",
-    "programming/languages/nix/data-types/set.md",
-    "programming/languages/nix/language-constructs/with-expressions.md",
-    "programming/languages/nix/builtin-functions/find-file.md",
-    "programming/languages/nix/language-constructs/inheriting-attributes.md",
-    "programming/languages/nix/language-constructs/functions.md",
-    "programming/languages/nix/language-constructs/conditionals.md",
-    "programming/languages/nix/language-constructs/comments.md",
-    "programming/languages/nix/language-constructs/assertions.md",
-    "programming/languages/nix/language-constructs/function.md",
-    "programming/languages/nix/builtin-functions/any.md",
     "programming/languages/nix/Untitled",
-    "programming/languages/nix/builtin-functions/bit-and.md",
-    "programming/languages/nix/builtin-functions/bit-or.md",
-    "programming/languages/nix/builtin-functions/bit-xor.md",
-    "programming/languages/nix/builtin-functions/floor.md",
-    "programming/languages/nix/builtin-functions/div.md",
     "wallpapers",
     "programming/languages/nix/data-types",
     "programming/languages/nix/builtin-constants",
