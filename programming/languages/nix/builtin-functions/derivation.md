@@ -11,10 +11,10 @@ It takes as input an attribute set, the attributes of which specify the inputs t
 ---
 
 #### `name`
-^param-name
+^attr-name
 
-**type:** [`string`](programming/languages/nix/data-types/string)
-**required:** yes
+- type: [`string`](programming/languages/nix/data-types/string)
+- required: yes
 
 Name of the derivation.
 
@@ -28,20 +28,20 @@ as well as to its [output paths](https://nixos.org/manual/nix/stable/glossary#gl
 ---
 
 #### `system`
-^param-system
+^attr-system
 
-**type:** [`string`](programming/languages/nix/data-types/string)
-**required:** yes
+- type: [`string`](programming/languages/nix/data-types/string)
+- required: yes
 
 The system type on which the [`builder`](#^param-builder) executable is meant to be run.
 
 ---
 
 #### `builder`
-^param-builder
+^attr-builder
 
-**type:** [`path`](programming/languages/nix/data-types/path) or [`string`](programming/languages/nix/data-types/string)
-**required:** yes
+- type: [`path`](programming/languages/nix/data-types/path) or [`string`](programming/languages/nix/data-types/string)
+- required: yes
 
 Path to an executable that will perform the build.
 
@@ -74,11 +74,11 @@ See [args](#^attr-args) to specify args passed to the builder executable and [bu
 ---
 
 #### `args`
-^param-args
+^attr-args
 
-**type:** [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
-**required:** no
-**default:** `[]`
+- type: [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
+- required: no
+- default: `[]`
 
 Command-line arguments to be passed to the [`builder`](#^param-builder) executable.
 
@@ -100,17 +100,17 @@ Command-line arguments to be passed to the [`builder`](#^param-builder) executab
 #### `outputs`
 ^attr-outputs
 
-- **type:** [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
-- **required**: no
-- **default**: `[ "out" ]`
+- type: [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
+- required* no
+- default: `[ "out" ]`
 
 ---
 
 ## Builder Execution
 ^builder-execution
 
-See [Builder execution](https://nixos.org/manual/nix/stable/language/derivations#builder-execution) in official docs.
+See [builder execution](https://nixos.org/manual/nix/stable/language/derivations#builder-execution) in official docs.
 
 ## References
 
-> https://nixos.org/manual/nix/stable/language/derivations
+- https://nixos.org/manual/nix/stable/language/derivations

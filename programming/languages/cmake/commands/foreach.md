@@ -14,13 +14,13 @@ foreach(<loop_var> <items>)
 
 ### Parameters
 
-> ##### `<loop_var>`
-> 
-> Value holding current iteration value.
+- `<loop_var>`
+  
+  Value holding current iteration value.
 
-> ##### `<items>`
-> 
-> Whitespace or semicolon separated list of items.
+- `<items>`
+  
+  Whitespace or semicolon separated list of items.
 
 ## Variant 2
 
@@ -60,13 +60,19 @@ foreach(<loop_var> RANGE <start> <stop> [<step>])
 > 
 > This should be a non negative value.
 
-> ##### `<step>` #optional 
-> 
-> The amount of step between iterations.
-> 
-> By default it is 1.
-> 
-> This should be a non negative value.
+--- 
+
+##### `<step>`
+  
+**required**: no
+
+The amount of step between iterations.
+
+By default it is 1.
+
+This should be a non negative value.
+
+--- 
 
 ## Variant 4
 
