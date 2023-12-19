@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/languages/nix/language-constructs/recursive-sets.md",
+                "file": "programming/languages/nix/operators.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/languages/nix/language-constructs/recursive-sets.md",
+                "file": "programming/languages/nix/operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/languages/nix/language-constructs/recursive-sets.md",
+                "file": "programming/languages/nix/operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/languages/nix/language-constructs/recursive-sets.md"
+                "file": "programming/languages/nix/operators.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/languages/nix/language-constructs/recursive-sets.md"
+                "file": "programming/languages/nix/operators.md"
               }
             }
           }
@@ -195,11 +195,18 @@
   },
   "active": "f8a0575698edff7c",
   "lastOpenFiles": [
+    "programming/languages/nix/operators/update.md",
+    "programming/languages/nix/operators/logical-negation.md",
+    "programming/languages/nix/operators/string-path-concatenation.md",
+    "programming/languages/nix/operators/path-string-concatenation.md",
+    "programming/languages/nix/operators/path-concatenation.md",
+    "programming/languages/nix/operators/addition.md",
+    "programming/languages/nix/operators/string-concatenation.md",
+    "programming/languages/nix/language-constructs/recursive-sets.md",
     "programming/languages/nix/language-constructs/lookup-paths.md",
     "programming/languages/nix/language-constructs/let-expressions.md",
     "programming/languages/nix/language-constructs/string-interpolation.md",
     "programming/languages/nix/data-types/set.md",
-    "programming/languages/nix/language-constructs/recursive-sets.md",
     "programming/languages/nix/language-constructs/with-expressions.md",
     "programming/languages/nix/builtin-functions/find-file.md",
     "programming/languages/nix/language-constructs/inheriting-attributes.md",
@@ -208,7 +215,6 @@
     "programming/languages/nix/language-constructs/comments.md",
     "programming/languages/nix/language-constructs/assertions.md",
     "programming/languages/nix/language-constructs/function.md",
-    "programming/languages/nix/operators/addition.md",
     "programming/languages/nix/builtin-functions/any.md",
     "programming/languages/nix/Untitled",
     "programming/languages/nix/builtin-functions/bit-and.md",
@@ -216,12 +222,6 @@
     "programming/languages/nix/builtin-functions/bit-xor.md",
     "programming/languages/nix/builtin-functions/floor.md",
     "programming/languages/nix/builtin-functions/div.md",
-    "programming/languages/nix/builtin-functions/derivation.md",
-    "programming/languages/cmake/commands/cmake_minimum_required.md",
-    "programming/languages/cmake/commands/break.md",
-    "programming/languages/cmake/commands/cmake_path.md",
-    "programming/languages/cmake/commands/else.md",
-    "programming/languages/cmake/commands/if.md",
     "wallpapers",
     "programming/languages/nix/data-types",
     "programming/languages/nix/builtin-constants",
