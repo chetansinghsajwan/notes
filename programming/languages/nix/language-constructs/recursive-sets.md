@@ -1,13 +1,10 @@
 # Recursive Sets
-^main
 
 Recursive sets are like normal [attribute sets](programming/languages/nix/data-types), but the attributes can refer to each other.
 
-> [!syntax]
-> 
-> ```
-> <rec-attrset> =  rec { [ <name> = <expr>; ]... }
-> ```
+```
+<rec-attrset> =  rec { [ <name> = <expr>; ]... }
+```
 
 > [!example]
 > 
@@ -35,6 +32,5 @@ Recursive sets are like normal [attribute sets](programming/languages/nix/data-t
 > 
 
 ## References
-^references
 
-> https://nixos.org/manual/nix/stable/language/constructs#recursive-sets
+- https://nixos.org/manual/nix/stable/language/constructs#recursive-sets

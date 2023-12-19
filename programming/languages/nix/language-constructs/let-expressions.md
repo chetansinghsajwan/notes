@@ -1,13 +1,10 @@
 # Let Expressions
-^main
 
 A let-expression allows you to define local variables for an expression.
 
-> [!syntax]
-> 
-> ```nix
-> <let-in> = let [ <identifier> = <expr> ]... in <expr>
-> ```
+```
+<let-in> = let [ <identifier> = <expr> ]... in <expr>
+```
 
 > [!example]
 > 
@@ -21,6 +18,5 @@ A let-expression allows you to define local variables for an expression.
 > This evaluates to `"foobar"`.
 
 ## References
-^references
 
-> https://nixos.org/manual/nix/stable/language/constructs#let-expressions
+- https://nixos.org/manual/nix/stable/language/constructs#let-expressions

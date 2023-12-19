@@ -5,4 +5,4 @@ inline/multi-line, enclosed within `/* ... */`.
 
 ## References
 
-> https://nixos.org/manual/nix/stable/language/constructs#comments
+- https://nixos.org/manual/nix/stable/language/constructs#comments

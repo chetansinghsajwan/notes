@@ -1,13 +1,10 @@
-# Functions
-^main
+# Function
 
-Functions have the following form:
+A function has the following form:
 
-> [!syntax]
-> 
-> ```nix
-> pattern: body
-> ```
+```
+pattern: body
+```
 
 The pattern specifies what the argument of the function must look like, and binds variables in the body to (parts of) the argument.
 
@@ -71,6 +68,5 @@ There are three kinds of patterns:
 
 
 ## References
-^references
 
-> https://nixos.org/manual/nix/stable/language/constructs#functions
+- https://nixos.org/manual/nix/stable/language/constructs#functions
