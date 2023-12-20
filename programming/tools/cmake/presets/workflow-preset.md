@@ -16,12 +16,12 @@
     
     - CMake does not interpret the contents of this field except to verify that it is a map  
         if it does exist.
-    - More on [[vendor-maps]].
+    - More on [[vendor-map]].
     
     A map containing vendor-specific information.
     
     - CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-    - More on [[vendor-maps]].
+    - More on [[vendor-map]].
     
 5. `steps` **(required)**
     

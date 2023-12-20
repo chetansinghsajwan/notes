@@ -1,23 +1,40 @@
-1. **`name`** **(required) :** **`string`**
+# Configure Preset
+
+1. **`name`**
+    
+    - type: [`string`]()
+    - required: yes
     
     Unique name to identify this preset among other configure presets.
     
-2. **`displayName`** **:** **`string`**
+2. **`displayName`**
+    
+    - type: [`string`]()
+    - required: no
     
     A human-friendly name of the preset.
     
-3. **`description`** **:** **`string`**
+3. **`description`**
+    
+    - type: [`string`]()
+    - required: no
     
     A human-friendly description of the preset.
     
-4. **`hidden`** **:** **`bool`**
+4. **`hidden`**
+    
+    - type: [`bool`]()
+    - required: no
     
     A boolean specifying whether or not this preset should be hidden.
     
     - If the preset is hidden, it cannot be used in the [[CMake Options]] argument.
     - `hidden` presets are intended to be used as a base for other presets to inherit via the `inherits` field.
     
-5. **`inherits`** **:** **`string | [string]`**
+5. **`inherits`**
+    
+    - type: [`string`]() | [`[string]`]()
+    - required: no
     
     Name of preset or names of presets to inherit from.
     
@@ -26,42 +43,66 @@
     - A preset can only inherit from another preset that is defined in the same file or in one of the files it includes (directly or indirectly).
     - Presets in `CMakePresets.json` may not inherit from presets in `CMakeUserPresets.json`.
     
-6. **`condition`** **:** `**Condition**`
+6. **`condition`**
+    
+    - type: [`object`]() of [condition]()
     
     A [[programming/tools/cmake/presets/condition]] object to determine if the preset should be enabled.
     
     - This is allowed in preset files specifying version `3` or above.
     
-7. **`vendor`** **:** **`VendorMap`**
+7. **`vendor`**
+    
+    - type: [`object`]() of [[vendor-map]]
+    - required: no
     
     A map containing vendor-specific information.
     
     - CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-    - More on [[vendor-maps]].
+    - More on [[vendor-map]].
     
-8. **`generator`** **(required | optional) :** `**string**`
+8. **`generator`**
+    
+    - type: [`string`]()
+    - required: yes | no
     
     Generator to use for the preset.
     
     - It is required in version `2` or below. If `generator` is not specified, it must be inherited from the`inherits` preset (unless this preset is `hidden`).
+    
     - In version `3`or above, this field may be omitted to fall back to regular generator discovery procedure.
-9. **`architecture`****,** **`toolset`**
+    
+1. **`architecture`**, **`toolset`**
     
     Optional fields representing the platform and toolset, respectively, for [`**generators**`](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#manual:cmake-generators(7)) that support them.  
     See [`**cmake -A**`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-A) option for possible values for `architecture` and [`**cmake -T**`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-T) for `toolset`.  
-    Each may be either a string or an object with the following fields:`value`An optional string representing the value.`strategy`An optional string telling CMake how to handle the `architecture` or `toolset` field. Valid values are:`"set"`Set the respective value. This will result in an error for generators that do not support the respective field.`"external"`Do not set the value, even if the generator supports it. This is useful if, for example, a preset uses the Ninja generator, and an IDE knows how to set up the Visual C++ environment from the `architecture` and `toolset` fields. In that case, CMake will ignore the field, but the IDE can use them to set up the environment before invoking CMake.  
+    
+    Each may be either a string or an object with the following fields:`value`An optional string representing the value.`strategy`An optional string telling CMake how to handle the `architecture` or `toolset` field.
+    
+    Valid values are:
+    
+    - `"set"`Set the respective value. This will result in an error for generators that do not support the respective field.
+    
+    - `"external"`Do not set the value, even if the generator supports it. This is useful if, for example, a preset uses the Ninja generator, and an IDE knows how to set up the Visual C++ environment from the `architecture` and `toolset` fields. In that case, CMake will ignore the field, but the IDE can use them to set up the environment before invoking CMake.  
+    
     If no `strategy` field is given, or if the field uses the string form rather than the object form, the behavior is the same as `"set"`.
     
-10. **`toolchainFile`** **:** **`string`**
+10. **`toolchainFile`**
+    
+    - type: [`string`]()
+    - reqired: no
     
     Path to the toolchain file.
     
-    - If a relative path is specified, it is calculated relative to the build directory, and if not found,  
-        relative to the source directory.
+    - If a relative path is specified, it is calculated relative to the build directory, and if not found, relative to the source directory.
     - This field takes precedence over any [[CMake Variables]] value.
     - This field supports [[macro-expansion]].
     - It is allowed in preset files specifying version `3` or above.
-11. **`binaryDir`** **(required | optional) :** **`string`**
+
+11. **`binaryDir`**
+    
+    - type: [`string`]()
+    - required: yes | no
     
     Path to the output binary directory.
     
@@ -69,13 +110,20 @@
     - It is required in version `2` or below. If `binaryDir` is not specified, it must be inherited from the `inherits` preset (unless this preset is `hidden`).
     - This field supports [[macro-expansion]].
     - In version `3` or above, this field may be omitted.
-12. **`cmakeExecutable`** **:** **`string`**
+
+12. **`cmakeExecutable`**
+    
+    - type: [`string`]()
+    - required: no
     
     Path to the CMake executable to use for this preset.
     
     - This is reserved for use by IDEs, and is not used by CMake itself.
     - IDEs that use this field should expand any macros in it.
-13. **`cacheVariables`** **:** `**[string: (null | bool | object)]**`
+
+13. **`cacheVariables`**
+    
+    - type: `[string: (null | bool | object)]`
     
     A map of cache variables.
     
@@ -203,3 +251,7 @@
     - `redirect`
         
         An optional string specifying a path to a trace output file. Equivalent to passing [`--trace-redirect`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-redirect) on the command line.
+
+## References
+
+- https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html#id6

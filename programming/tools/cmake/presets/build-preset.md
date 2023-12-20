@@ -30,7 +30,7 @@
 
 > ##### `vendor` (`map`) #optional 
 > 
-> A map of type [[vendor-maps]].
+> A map of type [[vendor-map]].
  
 > ##### `displayName` (`string`) #optional 
 > 
