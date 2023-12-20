@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/cmake/presets/preset-format.md",
+                "file": "programming/concepts/target-triplet.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/cmake/presets/preset-format.md",
+                "file": "programming/concepts/target-triplet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/cmake/presets/preset-format.md",
+                "file": "programming/concepts/target-triplet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/cmake/presets/preset-format.md"
+                "file": "programming/concepts/target-triplet.md"
               }
             }
           },
@@ -181,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/cmake/presets/preset-format.md"
+                "file": "programming/concepts/target-triplet.md"
               }
             }
           }
@@ -205,11 +205,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ba780486276f73c",
+  "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
+    "programming/tools/cmake/presets/preset-format.md",
+    "programming/concepts/target-triplet.md",
     "programming/tools/cmake/presets/vendor-map.md",
     "programming/tools/cmake/presets/configure-preset.md",
-    "programming/tools/cmake/presets/preset-format.md",
     "programming/tools/cmake/presets/preset-include.md",
     "programming/tools/cmake/presets/().md",
     "programming/tools/cmake/presets/presets.md",
@@ -232,7 +233,6 @@
     "programming/languages/nix/operators/path-string-concatenation.md",
     "programming/languages/nix/operators/path-concatenation.md",
     "programming/languages/nix/operators/multiplication.md",
-    "programming/languages/nix/operators/logical-negation.md",
     "programming/languages/nix/Untitled",
     "wallpapers",
     "programming/languages/nix/data-types",
