@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "indentation"
   ],
   "cssTheme": "Lemons Theme",
-  "baseFontSize": 16
+  "baseFontSize": 17
 }

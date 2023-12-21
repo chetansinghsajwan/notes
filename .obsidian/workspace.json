@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7769e7c4c46ffe72",
+        "id": "8b37c4b8a605174a",
         "type": "tabs",
         "children": [
           {
-            "id": "3ba780486276f73c",
+            "id": "09ceb98be608b185",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/concepts/target-triplet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0999b60362ea324",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/tools/cmake/presets/vendor-map.md",
+                "file": "programming/tools/cmake/presets/package-preset.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/concepts/target-triplet.md",
+                "file": "programming/tools/cmake/presets/package-preset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/concepts/target-triplet.md",
+                "file": "programming/tools/cmake/presets/package-preset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/concepts/target-triplet.md"
+                "file": "programming/tools/cmake/presets/package-preset.md"
               }
             }
           },
@@ -181,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/concepts/target-triplet.md"
+                "file": "programming/tools/cmake/presets/package-preset.md"
               }
             }
           }
@@ -205,17 +193,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "09ceb98be608b185",
   "lastOpenFiles": [
-    "programming/tools/cmake/presets/preset-format.md",
-    "programming/concepts/target-triplet.md",
-    "programming/tools/cmake/presets/vendor-map.md",
+    "programming/tools/cmake/presets/test-preset.md",
+    "programming/tools/cmake/presets/package-preset.md",
+    "programming/tools/cmake/presets/build-preset.md",
     "programming/tools/cmake/presets/configure-preset.md",
+    "programming/tools/cmake/presets/workflow-preset.md",
+    "programming/tools/cmake/presets/workflow-preset-format.md",
+    "programming/tools/cmake/presets/preset-hiding.md",
+    "programming/tools/cmake/presets/preset-format.md",
+    "programming/tools/cmake/presets/test-preset-format.md",
+    "programming/tools/cmake/presets/configure-preset-format.md",
+    "programming/tools/cmake/presets/build-preset-format.md",
+    "programming/tools/cmake/presets/vendor-map.md",
+    "programming/concepts/target-triplet.md",
     "programming/tools/cmake/presets/preset-include.md",
     "programming/tools/cmake/presets/().md",
     "programming/tools/cmake/presets/presets.md",
     "programming/tools/cmake/presets/example.md",
-    "programming/tools/cmake/presets/preset-hiding.md",
     "programming/tools/cmake/presets/preset-inheritance.md",
     "programming/languages/cmake/cmake.md",
     "tasks.md",
@@ -225,14 +221,6 @@
     "programming/languages/cmake/comments.md",
     "programming/languages/nix/operators/attribute-selection.md",
     "programming/languages/nix/operators/arithmetic-negation.md",
-    "programming/languages/nix/operators/addition.md",
-    "programming/languages/nix/operators/update.md",
-    "programming/languages/nix/operators/subtraction.md",
-    "programming/languages/nix/operators/string-path-concatenation.md",
-    "programming/languages/nix/operators/string-concatenation.md",
-    "programming/languages/nix/operators/path-string-concatenation.md",
-    "programming/languages/nix/operators/path-concatenation.md",
-    "programming/languages/nix/operators/multiplication.md",
     "programming/languages/nix/Untitled",
     "wallpapers",
     "programming/languages/nix/data-types",

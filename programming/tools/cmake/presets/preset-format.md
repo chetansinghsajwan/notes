@@ -57,7 +57,7 @@ The files are a json document with an object as the root. The root object contai
     - required: no
     - since: version 1
     
-    An array of [[configure-preset]] objects.  
+    An array of [[configure-preset-format]] objects.  
 
 6. `buildPresets`
     
@@ -65,7 +65,7 @@ The files are a json document with an object as the root. The root object contai
     - required: no
     - since: version 2
     
-    An array of [[build-preset]] objects.
+    An array of [[build-preset-format]] objects.
 
 7. `testPresets`
     
@@ -73,7 +73,7 @@ The files are a json document with an object as the root. The root object contai
     - required: no
     - since: version 2
     
-    An array of [[test-preset]] objects.
+    An array of [[test-preset-format]] objects.
 
 8. `packagePresets`
     
@@ -81,7 +81,7 @@ The files are a json document with an object as the root. The root object contai
     - required: no
     - since: version 6
     
-    An array of [[package-preset]] objects.
+    An array of [[package-preset-format]] objects.
 
 9. `workflowPresets`
     
@@ -89,7 +89,7 @@ The files are a json document with an object as the root. The root object contai
     - required: no
     - since: version 6
     
-    An array of [[workflow-preset]] objects.
+    An array of [[workflow-preset-format]] objects.
 
 ## References
 

@@ -1,0 +1,139 @@
+# Test Preset Format
+
+1. `name`
+    
+    Unique name among test presets..
+    
+2. `hidden`
+    
+    A boolean specifying whether or not a preset should be hidden. If a preset is hidden, it cannot be used in the [`--preset`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-preset) argument and does not have to have a valid `configurePreset`, even from inheritance. `hidden` presets are intended to be used as a base for  
+    other presets to inherit via the `inherits` field.
+    
+3. `inherits`
+    
+    An array of strings representing the names of presets to inherit from. This field can also be a string, which is equivalent to an array containing one string. The preset will inherit all of the fields from the `inherits` presets by default (except `name`, `hidden`, `inherits`, `description`, and `displayName`), but can override them as desired. If multiple `inherits` presets provide conflicting values for the same field, the earlier preset in the `inherits` array  
+    will be preferred. A preset can only inherit from another preset that is defined in the  
+    same file or in one of the files it includes (directly or indirectly).  
+    Presets in `CMakePresets.json` may not inherit from presets in  
+    `CMakeUserPresets.json`.
+    
+4. `condition`
+    
+    A [Condition](https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html#condition) object. This is allowed in preset files specifying version `3` or above.
+    
+5. `vendor`An optional map containing vendor-specific information. CMake does not  
+    interpret the contents of this field except to verify that it is a map  
+    if it does exist. However, it should follow the same conventions as the  
+    root-level `vendor` field. If vendors use their own per-preset  
+    `vendor` field, they should implement inheritance in a sensible manner  
+    when appropriate.
+6. `displayName`An optional string with a human-friendly name of the preset.
+7. `description`An optional string with a human-friendly description of the preset.
+8. `environment`An optional map of environment variables. The key is the variable name  
+    (which may not be an empty string), and the value is either `null` or  
+    a string representing the value of the variable. Each variable is set  
+    regardless of whether or not a value was given to it by the process's  
+    environment. This field supports macro expansion, and environment  
+    variables in this map may reference each other, and may be listed in any  
+    order, as long as such references do not cause a cycle (for example, if  
+    `ENV_1` is `$env{ENV_2}`, `ENV_2` may not be `$env{ENV_1}`.)  
+    Environment variables are inherited through the `inherits` field, and  
+    the preset's environment will be the union of its own `environment`  
+    and the `environment` from all its parents. If multiple presets in  
+    this union define the same variable, the standard rules of `inherits`  
+    are applied. Setting a variable to `null` causes it to not be set,  
+    even if a value was inherited from another preset.
+9. `configurePreset`An optional string specifying the name of a configure preset to  
+    associate with this test preset. If `configurePreset` is not  
+    specified, it must be inherited from the inherits preset (unless this  
+    preset is hidden). The build directory is inferred from the configure  
+    preset, so tests will run in the same `binaryDir` that the  
+    configuration did and build did.
+10. `inheritConfigureEnvironment`An optional boolean that defaults to true. If true, the environment  
+    variables from the associated configure preset are inherited after all  
+    inherited test preset environments, but before environment variables  
+    explicitly specified in this test preset.
+11. `configuration`An optional string. Equivalent to passing  
+    [`--build-config`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-C) on the command line.
+12. `overwriteConfigurationFile`An optional array of configuration options to overwrite options  
+    specified in the CTest configuration file. Equivalent to passing  
+    [`--overwrite`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-overwrite) for each value in the array.  
+    The array values support macro expansion.
+13. `output`An optional object specifying output options. The object may contain the  
+    following fields.`shortProgress`An optional bool. If true, equivalent to passing  
+    [`--progress`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-progress) on the command line.`verbosity`An optional string specifying verbosity level. Must be one of the  
+    following:`default`Equivalent to passing no verbosity flags on the command line.`verbose`Equivalent to passing [`--verbose`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-V) on  
+    the command line.`extra`Equivalent to passing [`--extra-verbose`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-VV)  
+    on the command line.`debug`An optional bool. If true, equivalent to passing  
+    [`--debug`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-debug) on the command line.
+14. `outputOnFailure`An optional bool. If true, equivalent to passing  
+    [`--output-on-failure`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-output-on-failure) on the command  
+    line.`quiet`An optional bool. If true, equivalent to passing  
+    [`--quiet`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-Q) on the command line.
+15. `outputLogFile`An optional string specifying a path to a log file. Equivalent to  
+    passing [`--output-log`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-O) on the command line.  
+    This field supports macro expansion.
+16. `outputJUnitFile`An optional string specifying a path to a JUnit file. Equivalent to  
+    passing [`--output-junit`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-output-junit) on the command line.  
+    This field supports macro expansion. This is allowed in preset files  
+    specifying version `6` or above.
+17. `labelSummary`An optional bool. If false, equivalent to passing  
+    [`--no-label-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-label-summary) on the command  
+    line.`subprojectSummary`An optional bool. If false, equivalent to passing  
+    [`--no-subproject-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-subproject-summary)  
+    on the command line.
+18. `maxPassedTestOutputSize`An optional integer specifying the maximum output for passed tests in bytes. Equivalent to passing [`--test-output-size-passed`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-size-passed) on the command line.
+19. `maxFailedTestOutputSize`An optional integer specifying the maximum output for failed tests in  
+    bytes. Equivalent to passing [`--test-output-size-failed`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-size-failed) on the command line.
+20. `testOutputTruncation`An optional string specifying the test output truncation mode. Equivalent  
+    to passing [`--test-output-truncation`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-truncation) on the command line. This is allowed in preset files specifying version `5` or above.
+21. `maxTestNameWidth`An optional integer specifying the maximum width of a test name to  
+    output. Equivalent to passing [`--max-width`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-max-width) on the command line.
+22. `filter`An optional object specifying how to filter the tests to run. The object may contain the following fields.
+23. `include`An optional object specifying which tests to include. The object may  
+    contain the following fields.
+24. `name`An optional string specifying a regex for test names. Equivalent to  
+    passing [`--tests-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-R) on the command line. This field supports macro expansion. CMake regex syntax is described under [string(REGEX)](https://cmake.org/cmake/help/latest/command/string.html#regex-specification).
+25. `label`An optional string specifying a regex for test labels. Equivalent to passing [`--label-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-L) on the command line. This field supports macro expansion.
+26. `useUnion`An optional bool. Equivalent to passing [`--union`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-U) on the command line.
+27. `index`An optional object specifying tests to include by test index. The object may contain the following fields. Can also be an optional string specifying a file with the command line syntax for [`--tests-information`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-I). If specified as a string, this field supports macro expansion.
+28. `start`An optional integer specifying a test index to start testing at.
+29. `end`An optional integer specifying a test index to stop testing at.
+30. `stride`An optional integer specifying the increment.
+31. `specificTests`An optional array of integers specifying specific test indices to  
+    run.
+32. `exclude`An optional object specifying which tests to exclude. The object may  
+    contain the following fields.
+33. `name`An optional string specifying a regex for test names. Equivalent to passing [`--exclude-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-E) on the command line. This field supports macro expansion.
+34. `label`An optional string specifying a regex for test labels. Equivalent to passing [`--label-exclude`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-LE) on the command line. This field supports macro expansion.
+35. `fixtures`An optional object specifying which fixtures to exclude from adding tests. The object may contain the following fields.
+36. `any`An optional string specifying a regex for text fixtures to exclude from adding any tests. Equivalent to [`--fixture-exclude-any`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FA) on the command line. This field supports macro expansion.
+37. `setup`An optional string specifying a regex for text fixtures to exclude from adding setup tests. Equivalent to [`--fixture-exclude-setup`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FS) on the command line. This field supports macro expansion.
+38. `cleanup`An optional string specifying a regex for text fixtures to exclude from adding cleanup tests. Equivalent to [`--fixture-exclude-cleanup`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FC) on the command line. This field supports macro expansion.
+39. `execution`An optional object specifying options for test execution. The object may contain the following fields.
+40. `stopOnFailure`An optional bool. If true, equivalent to passing [`--stop-on-failure`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-stop-on-failure) on the command line.
+41. `enableFailover`An optional bool. If true, equivalent to passing [`-F`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-F) on the command line.`jobs`An optional integer. Equivalent to passing[`--parallel`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-j) on the command line.
+42. `resourceSpecFile`An optional string. Equivalent to passing [`--resource-spec-file`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-resource-spec-file) on  
+    the command line. This field supports macro expansion.
+43. `testLoad`An optional integer. Equivalent to passing [`--test-load`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-load) on the command line.
+44. `showOnly`An optional string. Equivalent to passing [`--show-only`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-N) on the  
+    command line. The string must be one of the following values:
+45. `human`
+46. `json-v1repeat`An optional object specifying how to repeat tests. Equivalent to  
+    passing [`--repeat`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-repeat) on the command line.  
+    The object must have the following fields.
+47. `mode`A required string. Must be one of the following values:  
+    `until-fail`  
+    `until-pass`
+48. `after-timeoutcount`A required integer.`interactiveDebugging`An optional bool. If true, equivalent to passing [`--interactive-debug-mode 1`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-interactive-debug-mode) on the command line. If false, equivalent to passing [`--interactive-debug-mode 0`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-interactive-debug-mode) on the command line.
+49. `scheduleRandom`An optional bool. If true, equivalent to passing [`--schedule-random`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-schedule-random) on the command line.
+50. `timeout`An optional integer. Equivalent to passing [`--timeout`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-timeout) on the command line.
+51. `noTestsAction`An optional string specifying the behavior if no tests are found. Must  
+    be one of the following values:
+    1. `default`Equivalent to not passing any value on the command line.
+    2. `error`Equivalent to passing [`--no-tests=error`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-tests) on the command line.
+    3. `ignore`Equivalent to passing [`--no-tests=ignore`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-tests) on the command line.
+
+## References
+
+- https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html#id8
