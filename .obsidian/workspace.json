@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/cmake/presets/package-preset.md",
+                "file": "programming/tools/cmake/presets/configure-preset-format.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/cmake/presets/package-preset.md",
+                "file": "programming/tools/cmake/presets/configure-preset-format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/cmake/presets/package-preset.md",
+                "file": "programming/tools/cmake/presets/configure-preset-format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/cmake/presets/package-preset.md"
+                "file": "programming/tools/cmake/presets/configure-preset-format.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/cmake/presets/package-preset.md"
+                "file": "programming/tools/cmake/presets/configure-preset-format.md"
               }
             }
           }
@@ -195,32 +195,32 @@
   },
   "active": "09ceb98be608b185",
   "lastOpenFiles": [
-    "programming/tools/cmake/presets/test-preset.md",
+    "programming/tools/cmake/presets/configure-preset.md",
+    "programming/tools/cmake/presets/presets.md",
+    "programming/tools/cmake/presets/preset-include-rules.md",
+    "programming/tools/cmake/presets/preset-include-rules.md",
+    "programming/tools/cmake/presets/preset-example.md",
+    "programming/tools/cmake/presets/macro-expansion.md",
     "programming/tools/cmake/presets/package-preset.md",
     "programming/tools/cmake/presets/build-preset.md",
-    "programming/tools/cmake/presets/configure-preset.md",
+    "programming/tools/cmake/presets/build-preset-format.md",
+    "programming/tools/cmake/presets/preset-condition.md",
+    "programming/tools/cmake/presets/test-preset.md",
     "programming/tools/cmake/presets/workflow-preset.md",
     "programming/tools/cmake/presets/workflow-preset-format.md",
     "programming/tools/cmake/presets/preset-hiding.md",
     "programming/tools/cmake/presets/preset-format.md",
     "programming/tools/cmake/presets/test-preset-format.md",
     "programming/tools/cmake/presets/configure-preset-format.md",
-    "programming/tools/cmake/presets/build-preset-format.md",
-    "programming/tools/cmake/presets/vendor-map.md",
+    "programming/tools/cmake/presets/preset-vendor-map.md",
     "programming/concepts/target-triplet.md",
-    "programming/tools/cmake/presets/preset-include.md",
     "programming/tools/cmake/presets/().md",
-    "programming/tools/cmake/presets/presets.md",
-    "programming/tools/cmake/presets/example.md",
     "programming/tools/cmake/presets/preset-inheritance.md",
     "programming/languages/cmake/cmake.md",
     "tasks.md",
     "programming/languages/cmake/condition-expressions.md",
     "programming/languages/cmake/variables.md",
     "programming/languages/cmake/policies.md",
-    "programming/languages/cmake/comments.md",
-    "programming/languages/nix/operators/attribute-selection.md",
-    "programming/languages/nix/operators/arithmetic-negation.md",
     "programming/languages/nix/Untitled",
     "wallpapers",
     "programming/languages/nix/data-types",

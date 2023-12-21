@@ -43,7 +43,7 @@ Presets in `CMakePresets.json` may not inherit from presets in `CMakeUserPresets
 - type: `map`
 - required: no
 
-A map of type [[vendor-map]].
+A map of type [[preset-vendor-map]].
  
 ###### `displayName`
 

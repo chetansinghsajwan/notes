@@ -17,7 +17,7 @@ See [[preset-format]].
 ---
 ##### Preset Condition
 
-A [[condition]] object to determine if the preset should be enabled.
+A [[preset-condition]] object to determine if the preset should be enabled.
 
 This is allowed in preset files specifying version `3` or above.
 
@@ -27,7 +27,7 @@ A map containing vendor-specific information.
 
 CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
 
-More on [[vendor-map]].
+More on [[preset-vendor-map]].
 
 ##### Preset Environment Setup
 

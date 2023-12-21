@@ -38,7 +38,7 @@ The files are a json document with an object as the root. The root object contai
     
     An array of strings representing files to include. If the filenames are not absolute, they are considered relative to the current file.
     
-    See [[preset-include]] for discussion of the constraints on included files.
+    See [[preset-include-rules]] for discussion of the constraints on included files.
 
 4. `vendor`
     

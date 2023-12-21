@@ -47,19 +47,19 @@ Name of preset or names of presets to inherit from.
 
 - type: [`object`]() of [condition]()
 
-A [[programming/tools/cmake/presets/condition]] object to determine if the preset should be enabled.
+A [[preset-condition]] object to determine if the preset should be enabled.
 
 - This is allowed in preset files specifying version `3` or above.
 
 ###### vendor`
 
-- type: [`object`]() of [[vendor-map]]
+- type: [`object`]() of [[preset-vendor-map]]
 - required: no
 
 A map containing vendor-specific information.
 
 - CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-- More on [[vendor-map]].
+- More on [[preset-vendor-map]].
 
 ###### generator`
 
