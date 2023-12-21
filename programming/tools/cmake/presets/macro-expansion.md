@@ -1,15 +1,21 @@
-- Macros are recognized in the form `$<macro-namespace>{<macro-name>}`.
-- Macros are evaluated in the context of the preset being used, even if the macro is in a field that was inherited from another preset.
-    
-    For example, if the `Base` preset sets variable `PRESET_NAME` to `${presetName}`, and the `Derived` preset inherits from `Base`, `PRESET_NAME` will be set to `Derived`.
-    
-- It is an error to not put a closing brace at the end of a macro name. For example, `${sourceDir` is invalid.
-- A dollar sign (`$`) followed by anything other than a left curly brace (`{`) with a possible namespace is interpreted as a literal dollar sign.
+# Macro Expansion
+
+Macros are recognized in the form `$<macro-namespace>{<macro-name>}`.
+
+Macros are evaluated in the context of the preset being used, even if the macro is in a field that was inherited from another preset.
+
+For example, if the `Base` preset sets variable `PRESET_NAME` to `${presetName}`, and the `Derived` preset inherits from `Base`, `PRESET_NAME` will be set to `Derived`.
+
+It is an error to not put a closing brace at the end of a macro name. For example, `${sourceDir` is invalid.
+
+A dollar sign (`$`) followed by anything other than a left curly brace (`{`) with a possible namespace is interpreted as a literal dollar sign.
+
 Recognized macros include:
-1. **`${sourceDir}`**
-    
-    Path to the project source directory (i.e. the same as [[CMake Variables]]).
-    
+
+###### `${sourceDir}`
+
+Path to the project source directory (i.e. the same as [[CMake Variables]]).
+
 2. **`${sourceParentDir}`**
     
     Path to the project source directory's parent directory.

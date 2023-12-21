@@ -1,95 +1,104 @@
 # Preset Format
 
-The files are a json document with an object as the root. The root object contains these fields:
+The root object contains these fields:
 
-1. `version`
-    
-    - type: [`number`]()
-    - required: yes
-    
-    A integer representing the version of the JSON schema.
-    
-    The supported versions are:
-    
-    - `1`: New in version 3.19
-    - `2`: New in version 3.20
-    - `3`: New in version 3.21
-    - `4`: New in version 3.23
-    - `5`: New in version 3.24
-    - `6`: New in version 3.25
-    - `7`: New in version 3.27
+###### `version`
 
-2. `cmakeMinimumRequired`
-    
-    - type: [`object`]()
-    - required: no
-    
-    Object containing minimum version of cmake required to build this project.
-    
-    - `major`
-    - `minor`
-    - `patch`
+- type: [`number`](programming/languages/json/data-types/number)
+- required: yes
 
-3. `include`
-    
-    - type: [`string`]()
-    - required: no
-    - since: version 4
-    
-    An array of strings representing files to include. If the filenames are not absolute, they are considered relative to the current file.
-    
-    See [[preset-include-rules]] for discussion of the constraints on included files.
+A integer representing the version of the JSON schema.
 
-4. `vendor`
-    
-    - type: [`map`]()
-    - required: no
-    
-    A map containing vendor-specific information. CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-    
-    However, the keys should be a vendor-specific domain name followed by a `/`-separated path.
-    
-    For example, the Example IDE 1.0 could use `example.com/ExampleIDE/1.0`. The value of each field can be anything desired by the vendor, though will typically be a map.
+The supported versions are:
 
-5. `configurePresets`
-    
-    - type: [`array`]() of [configure-preset]()
-    - required: no
-    - since: version 1
-    
-    An array of [[configure-preset-format]] objects.  
+- `1`: Added in cmake version 3.19
+- `2`: Added in cmake version 3.20
+- `3`: Added in cmake version 3.21
+- `4`: Added in cmake version 3.23
+- `5`: Added in cmake version 3.24
+- `6`: Added in cmake version 3.25
+- `7`: Added in cmake version 3.27
 
-6. `buildPresets`
-    
-    - type: [`array`]() of [build-preset]()
-    - required: no
-    - since: version 2
-    
-    An array of [[build-preset-format]] objects.
+###### `cmakeMinimumRequired`
 
-7. `testPresets`
-    
-    - type: [`array`]() of [test-preset]()
-    - required: no
-    - since: version 2
-    
-    An array of [[test-preset-format]] objects.
+- type: [`object`](programming/languages/json/data-types/object)
+- required: no
 
-8. `packagePresets`
-    
-    - type: [`array`]() of [package-preset]()
-    - required: no
-    - since: version 6
-    
-    An array of [[package-preset-format]] objects.
+Object containing minimum version of cmake required to build this project.
 
-9. `workflowPresets`
-    
-    - type: [`array`]() of [workflow-preset]()
-    - required: no
-    - since: version 6
-    
-    An array of [[workflow-preset-format]] objects.
+- `major`
+  
+  - type: [`integer`](programming/languages/json/data-types/number)
+  - required: no
+
+- `minor`
+  
+  - type: [`integer`](programming/languages/json/data-types/number)
+  - required: no
+
+- `patch`
+  
+  - type: [`integer`](programming/languages/json/data-types/number)
+  - required: no
+
+###### `include`
+
+- type: [`array`](programming/languages/json/data-types/array) of [`string`](programming/languages/json/data-types/string)
+- required: no
+- since: version 4
+
+List of filepaths to include. If the filepaths are not absolute, they are considered relative to the current file.
+
+See [[preset-include-rules]].
+
+###### `vendor`
+
+> [!todo]
+> 
+> Review this.
+
+- type: [`map`]()
+- required: no
+
+A map containing vendor-specific information. CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
+
+However, the keys should be a vendor-specific domain name followed by a `/`-separated path.
+
+For example, the Example IDE 1.0 could use `example.com/ExampleIDE/1.0`. The value of each field can be anything desired by the vendor, though will typically be a map.
+
+###### `configurePresets`
+
+- type: [`array`]() of [[configure-preset]]
+- required: no
+- since: version 1
+
+###### `buildPresets`
+
+- type: [`array`]() of [[build-preset]]
+- required: no
+- since: version 2
+
+###### `testPresets`
+
+- type: [`array`]() of [[test-preset]]
+- required: no
+- since: version 2
+
+###### `packagePresets`
+
+- type: [`array`]() of [[package-preset]]
+- required: no
+- since: version 6
+
+###### `workflowPresets`
+
+- type: [`array`]() of [[workflow-preset]]
+- required: no
+- since: version 6
+
+## Related
+
+- [[preset-example]]
 
 ## References
 
