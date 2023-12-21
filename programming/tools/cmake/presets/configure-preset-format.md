@@ -23,42 +23,29 @@ A human-friendly description of the preset.
 
 ###### `hidden`
 
-> [!todo]
-> Review this.
-
 - type: [`bool`]()
 - required: no
 
 A boolean specifying whether or not this preset should be hidden.
 
-- If the preset is hidden, it cannot be used in the [[CMake Options]] argument.
-- `hidden` presets are intended to be used as a base for other presets to inherit via the `inherits` field.
+See [[preset-hiding]].
 
 ###### `inherits`
-
-> [!todo]
-> Review this.
 
 - type: [`string`]() | [`[string]`]()
 - required: no
 
 Name of preset or names of presets to inherit from.
 
-- The preset will inherit all of the fields from the `inherits` presets by default (except `name`, `hidden`, `inherits`,`description`, and `displayName`), and can override them as desired.
-- If multiple `inherits` presets provide conflicting values for the same field, the earlier preset in the `inherits` array will be preferred.
-- A preset can only inherit from another preset that is defined in the same file or in one of the files it includes (directly or indirectly).
-- Presets in `CMakePresets.json` may not inherit from presets in `CMakeUserPresets.json`.
+See [[preset-inheritance]].
 
 ###### `condition`
 
-> [!todo]
-> Review this.
+- type: [`object`]() of [preset-condition]()
+- required: no
+- since: version 3
 
-- type: [`object`]() of [condition]()
-
-A [[preset-condition]] object to determine if the preset should be enabled.
-
-- This is allowed in preset files specifying version `3` or above.
+Determines if the preset should be enabled.
 
 ###### `vendor`
 
@@ -80,9 +67,19 @@ A map containing vendor-specific information.
 
 Generator to use for the preset.
 
-It is required in version `2` or below. If `generator` is not specified, it must be inherited from the`inherits` preset unless this preset is `hidden`.
+Until version `2`, if `generator` is not specified, it must be inherited from the`inherits` preset unless this preset is `hidden`.
 
-In version `3` or above, this field may be omitted to fall back to regular generator discovery procedure.
+Since version `3`, this field may be omitted to fall back to regular generator discovery procedure.
+
+Value must be one from [cmake-generators](programming/tools/cmake/generators).
+
+> [!note]
+> Not sure about the above statement.
+
+> [!todo]
+> Verify the above statement.
+
+## Needs refactoring begin
 
 ###### `architecture`, `toolset`
 
@@ -118,7 +115,7 @@ Each may be either a string or an object with the following fields:
 ###### `toolchainFile`
 
 - type: [`string`]()
-- reqired: no
+- required: no
 - since: version 3
 
 Path to the toolchain file.
@@ -155,134 +152,212 @@ IDEs that use this field should expand any macros in it.
 
 ###### `cacheVariables`
 
-- type: `[string: (null | bool | object)]`
+- type: [`object`]
+- required: no
+
+`[string: (null | bool | object)]`
 
 A map of cache variables.
 
-- The key is the variable name.
-- The value is either:
-    - `null`
-    - `bool`, can also be written as `"TRUE"` or `"FALSE"`.
-    - `string` representing the value of the variable. This supports [[macro-expansion]].
-    - An object with the following fields:
-        - **`type`****:** **`string`**
-            
-            A string representing the type of the variable.
-            
-        - `value` **(required)**
-            
-            Same rules as above.
-            
-- Cache variables are inherited through the `inherits` field.
-- The preset's variables will be the union of its own `cacheVariables` and the `cacheVariables` from all its parents.
-- If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
-- Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
-###### `environment`** **:** **`[string: string]`
+The key is the variable name.
+
+The value is either:
+
+- `null`
+
+- `bool`, can also be written as `"TRUE"` or `"FALSE"`.
+
+- `string` representing the value of the variable.
+  
+  This supports [[macro-expansion]].
+
+- [`object`]() with the following fields:
+
+  - `type`
+    
+    - type: [`string`]()
+    - required: yes
+    
+    A string representing the type of the variable.
+
+  - `value`
+    
+    - type: [`string`]
+    - required: yes
+    
+    Same rules as above.
+
+Cache variables are inherited through the `inherits` field.
+
+The preset's variables will be the union of its own `cacheVariables` and the `cacheVariables` from all its parents.
+
+If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
+
+Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
+###### `environment`
+
+- type: [`object`]
+- required: no
+- supports-macro-expansion: yes
 
 A map of environment variables.
 
-- The key is the variable name, and the value is either `null` or a string representing the value of the variable.
-- Environment variables in this map may reference each other, and may be listed in any order, as long as such references do not cause a cycle (for example, if `ENV_1` is `$env{ENV_2}`, `ENV_2` may not be `$env{ENV_1}`.)
-- This field supports [[macro-expansion]].
-- Environment variables are inherited through the `inherits` field, and the preset's environment will be the union of its own `environment` and the `environment` from all its parents. If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
-- Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
+The key is the variable name, and the value is either `null` or a string representing the value of the variable.
+
+Environment variables in this map may reference each other, and may be listed in any order, as long as such references do not cause a cycle.
+
+> [!todo]
+> Review this.
+> 
+Environment variables are inherited through the `inherits` field, and the preset's environment will be the union of its own `environment` and the `environment` from all its parents. If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
+
+Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
+
+## Needs refactoring end
 
 ###### `warnings`
 
-An object specifying the warnings to enable.
+- type: [`object`]()
+- required: no
 
-The object contains the following fields:
-
-- **`dev`****:** `**bool**`
-    
-    Equivalent to passing [`-Wdev`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wdev) or [`-Wno-dev`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wno-dev) on the command line. This may not be set to `false` if `errors.dev` is set to `true`.
-    
-- `deprecated`
-    
-    An optional boolean. Equivalent to passing [`-Wdeprecated`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wdeprecated) or[`-Wno-deprecated`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wno-deprecated) on the command line. This may not be set to `false` if `errors.deprecated` is set to `true`.
-    
-- `uninitialized`
-    
-    An optional boolean. Setting this to `true` is equivalent to passing [`--warn-uninitialized`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-warn-uninitialized) on the command line.
-    
-- `unusedCli`
-    
-    An optional boolean. Setting this to `false` is equivalent to passing [`--no-warn-unused-cli`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-no-warn-unused-cli) on the command line.
-    
-- `systemVars`
-    
-    An optional boolean. Setting this to `true` is equivalent to passing [`--check-system-vars`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-check-system-vars) on the command line.
-    
-###### `errors`
-
-An optional object specifying the errors to enable. The object may contain the following fields:
+Specifies the warnings to enable. The object contains the following fields:
 
 - `dev`
     
-    Treats `warnings.dev` as errors. If `warnings.dev` is `false`, this has no effect.
+    - type: [`bool`]()
+    - required: no
     
+    Equivalent to passing [`-Wdev`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wdev) or [`-Wno-dev`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wno-dev) on the command line.
+
 - `deprecated`
     
-    Treats `warnings.deprected` as errors. If `warnings.deprected` is `false`, this has no effect.
+    - type: [`bool`]()
+    - required: no
     
+    Equivalent to passing [`-Wdeprecated`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wdeprecated) or[`-Wno-deprecated`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-Wno-deprecated) on the command line.
+
+- `uninitialized`
+    
+    - type: [`bool`]()
+    - required: no
+    
+    Setting this to `true` is equivalent to passing [`--warn-uninitialized`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-warn-uninitialized) on the command line.
+
+- `unusedCli`
+    
+    - type: [`bool`]()
+    - required: no
+    
+    Setting this to `false` is equivalent to passing [`--no-warn-unused-cli`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-no-warn-unused-cli) on the command line.
+
+- `systemVars`
+    
+    - type: [`bool`]()
+    - required: no
+    
+    Setting this to `true` is equivalent to passing [`--check-system-vars`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-check-system-vars) on the command line.
+
+###### `errors`
+
+- type: [`object`]()
+- required: no
+
+Specifies the errors to enable. The object may contain the following fields:
+
+- `dev`
+    
+    - type: [`bool`]()
+    - required: no
+    
+    Treats `warnings.dev` as errors. If `warnings.dev` is `false`, this has no effect.
+
+- `deprecated`
+    
+    - type: [`bool`]()
+    - required: no
+    
+    Treats `warnings.deprected` as errors. If `warnings.deprected` is `false`, this has no effect.
+
 ###### `debug`
 
-An optional object specifying debug options. The object contains the following fields:
+- type: [`object`]()
+- required: no
+
+An object specifying debug options. The object contains the following fields:
 
 - `output`
     
-    A boolean. Setting this to `true` is equivalent to passing [`--debug-output`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-debug-output) on the command line.
+    - type: [`bool`]()
+    - requried: no
     
+    Setting this to `true` is equivalent to passing [`--debug-output`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-debug-output) on the command line.
+
 - `tryCompile`
     
-    A boolean. Setting this to `true` is equivalent to passing [`--debug-trycompile`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-debug-trycompile) on the command line.
+    - type: [`bool`]()
+    - requried: no
     
+    Setting this to `true` is equivalent to passing [`--debug-trycompile`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-debug-trycompile) on the command line.
+
 - `find`
     
-    A boolean. Setting this to `true` is equivalent to passing [`--debug-find`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-debug-find) on the command line.
+    - type: [`bool`]()
+    - requried: no
     
+    Setting this to `true` is equivalent to passing [`--debug-find`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-debug-find) on the command line.
+
 ###### `trace`
 
-A object specifying trace options. The object may contain the following fields:
+An object specifying trace options. The object may contain the following fields:
 
 - `mode`
     
-    An optional string that specifies the trace mode. Valid values are:
+    - type: [`string`]()
+    - required: no
     
-    - `on`
+    Specifies the trace mode. Valid values are:
+    
+    - `"on"`
         
-        Causes a trace of all calls made and from where to be printed. Equivalent to passing [`--trace`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace) on the command line.
-        
-    - `off`
+        Equivalent to passing [`--trace`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace) on the command line.
+    
+    - `"off"`
         
         A trace of all calls will not be printed.
+    
+    - `"expand"`
         
-    - `expand`
-        
-        Causes a trace with variables expanded of all calls made and from where to be printed. Equivalent to passing [`--trace-expand`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-expand) on the command line.
-        
+        Equivalent to passing [`--trace-expand`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-expand) on the command line.
+
 - `format`
     
-    An optional string that specifies the format output of the trace. Valid values are:
+    - type: [`string`]()
+    - required: no
+    - default: `"human"`
     
-    - `human`
+    Specifies the format output of the trace. Valid values are:
+    
+    - `"human"`
         
-        Prints each trace line in a human-readable format.  
-        This is the default format. Equivalent to passing  
-        [`--trace-format=human`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-format) on the command line.
-        
+        Equivalent to passing [`--trace-format=human`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-format) on the command line.
+    
     - `json-v1`
         
-        Prints each line as a separate JSON document. Equivalent to passing  
-        [`--trace-format=json-v1`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-format) on the command line.
-        
+        Equivalent to passing [`--trace-format=json-v1`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-format) on the command line.
+
 - `source`
     
-    An optional array of strings representing the paths of source files to be traced. This field can also be a string, which is equivalent to an array containing one string. Equivalent to passing [`--trace-source`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-source) on the command line.
+    - type: [`string`]() or [`array`]() of [`string`]()
+    - required: no
     
+    Equivalent to passing [`--trace-source`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-source) on the command line.
+
 - `redirect`
     
-    An optional string specifying a path to a trace output file. Equivalent to passing [`--trace-redirect`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-redirect) on the command line.
+    - type: [`string`]()
+    - required: no
+    
+    Equivalent to passing [`--trace-redirect`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-trace-redirect) on the command line.
 
 ## References
 

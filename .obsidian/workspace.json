@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f1d8ebc64cedf50c",
+        "id": "b5fabdb37e9d58d2",
         "type": "tabs",
         "children": [
           {
-            "id": "057265216b4fd578",
+            "id": "ca38240f1e28dc47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/cmake/presets/macro-expansion.md",
+                "file": "programming/tools/cmake/presets/configure-preset-format.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ec8249c3a1d3c005",
+            "id": "718f836fcc90c69c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/cmake/presets/preset-inheritance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3a2fa0d8953901b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/tools/cmake/presets/preset-hiding.md",
+                "file": "programming/tools/cmake/presets/preset-example.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/cmake/presets/macro-expansion.md",
+                "file": "programming/tools/cmake/presets/configure-preset-format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/cmake/presets/macro-expansion.md",
+                "file": "programming/tools/cmake/presets/configure-preset-format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/cmake/presets/macro-expansion.md"
+                "file": "programming/tools/cmake/presets/configure-preset-format.md"
               }
             }
           },
@@ -193,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/cmake/presets/macro-expansion.md"
+                "file": "programming/tools/cmake/presets/configure-preset-format.md"
               }
             }
           }
@@ -217,11 +205,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "057265216b4fd578",
+  "active": "ca38240f1e28dc47",
   "lastOpenFiles": [
+    "programming/tools/cmake/presets/preset-example.md",
     "programming/tools/cmake/presets/configure-preset-format.md",
+    "programming/tools/cmake/presets/build-preset-format.md",
+    "programming/tools/cmake/generators/vs6.md",
+    "programming/tools/cmake/generators.md",
+    "programming/tools/cmake/generators/vs9.md",
+    "programming/tools/cmake/generators/vs10.md",
+    "programming/tools/cmake/generators/vs8.md",
+    "programming/tools/cmake/generators/vs7.md",
+    "programming/tools/cmake/generators",
+    "programming/tools/cmake/presets/preset-condition.md",
     "programming/tools/cmake/presets/preset-inheritance.md",
     "programming/tools/cmake/presets/preset-hiding.md",
+    "programming/tools/cmake/presets/macro-expansion.md",
     "programming/tools/cmake/presets/configure-preset.md",
     "programming/tools/cmake/presets/preset-format.md",
     "programming/tools/cmake/presets/preset-vendor-map.md",
@@ -236,17 +235,7 @@
     "programming/languages/json/data-types/Untitled.md",
     "programming/languages/json/data-types",
     "programming/languages/json/Untitled.md",
-    "programming/tools/cmake/presets/preset-example.md",
-    "programming/tools/cmake/presets/presets.md",
-    "programming/tools/cmake/presets/preset-condition.md",
-    "programming/tools/cmake/presets/preset-environment.md",
-    "programming/tools/cmake/cmake.md",
     "programming/languages/json",
-    "programming/tools/cmake/presets/macro-expansion.md",
-    "programming/tools/cmake/presets/package-preset.md",
-    "programming/tools/cmake/presets/build-preset.md",
-    "programming/tools/cmake/presets/build-preset-format.md",
-    "programming/tools/cmake/presets/test-preset.md",
     "programming/languages/nix/Untitled",
     "wallpapers",
     "programming/languages/nix/data-types",
@@ -254,7 +243,6 @@
     "programming/languages/nix/data-types",
     "programming/languages/nix/builtin-functions",
     "programming/languages/nix/functions",
-    "software/nix",
     "computer-science/uuid/v1-diagram.svg",
     "Untitled.canvas",
     "computer-science/uuid/v4-diagram.png",

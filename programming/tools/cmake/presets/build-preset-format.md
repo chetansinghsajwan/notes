@@ -14,9 +14,7 @@ Unique name to identify this preset among other build presets.
 
 A boolean specifying whether or not this preset should be hidden.
 
-If the preset is hidden, it cannot be used in the [[CMake Options]] argument.
-
-Hidden presets are intended to be used as a base for other presets to inherit via the `inherits` field.
+See [[preset-hiding]].
 
 ###### `inherits`
 
@@ -25,13 +23,7 @@ Hidden presets are intended to be used as a base for other presets to inherit vi
 
 Name of preset or names of presets to inherit from.
 
-The preset will inherit all of the fields from the `inherits` presets by default (except `name`, `hidden`, `inherits`,`description`, and `displayName`), and can override them as desired.
-
-If multiple `inherits` presets provide conflicting values for the same field, the earlier preset in the `inherits` array will be preferred.
-
-A preset can only inherit from another preset that is defined in the same file or in one of the files it includes (directly or indirectly).
-
-Presets in `CMakePresets.json` may not inherit from presets in `CMakeUserPresets.json`.
+See [[preset-inheritance]].
 
 ###### `condition`
 

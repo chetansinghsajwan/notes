@@ -1,7 +1,5 @@
 # Preset Hiding
 
-A boolean specifying whether or not this preset should be hidden.
-
 If the preset is hidden, it cannot be used in the [[CMake Options]] argument.
 
 `hidden` presets are intended to be used as a base for other presets to inherit via the `inherits` field.
