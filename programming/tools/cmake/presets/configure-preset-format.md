@@ -49,16 +49,10 @@ Determines if the preset should be enabled.
 
 ###### `vendor`
 
-> [!todo]
-> Review this.
-
 - type: [`object`]() of [[preset-vendor-map]]
 - required: no
 
 A map containing vendor-specific information.
-
-- CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-- More on [[preset-vendor-map]].
 
 ###### `generator`
 
@@ -114,7 +108,7 @@ Each may be either a string or an object with the following fields:
 
 ###### `toolchainFile`
 
-- type: [`string`]()
+- type: [`string`](programming/languages/json/data-types/string)
 - required: no
 - since: version 3
 
@@ -122,7 +116,7 @@ Path to the toolchain file.
 
 If a relative path is specified, it is calculated relative to the build directory, and if not found, relative to the source directory.
 
-This field takes precedence over any [[CMake Variables]] value.
+This field takes precedence over any [`CMAKE_TOOLCHAIN_FILE`](https://cmake.org/cmake/help/latest/variable/CMAKE_TOOLCHAIN_FILE.html#variable:CMAKE_TOOLCHAIN_FILE "CMAKE_TOOLCHAIN_FILE") value.
 
 This field supports [[macro-expansion]].
 

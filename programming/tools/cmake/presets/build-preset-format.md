@@ -12,7 +12,7 @@ Unique name to identify this preset among other build presets.
 - type: `bool`
 - required: no
 
-A boolean specifying whether or not this preset should be hidden.
+Specifies whether or not this preset should be hidden.
 
 See [[preset-hiding]].
 
@@ -27,8 +27,11 @@ See [[preset-inheritance]].
 
 ###### `condition`
 
-- type: `object` of `condition`
+- type: `object` of [[preset-condition]]
 - required: no
+- since: version 3
+
+Determines whether or not the preset should be enabled.
 
 ###### `vendor`
 
@@ -36,7 +39,7 @@ See [[preset-inheritance]].
 - required: no
 
 A map of type [[preset-vendor-map]].
- 
+
 ###### `displayName`
 
 - type: `string`
@@ -52,6 +55,9 @@ A string with a human-friendly name of the preset.
 A string with a human-friendly description of the preset.
   
 ###### `environment`
+
+> [!todo]
+> Review this.
 
 - type: `map`
 - required: no
@@ -71,55 +77,59 @@ Setting a variable to `null` causes it to not be set, even if a value was inheri
 - type: `string`
 - required: yes
 
-A string specifying the name of a [[configure-preset-format]] to associate with this build preset.
+A string specifying the name of a [[configure-preset]] to associate with this build preset.
 
-If `configurePreset` is not specified, it must be inherited from the inherits preset (unless this preset is hidden).
-
-The build directory is inferred from the configure preset, so the build will take place in the same `binaryDir` that the configuration did.
+If `configurePreset` is not specified, it must be inherited from the inherits preset unless this preset is hidden.
 
 ###### `inheritConfigureEnvironment`
 
 - type: `bool`
 - required: no
+- default: `true`
 
-An optional boolean that defaults to true. If true, the environment variables from the associated configure preset are inherited after all inherited build preset environments, but before environment variables explicitly specified in this build preset.
+If true, the environment variables from the associated configure preset are inherited after all inherited build preset environments, but before environment variables explicitly specified in this build preset.
 
 ###### `jobs`
 
 - type: `int`
 - required: no
 
-An integer. Equivalent to passing [`--parallel`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-j) or `-j` on the command line.
+Equivalent to passing [`--parallel`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-j) on the command line.
 
 ###### `targets`
 
 - type: `string` or `[string]`
 - required: no
 
-A string or array of strings. Equivalent to passing [`--target`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-t) or `-t` on the command line.
+Equivalent to passing [`--target`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-t) on the command line.
 
-This field supports macro expansion.
+This field supports [[macro-expansion]].
 
 ###### `configuration`
 
 - type: `string`
 - required: no
 
-A string. Equivalent to passing [`--config`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-config) on the command line.
+Equivalent to passing [`--config`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-config) on the command line.
   
 ###### `cleanFirst`
 
 - type: `bool`
 - required: no
+- default: `false`
 
-A bool. If true, equivalent to passing [`--clean-first`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-clean-first) on the command line.
-    
+If true, equivalent to passing [`--clean-first`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-clean-first) on the command line.
+
 ###### `resolvePackageReferences`
+
+> [!todo]
+> Review this.
 
 - type: `string`
 - required: no
+- since: version 4
 
-A string that specifies the package resolve mode.
+Specifies the package resolve mode.
 
 Package references are used to define dependencies to packages from external package managers. Currently only NuGet in combination with the Visual Studio generator is supported. If there are no targets that define package references, this option does nothing.
 
@@ -128,20 +138,36 @@ Valid values are:
 - `on`
   
   Causes package references to be resolved before attempting a build.
-  
-- `off`
 
+- `off`
+  
   Package references will not be resolved. Note that this may cause errors in some build environments, such as .NET SDK style projects.
 
 - `only`
   
   Only resolve package references, but do not perform a build.
-  
+
 > [!note]
 > 
 > The command line parameter[`--resolve-package-references`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-resolve-package-references) will take priority over this setting. If the command line parameter is not provided and this setting is not specified, an environment-specific cache variable will be evaluated to decide, if package restoration should be performed.  
 > 
-> When using the Visual Studio generator, package references are defined using the [`VS_PACKAGE_REFERENCES`](https://cmake.org/cmake/help/latest/prop_tgt/VS_PACKAGE_REFERENCES.html#prop_tgt:VS_PACKAGE_REFERENCES) property. Package references are restored using NuGet. It can be disabled by setting the `CMAKE_VS_NUGET_PACKAGE_RESTORE` variable to `OFF`. This can also be done from within a configure preset.`verbose`An optional bool. If true, equivalent to passing [`--verbose`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-v) on the command line.`nativeToolOptions`An optional array of strings. Equivalent to passing options after `--` on the command line. The array values support macro expansion.
+> When using the Visual Studio generator, package references are defined using the [`VS_PACKAGE_REFERENCES`](https://cmake.org/cmake/help/latest/prop_tgt/VS_PACKAGE_REFERENCES.html#prop_tgt:VS_PACKAGE_REFERENCES) property. Package references are restored using NuGet. It can be disabled by setting the `CMAKE_VS_NUGET_PACKAGE_RESTORE` variable to `OFF`. This can also be done from within a configure preset.
+
+###### `verbose`
+
+- type: [`bool`]()
+- required: no
+
+If true, equivalent to passing [`--verbose`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-v) on the command line.
+
+###### `nativeToolOptions`
+
+- type: [`array`]() of [`string`]()
+- required: no
+
+Equivalent to passing options after `--` on the command line.
+
+The array values support macro expansion.
 
 ## References
 
