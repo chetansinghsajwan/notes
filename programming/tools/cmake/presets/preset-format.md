@@ -53,18 +53,10 @@ See [[preset-include-rules]].
 
 ###### `vendor`
 
-> [!todo]
-> 
-> Review this.
-
-- type: [`map`]()
+- type: [`object`]() of [[preset-vendor-map]]
 - required: no
 
-A map containing vendor-specific information. CMake does not interpret the contents of this field except to verify that it is a map if it does exist.
-
-However, the keys should be a vendor-specific domain name followed by a `/`-separated path.
-
-For example, the Example IDE 1.0 could use `example.com/ExampleIDE/1.0`. The value of each field can be anything desired by the vendor, though will typically be a map.
+A map containing vendor-specific information.
 
 ###### `configurePresets`
 

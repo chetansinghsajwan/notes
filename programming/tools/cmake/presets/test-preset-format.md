@@ -1,82 +1,176 @@
 # Test Preset Format
 
-1. `name`
+###### `name`
+
+- type: [`string`]()
+- required: yes
+
+Unique name among test presets.
+
+###### `hidden`
+
+- type: [`bool`]()
+- required: no
+
+Specifies whether or not a preset should be hidden.
+
+See [[preset-hiding]].
+
+###### `inherits`
+
+- type: [`string`]() or [`array`]() of [`string`]()
+
+Name or names of presets to inherit from.
+
+See [[preset-inheritance]].
+
+###### `condition`
+
+- type: [`object`]() of [[preset-condition]]
+- required: no
+
+Specifies if the preset should be enabled.
+
+###### `vendor`
+
+- type: [`object`]() of [[preset-vendor-map]]
+- required: no
+
+###### `displayName`
+
+- type: [`string`]
+- required: no
+
+Human-friendly name of the preset.
+
+###### `description`
+
+- type: [`string`]
+- required: no
+
+Human-friendly description of the preset.
+
+###### `environment`
+
+- type: [`object`]()
+- required: no
+
+An map of environment variables.
+
+###### `configurePreset`
+
+- type: [`string`]()
+- required: no
+
+The name of a configure preset to associate with this test preset.
+
+If `configurePreset` is not specified, it must be inherited from the inherits preset unless this preset is hidden.
+
+###### `inheritConfigureEnvironment`
+
+- type: [`bool`]()
+- required: no
+- default: `true`
+
+If true, the environment variables from the associated configure preset are inherited after all inherited test preset environments, but before environment variables explicitly specified in this test preset.
+
+###### `configuration`
+
+- type: [`string`]()
+- required: no
+
+Equivalent to passing [`--build-config`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-C) on the command line.
+
+###### `overwriteConfigurationFile`
+
+- type: [`array`] of [`string`]
+- required: no
+
+Configuration options to overwrite options specified in the [ctest](programming/tools/ctest/ctest) configuration file.
+
+Equivalent to passing [`--overwrite`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-overwrite) for each value in the array.  
+
+The array values support macro expansion.
+
+###### `output`
+
+- type: [`object`]
+- required: no
+
+Output options.
+
+The object may contain the following fields.
+
+- `shortProgress`
+  
+  - type: `bool`
+  - required: no
+  
+  If true, equivalent to passing  [`--progress`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-progress) on the command line.
+  
+- `verbosity`
+  
+  - type: [`string`]()
+  - required: no
+  
+  Verbosity level. 
+  
+  Must be one of the following:
+  
+  - `default`
     
-    Unique name among test presets..
+    Equivalent to passing no verbosity flags on the command line.
     
-2. `hidden`
+  - `verbose`
     
-    A boolean specifying whether or not a preset should be hidden. If a preset is hidden, it cannot be used in the [`--preset`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-preset) argument and does not have to have a valid `configurePreset`, even from inheritance. `hidden` presets are intended to be used as a base for  
-    other presets to inherit via the `inherits` field.
+    Equivalent to passing [`--verbose`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-V) on the command line.
     
-3. `inherits`
+  - `extra`
     
-    An array of strings representing the names of presets to inherit from. This field can also be a string, which is equivalent to an array containing one string. The preset will inherit all of the fields from the `inherits` presets by default (except `name`, `hidden`, `inherits`, `description`, and `displayName`), but can override them as desired. If multiple `inherits` presets provide conflicting values for the same field, the earlier preset in the `inherits` array  
-    will be preferred. A preset can only inherit from another preset that is defined in the  
-    same file or in one of the files it includes (directly or indirectly).  
-    Presets in `CMakePresets.json` may not inherit from presets in  
-    `CMakeUserPresets.json`.
+    Equivalent to passing [`--extra-verbose`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-VV) on the command line.
     
-4. `condition`
+- `debug`
+  
+  - type: [`bool`]()
+  - required: no
     
-    A [Condition](https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html#condition) object. This is allowed in preset files specifying version `3` or above.
+    If true, equivalent to passing [`--debug`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-debug) on the command line.
     
-5. `vendor`An optional map containing vendor-specific information. CMake does not  
-    interpret the contents of this field except to verify that it is a map  
-    if it does exist. However, it should follow the same conventions as the  
-    root-level `vendor` field. If vendors use their own per-preset  
-    `vendor` field, they should implement inheritance in a sensible manner  
-    when appropriate.
-6. `displayName`An optional string with a human-friendly name of the preset.
-7. `description`An optional string with a human-friendly description of the preset.
-8. `environment`An optional map of environment variables. The key is the variable name  
-    (which may not be an empty string), and the value is either `null` or  
-    a string representing the value of the variable. Each variable is set  
-    regardless of whether or not a value was given to it by the process's  
-    environment. This field supports macro expansion, and environment  
-    variables in this map may reference each other, and may be listed in any  
-    order, as long as such references do not cause a cycle (for example, if  
-    `ENV_1` is `$env{ENV_2}`, `ENV_2` may not be `$env{ENV_1}`.)  
-    Environment variables are inherited through the `inherits` field, and  
-    the preset's environment will be the union of its own `environment`  
-    and the `environment` from all its parents. If multiple presets in  
-    this union define the same variable, the standard rules of `inherits`  
-    are applied. Setting a variable to `null` causes it to not be set,  
-    even if a value was inherited from another preset.
-9. `configurePreset`An optional string specifying the name of a configure preset to  
-    associate with this test preset. If `configurePreset` is not  
-    specified, it must be inherited from the inherits preset (unless this  
-    preset is hidden). The build directory is inferred from the configure  
-    preset, so tests will run in the same `binaryDir` that the  
-    configuration did and build did.
-10. `inheritConfigureEnvironment`An optional boolean that defaults to true. If true, the environment  
-    variables from the associated configure preset are inherited after all  
-    inherited test preset environments, but before environment variables  
-    explicitly specified in this test preset.
-11. `configuration`An optional string. Equivalent to passing  
-    [`--build-config`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-C) on the command line.
-12. `overwriteConfigurationFile`An optional array of configuration options to overwrite options  
-    specified in the CTest configuration file. Equivalent to passing  
-    [`--overwrite`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-overwrite) for each value in the array.  
-    The array values support macro expansion.
-13. `output`An optional object specifying output options. The object may contain the  
-    following fields.`shortProgress`An optional bool. If true, equivalent to passing  
-    [`--progress`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-progress) on the command line.`verbosity`An optional string specifying verbosity level. Must be one of the  
-    following:`default`Equivalent to passing no verbosity flags on the command line.`verbose`Equivalent to passing [`--verbose`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-V) on  
-    the command line.`extra`Equivalent to passing [`--extra-verbose`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-VV)  
-    on the command line.`debug`An optional bool. If true, equivalent to passing  
-    [`--debug`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-debug) on the command line.
-14. `outputOnFailure`An optional bool. If true, equivalent to passing  
-    [`--output-on-failure`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-output-on-failure) on the command  
-    line.`quiet`An optional bool. If true, equivalent to passing  
-    [`--quiet`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-Q) on the command line.
-15. `outputLogFile`An optional string specifying a path to a log file. Equivalent to  
-    passing [`--output-log`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-O) on the command line.  
-    This field supports macro expansion.
-16. `outputJUnitFile`An optional string specifying a path to a JUnit file. Equivalent to  
-    passing [`--output-junit`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-output-junit) on the command line.  
-    This field supports macro expansion. This is allowed in preset files  
-    specifying version `6` or above.
+- `outputOnFailure`
+  - type: [`bool`]()
+  - required: no
+  
+  If true, equivalent to passing [`--output-on-failure`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-output-on-failure) on the command line.
+
+- `quiet`
+  - type: [`bool`]()
+  - required: no
+  
+  If true, equivalent to passing [`--quiet`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-Q) on the command line.
+
+- `outputLogFile`
+  
+  - type: [`string`]()
+  - required: no
+  
+  Path to a log file.
+  
+  Equivalent to passing [`--output-log`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-O) on the command line.  
+  
+  This field supports macro expansion.
+
+- `outputJUnitFile`
+  
+  - type: [`string`]()
+  - required: no
+  - since: version 6
+  
+  Path to a JUnit file.
+  
+  Equivalent to passing [`--output-junit`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-output-junit) on the command line.
+  
+  This field supports macro expansion.
+
 17. `labelSummary`An optional bool. If false, equivalent to passing  
     [`--no-label-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-label-summary) on the command  
     line.`subprojectSummary`An optional bool. If false, equivalent to passing  

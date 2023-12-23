@@ -56,22 +56,11 @@ A string with a human-friendly description of the preset.
   
 ###### `environment`
 
-> [!todo]
-> Review this.
-
-- type: `map`
+- type: [`object`] of [[environment-map]]
 - required: no
 
 A map of environment variables.
 
-Environment variables in this map may reference each other, and may be listed in any order, as long as such references do not cause a cycle.
-
-This field supports [[macro-expansion]].
-
-Environment variables are inherited through the `inherits` field, and the preset's environment will be the union of its own `environment` and the `environment` from all its parents. If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
-
-Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
-  
 ###### `configurePreset`
 
 - type: `string`
@@ -122,36 +111,19 @@ If true, equivalent to passing [`--clean-first`](https://cmake.org/cmake/help/la
 
 ###### `resolvePackageReferences`
 
-> [!todo]
-> Review this.
-
 - type: `string`
 - required: no
 - since: version 4
 
 Specifies the package resolve mode.
 
-Package references are used to define dependencies to packages from external package managers. Currently only NuGet in combination with the Visual Studio generator is supported. If there are no targets that define package references, this option does nothing.
-
 Valid values are:
 
 - `on`
-  
-  Causes package references to be resolved before attempting a build.
-
 - `off`
-  
-  Package references will not be resolved. Note that this may cause errors in some build environments, such as .NET SDK style projects.
-
 - `only`
-  
-  Only resolve package references, but do not perform a build.
 
-> [!note]
-> 
-> The command line parameter[`--resolve-package-references`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-build-resolve-package-references) will take priority over this setting. If the command line parameter is not provided and this setting is not specified, an environment-specific cache variable will be evaluated to decide, if package restoration should be performed.  
-> 
-> When using the Visual Studio generator, package references are defined using the [`VS_PACKAGE_REFERENCES`](https://cmake.org/cmake/help/latest/prop_tgt/VS_PACKAGE_REFERENCES.html#prop_tgt:VS_PACKAGE_REFERENCES) property. Package references are restored using NuGet. It can be disabled by setting the `CMAKE_VS_NUGET_PACKAGE_RESTORE` variable to `OFF`. This can also be done from within a configure preset.
+Learn more in official docs.
 
 ###### `verbose`
 

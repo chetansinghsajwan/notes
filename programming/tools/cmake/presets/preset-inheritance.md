@@ -1,8 +1,6 @@
 # Preset Inheritance
 
-Name of preset or names of presets to inherit from.
-
-The preset will inherit all of the fields from the `inherits` presets by default (except `name`, `hidden`, `inherits`,`description`, and `displayName`), and can override them as desired.
+A preset will inherit all of the fields from the `inherits` presets by default (except `name`, `hidden`, `inherits`,`description`, and `displayName`), and can override them as desired.
 
 If multiple `inherits` presets provide conflicting values for the same field, the earlier preset in the `inherits` array will be preferred.
 
