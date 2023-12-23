@@ -2,7 +2,7 @@
 
 A kit defines project-agnostic and configuration-agnostic info about how to build code.
 
-- They are vscode-cmake-tools extension specific.
+They are vscode-cmake-tools extension specific.
 
 A kit can include:
 
@@ -14,4 +14,4 @@ A kit can include:
   
 ## References
  
-> https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/kits.md
+- https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/kits.md

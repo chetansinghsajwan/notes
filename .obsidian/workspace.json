@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/cmake/presets/status.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afcd63afa5c37c51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "programming/tools/cmake/presets/preset-condition.md",
                 "mode": "source",
                 "source": false
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/cmake/presets/status.md",
+                "file": "programming/tools/cmake/presets/preset-condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/cmake/presets/status.md",
+                "file": "programming/tools/cmake/presets/preset-condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/cmake/presets/status.md"
+                "file": "programming/tools/cmake/presets/preset-condition.md"
               }
             }
           },
@@ -181,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/cmake/presets/status.md"
+                "file": "programming/tools/cmake/presets/preset-condition.md"
               }
             }
           }
@@ -207,8 +195,12 @@
   },
   "active": "e656b781a69d9661",
   "lastOpenFiles": [
-    "programming/tools/cmake/presets/preset-condition.md",
+    "programming/tools/cmake/kits.md",
+    "programming/tools/cmake/presets/build-preset.md",
     "programming/tools/cmake/presets/status.md",
+    "programming/tools/cmake/presets/preset-condition.md",
+    "programming/tools/cmake/generators/borland-makefiles.md",
+    "programming/tools/cmake/generators.md",
     "programming/tools/cmake/presets/package-preset-format.md",
     "programming/tools/cmake/presets/build-preset-format.md",
     "programming/tools/cmake/presets/environment-map.md",
@@ -226,14 +218,10 @@
     "programming/tools/cmake/presets/preset-example.md",
     "programming/tools/cmake/presets/CMake Variables.md",
     "programming/tools/cmake/presets/configure-preset.md",
-    "programming/tools/cmake/presets/build-preset.md",
     "programming/tools/cpack/cpack.md",
     "programming/tools/clang.md",
     "programming/tools/cpack",
     "programming/guidelines/idioms.md",
-    "programming/tools/cmake/presets/workflow-preset.md",
-    "programming/tools/cmake/generators/vs6.md",
-    "programming/tools/cmake/generators.md",
     "programming/tools/cmake/generators",
     "programming/languages/json/data-types",
     "programming/languages/json",
