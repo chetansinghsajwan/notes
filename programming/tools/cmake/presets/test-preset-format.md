@@ -171,43 +171,151 @@ The object may contain the following fields.
   
   This field supports macro expansion.
 
-17. `labelSummary`An optional bool. If false, equivalent to passing  
-    [`--no-label-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-label-summary) on the command  
-    line.`subprojectSummary`An optional bool. If false, equivalent to passing  
-    [`--no-subproject-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-subproject-summary)  
-    on the command line.
-18. `maxPassedTestOutputSize`An optional integer specifying the maximum output for passed tests in bytes. Equivalent to passing [`--test-output-size-passed`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-size-passed) on the command line.
-19. `maxFailedTestOutputSize`An optional integer specifying the maximum output for failed tests in  
-    bytes. Equivalent to passing [`--test-output-size-failed`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-size-failed) on the command line.
-20. `testOutputTruncation`An optional string specifying the test output truncation mode. Equivalent  
-    to passing [`--test-output-truncation`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-truncation) on the command line. This is allowed in preset files specifying version `5` or above.
-21. `maxTestNameWidth`An optional integer specifying the maximum width of a test name to  
-    output. Equivalent to passing [`--max-width`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-max-width) on the command line.
-22. `filter`An optional object specifying how to filter the tests to run. The object may contain the following fields.
-23. `include`An optional object specifying which tests to include. The object may  
-    contain the following fields.
-24. `name`An optional string specifying a regex for test names. Equivalent to  
-    passing [`--tests-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-R) on the command line. This field supports macro expansion. CMake regex syntax is described under [string(REGEX)](https://cmake.org/cmake/help/latest/command/string.html#regex-specification).
-25. `label`An optional string specifying a regex for test labels. Equivalent to passing [`--label-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-L) on the command line. This field supports macro expansion.
-26. `useUnion`An optional bool. Equivalent to passing [`--union`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-U) on the command line.
-27. `index`An optional object specifying tests to include by test index. The object may contain the following fields. Can also be an optional string specifying a file with the command line syntax for [`--tests-information`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-I). If specified as a string, this field supports macro expansion.
-28. `start`An optional integer specifying a test index to start testing at.
-29. `end`An optional integer specifying a test index to stop testing at.
-30. `stride`An optional integer specifying the increment.
-31. `specificTests`An optional array of integers specifying specific test indices to  
-    run.
-32. `exclude`An optional object specifying which tests to exclude. The object may  
-    contain the following fields.
-33. `name`An optional string specifying a regex for test names. Equivalent to passing [`--exclude-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-E) on the command line. This field supports macro expansion.
-34. `label`An optional string specifying a regex for test labels. Equivalent to passing [`--label-exclude`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-LE) on the command line. This field supports macro expansion.
-35. `fixtures`An optional object specifying which fixtures to exclude from adding tests. The object may contain the following fields.
-36. `any`An optional string specifying a regex for text fixtures to exclude from adding any tests. Equivalent to [`--fixture-exclude-any`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FA) on the command line. This field supports macro expansion.
-37. `setup`An optional string specifying a regex for text fixtures to exclude from adding setup tests. Equivalent to [`--fixture-exclude-setup`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FS) on the command line. This field supports macro expansion.
-38. `cleanup`An optional string specifying a regex for text fixtures to exclude from adding cleanup tests. Equivalent to [`--fixture-exclude-cleanup`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FC) on the command line. This field supports macro expansion.
-39. `execution`An optional object specifying options for test execution. The object may contain the following fields.
-40. `stopOnFailure`An optional bool. If true, equivalent to passing [`--stop-on-failure`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-stop-on-failure) on the command line.
-41. `enableFailover`An optional bool. If true, equivalent to passing [`-F`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-F) on the command line.`jobs`An optional integer. Equivalent to passing[`--parallel`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-j) on the command line.
-42. `resourceSpecFile`An optional string. Equivalent to passing [`--resource-spec-file`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-resource-spec-file) on  
+- `labelSummary`
+    
+  - type: [`bool`]()
+  - required: no
+  
+  If false, equivalent to passing [`--no-label-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-label-summary) on the command line.
+
+- `subprojectSummary`
+  
+  - type: [`bool`]()
+  - required: no
+  
+  If false, equivalent to passing [`--no-subproject-summary`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-no-subproject-summary) on the command line.
+  
+- `maxPassedTestOutputSize`
+  
+  - type: [`int`]()
+  - required: no
+  
+  Specifies the maximum output for passed tests in bytes.
+  
+  Equivalent to passing [`--test-output-size-passed`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-size-passed) on the command line.
+  
+- `maxFailedTestOutputSize`
+  
+  - type: [`int`]()
+  - required: no
+  
+  Specifyies the maximum output for failed tests in bytes.
+  
+  Equivalent to passing [`--test-output-size-failed`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-size-failed) on the command line.
+  
+- `testOutputTruncation`
+  
+  - type: [`string`]()
+  - required: no
+  - since: version 5
+  
+  Specifyies the test output truncation mode.
+  
+  Equivalent to passing [`--test-output-truncation`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-output-truncation) on the command line.
+  
+- `maxTestNameWidth`
+  
+  - type: [`int`]()
+  - required: no
+  
+  Specifyies the maximum width of a test name to output.
+  
+  Equivalent to passing [`--max-width`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-max-width) on the command line.
+  
+###### `filter`
+
+- type: [`object`]()
+- required: no
+
+Specifyies how to filter the tests to run.
+
+The object may contain the following fields.
+
+- `include`
+  
+  An optional object specifying which tests to include.
+  
+  The object may contain the following fields.
+
+- `name`
+  
+  An optional string specifying a regex for test names.
+  
+  Equivalent to passing [`--tests-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-R) on the command line.
+  
+  This field supports macro expansion.
+  
+  CMake regex syntax is described under [string(REGEX)](https://cmake.org/cmake/help/latest/command/string.html#regex-specification).
+  
+- `label`
+  
+  An optional string specifying a regex for test labels.
+  
+  Equivalent to passing [`--label-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-L) on the command line.
+  
+  This field supports macro expansion.
+
+- `useUnion`
+  
+  An optional bool.
+  
+  Equivalent to passing [`--union`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-U) on the command line.
+
+- `index`
+  
+  An optional object specifying tests to include by test index.
+  
+  The object may contain the following fields. Can also be an optional string specifying a file with the command line syntax for [`--tests-information`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-I). If specified as a string, this field supports macro expansion.
+
+- `start`
+  
+  An optional integer specifying a test index to start testing at.
+
+- `end`
+  
+  An optional integer specifying a test index to stop testing at.
+
+- `stride`
+  
+  An optional integer specifying the increment.
+  
+- `specificTests`
+  
+  An optional array of integers specifying specific test indices to run.
+
+- `exclude`
+  
+  An optional object specifying which tests to exclude. The object may contain the following fields.
+  
+- `name`
+  
+  An optional string specifying a regex for test names. Equivalent to passing [`--exclude-regex`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-E) on the command line.
+  
+  This field supports macro expansion.
+
+- `label`
+  
+  An optional string specifying a regex for test labels.
+  
+  Equivalent to passing [`--label-exclude`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-LE) on the command line.
+  
+  This field supports macro expansion.
+
+- `fixtures`
+  
+  An optional object specifying which fixtures to exclude from adding tests.
+  
+  The object may contain the following fields.
+
+- `any`
+  
+  An optional string specifying a regex for text fixtures to exclude from adding any tests. Equivalent to [`--fixture-exclude-any`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FA) on the command line. This field supports macro expansion.
+1. `setup`An optional string specifying a regex for text fixtures to exclude from adding setup tests. Equivalent to [`--fixture-exclude-setup`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FS) on the command line. This field supports macro expansion.
+2. `cleanup`An optional string specifying a regex for text fixtures to exclude from adding cleanup tests. Equivalent to [`--fixture-exclude-cleanup`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-FC) on the command line. This field supports macro expansion.
+3. `execution`An optional object specifying options for test execution. The object may contain the following fields.
+4. `stopOnFailure`An optional bool. If true, equivalent to passing [`--stop-on-failure`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-stop-on-failure) on the command line.
+5. `enableFailover`An optional bool. If true, equivalent to passing [`-F`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-F) on the command line.`jobs`An optional integer. Equivalent to passing[`--parallel`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-j) on the command line.
+6. `resourceSpecFile`An optional string. Equivalent to passing [`--resource-spec-file`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-resource-spec-file) on  
     the command line. This field supports macro expansion.
 43. `testLoad`An optional integer. Equivalent to passing [`--test-load`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-test-load) on the command line.
 44. `showOnly`An optional string. Equivalent to passing [`--show-only`](https://cmake.org/cmake/help/latest/manual/ctest.1.html#cmdoption-ctest-N) on the  

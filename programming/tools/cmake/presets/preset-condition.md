@@ -1,7 +1,9 @@
 # Preset Condition
 
-The `condition` field of a preset, allowed in preset files specifying version `3` or above, is used to determine whether or not the preset is enabled. For example, this can be used to disable a preset on platforms other than Windows.
-  
+The `condition` field of a preset, allowed in preset files specifying version `3` or above, is used to determine whether or not the preset is enabled.
+
+For example, this can be used to disable a preset on platforms other than Windows.
+
 `condition` may be either a boolean, `null`, or an object.
 
 If it is a boolean, the boolean specifies the condition indicates whether the preset is enabled or disabled.

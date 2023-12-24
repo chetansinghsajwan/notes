@@ -73,14 +73,15 @@ Value must be one from [cmake-generators](programming/tools/cmake/generators).
 > [!todo]
 > Verify the above statement.
 
-## Needs refactoring begin
-
 ###### `architecture`, `toolset`
+
+> [!todo]
+> Review this.
 
 - type: [`string`](programming/languages/json/data-types/string)
 - required: no
 
-Optional fields representing the platform and toolset, respectively, for [`generators`](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#manual:cmake-generators(7)) that support them.  
+Represents the platform and toolset, respectively, for [`generators`](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#manual:cmake-generators(7)) that support them.  
 
 See [`cmake -A`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-A) option for possible values for `architecture` and [`cmake -T`](https://cmake.org/cmake/help/latest/manual/cmake.1.html#cmdoption-cmake-T) for `toolset`.  
 
@@ -149,8 +150,6 @@ IDEs that use this field should expand any macros in it.
 - type: [`object`]
 - required: no
 
-`[string: (null | bool | object)]`
-
 A map of cache variables.
 
 The key is the variable name.
@@ -159,14 +158,18 @@ The value is either:
 
 - `null`
 
-- `bool`, can also be written as `"TRUE"` or `"FALSE"`.
+- `bool`
+  
+  Can also be written as `"TRUE"` or `"FALSE"`.
 
-- `string` representing the value of the variable.
+- `string`
   
   This supports [[macro-expansion]].
 
-- [`object`]() with the following fields:
-
+- [`object`]()
+  
+  This conatins the following fields:
+  
   - `type`
     
     - type: [`string`]()
@@ -179,6 +182,8 @@ The value is either:
     - type: [`string`]
     - required: yes
     
+    Value of the variable.
+    
     Same rules as above.
 
 Cache variables are inherited through the `inherits` field.
@@ -188,26 +193,13 @@ The preset's variables will be the union of its own `cacheVariables` and the `ca
 If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
 
 Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
+
 ###### `environment`
 
-- type: [`object`]
+- type: [`object`]() of [[environment-map]]
 - required: no
-- supports-macro-expansion: yes
 
 A map of environment variables.
-
-The key is the variable name, and the value is either `null` or a string representing the value of the variable.
-
-Environment variables in this map may reference each other, and may be listed in any order, as long as such references do not cause a cycle.
-
-> [!todo]
-> Review this.
-> 
-Environment variables are inherited through the `inherits` field, and the preset's environment will be the union of its own `environment` and the `environment` from all its parents. If multiple presets in this union define the same variable, the standard rules of `inherits` are applied.
-
-Setting a variable to `null` causes it to not be set, even if a value was inherited from another preset.
-
-## Needs refactoring end
 
 ###### `warnings`
 
