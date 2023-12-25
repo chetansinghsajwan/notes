@@ -14,6 +14,8 @@
   
   Git Tutorial for Beginners: Learn Git in 1 Hour
 
-## References
+- https://opensource.com/article/22/11/git-concepts
+
+- https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc
 
 - https://gitexcited.com/git-learning-recommendations
