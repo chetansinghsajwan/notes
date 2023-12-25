@@ -1,10 +1,7 @@
-[[programming/languages/cmake/cmake]]
-[[CMake Options]]
-[[CMake Variables]]
-[[CMake Toolchain]]
-[[presets]]
-[[programming/tools/cmake/Resources/Resources|Resources]]
----
-[[CMake Kits]]
----
-[[CMake Template Page]]
+# `cmake` command
+
+
+
+## References
+
+https://cmake.org/cmake/help/latest/manual/cmake.1.html
