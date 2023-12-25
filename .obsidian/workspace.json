@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/competitive/questions/median-of-two-sorted-arrays.md",
+                "file": "programming/tools/git/resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/competitive/questions/median-of-two-sorted-arrays.md",
+                "file": "programming/tools/git/resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/competitive/questions/median-of-two-sorted-arrays.md",
+                "file": "programming/tools/git/resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/competitive/questions/median-of-two-sorted-arrays.md"
+                "file": "programming/tools/git/resources.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/competitive/questions/median-of-two-sorted-arrays.md"
+                "file": "programming/tools/git/resources.md"
               }
             }
           }
@@ -195,10 +195,13 @@
   },
   "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
+    "programming/languages/nix/language-constructs/function.md",
+    "computer-science/networking/resources.md",
     "programming/competitive/questions/add-two-numbers.md",
-    "programming/competitive/questions/median-of-two-sorted-arrays.md",
-    "programming/competitive/questions/two-sum.md",
     "programming/competitive/questions/longest-substring-without-repeating-characters.md",
+    "programming/competitive/questions/two-sum.md",
+    "programming/competitive/questions/median-of-two-sorted-arrays.md",
+    "computer-science/networking",
     "programming/tools/cmake/presets/test-preset-format.md",
     "programming/tools/cmake/presets/configure-preset-format.md",
     "programming/competitive/questions",
@@ -221,8 +224,6 @@
     "programming/tools/cmake/presets/workflow-preset-format.md",
     "programming/tools/cmake/presets/preset-hiding.md",
     "programming/tools/cmake/presets/macro-expansion.md",
-    "programming/tools/cmake/presets/package-preset.md",
-    "programming/tools/cmake/presets/preset-example.md",
     "programming/tools/cpack",
     "programming/tools/cmake/generators",
     "programming/languages/json/data-types",
@@ -230,7 +231,6 @@
     "programming/languages/nix/Untitled",
     "wallpapers",
     "programming/languages/nix/data-types",
-    "programming/languages/nix/builtin-constants",
     "computer-science/uuid/v1-diagram.svg",
     "Untitled.canvas",
     "computer-science/uuid/v4-diagram.png",
