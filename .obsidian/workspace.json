@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b96735fa9366ea4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/tools/git/resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8a96bb255bf0ed89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "programming/tools/git/concepts/ref.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64a2a16438fb86db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/tools/git/to-read.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/git/resources.md",
+                "file": "programming/tools/git/concepts/ref.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/git/resources.md",
+                "file": "programming/tools/git/concepts/ref.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/git/resources.md"
+                "file": "programming/tools/git/concepts/ref.md"
               }
             }
           },
@@ -193,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/git/resources.md"
+                "file": "programming/tools/git/concepts/ref.md"
               }
             }
           }
@@ -217,14 +193,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b96735fa9366ea4a",
+  "active": "8a96bb255bf0ed89",
   "lastOpenFiles": [
-    "programming/tools/git/concepts/object.md",
-    "programming/tools/git/concepts/ref.md",
     "programming/tools/git/to-read.md",
+    "programming/tools/git/concepts/ref.md",
+    "programming/tools/git/resources.md",
+    "programming/tools/git/concepts/object.md",
     "programming/tools/git/concepts/ref-store.md",
     "programming/tools/git/concepts/object-store.md",
-    "programming/tools/git/resources.md",
     "programming/tools/git/concepts/commit.md",
     "programming/tools/git/concepts/branch.md",
     "programming/tools/git/concepts/staging.md",
