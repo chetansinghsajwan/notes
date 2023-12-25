@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/git/concepts/ref.md",
+                "file": "programming/tools/git/concepts/staging.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/git/concepts/ref.md",
+                "file": "programming/tools/git/concepts/staging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/git/concepts/ref.md",
+                "file": "programming/tools/git/concepts/staging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/git/concepts/ref.md"
+                "file": "programming/tools/git/concepts/staging.md"
               }
             }
           },
@@ -169,11 +169,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/git/concepts/ref.md"
+                "file": "programming/tools/git/concepts/staging.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -195,19 +196,20 @@
   },
   "active": "8a96bb255bf0ed89",
   "lastOpenFiles": [
-    "programming/tools/git/to-read.md",
-    "programming/tools/git/concepts/ref.md",
-    "programming/tools/git/resources.md",
-    "programming/tools/git/concepts/object.md",
-    "programming/tools/git/concepts/ref-store.md",
-    "programming/tools/git/concepts/object-store.md",
-    "programming/tools/git/concepts/commit.md",
     "programming/tools/git/concepts/branch.md",
+    "programming/tools/git/to-read.md",
+    "programming/tools/git/resources.md",
     "programming/tools/git/concepts/staging.md",
+    "programming/tools/git/concepts/tag.md",
+    "programming/tools/git/concepts/three-tree-arch.md",
+    "programming/tools/git/concepts/ref-store.md",
+    "programming/tools/git/concepts/ref.md",
+    "programming/tools/git/concepts/object-store.md",
+    "programming/tools/git/concepts/object.md",
     "programming/tools/git/concepts/checkout.md",
+    "programming/tools/git/concepts/commit.md",
     "programming/tools/git/commands/commit.md",
     "programming/tools/git/concepts",
-    "programming/tools/git/concepts/three-tree-arch.md",
     "programming/tools/git/commands",
     "programming/tools/cmake/presets/configure-preset-format.md",
     "programming/tools/git",
@@ -225,7 +227,6 @@
     "programming/tools/cmake/presets/preset-include-rules.md",
     "programming/tools/cmake/presets/preset-hiding.md",
     "programming/tools/cmake/presets/preset-format.md",
-    "programming/tools/cmake/presets/preset-example.md",
     "programming/tools/cmake/generators",
     "programming/languages/json/data-types",
     "programming/languages/json",

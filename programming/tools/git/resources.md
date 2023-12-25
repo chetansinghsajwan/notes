@@ -10,22 +10,36 @@
 
 - https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/
 
-- gits-database-internals-1: https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/
+- https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/
+  
+  Git's Database Internals Part 1: Packed Object Store
 
-- gits-database-internals-2: https://github.blog/2022-08-30-gits-database-internals-ii-commit-history-queries/
+- https://github.blog/2022-08-30-gits-database-internals-ii-commit-history-queries/
+  
+  Git's Database Internals Part 2: Commit History Queries
 
-- gits-database-internals-3: https://github.blog/2022-08-31-gits-database-internals-iii-file-history-queries/
+- https://github.blog/2022-08-31-gits-database-internals-iii-file-history-queries/
+  
+  Git's Database Internals Part 3: File History Queries
 
-- gits-database-internals-4: https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/
+- https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/
+  
+  Git's Database Internals Part 4: Distributed Synchronization
 
-- gits-database-internals-5: https://github.blog/2022-09-02-gits-database-internals-v-scalability/
+- https://github.blog/2022-09-02-gits-database-internals-v-scalability/
+  
+  Git's Database Internals Part 5: Scalability
 
 - https://www.atlassian.com/git
 
 - https://www.gitkraken.com/learn/git
 
-- youtube-complete-git-and-github-tutorial: https://youtu.be/apGV9Kg7ics
+- https://youtu.be/apGV9Kg7ics
+  
+  Complete Git and Github Tutorial on Youtube by Kunal Kushwaha.
 
-- youtube-learn-git-in-one-hour: https://youtu.be/8JJ101D3knE
+- https://youtu.be/8JJ101D3knE
+  
+  Lean Git in One Hour on Youtube by Programming With Mosh.
 
 - https://gitexcited.com/git-learning-recommendations
