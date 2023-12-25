@@ -1,8 +1,14 @@
-# Objects
+# Object
 
 Git is a content-addressable filesystem. It means that at the core of git is a simple key-value data store.
 
-Git stores all data in form of files, these files are reffered as objects. There are three types of objects git uses to manage the repo:
+Git stores all data in form of files, these files are reffered as objects.
+
+Objects are the atoms of a git repo.
+
+They are stored in `.git/objects` directory. This directory is called the [obejct-store](object-store) of git.
+
+There are three types of objects git uses to manage the repo:
 
 1. blob
 2. tree
@@ -81,7 +87,7 @@ A commit object stores:
 - author name
 - author email
 - author time stamp
-- hash of parent commit
+- list of hash of parent commits
 - commit message
 - ...
 

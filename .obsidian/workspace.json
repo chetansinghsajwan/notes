@@ -13,26 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/git/concepts/commit.md",
+                "file": "programming/tools/git/resources.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "929f80a05e39bae0",
+            "id": "8a96bb255bf0ed89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/tools/git/concepts/object.md",
+                "file": "programming/tools/git/concepts/ref.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64a2a16438fb86db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/tools/git/to-read.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/tools/git/concepts/object.md",
+                "file": "programming/tools/git/resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/tools/git/concepts/object.md",
+                "file": "programming/tools/git/resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/tools/git/concepts/object.md"
+                "file": "programming/tools/git/resources.md"
               }
             }
           },
@@ -182,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "programming/tools/git/concepts/object.md"
+                "file": "programming/tools/git/resources.md"
               }
             }
           }
@@ -206,11 +217,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "b96735fa9366ea4a",
   "lastOpenFiles": [
-    "programming/tools/git/concepts/commit.md",
     "programming/tools/git/concepts/object.md",
+    "programming/tools/git/concepts/ref.md",
+    "programming/tools/git/to-read.md",
+    "programming/tools/git/concepts/ref-store.md",
+    "programming/tools/git/concepts/object-store.md",
     "programming/tools/git/resources.md",
+    "programming/tools/git/concepts/commit.md",
     "programming/tools/git/concepts/branch.md",
     "programming/tools/git/concepts/staging.md",
     "programming/tools/git/concepts/checkout.md",
@@ -235,10 +250,6 @@
     "programming/tools/cmake/presets/preset-hiding.md",
     "programming/tools/cmake/presets/preset-format.md",
     "programming/tools/cmake/presets/preset-example.md",
-    "programming/tools/cmake/presets/preset-condition.md",
-    "programming/tools/cmake/presets/package-preset-format.md",
-    "programming/tools/cmake/presets/environment-map.md",
-    "programming/tools/cmake/presets/build-preset-format.md",
     "programming/tools/cmake/generators",
     "programming/languages/json/data-types",
     "programming/languages/json",
