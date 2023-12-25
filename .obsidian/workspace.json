@@ -193,8 +193,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "e656b781a69d9661",
   "lastOpenFiles": [
+    "programming/tools/git/three-tree-arch.md",
+    "programming/tools/git/resources.md",
     "programming/languages/nix/language-constructs/function.md",
     "computer-science/networking/resources.md",
     "programming/competitive/questions/add-two-numbers.md",
@@ -222,8 +224,6 @@
     "programming/tools/cmake/presets/preset-vendor-map.md",
     "programming/tools/cmake/presets/presets.md",
     "programming/tools/cmake/presets/workflow-preset-format.md",
-    "programming/tools/cmake/presets/preset-hiding.md",
-    "programming/tools/cmake/presets/macro-expansion.md",
     "programming/tools/cpack",
     "programming/tools/cmake/generators",
     "programming/languages/json/data-types",
