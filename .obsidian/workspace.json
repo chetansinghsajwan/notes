@@ -20,19 +20,31 @@
             }
           },
           {
-            "id": "f3d2c21220e52547",
+            "id": "a6c1a397ae903f64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "btech/tcs703/unit5.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8706210204ecd17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/networking/ip-address.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "btech/tcs703/unit5.md",
+                "file": "computer-science/networking/ip-address.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "btech/tcs703/unit5.md",
+                "file": "computer-science/networking/ip-address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "btech/tcs703/unit5.md"
+                "file": "computer-science/networking/ip-address.md"
               }
             }
           },
@@ -184,7 +196,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "btech/tcs703/unit5.md"
+                "file": "computer-science/networking/ip-address.md"
               }
             }
           }
@@ -209,8 +221,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f3d2c21220e52547",
+  "active": "e8706210204ecd17",
   "lastOpenFiles": [
+    "computer-science/networking/network.md",
+    "computer-science/networking/ip-address.md",
+    "computer-science/networking/resources.md",
+    "btech/tcs703/unit5.md",
+    "computer-science/Untitled.md",
+    "btech/tcs703/resources/Untitled.md",
+    "btech/tcs703/resources/unit5-notes.pdf",
+    "btech/tcs703/unit5-img-1.png",
+    "btech/tcs703/syllabus.md",
     "programming/languages/cpp/types.md",
     "programming/languages/cpp/type-qualifiers.md",
     "programming/languages/cpp/template-argument-deduction.md",
@@ -224,11 +245,8 @@
     "programming/languages/cpp/braced-init-list.md",
     "programming/languages/cpp/copy-constructor.md",
     "programming/languages/cpp/ctad.md",
-    "btech/tcs703/resources/unit5-notes.pdf",
     "programming/languages/static-cast.md",
     "programming/dynamic-cast.md",
-    "btech/tcs703/unit5.md",
-    "btech/tcs703/syllabus.md",
     "btech/tit704/resources/unit5-notes.pdf",
     "tasks.md",
     "btech/tit704/resources/unit4-notes.pdf",
@@ -242,11 +260,6 @@
     "btech/tit704/tit704.md",
     "btech/tit704/syllabus.md",
     "btech/tcs756/tcs756.md",
-    "btech/tcs756/syllabus.md",
-    "btech/tcs706/tcs706.md",
-    "btech/tcs706/syllabus.md",
-    "btech/tcs704/tcs704.md",
-    "btech/tcs704/syllabus.md",
     "computer-science/uuid/v4-diagram.png",
     "computer-science/uuid/v1-diagram.svg",
     "projects/atom-core/logos/svg/logo-white.svg",
@@ -256,7 +269,6 @@
     "projects/atom-core/logos/png/logo-white.png",
     "projects/atom-core/logos/png/logo-no-background.png",
     "projects/atom-core/logos/png/logo-color.png",
-    "projects/atom-core/logos/png/logo-black.png",
     "Untitled.canvas"
   ]
 }
