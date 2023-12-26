@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d9b23ef9db05786",
+        "id": "ec684934540a381e",
         "type": "tabs",
         "children": [
           {
-            "id": "a881fb7bd8a67a12",
+            "id": "a27995bb9cc95f25",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "release-notes",
               "state": {
-                "file": "btech/tit704/resources/unit1-notes.pdf"
+                "currentVersion": "1.5.3"
               }
             }
           }
@@ -83,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "btech/tit704/resources/unit1-notes.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "btech/tit704/resources/unit1-notes.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "btech/tit704/resources/unit1-notes.pdf"
+                "file": "btech/tcs703/resources/unit5-notes.pdf"
               }
             }
           },
@@ -141,7 +139,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -167,7 +167,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "btech/tit704/resources/unit1-notes.pdf"
+                "file": "btech/tcs703/resources/unit5-notes.pdf"
               }
             }
           }
@@ -194,45 +194,44 @@
   },
   "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
-    "btech/tcs706/resources",
-    "btech/tcs703/resources/unit1-notes.pdf",
-    "btech/tit704/resources",
-    "btech/tcs703/resources",
-    "btech/tcs703/resources/unit3-notes.pdf",
-    "btech/tcs706/tcs706.md",
-    "btech/tcs706/resources/notes.pdf",
+    "tasks.md",
     "btech/tit704/resources/unit5-notes.pdf",
     "btech/tit704/resources/unit4-notes.pdf",
     "btech/tit704/resources/unit3-notes.pdf",
-    "btech/tit704/resources/unit2-handnotes.pdf",
     "btech/tit704/resources/unit2-notes.pdf",
+    "btech/tit704/resources/unit2-handnotes.pdf",
+    "btech/tit704/resources/unit1-handnotes.pdf",
+    "btech/tit704/resources/unit1-notes.pdf",
+    "btech/tcs703/resources/unit5-notes.pdf",
+    "btech/tcs706/resources/notes.pdf",
+    "btech/tcs703/resources/unit4-pptnotes.pdf",
     "btech/tit704/tit704.md",
+    "btech/tit704/syllabus.md",
+    "btech/tcs756/tcs756.md",
+    "btech/tcs756/syllabus.md",
+    "btech/tcs706/tcs706.md",
+    "btech/tcs706/syllabus.md",
+    "btech/tcs704/tcs704.md",
+    "btech/tcs704/syllabus.md",
+    "btech/tcs703/unit5.md",
+    "btech/tcs703/tcs703.md",
     "btech/tcs703/syllabus.md",
     "btech/sem7/date-sheet-end.md",
-    "btech/tcs703/tcs703.md",
-    "btech/Untitled.md",
-    "btech/tit704/syllabus.md",
-    "btech/tcs706/syllabus.md",
-    "btech/tcs756/tcs756.md",
-    "btech/tcs704/tcs704.md",
-    "btech/tcs756/syllabus.md",
-    "btech/tcs704/syllabus.md",
-    "programming/tools/git/concepts/staging.md",
-    "programming/tools/git/concepts/branch.md",
-    "programming/tools/git/to-read.md",
-    "programming/tools/git/resources.md",
-    "programming/tools/git/concepts/tag.md",
-    "programming/tools/git/concepts/three-tree-arch.md",
-    "programming/tools/git/concepts/ref-store.md",
-    "programming/tools/git/concepts/ref.md",
-    "programming/tools/git/concepts/object-store.md",
-    "programming/tools/git/concepts/object.md",
-    "programming/tools/git/concepts/checkout.md",
-    "programming/tools/git/concepts/commit.md",
-    "programming/tools/git/commands/commit.md",
-    "computer-science/uuid/v1-diagram.svg",
-    "Untitled.canvas",
+    "computer-science/os/linux/nix/resources.md",
+    "computer-science/os/android/firmware-tools/sp-mdt-tool.md",
+    "computer-science/os/android/firmware-tools/sp-flash-tool.md",
+    "computer-science/os/android/firmware-tools/mtkclient.md",
+    "computer-science/os/windows/virtual-hard-disk.md",
+    "computer-science/os/windows/windows-os.md",
+    "computer-science/os/windows/refs.md",
+    "computer-science/os/linux/linux.md",
+    "computer-science/os/linux/gnome.md",
+    "computer-science/os/linux/fedora.md",
+    "computer-science/os/android/scatter-file.md",
+    "computer-science/os/android/partition-system.md",
+    "computer-science/os/android/bricked-dev.md",
     "computer-science/uuid/v4-diagram.png",
+    "computer-science/uuid/v1-diagram.svg",
     "projects/atom-core/logos/svg/logo-white.svg",
     "projects/atom-core/logos/svg/logo-no-background.svg",
     "projects/atom-core/logos/svg/logo-color.svg",
@@ -240,6 +239,7 @@
     "projects/atom-core/logos/png/logo-white.png",
     "projects/atom-core/logos/png/logo-no-background.png",
     "projects/atom-core/logos/png/logo-color.png",
-    "projects/atom-core/logos/png/logo-black.png"
+    "projects/atom-core/logos/png/logo-black.png",
+    "Untitled.canvas"
   ]
 }

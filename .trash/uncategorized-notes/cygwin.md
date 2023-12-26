@@ -1,1 +1,0 @@
-Formerly known as Cygnus.
