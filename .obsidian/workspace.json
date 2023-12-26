@@ -11,8 +11,12 @@
             "id": "a881fb7bd8a67a12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "btech/tcs706/tcs706.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "btech/tit704/syllabus.md",
+                "file": "btech/tcs706/tcs706.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "btech/tit704/syllabus.md",
+                "file": "btech/tcs706/tcs706.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "btech/tit704/syllabus.md"
+                "file": "btech/tcs706/tcs706.md"
               }
             }
           },
@@ -165,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "btech/tit704/syllabus.md"
+                "file": "btech/tcs706/tcs706.md"
               }
             }
           }
@@ -192,25 +196,30 @@
   },
   "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
+    "btech/tcs706-notes.pdf",
+    "btech/tcs704-notes-unit5.pdf",
+    "btech/tcs704-notes-unit4.pdf",
+    "btech/tcs704-notes-unit3.pdf",
+    "btech/tcs704-notes-unit2-hand.pdf",
+    "btech/tcs704-notes-unit2.pdf",
+    "btech/tcs704-notes-unit1-hand.pdf",
+    "btech/tcs704-notes-unit1.pdf",
+    "btech/tcs703-syllabus.pdf",
+    "btech/tcs703-notes-unit5.pdf",
+    "btech/tcs703-notes-unit4-ppt.pdf",
     "btech/tit704/tit704.md",
+    "btech/tcs703/syllabus.md",
+    "btech/sem7/date-sheet-end.md",
+    "btech/tcs703/tcs703.md",
+    "btech/Untitled.md",
     "btech/tit704/syllabus.md",
     "btech/tcs706/tcs706.md",
-    "btech/Untitled",
     "btech/tcs706/syllabus.md",
     "btech/tcs756/tcs756.md",
-    "btech/tcs706",
-    "btech/tcs703/tcs703.md",
     "btech/tcs704/tcs704.md",
     "btech/tcs756/syllabus.md",
     "btech/tcs704/syllabus.md",
-    "btech/tcs756",
-    "btech/tit704",
-    "btech/tcs703/syllabus.md",
-    "btech/tcs704",
-    "btech/Untitled.md",
     "programming/tools/git/concepts/staging.md",
-    "btech/tcs703",
-    "btech",
     "programming/tools/git/concepts/branch.md",
     "programming/tools/git/to-read.md",
     "programming/tools/git/resources.md",
@@ -223,11 +232,6 @@
     "programming/tools/git/concepts/checkout.md",
     "programming/tools/git/concepts/commit.md",
     "programming/tools/git/commands/commit.md",
-    "programming/tools/git/concepts",
-    "programming/tools/git/commands",
-    "programming/tools/cmake/presets/configure-preset-format.md",
-    "programming/tools/git",
-    "programming/languages/nix/language-constructs/function.md",
     "computer-science/uuid/v1-diagram.svg",
     "Untitled.canvas",
     "computer-science/uuid/v4-diagram.png",
