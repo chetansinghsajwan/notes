@@ -11,11 +11,9 @@
             "id": "a881fb7bd8a67a12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "btech/tcs706/tcs706.md",
-                "mode": "source",
-                "source": false
+                "file": "btech/tit704/resources/unit1-notes.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "btech/tcs706/tcs706.md",
+                "file": "btech/tit704/resources/unit1-notes.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "btech/tcs706/tcs706.md",
+                "file": "btech/tit704/resources/unit1-notes.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "btech/tcs706/tcs706.md"
+                "file": "btech/tit704/resources/unit1-notes.pdf"
               }
             }
           },
@@ -169,7 +167,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "btech/tcs706/tcs706.md"
+                "file": "btech/tit704/resources/unit1-notes.pdf"
               }
             }
           }
@@ -196,24 +194,24 @@
   },
   "active": "2999f9e6fec0935e",
   "lastOpenFiles": [
-    "btech/tcs706-notes.pdf",
-    "btech/tcs704-notes-unit5.pdf",
-    "btech/tcs704-notes-unit4.pdf",
-    "btech/tcs704-notes-unit3.pdf",
-    "btech/tcs704-notes-unit2-hand.pdf",
-    "btech/tcs704-notes-unit2.pdf",
-    "btech/tcs704-notes-unit1-hand.pdf",
-    "btech/tcs704-notes-unit1.pdf",
-    "btech/tcs703-syllabus.pdf",
-    "btech/tcs703-notes-unit5.pdf",
-    "btech/tcs703-notes-unit4-ppt.pdf",
+    "btech/tcs706/resources",
+    "btech/tcs703/resources/unit1-notes.pdf",
+    "btech/tit704/resources",
+    "btech/tcs703/resources",
+    "btech/tcs703/resources/unit3-notes.pdf",
+    "btech/tcs706/tcs706.md",
+    "btech/tcs706/resources/notes.pdf",
+    "btech/tit704/resources/unit5-notes.pdf",
+    "btech/tit704/resources/unit4-notes.pdf",
+    "btech/tit704/resources/unit3-notes.pdf",
+    "btech/tit704/resources/unit2-handnotes.pdf",
+    "btech/tit704/resources/unit2-notes.pdf",
     "btech/tit704/tit704.md",
     "btech/tcs703/syllabus.md",
     "btech/sem7/date-sheet-end.md",
     "btech/tcs703/tcs703.md",
     "btech/Untitled.md",
     "btech/tit704/syllabus.md",
-    "btech/tcs706/tcs706.md",
     "btech/tcs706/syllabus.md",
     "btech/tcs756/tcs756.md",
     "btech/tcs704/tcs704.md",
