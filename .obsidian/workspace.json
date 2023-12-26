@@ -4,20 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ec684934540a381e",
+        "id": "2b9d97bd59c5889b",
         "type": "tabs",
         "children": [
           {
-            "id": "a27995bb9cc95f25",
+            "id": "2054c6198eefc803",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "btech/tcs703/syllabus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3d2c21220e52547",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "btech/tcs703/unit5.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "btech/tcs703/unit5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "btech/tcs703/unit5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "btech/tcs703/resources/unit5-notes.pdf"
+                "file": "btech/tcs703/unit5.md"
               }
             }
           },
@@ -167,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "btech/tcs703/resources/unit5-notes.pdf"
+                "file": "btech/tcs703/unit5.md"
               }
             }
           }
@@ -192,17 +209,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2999f9e6fec0935e",
+  "active": "f3d2c21220e52547",
   "lastOpenFiles": [
-    "tasks.md",
+    "programming/languages/cpp/types.md",
+    "programming/languages/cpp/type-qualifiers.md",
+    "programming/languages/cpp/template-argument-deduction.md",
+    "programming/languages/cpp/move-constructor.md",
+    "programming/languages/cpp/modules.md",
+    "programming/languages/cpp/initialization.md",
+    "programming/languages/cpp/implicit-conversions.md",
+    "programming/languages/cpp/idioms.md",
+    "programming/languages/cpp/hash-libraries.md",
+    "programming/languages/cpp/default-constructor.md",
+    "programming/languages/cpp/braced-init-list.md",
+    "programming/languages/cpp/copy-constructor.md",
+    "programming/languages/cpp/ctad.md",
+    "btech/tcs703/resources/unit5-notes.pdf",
+    "programming/languages/static-cast.md",
+    "programming/dynamic-cast.md",
+    "btech/tcs703/unit5.md",
+    "btech/tcs703/syllabus.md",
     "btech/tit704/resources/unit5-notes.pdf",
+    "tasks.md",
     "btech/tit704/resources/unit4-notes.pdf",
     "btech/tit704/resources/unit3-notes.pdf",
     "btech/tit704/resources/unit2-notes.pdf",
     "btech/tit704/resources/unit2-handnotes.pdf",
     "btech/tit704/resources/unit1-handnotes.pdf",
     "btech/tit704/resources/unit1-notes.pdf",
-    "btech/tcs703/resources/unit5-notes.pdf",
     "btech/tcs706/resources/notes.pdf",
     "btech/tcs703/resources/unit4-pptnotes.pdf",
     "btech/tit704/tit704.md",
@@ -213,23 +247,6 @@
     "btech/tcs706/syllabus.md",
     "btech/tcs704/tcs704.md",
     "btech/tcs704/syllabus.md",
-    "btech/tcs703/unit5.md",
-    "btech/tcs703/tcs703.md",
-    "btech/tcs703/syllabus.md",
-    "btech/sem7/date-sheet-end.md",
-    "computer-science/os/linux/nix/resources.md",
-    "computer-science/os/android/firmware-tools/sp-mdt-tool.md",
-    "computer-science/os/android/firmware-tools/sp-flash-tool.md",
-    "computer-science/os/android/firmware-tools/mtkclient.md",
-    "computer-science/os/windows/virtual-hard-disk.md",
-    "computer-science/os/windows/windows-os.md",
-    "computer-science/os/windows/refs.md",
-    "computer-science/os/linux/linux.md",
-    "computer-science/os/linux/gnome.md",
-    "computer-science/os/linux/fedora.md",
-    "computer-science/os/android/scatter-file.md",
-    "computer-science/os/android/partition-system.md",
-    "computer-science/os/android/bricked-dev.md",
     "computer-science/uuid/v4-diagram.png",
     "computer-science/uuid/v1-diagram.svg",
     "projects/atom-core/logos/svg/logo-white.svg",

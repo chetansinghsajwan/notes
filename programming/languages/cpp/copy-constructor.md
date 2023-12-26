@@ -1,7 +1,6 @@
 # Copy Constructor
 
-A copy constructor of class `T` is a non-template [constructor](https://en.cpp
-reference.com/w/cpp/language/initializer_list) whose first parameter is `T&`, `const T&`, `volatile T&` or `const volatile T&`, and either there are no other parameters, or the rest of the parameters all have default values.
+A copy constructor of class `T` is a non-template [constructor](https://en.cppreference.com/w/cpp/language/initializer_list) whose first parameter is `T&`, `const T&`, `volatile T&` or `const volatile T&`, and either there are no other parameters, or the rest of the parameters all have default values.
 
 ### Implicitly-declared copy constructor
 
@@ -62,14 +61,10 @@ For union types, the implicitly-defined copy constructor copies the object repre
 
 For non-union class types (class and struct), the constructor performs full member-wise copy of the object's bases and non-static members, in their initialization order, using direct initialization.
 
-## See Also
+## Related
 
-> [!info] Copy elision - cppreference.com  
->  
-> [https://en.cppreference.com/w/cpp/language/copy_elision](https://en.cppreference.com/w/cpp/language/copy_elision)  
+- https://en.cppreference.com/w/cpp/language/copy_elision
 
 ## References
 
-> [!info] Copy constructors - cppreference.com  
->  
-> [https://en.cppreference.com/w/cpp/language/copy_constructor](https://en.cppreference.com/w/cpp/language/copy_constructor)
+- https://en.cppreference.com/w/cpp/language/copy_constructor

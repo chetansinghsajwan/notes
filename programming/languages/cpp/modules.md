@@ -1,4 +1,7 @@
-- C++20 introduces _modules._
+# Modules
+
+- since: cpp20
+
 - Modules eliminate or reduce many of the problems associated with the use of header files.
 - You can import modules in any order without concern for macro redefinitions.
 - After a module is compiled once, the results are stored in a binary file that describes all the exported types, functions, and templates. The compiler can process that file much faster than a header file. And, the compiler can reuse it every place where the module is imported in a project.

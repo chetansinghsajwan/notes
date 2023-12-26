@@ -4,4 +4,4 @@ Programming idioms refer to commonly used patterns or practices within a program
 
 ## References
 
-> [[https://en.wikibooks.org/wiki/More_C++_Idioms]]
+- https://en.wikibooks.org/wiki/More_C++_Idioms

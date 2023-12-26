@@ -1,24 +1,33 @@
 # Template Argument Deduction
 
 > [!important]
-> NOTE: The answer here has been borrowed from effective modern C++ with a (very) few additions of my own.  
+> NOTE: The answer here has been borrowed from effective modern C++ with a (very) few additions of my own.
+
 This is one of those questions that are easy to pose but difficult to answer! I remember reading an entire chapter on template type deduction, and to a rookie reader, the answer is not clear in one read either. Nevertheless, I will try to clarify it here.
 One should note that there is something called _**Universal References**_ (which are not the same as references or r-value references) that influences template type deduction, and I assume readers know about l-value and r-value references.
+
 Any ubiquitous function template definition looks like the following:
-```
+
+```cpp
 template <typename T>
 returnType function(paramType param);
 ```
+
 A call to function would look somehow look like this :
-```
+
+```cpp
 function(expression);
 ```
+
 The compiler uses **expression** to determine the type of **T** and the type of **paramType**. This is so because more often **paramType** contains decorations like **const**, **const&**, **const&&**, etc. Beginners would be tempted to believe that the type **T** deduced by the compiler will be the same as the type of **expression**, i.e., the argument passed to the function, but it is not always the case. Deduction of type **T** depends both on **expression** and **paramType** . Depending on what the function parameter **paramType** is there are three cases to be considered for template type deduction:
+
 1. **paramType** is pointer or reference but not a universal reference.
 2. **paramType** is a universal reference.
 3. **paramType** is neither a pointer nor a reference.
+
 Let's take a look at each case one by one
 ## Case 1: paramType is a pointer or a reference but not a universal reference
+
 Call me crazy, but this is the simplest case that can be encountered. In this case, type deduction works like this:  
 (i) If _**expression**_ is a reference, then ignore the reference part  
 (ii) then match _**expression's**_ pattern against _**paramType**_ to determine _**T**_
