@@ -2,7 +2,7 @@
 
 Sets the minimum required version of cmake for a project.
 
-This command will set the value of the [cmake_minimum_required_version](programming/languages/cmake/variables/cmake_minimum_required_version) variable to `<min>`.
+This command will set the value of the [cmake_minimum_required_version](cmake_minimum_required_version.md) variable to `<min>`.
 
 This command implicitly invokes the [[cmake_policy]] command.
 

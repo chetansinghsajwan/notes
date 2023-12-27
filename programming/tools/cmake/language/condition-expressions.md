@@ -102,7 +102,7 @@
 
 > ##### `<variable|string> PATH_EQUAL <variable|string>`
 > 
-> Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](programming/languages/cmake/commands/cmake_path#^query)
+> Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](cmake_path.md#^query)
 
 ### Existence Checks
 

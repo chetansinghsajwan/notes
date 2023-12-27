@@ -65,7 +65,7 @@ Until version `2`, if `generator` is not specified, it must be inherited from th
 
 Since version `3`, this field may be omitted to fall back to regular generator discovery procedure.
 
-Value must be one from [cmake-generators](programming/tools/cmake/generators).
+Value must be one from [cmake-generators](generators.md).
 
 > [!note]
 > Not sure about the above statement.

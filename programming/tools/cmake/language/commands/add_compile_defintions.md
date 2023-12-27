@@ -2,9 +2,9 @@
 
 Adds preprocessor definitions to the compiler command line.
 
-The preprocessor definitions are added to the [compile_defintions](programming/languages/cmake/properties/directory/compile_defintions) directory property for the current `CMakeLists` file.
+The preprocessor definitions are added to the [compile_defintions](programming/tools/cmake/language/properties/directory/compile_defintions.md) directory property for the current `CMakeLists` file.
 
-They are also added to the [compile_defintions](programming/languages/cmake/properties/target/compile_defintions) target property for each target in the current `CMakeLists` file.
+They are also added to the [compile_defintions](programming/tools/cmake/language/properties/target/compile_defintions.md) target property for each target in the current `CMakeLists` file.
 
 ## Syntax
 

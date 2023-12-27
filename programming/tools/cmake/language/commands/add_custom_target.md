@@ -1,6 +1,6 @@
 # `add_custom_target` command
 
-Adds a target with the given name that executes the given commands. The target has no output file and is _always considered out of date_ even if the commands try to create a file with the name of the target. Use the [`add_custom_command`](add_custom_command) command to generate a file with dependencies. By default nothing depends on the custom target. Use the [`add_dependencies`](add_dependencies) command to add dependencies to or from other targets.
+Adds a target with the given name that executes the given commands. The target has no output file and is _always considered out of date_ even if the commands try to create a file with the name of the target. Use the [`add_custom_command`](add_custom_command.md) command to generate a file with dependencies. By default nothing depends on the custom target. Use the [`add_dependencies`](add_dependencies.md) command to add dependencies to or from other targets.
 
 ## Syntax
 
