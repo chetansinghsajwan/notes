@@ -14,6 +14,6 @@ Software Design Patterns are classified into 3 categories:
 
 ## References
 
-> https://refactoring.guru/design-patterns
+- https://refactoring.guru/design-patterns
 
-> https://www.wikiwand.com/en/Design_pattern_(computer_science)
+- https://www.wikiwand.com/en/Design_pattern_(computer_science)

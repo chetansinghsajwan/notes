@@ -2,4 +2,4 @@
 
 ## References
 
-> https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview
+- https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview

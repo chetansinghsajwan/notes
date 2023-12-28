@@ -12,4 +12,4 @@ Returns a string representing the type of the value `e`, namely `"int"`, `"bool"
 
 ## References
 
-> https://nixos.org/manual/nix/stable/language/builtins#builtins-typeOf
+- https://nixos.org/manual/nix/stable/language/builtins#builtins-typeOf

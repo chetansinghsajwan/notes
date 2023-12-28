@@ -79,4 +79,4 @@ add_executable(<name> ALIAS <target>)
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/add_executable.html
+- https://cmake.org/cmake/help/latest/command/add_executable.html

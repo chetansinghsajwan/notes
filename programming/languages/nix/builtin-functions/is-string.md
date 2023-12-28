@@ -8,4 +8,4 @@ category: comparision
 isString <e>
 ```
 
-Return `true` if `e` evaluates to a [string](programming/languages/nix/data-types/string), and `false` otherwise.
+Return `true` if `e` evaluates to a [string](programming/languages/nix/data-types/string.md), and `false` otherwise.

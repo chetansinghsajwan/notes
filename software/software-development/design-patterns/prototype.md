@@ -28,6 +28,6 @@ An object that supports cloning is called a prototype.
 
 ## References
 
-> https://refactoring.guru/design-patterns/prototype
+- https://refactoring.guru/design-patterns/prototype
 
-> https://www.wikiwand.com/en/Prototype_pattern
+- https://www.wikiwand.com/en/Prototype_pattern

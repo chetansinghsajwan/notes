@@ -10,4 +10,4 @@ continue()
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/continue.html
+- https://cmake.org/cmake/help/latest/command/continue.html

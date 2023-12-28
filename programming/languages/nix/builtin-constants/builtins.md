@@ -1,11 +1,19 @@
 # `builtins` constant
 
-**type:** [set](programming/languages/nix/data-types)
+**type**:: [set](data-types.md)
 
-Contains all the [built-in functions](builtin-functions) and values.
+Contains all the [built-in functions](builtin-functions.md) and values.
 
-> [!example]
-> 
-> ```nix
-> if builtins.hasContext s
-> ```
+---
+
+###### Example
+
+```nix
+if builtins.hasContext s
+```
+
+---
+
+## References
+
+- https://nixos.org/manual/nix/stable/language/builtin-constants#builtins-builtins

@@ -24,4 +24,4 @@ add_compile_definitions(<definition> ...)
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/add_compile_definitions.html
+- https://cmake.org/cmake/help/latest/command/add_compile_definitions.html

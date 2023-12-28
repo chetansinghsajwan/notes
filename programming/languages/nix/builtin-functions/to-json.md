@@ -20,4 +20,4 @@ Returns a string containing a JSON representation of `e`.
 
 ## References
 
-> https://nixos.org/manual/nix/stable/language/builtins#builtins-toJSON
+- https://nixos.org/manual/nix/stable/language/builtins#builtins-toJSON

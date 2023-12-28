@@ -34,4 +34,4 @@ For example,
 
 ## References
 
-> https://zero-to-nix.com/concepts/derivations
+- https://zero-to-nix.com/concepts/derivations

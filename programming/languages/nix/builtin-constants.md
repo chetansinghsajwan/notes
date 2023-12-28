@@ -1,6 +1,6 @@
 # Builtin Constants
 
-These constants are built into the Nix language evaluator.
+These constants are built into the nix language evaluator.
 
 ## List of builtin-constants
 
@@ -10,6 +10,4 @@ LIST WHERE contains(file.folder, "builtin-constants")
 
 ## References
 
-^references
-
-> https://nixos.org/manual/nix/stable/language/builtin-constants
+- https://nixos.org/manual/nix/stable/language/builtin-constants

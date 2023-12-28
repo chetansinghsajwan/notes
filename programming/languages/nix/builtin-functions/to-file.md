@@ -14,4 +14,4 @@ The file has suffix `name`.
 
 ## References
 
-> https://nixos.org/manual/nix/stable/language/builtins#builtins-toFile
+- https://nixos.org/manual/nix/stable/language/builtins#builtins-toFile

@@ -45,4 +45,4 @@ target_compile_definitions(<target>
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/target_compile_definitions.html
+- https://cmake.org/cmake/help/latest/command/target_compile_definitions.html

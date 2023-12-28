@@ -32,12 +32,12 @@ The MinGW-w64 project does not provide official binary builds: These can be grab
 
 ## References
 
-> https://sourceforge.net/p/mingw-w64/wiki2/Home/
+- https://sourceforge.net/p/mingw-w64/wiki2/Home/
 
-> https://en.wikipedia.org/wiki/Mingw-w64?wprov=sfla1
+- https://en.wikipedia.org/wiki/Mingw-w64?wprov=sfla1
 
-> https://www.mingw-w64.org
+- https://www.mingw-w64.org
 
-> https://mingwpy.github.io/background-mingw.html
+- https://mingwpy.github.io/background-mingw.html
 
-> https://wiki.qt.io/Mingw-64-bit
+- https://wiki.qt.io/Mingw-64-bit

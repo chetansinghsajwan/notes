@@ -1,17 +1,17 @@
 # String Interpolation
 
-String interpolation is a language feature where a [string](programming/languages/nix/data-types/string), [path](programming/languages/nix/data-types/path), or [attribute name](programming/languages/nix/data-types/set) can contain expressions enclosed in `${ }`. Such a construct is called *interpolated string*, and the expression inside is an [interpolated expression](#^interpolated-expression).
+String interpolation is a language feature where a [string](programming/languages/nix/data-types/string.md), [path](path.md), or [attribute name](set.md) can contain expressions enclosed in `${ }`. Such a construct is called *interpolated string*, and the expression inside is an [interpolated expression](#^interpolated-expression).
 
 ## Interpolated Expression
 ^interpolated-expression
 
 An expression that is interpolated must evaluate to one of the following:
 
-- a [string](programming/languages/nix/data-types/string)
+- a [string](programming/languages/nix/data-types/string.md)
   
   A string interpolates to itself.
 
-- a [path](programming/languages/nix/data-types/path)
+- a [path](path.md)
   
   A path in an interpolated expression is first copied into the Nix store, and the resulting string is the [store path](https://nixos.org/manual/nix/stable/glossary#gloss-store-path) of the newly created [store object](https://nixos.org/manual/nix/stable/glossary#gloss-store-object).
   
@@ -48,7 +48,7 @@ An expression that is interpolated must evaluate to one of the following:
   > "/nix/store/4xpfqf29z4m8vbhrqcz064wfmb46w5r7-hello-2.12.1"
   > ```
 
-- an [attribute set](programming/languages/nix/data-types/set)
+- an [attribute set](set.md)
     
     - If the attribute-set contains `__toString` attribute. `__toString` must be a function that takes the attribute set itself and returns a string.
       

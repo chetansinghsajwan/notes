@@ -17,3 +17,7 @@ For instance, evaluating `"${./foo.txt}"` will cause `foo.txt` in the curren
 Paths themselves, except those in angle brackets (`< >`), support [string interpolation](https://nixos.org/manual/nix/stable/language/string-interpolation).
 
 At least one slash (`/`) must appear _before_ any interpolated expression for the result to be recognized as a path.
+
+## References
+
+- https://nixos.org/manual/nix/stable/language/values#type-path

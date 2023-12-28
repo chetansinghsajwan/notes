@@ -8,4 +8,4 @@ While a derivation is essentially a plan for a package, realisation is the build
 
 ## References
 
-> https://zero-to-nix.com/concepts/realisation
+- https://zero-to-nix.com/concepts/realisation

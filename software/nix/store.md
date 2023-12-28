@@ -2,6 +2,6 @@
 
 ## References
 
-> https://nixos.org/manual/nix/stable/store
+- https://nixos.org/manual/nix/stable/store
 
-> https://zero-to-nix.com/concepts/nix-store
+- https://zero-to-nix.com/concepts/nix-store

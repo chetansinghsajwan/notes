@@ -56,4 +56,4 @@ All commands between `block()` and the matching [`endblock()`](https://cmake.org
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/block.html
+- https://cmake.org/cmake/help/latest/command/block.html

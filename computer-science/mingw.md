@@ -59,7 +59,7 @@ See: [https://stackoverflow.com/questions/7119588/ms-vs-non-ms-c-compiler-compat
 
 ## References
 
-> https://en.wikipedia.org/wiki/MinGW
+- https://en.wikipedia.org/wiki/MinGW
 
 > > [!todo]
 > > 
@@ -67,6 +67,6 @@ See: [https://stackoverflow.com/questions/7119588/ms-vs-non-ms-c-compiler-compat
 >  
 > http://mingw.osdn.io/index.html
 
-> https://home.cs.colorado.edu/~main/cs1300/doc/mingwfaq.html
+- https://home.cs.colorado.edu/~main/cs1300/doc/mingwfaq.html
 
-> https://www.sobyte.net/post/2021-11/cygwin-mingw-msys
+- https://www.sobyte.net/post/2021-11/cygwin-mingw-msys

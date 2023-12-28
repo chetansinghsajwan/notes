@@ -2,11 +2,11 @@
 
 The Nix expression language is a pure, lazy, functional language.
 
-The language was designed especially for the [nix](/nix/nix) package manger.
+The language was designed especially for the [nix](software/nix/nix) package manger.
 
 ###### domain-specific
 
-It comes with [built-in functions](programming/languages/nix/builtin-functions) to integrate with the Nix store, which manages files and performs the derivations declared in the Nix language.
+It comes with [built-in functions](builtin-functions) to integrate with the Nix store, which manages files and performs the derivations declared in the Nix language.
 
 ###### declarative
 

@@ -2,8 +2,8 @@
 
 ## Books
 
-> https://book.divnix.com
+- https://book.divnix.com
 
 > ###### phd-thesis
 > 
-> https://edolstra.github.io/pubs/phd-thesis.pdf
+- https://edolstra.github.io/pubs/phd-thesis.pdf

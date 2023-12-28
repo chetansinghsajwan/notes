@@ -26,4 +26,4 @@ Convert the expression `e` to a string. `e` can be:
 
 ## References
 
-> https://nixos.org/manual/nix/stable/language/builtins#builtins-toString
+- https://nixos.org/manual/nix/stable/language/builtins#builtins-toString

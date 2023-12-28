@@ -8,4 +8,4 @@ category: comparision
 isFunction <e>
 ```
 
-Return `true` if `e` evaluates to a [bool](programming/languages/nix/language-constructs/function), and `false` otherwise.
+Return `true` if `e` evaluates to a [bool](programming/languages/nix/language-constructs/function.md), and `false` otherwise.

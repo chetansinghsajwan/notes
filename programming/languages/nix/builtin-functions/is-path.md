@@ -8,4 +8,4 @@ category: comparision
 isPath <e>
 ```
 
-Return `true` if `e` evaluates to a [path](programming/languages/nix/data-types/path), and `false` otherwise.
+Return `true` if `e` evaluates to a [path](path.md), and `false` otherwise.

@@ -10,4 +10,4 @@ endwhile()
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/endwhile.html
+- https://cmake.org/cmake/help/latest/command/endwhile.html

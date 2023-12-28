@@ -1,5 +1,9 @@
 # `nixPath` constant
 
-**type:** [list](programming/languages/nix/data-types/list) of [string](programming/languages/nix/data-types/string)
+**type**:: [list](list.md) of [string](programming/languages/nix/data-types/string.md)
 
-List of search path entries used to resolve [lookup paths](programming/languages/nix/language-constructs/lookup-paths).
+List of search path entries used to resolve [lookup paths](lookup-paths.md).
+
+## References
+
+- https://nixos.org/manual/nix/stable/language/builtin-constants#builtins-nixPath

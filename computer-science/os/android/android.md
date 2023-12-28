@@ -9,4 +9,4 @@ At its core, the operating system is known as Android Open Source Project (AOSP)
 
 ## References
 
-> https://www.wikiwand.com/en/Android_(operating_system)
+- https://www.wikiwand.com/en/Android_(operating_system)

@@ -2,4 +2,4 @@
 
 ## References
 
-> https://mingwpy.github.io/mingwpy.html
+- https://mingwpy.github.io/mingwpy.html

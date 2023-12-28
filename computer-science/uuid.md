@@ -56,4 +56,4 @@ These two pieces of information are converted to a UUID using the SHA1 hashing a
 
 ## References
 
-> https://www.sohamkamani.com/uuid-versions-explained
+- https://www.sohamkamani.com/uuid-versions-explained

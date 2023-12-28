@@ -4,4 +4,4 @@ Policies in CMake are used to preserve backward compatible behavior across multi
 
 ## References
 
-> https://cmake.org/cmake/help/latest/manual/cmake-policies.7.html
+- https://cmake.org/cmake/help/latest/manual/cmake-policies.7.html

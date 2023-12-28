@@ -69,4 +69,4 @@ execute_process(COMMAND <cmd1> [<arguments>]
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/execute_process.html
+- https://cmake.org/cmake/help/latest/command/execute_process.html

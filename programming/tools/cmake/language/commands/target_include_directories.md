@@ -38,4 +38,4 @@ target_include_directories(<target> [SYSTEM] [AFTER|BEFORE]
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/target_include_directories.html
+- https://cmake.org/cmake/help/latest/command/target_include_directories.html

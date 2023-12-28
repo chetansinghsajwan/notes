@@ -24,6 +24,14 @@ Strings can be written in three ways.
 
 3. Finally, as a convenience, [URIs](computer-science/uri) can be written as is, without quotes.
 
-   > [!example]
-   > 
-   > The string `"http://example.org/foo.tar.bz2"` can also be written as just `http://example.org/foo.tar.bz2` without any quotes.
+    ---
+    
+    **Example**
+    
+    The string `"http://example.org/foo.tar.bz2"` can also be written as just `http://example.org/foo.tar.bz2` without any quotes.
+    
+    ---
+
+## References
+
+- https://nixos.org/manual/nix/stable/language/values#type-string

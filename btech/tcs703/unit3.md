@@ -21,14 +21,20 @@ RTP is used in conjunction with the Real-time Transport Control Protocol (RTCP),
 3. Video Teleconferencing over Internet.
 4. Internet Audio and video streaming.
 
+### RTCP
+
+
 
 ### SIP
 
-SIP stands for Session Intiation Protocol.
+SIP stands for Session Intiation Protocol, defined by IETF.
 
-It was designed by IETF.
+SIP is a signalling protocol used to create, modify, and terminate a multimedia session over the Internet Protocol.
 
-It can run on UDP and TCP.
+It is an application layer protocol. It was designed to be independent of underlying transport layer, so it ca run on UDP or TCP.
+
+> [!todo]
+> Review this.
 
 It is a lightweight protocol that does the following:
 
@@ -36,13 +42,46 @@ It is a lightweight protocol that does the following:
 - It provieds mechanisms for the caller to derermine the current IP address of the callee.
 - It provides mechanisms for call management, such as adding new media streams during the call, changing the encoding during the call, inviting new participants during the call, call transfer, and call holding.
 
-#### SIP Address
+###### SIP Applications
+
+- file transfer
+- instant messaging
+- video conferencing
+- online games
+- steaming multimedia distribution
+
+###### SIP Address
 
 In SIP, the sender and receiver are often identified by any of these.
 
 1. An Email address.
 2. An IP address.
 3. A Phone number
+
+###### SIP Messages
+
+1. INVITE: It requests for initiation of a session.
+2. ACK: It confirms that session has initiated.
+3. BYE: It request for the termination of the session.
+4. OPTIONS: It query a host about its capabilities.
+5. CANCEL: It will cancel the pending request.
+6. REGISTER: It informs a redirection server about the user’s current location.
+
+###### SIP Session
+
+It's a three step process:
+
+1. Establishing a session:
+    
+    It requires a three-way handshake. The caller will send INVITE message. If the caller is willing to start out, he/she sends a reply message. to verify that a reply code is received, the caller send an ACK message.
+
+2. Communication:
+    
+    After establishment of session, the caller and callee communicate using two temporary ports.
+
+3. Terminating the session:
+    
+    The session can often terminated by using BYE message send by either caller or callee.
 
 ### H.323 Protocols
 

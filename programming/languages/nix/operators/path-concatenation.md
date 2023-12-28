@@ -4,7 +4,7 @@ syntax:: `<path> + <path>`
 associativity:: left
 precedence:: 7
 
-Concatenate two [paths](programming/languages/nix/data-types/path). The result is a path.
+Concatenate two [paths](path.md). The result is a path.
 
 ## References
 

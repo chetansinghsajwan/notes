@@ -13,7 +13,7 @@ It takes as input an attribute set, the attributes of which specify the inputs t
 #### `name`
 ^attr-name
 
-- type: [`string`](programming/languages/nix/data-types/string)
+- type: [`string`](programming/languages/nix/data-types/string.md)
 - required: yes
 
 Name of the derivation.
@@ -30,7 +30,7 @@ as well as to its [output paths](https://nixos.org/manual/nix/stable/glossary#gl
 #### `system`
 ^attr-system
 
-- type: [`string`](programming/languages/nix/data-types/string)
+- type: [`string`](programming/languages/nix/data-types/string.md)
 - required: yes
 
 The system type on which the [`builder`](#^param-builder) executable is meant to be run.
@@ -40,7 +40,7 @@ The system type on which the [`builder`](#^param-builder) executable is meant to
 #### `builder`
 ^attr-builder
 
-- type: [`path`](programming/languages/nix/data-types/path) or [`string`](programming/languages/nix/data-types/string)
+- type: [`path`](path.md) or [`string`](programming/languages/nix/data-types/string.md)
 - required: yes
 
 Path to an executable that will perform the build.
@@ -76,7 +76,7 @@ See [args](#^attr-args) to specify args passed to the builder executable and [bu
 #### `args`
 ^attr-args
 
-- type: [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
+- type: [`list`](list.md) of [`string`](programming/languages/nix/data-types/string.md)
 - required: no
 - default: `[]`
 
@@ -100,7 +100,7 @@ Command-line arguments to be passed to the [`builder`](#^param-builder) executab
 #### `outputs`
 ^attr-outputs
 
-- type: [`list`](programming/languages/nix/data-types/list) of [`string`](programming/languages/nix/data-types/string)
+- type: [`list`](list.md) of [`string`](programming/languages/nix/data-types/string.md)
 - required* no
 - default: `[ "out" ]`
 

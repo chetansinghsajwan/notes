@@ -54,4 +54,4 @@ When this sub-option of `PROGRAM` option is specified, command-line arguments wi
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/separate_arguments.html#command:separate_arguments
+- https://cmake.org/cmake/help/latest/command/separate_arguments.html#command:separate_arguments

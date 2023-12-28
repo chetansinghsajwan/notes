@@ -70,4 +70,4 @@ add_library(<name> ALIAS <target>)
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/add_library.html
+- https://cmake.org/cmake/help/latest/command/add_library.html

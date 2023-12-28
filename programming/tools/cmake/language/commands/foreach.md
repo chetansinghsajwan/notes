@@ -176,4 +176,4 @@ endforeach()
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/foreach.html
+- https://cmake.org/cmake/help/latest/command/foreach.html

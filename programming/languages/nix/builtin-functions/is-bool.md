@@ -8,4 +8,4 @@ category: comparision
 isBool <e>
 ```
 
-Return `true` if `e` evaluates to a [bool](programming/languages/nix/data-types/bool), and `false` otherwise.
+Return `true` if `e` evaluates to a [bool](programming/languages/nix/data-types/bool.md), and `false` otherwise.

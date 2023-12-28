@@ -6,21 +6,27 @@ An attribute name can be an identifier or a string.
 
 An identifier must start with a letter (`a-z`, `A-Z`) or underscore (`_`), and can otherwise contain letters (`a-z`, `A-Z`), numbers (`0-9`), underscores (`_`), apostrophes (`'`), or dashes (`-`).
 
-> [!example]
-> 
-> Creates an attribute set of two variables, `b` contains default value.
-> 
-> ```nix
-> {
-> 	a;
-> 	b = "Bar";
-> }
-> ```
+---
 
-> [!related]
-> 
-> [attribute-selection](programming/languages/nix/operators/attribute-selection)
+###### Example
 
-> [!related]
-> 
-> [recursive-set](programming/languages/nix/language-constructs/recursive-set)
+Creates an attribute set of two variables, `b` contains default value.
+
+```nix
+{
+	a;
+	b = "Bar";
+}
+```
+
+---
+###### Related
+
+- [attribute-selection](attribute-selection.md)
+- [recursive-set](programming/languages/nix/language-constructs/recursive-set)
+
+---
+
+## References
+
+- https://nixos.org/manual/nix/stable/language/values#attribute-set

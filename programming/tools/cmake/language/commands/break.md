@@ -10,4 +10,4 @@ break()
 
 ## References
  
-> https://cmake.org/cmake/help/latest/command/break.html
+- https://cmake.org/cmake/help/latest/command/break.html

@@ -54,4 +54,4 @@ add_custom_target(Name [ALL] [command1 [args1...]]
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/add_custom_target.html
+- https://cmake.org/cmake/help/latest/command/add_custom_target.html

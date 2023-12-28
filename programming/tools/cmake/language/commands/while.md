@@ -24,4 +24,4 @@ endwhile()
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/while.html
+- https://cmake.org/cmake/help/latest/command/while.html

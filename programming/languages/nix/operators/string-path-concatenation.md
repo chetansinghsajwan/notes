@@ -4,7 +4,7 @@ syntax:: `<string> + <path>`
 associativity:: left
 precedence:: 7
 
-Concatenate [string](programming/languages/nix/data-types/string) with [path](programming/languages/nix/data-types/path). The result is a string.
+Concatenate [string](programming/languages/nix/data-types/string.md) with [path](path.md). The result is a string.
 
 > [!note]
 > 

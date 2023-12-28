@@ -26,6 +26,6 @@ PowerShell is a cross-platform task automation solution made up of a command-lin
 
 ## References
 
-> https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3
+- https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3
 
-> https://www.wikiwand.com/en/PowerShell
+- https://www.wikiwand.com/en/PowerShell

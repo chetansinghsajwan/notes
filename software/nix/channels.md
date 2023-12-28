@@ -4,4 +4,4 @@
 
 ## References
 
-> https://zero-to-nix.com/concepts/channels
+- https://zero-to-nix.com/concepts/channels

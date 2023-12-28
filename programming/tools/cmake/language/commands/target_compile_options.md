@@ -34,4 +34,4 @@ The final set of options used for a target is constructed by accumulating option
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/target_compile_options.html
+- https://cmake.org/cmake/help/latest/command/target_compile_options.html

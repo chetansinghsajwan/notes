@@ -10,4 +10,4 @@ Nix builds are sandboxed for a variety of reasons:
 
 ## References
 
-> https://zero-to-nix.com/concepts/sandboxing
+- https://zero-to-nix.com/concepts/sandboxing

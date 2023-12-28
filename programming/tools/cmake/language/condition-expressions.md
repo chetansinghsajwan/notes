@@ -177,4 +177,4 @@ Compound conditions are evaluated in the following order of precedence.
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/if.html
+- https://cmake.org/cmake/help/latest/command/if.html

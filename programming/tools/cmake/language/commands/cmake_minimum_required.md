@@ -34,4 +34,4 @@ cmake_minimum_required(VERSION <min>[...<policy_max>] [FATAL_ERROR])
 
 ## References
 
-> https://cmake.org/cmake/help/latest/command/cmake_minimum_required.html
+- https://cmake.org/cmake/help/latest/command/cmake_minimum_required.html
