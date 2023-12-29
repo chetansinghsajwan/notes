@@ -19,9 +19,12 @@ Address Translation
 
 ###### Unit III
 
-Pipelining: What is pipelining, Basics of a RISC ISA, The classic five-stage
-pipeline for a RISC processor, Performance issues in pipelining, Pipeline
-Hazards
+- Pipelining
+    - What is pipelining
+    - Basics of a RISC ISA
+    - The classic five-stage pipeline for a RISC processor
+    - Performance issues in pipelining
+    - Pipeline Hazards
 
 ###### Unit IV
 
