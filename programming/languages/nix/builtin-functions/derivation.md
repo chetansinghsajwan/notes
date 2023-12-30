@@ -1,7 +1,3 @@
----
-category: core
----
-
 # `derivation` function
 
 It takes as input an attribute set, the attributes of which specify the inputs to the process. It outputs an attribute set, and produces a [store derivation](programming/tools/nix/store-derivation) as a side effect of evaluation.

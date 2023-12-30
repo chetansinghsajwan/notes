@@ -1,7 +1,3 @@
----
-category: core
----
-
 # `throw` function
 
 ```

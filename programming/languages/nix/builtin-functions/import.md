@@ -1,7 +1,3 @@
----
-category: core
----
-
 # `import` function
 
 ```
@@ -15,3 +11,7 @@ The `path` argument must meet the same criteria as an [interpolated expression](
 If `path` is a directory, the file `default.nix` in that directory is used if it exists.
 
 Evaluation aborts if the file doesn’t exist or contains an invalid Nix expression.
+
+## References
+
+- https://nixos.org/manual/nix/stable/language/builtins#builtins-import

@@ -1,7 +1,3 @@
----
-category: conversion
----
-
 # `toString` function
 
 ```

@@ -4,15 +4,11 @@
 
 Contains all the [built-in functions](builtin-functions.md) and values.
 
----
-
-###### Example
-
-```nix
-if builtins.hasContext s
-```
-
----
+> [!example]
+> 
+> ```nix
+> if builtins.hasContext s
+> ```
 
 ## References
 

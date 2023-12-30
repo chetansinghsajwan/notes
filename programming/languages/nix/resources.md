@@ -8,6 +8,6 @@
 
 - https://github.com/NixOS/nix-book.git
 
-## To Read
-
 - https://www.tweag.io/blog/2022-09-29-the-nix-book-report
+    
+    Read this.

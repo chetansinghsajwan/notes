@@ -1,7 +1,3 @@
----
-category: conversion
----
-
 # `toJson` function
 
 ```

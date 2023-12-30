@@ -1,10 +1,4 @@
----
-category: conversion
----
-
 # `toXML` function
-
-**category:** conversion
 
 ```
 toXML <e>
