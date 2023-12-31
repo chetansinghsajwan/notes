@@ -7,11 +7,11 @@ String interpolation is a language feature where a [string](programming/language
 
 An expression that is interpolated must evaluate to one of the following:
 
-- a [string](programming/languages/nix/data-types/string.md)
+- [string](programming/languages/nix/data-types/string.md)
   
   A string interpolates to itself.
 
-- a [path](path.md)
+- [path](path.md)
   
   A path in an interpolated expression is first copied into the Nix store, and the resulting string is the [store path](https://nixos.org/manual/nix/stable/glossary#gloss-store-path) of the newly created [store object](https://nixos.org/manual/nix/stable/glossary#gloss-store-object).
   
@@ -31,7 +31,7 @@ An expression that is interpolated must evaluate to one of the following:
   > "/nix/store/2hhl2nz5v0khbn06ys82nrk99aa1xxdw-foo"
   > ```
 
-- a [derivation](programming/languges/nix/derivation)
+- [derivation](programming/languges/nix/derivation)
   
   A derivation interpolates to the [store path](https://nixos.org/manual/nix/stable/glossary#gloss-store-path) of its first [output](https://nixos.org/manual/nix/stable/language/derivations#attr-outputs).
   
@@ -48,7 +48,7 @@ An expression that is interpolated must evaluate to one of the following:
   > "/nix/store/4xpfqf29z4m8vbhrqcz064wfmb46w5r7-hello-2.12.1"
   > ```
 
-- an [attribute set](set.md)
+- [attribute set](set.md)
     
     - If the attribute-set contains `__toString` attribute. `__toString` must be a function that takes the attribute set itself and returns a string.
       

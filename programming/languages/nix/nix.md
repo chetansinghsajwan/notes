@@ -33,8 +33,6 @@ Values are only computed when they are needed.
 
 Type errors are only detected when expressions are evaluated.
 
-**nix-expression:** Every statement in nix is an expression.
-
 ## References
 
 - https://nixos.org/manual/nix/stable/language/index.html
