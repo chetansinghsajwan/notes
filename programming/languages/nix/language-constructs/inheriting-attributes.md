@@ -1,14 +1,19 @@
----
-status: fetch-not-completed
----
-
 # Inhertiting attributes
 
-When defining an [attribute set](https://nixos.org/manual/nix/stable/language/values#attribute-set) or in a [let-expression](https://nixos.org/manual/nix/stable/language/constructs#let-expressions) it is often convenient to copy variables from the surrounding lexical scope (e.g., when you want to propagate attributes). This can be shortened using the `inherit` keyword.
+```
+inherit <attr>;
+inherit (<attr-set>) <attr>;
+```
+
+`inherit` keyword allows you to copy variables from the surronding scope into this scope.
+
+The second syntax does the same, it just allows to pass the attribute set `attr-set` whose variables you want to copy.
 
 ---
 
 ###### Example
+
+This brings `x` from the surrounding scope created by `let` into the scope of the attribute set.
 
 ```nix
 let x = 123; in
@@ -18,7 +23,7 @@ let x = 123; in
 }
 ```
 
-is equivalent to
+The above is equivalent to:
 
 ```nix
 let x = 123; in
@@ -29,8 +34,6 @@ let x = 123; in
 ```
 
 ---
-
-It is also possible to inherit attributes from another attribute set.
 
 ## References
 
