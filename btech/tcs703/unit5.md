@@ -1,10 +1,19 @@
 # Unit 5
 
-![](unit5-img-1.png)
+## Socket Programming
 
-## Socket Address Structure
+Socket programming is a way of connecting two nodes on a network to communicate with each other.
 
-###### Posix Definition
+###### `sockaddr` struct
+
+```c
+struct sockaddr {
+  sa_family_t sa_family; // address family: AD_xxx value
+  char sa_data[14]; // unused data to complete size requirements
+};
+```
+
+###### `sockaddr_in` struct
 
 ```c
 struct in_addr {
@@ -20,17 +29,7 @@ struct sockaddr_in {
 };
 ```
 
-###### Generic Definition
-
-```c
-struct sockaddr {
-  uint8_t sa_len;
-  sa_family_t sa_family; // address family: AD_xxx value
-  char sa_data[14]; // unused data to complete size requirements
-};
-```
-
-### Byte Order
+###### Byte Order functions
 
 Different cpu architectures use different byte orders, little-endian and big-endian. But the network protocols work on a specific byte order.
 
@@ -56,7 +55,137 @@ uint16_t ntohs(uint16_t val);
 uint32_t ntohl(uint32_t val);
 ```
 
-## TCP Connection Procedure
+###### `socket` function
+
+```c
+int socket(int family, int type, int protocol);
+```
+
+Creates a socket.
+
+**Parameters**
+
+- `family`: The address family over which the communication will be performed.
+    
+    Some domains are,
+    
+    - **AF_LOCAL** or **AF_UNIX** is used for local communication.
+    
+    - **AF_INET** is used for IPv4 addresses and **AF_INET6** is used for IPv6 addresses.
+    
+    - **AF_BLUETOOTH** is used for bluetooth connections.
+
+- `type`: The type of communication used in the socket.
+    
+    Some mostly used types of communication are:
+    
+    - **SOCK_STREAM** for TCP.
+    - **SOCK_DGRAM** for UDP.
+
+- `protocol`: Represents the protocol used in the socket.
+    
+    When there is only one protocol in the protocol family, the protocol number will be 0, or else the specific number for the protocol has to be specified.
+
+**Returns**
+
+`-1` if an error happens, else a positive integer representing socket descriptor.
+
+###### `bind` function
+
+```C
+int bind(int socket, const struct sockaddr* address, socklen_t address_size);
+```
+
+Assigns an address to a socket.
+
+**Parameters**
+
+- `socket`: The socket descriptor.
+
+- `address`: The address to bind to the socket.
+
+- `address_size`: Size of the address structure.
+
+**Returns**
+
+`0` if successfull, else `-1`.
+
+###### `listen ` function
+
+```c
+int listen(int socket, int back_log);
+```
+
+Makes the server node wait and listen for connections from the client node on the port and address specified by the **bind()** function.
+
+**Parameters**
+
+- `socket`: The socket descriptor.
+
+- `back_log`: Maximum number of connection requests that can be made to the server by client nodes at a time.
+
+**Returns**
+
+`0` if starts listening, else `-1` if an error occurs.
+
+###### `accept` function
+
+```c
+int accept(int socket, struct sockaddr *restrict address, socklen_t* restrict size);
+```
+
+Establishes a connection between the server and the client nodes for the transfer of data.
+
+This is a blocking call.
+
+**Parameters**
+
+- `socket`: The socket descriptor.
+
+- `address`: Filled with the address of the client.
+
+- `size`: Filled with the size of the address structure.
+
+**Returns**
+
+Socket descriptor for the new socket for data transfer with the client.
+
+###### `connect` function
+
+Sends the connection request and connect to the server node.
+
+```c
+int connect(int socket, const struct sockaddr* address, socklen_t address_size);
+```
+
+**Parameters**
+
+- `socket`: The socket descriptor.
+
+- `address`: Address of the server.
+
+- `address_size`: Size of the addess structure.
+
+**Returns**
+
+`0` if connection succeeds, else `-1`.
+
+###### `close` function
+
+Closes the socket and frees up the ports used by it.
+
+**Parameters**
+
+- `socket`: The socket to close.
+
+**Returns**
+
+`0` if successfull, `-1` if error.
+
+
+## TCP Client Server
+
+![](resources/client-server-model.webp)
 
 Steps for establishing a connection on the client side are:
 
@@ -71,49 +200,6 @@ Steps for establishing a connection on the server side are:
 - Listen for connections with the listen() function.
 - Accept a connection with the accept() function system call. This call typically blocks until a client connects with the server.
 - Send and receive data by means of send() and receive().
-
-## Functions
-
-###### `socket` function
-
-```c
-#include "sys/socket.h"
-
-///
-/// # Returns
-/// 
-/// A non negative integer representing socket descriptor, or -1 on error.
-int socket(int family, int type, int protocol);
-```
-
-###### `connect` function
-
-```c
-#include "sys/socket.h"
-
-/// Establishes a connection with a tcp server.
-/// 
-/// # Parameters
-/// 
-/// - `sockfd`: The socket descriptor returned by the socket function.
-/// 
-/// # Returns
-/// 
-/// 0 if connection is established, else -1.
-int connect(int sockfd, cosnt struct sockaddr* servaddr, socklen_t addrlen);
-```
-
-###### `bind` function
-
-```c
-#include "sys/socket.h"
-
-/// 
-/// 
-int bind(int sockfd, const struct sockaddr* servaddr, socklen_t addrlen);
-```
-
-## Concurrent Servers
 
 There are two main classes of servers:
 
@@ -132,9 +218,11 @@ Concurrent serve handles each client concurrently.
 
 They are implemented either by creating a new process using `fork()` function or creating a new thread.
 
+In general, most TCP servers are concurrent and most UDP servers are iterative.
+
 ---
 
-###### Example
+**Example**
 
 ```c
 pid_t pid;
@@ -175,13 +263,11 @@ The parent closes the connected socket since the child handles the new client.
 
 ---
 
-###### Echo Server
+#### Echo Server
 
 An echo server is an application which is used to test if the connection between a client and a server is successful. It consists of a server which sends back whatever text the client sent.
 
-### Lack Of Flow Control With UDP
-
-###### TCP iterative echo server implementation
+##### TCP iterative echo server implementation
 
 ```c
 #include <stdlib.h>
@@ -248,7 +334,7 @@ int main(int argc, char **argv)
 }
 ```
 
-###### TCP concurrent echo server implementation
+##### TCP concurrent echo server implementation
 
 ```c
 #include <stdlib.h>
@@ -323,7 +409,7 @@ int main (int argc, char **argv)
 }
 ```
 
-###### TCP client implementation
+##### TCP client implementation
 
 ```c
 #include <stdlib.h>
@@ -388,7 +474,7 @@ int main(int argc, char **argv)
 }
 ```
 
-###### Localhost execution of client and server
+##### Localhost execution of client and server
 
 **server**
 ```shell
@@ -438,3 +524,114 @@ $ host myhost
 myhost has address 129.170.213.32
 ...
 ```
+
+## UDP Client Server
+
+###### UDP Echo Server Implementation
+
+```cpp
+#include <bits/stdc++.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+
+#define PORT 8080
+#define MAXLINE 1024
+
+int main()
+{
+    int socket_id = socket_id(AF_INET, SOCK_DGRAM, 0);
+    if (socket_id < 0)
+    {
+        perror("socket creation failed.");
+        exit(EXIT_FAILURE);
+    }
+
+    struct sockaddr_in server_address;
+    memset(&server_address, 0, sizeof(server_address));
+    server_address.sin_family = AF_INET;
+    server_address.sin_addr.s_addr = INADDR_ANY;
+    server_address.sin_port = htons(PORT);
+
+    int bind_result = bind(socket_id, (const struct sockaddr*) &server_address,
+        sizeof(server_address);
+
+	if (bind_result < 0)
+	{
+        perror("bind failed.");
+        exit(EXIT_FAILURE);
+	}
+	
+	struct sockaddr_in client_address;
+	memset(&client_address, 0, sizeof(client_address)); 
+	socklen_t client_address_size = sizeof(client_address);
+
+    char message[MAXLINE];
+    int message_size = recvfrom(sockfd, (char*) message, MAXLINE, MSG_WAITALL,
+        (struct sockaddr*) &client_address, &client_address_size);
+	message[message_size] = '\0'; 
+    
+	printf("recieved message from client: %s\n", message);
+	printf("sending message back to client.\n");
+	sendto(sockfd, (const char *)message, message_size, 
+		MSG_CONFIRM, (const struct sockaddr*) &client_address, client_address_size); 
+
+    close(socket_id);
+
+	return 0;
+}
+```
+
+###### UDP Client Implementation
+
+```c
+#include <bits/stdc++.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+
+#define PORT 8080
+#define MAXLINE 1024
+
+int main()
+{
+    int socket_id = socket_id(AF_INET, SOCK_DGRAM, 0);
+    if (socket_id < 0)
+	{
+        perror("socket creation failed.");
+        exit(EXIT_FAILURE); 
+	} 
+    
+	struct sockaddr_in server_address; 
+	memset(&server_address, 0, sizeof(server_address)); 
+	server_address.sin_family = AF_INET; 
+	server_address.sin_port = htons(PORT); 
+	server_address.sin_addr.s_addr = INADDR_ANY;  
+	
+	const char* message = "hello from client.";
+	printf("sending message to server: %s", message);
+	sendto(socket_id, (const char *)message, strlen(message), 
+		MSG_CONFIRM, (const struct sockaddr*) &server_address,
+		sizeof(server_address)); 
+    
+	socklen_t servaddr_size;
+	char server_message[MAXLINE]; 
+	int server_message_size = recvfrom(socket_id, (char *)server_message, MAXLINE, 
+				MSG_WAITALL, (struct sockaddr *) &server_address, &servaddr_size); 
+	server_message[server_message_size] = '\0'; 
+	
+	printf("recieved message from server: %s", server_message);
+    
+	close(socket_id); 
+	return 0;
+}
+```
+

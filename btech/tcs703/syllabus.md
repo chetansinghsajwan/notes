@@ -59,10 +59,10 @@
 
 ###### Unit IV
 
-- Generalized forwarding and SDN Match
-- Action, Open flow
+- Generalized forwarding and SDN Match Action
 - SDN Control Plane
-- SDN controller and SDN control Application
+- SDN controller
+- SDN control Application
 - Open flow protocol
 - Data and control plane Interaction
 - SDN: PAST and FUTURE.

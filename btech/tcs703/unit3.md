@@ -1,4 +1,10 @@
-# Unit 4
+# Unit 3
+
+## Multimedia Networking
+
+
+
+## Protocols for Real Time Interactive Applications
 
 ### RTP
 
@@ -23,7 +29,45 @@ RTP is used in conjunction with the Real-time Transport Control Protocol (RTCP),
 
 ### RTCP
 
+RTCP stands for RTP Control Protocol.
 
+It's used with RTP. While RTP is used for actual data transmission, it's used to control the transmission.
+
+The purpose of monitoring delivery is to determine whether RTP is providing the necessary Quality of Service and to compensate for delays, if needed.
+
+This is done by sending special RTCP messages.
+
+There are 5 types of messages:
+
+1. **SR**
+    
+    SR stands for Sendor Report.
+    
+    This report is sent by sender again and again to report about the transmission.
+
+2. **RR**
+    
+    RR stands for Reciever Report.
+    
+    The receiver report is for passive participants, those that do not send RTP packets. Passive participants are those participants that do not send RTP packets.
+    
+    The report informs the sender and other receivers about the quality of service.
+
+3. **SDES**
+    
+    SDES stands for Sourse Description Message.
+    
+    The source sends a source description message within a fixed interval to give some extra information about itself.
+
+4. **BYE**
+    
+    The source sends the BYE message to notfiy the participants about the end of the data flow.
+
+5. **APP**
+    
+    APP stands for Application Specific Message.
+    
+    It is just to be used for experimental purposes and newly emerging features and functions.
 
 ### SIP
 
@@ -33,14 +77,11 @@ SIP is a signalling protocol used to create, modify, and terminate a multimedia 
 
 It is an application layer protocol. It was designed to be independent of underlying transport layer, so it ca run on UDP or TCP.
 
-> [!todo]
-> Review this.
+It provides mechanisms for establishing calls between a caller and a callee over an IP network.
 
-It is a lightweight protocol that does the following:
+It provieds mechanisms for the caller to derermine the current IP address of the callee.
 
-- It provides mechanisms for establishing calls between a caller and a callee over an IP network.
-- It provieds mechanisms for the caller to derermine the current IP address of the callee.
-- It provides mechanisms for call management, such as adding new media streams during the call, changing the encoding during the call, inviting new participants during the call, call transfer, and call holding.
+It provides mechanisms for call management, such as adding new media streams during the call, changing the encoding during the call, inviting new participants during the call, call transfer, and call holding.
 
 ###### SIP Applications
 
@@ -50,7 +91,7 @@ It is a lightweight protocol that does the following:
 - online games
 - steaming multimedia distribution
 
-###### SIP Address
+##### SIP Address
 
 In SIP, the sender and receiver are often identified by any of these.
 
@@ -58,7 +99,7 @@ In SIP, the sender and receiver are often identified by any of these.
 2. An IP address.
 3. A Phone number
 
-###### SIP Messages
+##### SIP Messages
 
 1. INVITE: It requests for initiation of a session.
 2. ACK: It confirms that session has initiated.
@@ -67,7 +108,7 @@ In SIP, the sender and receiver are often identified by any of these.
 5. CANCEL: It will cancel the pending request.
 6. REGISTER: It informs a redirection server about the user’s current location.
 
-###### SIP Session
+##### SIP Session
 
 It's a three step process:
 
@@ -111,8 +152,26 @@ Some protocols that H.323 includes:
 
 - H.323 is large and complex. SIP uses the KISS principle: keep it simple, stupid.
 
-## References
+#### Class Of Service
 
-- https://www.tutorialspoint.com/h-323-and-associated-protocols
+Also called as CoS.
 
-- https://www.geeksforgeeks.org/internet-telephony-protocol-h-323/
+Class of Service is a way to manage different types of traffic over a network by dividing similar types of traffic by classes.
+
+It prioritizes traffic by allocating different levels of priority to different groups.
+
+For example, it can give more priority to the voice traffic over others such as email or HTTP traffic. This enables network managers to refine connections to meet specific application needs.
+
+CoS operates at layer 2 of the OSI model.
+
+#### Quality Of Service
+
+Also called as QoS.
+
+Quality of Service refers to the set of technologies used to manage network resources by allocating application of different network behaviors to different traffic types.
+
+QoS is all about traffic shaping and prioritizing traffic.
+
+QoS is not a standalone service or product but rather a concept that allows for allocation of network resources for important applications or traffic.
+
+QoS operates at layer 3 of the OSI model.

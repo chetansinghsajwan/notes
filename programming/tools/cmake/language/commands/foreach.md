@@ -44,21 +44,21 @@ foreach(<loop_var> RANGE <start> <stop> [<step>])
 
 ### Parameters
 
-> ##### `<loop_var>`
-> 
-> Variable holding current iteration value.
+###### `<loop_var>`
 
-> ##### `<start>`
-> 
-> The  start of the range.
-> 
-> This should be a non negative value.
+Variable holding current iteration value.
 
-> ##### `<stop>`
-> 
-> The end value of the range.
-> 
-> This should be a non negative value.
+###### `<start>`
+
+The  start of the range.
+
+This should be a non negative value.
+
+###### `<stop>`
+
+The end value of the range.
+
+This should be a non negative value.
 
 --- 
 
@@ -84,17 +84,17 @@ foreach(<loop_var> IN [LISTS [<lists>]] [ITEMS [<items>]])
 
 ### Parameters
 
-> ##### `<loop_var>`
-> 
-> Value holding current iteration value.
+###### `<loop_var>`
 
-> ##### `<lists>` #optional 
-> 
-> Whitespace or semicolon separated list of list-valued variables.
+Value holding current iteration value.
 
-> ##### `<items>` #optional 
-> 
-> Whitespace of semicolon separated list of values.
+###### `<lists>` #optional 
+
+Whitespace or semicolon separated list of list-valued variables.
+
+###### `<items>` #optional 
+
+Whitespace of semicolon separated list of values.
 
 ### Example
 
@@ -134,19 +134,19 @@ foreach(<loop_var>... IN ZIP_LISTS <lists>)
 
 ### Parameters
 
-> ##### `<loop_var>...`
-> 
-> Variable holding current iteration value.
-> 
-> If single variable is specified, then the current value for each list is addressed by `loop_var_N`, where `N` represents lists index.
-> 
-> If multiple variables are specified, then their count should match the number of `<lists>`. Each variable will hold the current iteration value for their corresponding list.
+###### `<loop_var>...`
 
-> ##### `<lists>`
-> 
-> Whitespace or semicolon separated list of list-valued variables.
-> 
-> if any of the lists are shorter, the corresponding iteration variable is not defined for the current iteration.
+Variable holding current iteration value.
+
+If single variable is specified, then the current value for each list is addressed by `loop_var_N`, where `N` represents lists index.
+
+If multiple variables are specified, then their count should match the number of `<lists>`. Each variable will hold the current iteration value for their corresponding list.
+
+###### `<lists>`
+
+Whitespace or semicolon separated list of list-valued variables.
+
+if any of the lists are shorter, the corresponding iteration variable is not defined for the current iteration.
 
 ### Example
 
