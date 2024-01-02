@@ -1,8 +1,16 @@
 # Unit 1
 
-## Routing Algorithims
+## Routing
 
 Routing is the process of forwarding the packets from source to the destination.
+
+### Hop Count
+
+Hop count is the number of routers occurring in between the source and destination network that the packet has to pass through.
+
+The path with the lowest hop count is considered as the best route to reach a network and therefore placed in the routing table.
+
+## Routing Algorithims
 
 A routing algorithm is a procedure that lays down the route or path to transfer data packets from source to the destination.
 
@@ -222,6 +230,8 @@ For huge networks, a two-level hierarchy may be insufficient hence, it may be ne
 
 ## RIP
 
+RIP stands for Routing Information Protocol.
+
 IP is a distance-vector routing protocol that uses hop count as a routing metric to find the best path between the source and the destination network.
 
 It has an AD value of 120 and works on the network layer of the OSI model.
@@ -232,7 +242,7 @@ RIP prevents routing loops by limiting the number of hops allowed in a path from
 
 The maximum hop count allowed for RIP is 15 and a hop count of 16 is considered as network unreachable.
 
-**Features:**
+###### Features
 
 - Updates of the network are exchanged preiodically.
 
@@ -242,7 +252,7 @@ The maximum hop count allowed for RIP is 15 and a hop count of 16 is considered 
 
 - Routers always trust routing information received from neighbor routers. This is also known as Routing on rumors.
 
-**RIP Versions:**
+###### RIP Versions
 
 **RIP v1**
 
@@ -272,7 +282,7 @@ RIPng can only run on IPv6 networks.
 
 Classless updates are sent.
 
-**Message Format:**
+###### Message Format
 
 ![](rip-msg-format.png)
 
@@ -289,12 +299,104 @@ of the request is 1, and the value of the reply is 2.
 
 **Distance:** The distance field specifies the hop count, i.e., the number of hops used to reach the destination.
 
-**Advantages:**
+###### Advantages
 
+**Simplicity:** RIP is a relatively simple protocol to configure and manage, making it an ideal choice for small to medium-sized networks with limited resources.
 
+**Easy implementation:** RIP is easy to implement, as it does not require much technical expertise to set up and maintain.
 
-### Hop Count
+**Compatibility:** RIP is compatible with many different types of routers and network devices, making it easy to integrate into existing networks.
 
-Hop count is the number of routers occurring in between the source and destination network that the packet has to pass through.
+**Automatic updates:** RIP automatically updates routing tables at regular intervals, ensuring that the most up-to-date information is being used to route packets.
 
-The path with the lowest hop count is considered as the best route to reach a network and therefore placed in the routing table.
+###### Disadvantages
+
+**Limited scalability:** RIP has limited scalability, and it may not be the best choice for larger networks with complex topologies. RIP can only support up to 15 hops, which may not be sufficient for larger networks.
+
+**Routing loops:** RIP can sometimes create routing loops, which can cause network congestion and reduce overall network performance.
+
+**Security vulnerabilities:** RIP does not provide any native security features, making it vulnerable to attacks such as spoofing and tampering.
+
+**Limited support for load balancing:** RIP does not support sophisticated load balancing, which can result in suboptimal routing paths and uneven network traffic distribution.
+
+## OSPF Protocol
+
+OSPF stands for Open Shortest Path First.
+
+Open Shortest Path First (OSPF) is a link-state routing protocol that is used to find the best path between the source and the destination.
+
+It is an intradomain routing protocol.
+
+It is developed by Internet Engineering Task Force (IETF).
+
+It is a network layer protocol which works on protocol number 89 and uses AD value 110.
+
+###### Working
+
+**Step 1:** The first step is to become OSPF neighbors. The two connecting routers running OSPF on the same link creates a neighbor relationship.
+
+**Step 2:** The second step is to exchange database information. After becoming the neighbors, the two routers exchange the LSDB information with each other.
+
+**Step 3:** The third step is to choose the best route. Once the LSDB (Link State Database) information has been exchanged with each other, the router chooses the best route to be added to a routing table based on the calculation of SPF.
+
+###### Links
+
+There are four types of links in OSPF:
+
+**Point-to-point link:** The point-to-point link directly connects the two routers without any host or router in between.
+
+**Transient link:** When several routers are attached in a network, they are known as a transient link.
+
+**Stub link:** It is a network that is connected to the single router. Data enters to the network through the single router and leaves the network through the same router.
+
+**Virtual link:** If the link between the two routers is broken, the administration creates the virtual path between the routers, and that path could be a long one also.
+
+###### Message Format
+
+![](ospf-msg-format.png)
+
+**Version:** It is an 8-bit field that specifies the OSPF protocol version.
+
+**Type:** It is an 8-bit field. It specifies the type of the OSPF packet.
+
+**Message:** It is a 16-bit field that defines the total length of the message, including the header. Therefore, the total length is equal to the sum of the length of the message and header.
+
+**Source IP address:** It defines the address from which the packets are sent. It is a sending routing IP address.
+
+**Area identification:** It defines the area within which the routing takes place.
+
+**Checksum:** It is used for error correction and error detection.
+Authentication type: There are two types of authentication, i.e., 0 and 1. Here, 0 means for none that specifies no authentication is available and 1 means for pwd that specifies the password-based
+authentication.
+
+**Authentication:** It is a 32-bit field that contains the actual value of the authentication data.
+
+## BGP
+
+BGP stands for Border Gateway Protocol.
+
+It is an inter-domain routing protocol.
+
+It uses path vector routing.
+
+It runs over TCP.
+
+The protocol that is running on the internet or used to communicate
+between two different autonomous number systems is known as BGP
+
+###### Features
+
+**Open Standard**: It is a standard protocol which can run on any device.
+
+**Exterior Gateway Protocol**: It is an exterior gateway protocol that is used to exchange the routing information between two or more autonomous system numbers.
+
+**Supports Internet**: It is the only protocol that operates on the internet backbone.
+
+It is a classless protocol.
+
+Supports incremental and trigger updates.
+
+**Path Vector Protocol**: The BGP is a path vector protocol. Here, path vector is a method of sending the routes along with routing information.
+
+**Application Layer Protocol**: It is an application layer protocol and uses TCP protocol for reliability.
+
