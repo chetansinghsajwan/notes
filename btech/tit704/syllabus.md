@@ -3,7 +3,10 @@
 ###### Unit I
 
 Introduction to security attacks, services and mechanism, introduction to cryptography.
-Conventional Encryption: Conventional encryption model, classical encryption techniques- substitution ciphers and transposition ciphers, cryptanalysis, stenography, stream and block ciphers.
+
+Conventional Encryption: Conventional encryption model,
+
+classical encryption techniques- substitution ciphers and transposition ciphers, cryptanalysis, stenography, stream and block ciphers.
 
 ###### Unit II
 

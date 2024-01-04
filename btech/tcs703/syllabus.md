@@ -1,11 +1,4 @@
-20041184
-
-Sign in
-
-- [Click here to Access User Portal](https://172.16.1.1:4443/userportal/webpages/myaccount/login.jsp)
-
-Please don't close this window, add new tab to browse internet !   
-Note:-Please insert 172.16.1.1:8090 in your web Browser for Login# Syllabus
+# Syllabus
 
 ###### Unit I
 
