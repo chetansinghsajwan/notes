@@ -130,3 +130,21 @@ It is a security mechanism that involves the use of techniques to ensure that da
 #### Non repudiation
 
 It involves the use of techniques to create a verifiable record of the origin and transmission of a message, which can be used to prevent the sender from denying that they sent the message.
+
+## Conventional Encryption Model
+
+It is a cryptographic system that uses the same key used by the sender to encrypt the message and by the receiver to decrypt the message.
+
+It was the only type of encryption in use prior to the development of public-key encryption.
+
+### Advantages
+
+- Simple
+
+- Fast
+
+- Use fewer computer resources.
+
+### Disadvantages
+
+- 
