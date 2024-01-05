@@ -137,6 +137,14 @@ It is a cryptographic system that uses the same key used by the sender to encryp
 
 It was the only type of encryption in use prior to the development of public-key encryption.
 
+It has mainly 5 components:
+
+1. Plain text
+2. Encryption algorithm 
+3. Secret key
+4. Ciphertext 
+5. Decryption algorithm
+
 ### Advantages
 
 - Simple
@@ -147,4 +155,54 @@ It was the only type of encryption in use prior to the development of public-key
 
 ### Disadvantages
 
-- 
+1. Origin and authenticity of the message cannot be guaranteed, since both sender and receiver use the same key, messages cannot be verified to have come from a particular user.
+
+2. It isn’t much secured when compared to public-key encryption.
+
+3. If the receiver lost the key, he/she cant decrypt the message and thus making the whole process useless.
+
+4. This scheme does not scale well to a large number of users because both the sender and the receiver have to agree on a secret key before transmission.
+
+## Cryptanalysis
+
+It is the study of the cryptographic algorithm and the breaking of those algorithims.
+
+To determine the weak points of a cryptographic system, it is important to attack the system. This attacks are called cryptanalytic attacks.
+
+Some cryptanalysis attacks:
+
+- **Known-Plaintext Analysis (KPA)**
+    
+    In this type of attack, some plaintext-ciphertext pairs are already known. Attacker maps them in order to find the encryption key. This attack is easier to use as a lot of information is already available.
+
+- **Chosen-Plaintext Analysis (CPA)**
+    
+    In this type of attack, the attacker chooses random plaintexts and obtains the corresponding ciphertexts and tries to find the encryption key. Its very simple to implement like KPA but the success rate is quite low.
+
+- **Ciphertext-Only Analysis (COA)**
+    
+    In this type of attack, only some cipher-text is known and the attacker tries to find the corresponding encryption key and plaintext. Its the hardest to implement but is the most probable attack as only ciphertext is required.
+
+- **Man-In-The-Middle (MITM) attack**
+    
+    In this type of attack, attacker intercepts the message/key between two communicating parties through a secured channel.
+
+- **Birthday attack**
+    
+    This attack exploits the probability of two or more individuals sharing the same birthday in a group of people. In cryptography, this attack is used to find collisions in a hash function.
+
+- **Brute-force attack**
+    
+    This attack involves trying every possible key until the correct one is found. While this attack is simple to implement, it can be time-consuming and computationally expensive, especially for longer keys.
+
+## Steganography
+
+It is a method of hiding secret data, by embedding it into an audio, video, image, or text file.
+
+###### How is it different from cryptography?
+
+Cryptography and steganography are both methods used to hide or protect secret data. However, they differ in the respect that cryptography makes the data unreadable, or hides the meaning of the data, while steganography hides the existence of the data.
+
+###### Image Steganography
+
+As the name suggests, Image Steganography refers to the process of hiding data within an image file. The image selected for this purpose is called the cover image and the image obtained after steganography is called the stego image.
