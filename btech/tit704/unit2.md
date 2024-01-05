@@ -113,6 +113,28 @@ CTR stands for Counter.
 
 - The fact that CTR mode requires a synchronous counter at both the transmitter and the receiver is a severe drawback. The recovery of plaintext is erroneous when synchronisation is lost.
 
+## Key Distribution
+
+The public key can be distributed in four ways:
+
+1. Public announcement
+2. Publicly available directory
+3. Public-key authority
+4. Public-key certificates. 
+
+### Public Announcement
+
+Here the public key is broadcasted to everyone. The major weakness of this method is a forgery. Anyone can create a key claiming to be someone else and broadcast it. Until forgery is discovered can masquerade as claimed user. 
+
+![Public Key Announcement](https://media.geeksforgeeks.org/wp-content/uploads/20190409142408/11112.png)
+
+**2. Publicly Available Directory:** In this type, the public key is stored in a public directory. Directories are trusted here, with properties like Participant Registration, access and allow to modify values at any time, contains entries like {name, public-key}. Directories can be accessed electronically still vulnerable to forgery or tampering. 
+
+**3. Public Key Authority:** It is similar to the directory but, improves security by tightening control over the distribution of keys from the directory. It requires users to know the public key for the directory. Whenever the keys are needed, real-time access to the directory is made by the user to obtain any desired public key securely. 
+
+**4. Public Certification:** This time authority provides a certificate (which binds an identity to the public key) to allow key exchange without real-time access to the public authority each time. The certificate is accompanied by some other info such as period of validity, rights of use, etc. All of this content is signed by the private key of the certificate authority and it can be verified by anyone possessing the authority’s public key.   
+First sender and receiver both request CA for a certificate which contains a public key and other information and then they can exchange these certificates and can start communication.
+
 ## PRNG
 
 PRNG stands for Pseudo Random Number Generator.
@@ -124,7 +146,7 @@ A PRNG starts from an arbitrary starting state using a seed state.
 ### Linear Congruence Method
 
 ```
-Xn+1 = (aXn + c) mod m
+Xn+1 = (a * Xn + c) mod m
 ```
 
 where `X` is the sequence of pseudo-random values
@@ -139,7 +161,17 @@ x0: seed value (0 ? x0 < m)
 ### Blum Blum Slub Method
 
 ```
-Xn+1 = (Xn)^2 (mod M)
+Xn+1 = (Xn)^2 mod N
 ```
 
-where `x0` is a random seed. The value of `M` is equal to `pq`, and where `p` and `q` are prime numbers. These values of `p` and `q` are both congruent to 3 mod 4.
+Select 2 numbers `p` and `q` such that, dividing them both with `4` gives a remainder of `3`.
+
+For example, `p` = `7` and `q` = `11`.
+
+So `N` = `pq` = `7 * 11` = `77`.
+
+Now choose a number `S` which is prime to both `p` and `q`.
+
+For example, `S` = `12`.
+
+So `X0 = S^2 mod N`.
