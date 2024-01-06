@@ -30,6 +30,7 @@ Address Translation
 
 Branches and Prediction: Branch Prediction, Direction Predictor, Hierarchical
 Predictors, If Conversion, Conditional Move
+
 Instruction Level Parallelism: Introduction, RAW and WAW, dependencies,
 Duplicating Register Values, ILP
 
