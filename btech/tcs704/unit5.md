@@ -52,7 +52,7 @@ Directory-Based Protocols use a centralized directory to maintain cache coherenc
 
 Directory-Based Protocols generally have higher overhead due to the centralized directory. However, they can provide better scalability and reduce bus contention compared to Snoopy Bus Protocols in large-scale multiprocessor systems.
 
-## Flynn’s taxonomy
+## Flynn’s Classification
 
 It is a classification scheme for computer architectures proposed by Michael Flynn in 1966.
 
@@ -98,3 +98,53 @@ This type of architecture is highly parallel and can offer significant performan
 It is well-suited for distributed computing, parallel processing, and other high-performance computing applications.
 
 However, it requires specialized hardware and software and can be challenging to program and debug.
+
+## Memory Architectures
+
+#### Centralized Shared Memory Architecture
+
+![](centralized-shared-memory-architecture.png)
+
+Also known as SMP (Symmetric Multiprocesor) architecture.
+
+It is a type of computer system architecture where multiple processors share a common, centralized main memory.
+
+Each processor has equal access to the entire memory address space, and they communicate with each other through a shared bus or interconnect.
+
+Processors in an SMP system are symmetric, meaning that they have identical architectures and capabilities. Each processor has its own set of registers, cache, and execution units.
+
+SMP systems can be scaled by adding more processors, but scalability is limited due to the contention for the shared bus or interconnect as the number of processors increases. This limitation is known as the "bus contention" problem.
+
+#### Distributed Shared Memory Architecture
+
+![](distributed-shared-memory-architecture.png)
+
+Memory is physically distributed across multiple processors. Each processesor has its own local memory, and these memories collectively form a shared address space.
+
+This architecture provides the illusion of a single, shared address space to programs running on the system. Processes can access data stored in the local memory of other nodes as if it were in their own local memory.
+
+Communication between nodes is typically achieved through message passing or some form of interconnect, such as a network. Nodes can read and write to the memory of other nodes by sending messages.
+
+While DSM systems provide a shared memory view, the access times to remote memory locations may not be uniform. Accessing local memory is faster than accessing remote memory, leading to a Non-Uniform Memory Access (NUMA) characteristic.
+
+Decentralized shared memory architectures are often more scalable than centralized shared memory architectures. As the number of nodes increases, the system can potentially scale more easily.
+
+### Shared Memory vs Message Passing
+
+**1. Shared Memory Model:**   
+In this IPC model, a shared memory region is established which is used by the processes for data communication. This memory region is present in the address space of the process which creates the shared memory segment. The processes that want to communicate with this process should attach this memory segment into their address space. 
+
+**2. Message Passing Model:**   
+In this model, the processes communicate with each other by exchanging messages. For this purpose, a communication link must exist between the processes and it must facilitate at least two operations send (message) and receive (message). The size of messages may be variable or fixed. 
+
+|S.No|Shared Memory Model|Message Passing Model|
+|---|---|---|
+|1.|The shared memory region is used for communication.|A message passing facility is used for communication.|
+|2.|It is used for communication between processes on a single processor or multiprocessor systems where the communicating processes reside on the same machine as the communicating processes share a common address space.|It is typically used in a distributed environment where communicating processes reside on remote machines connected through a network.|
+|3.|The code for reading and writing the data from the shared memory should be written explicitly by the Application programmer.|No such code required here as the message passing facility provides mechanism for communication and synchronization of actions performed by the communicating processes.|
+|4.|It provides a maximum speed of computation as communication is done through shared memory so system calls are made only to establish the shared memory.|It is time-consuming as message passing is implemented through kernel intervention (system calls).|
+|5.|Here the processes need to ensure that they are not writing to the same location simultaneously.|It is useful for sharing small amounts of data as conflicts need not to be resolved.|
+|6.|Faster communication strategy.|Relatively slower communication strategy.|
+|7.|No kernel intervention.|It involves kernel intervention.|
+|8.|It can be used in exchanging larger amounts of data.|It can be used in exchanging small amounts of data.|
+|9.|Example- <br><br>- Data from a client process may need to be transferred to a server process for modification before being returned to the client.|Example- <br><br>- Web browsers<br>- Web Servers<br>- Chat program on WWW (World Wide Web)|
