@@ -28,14 +28,11 @@ Address Translation
 
 ###### Unit IV
 
-Branches and Prediction: Branch Prediction, Direction Predictor, Hierarchical
-Predictors, If Conversion, Conditional Move
+Branches and Prediction: Branch Prediction, Direction Predictor, Hierarchical Predictors, If Conversion, Conditional Move
 
-Instruction Level Parallelism: Introduction, RAW and WAW, dependencies,
+Instruction Level Parallelism: Introduction, RAW and WAW dependencies,
 Duplicating Register Values, ILP
 
 ###### Unit V
 
-Multiprocessor architecture: taxonomy of parallel architectures. Centralized
-shared-memory, Distributed shared-memory architecture, Message passing
-vs Shared Memory
+Multiprocessor architecture: taxonomy of parallel architectures. Centralized shared-memory, Distributed shared-memory architecture, Message passing vs Shared Memory.

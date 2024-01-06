@@ -51,3 +51,50 @@ Directory-Based Protocols use a centralized directory to maintain cache coherenc
 2. Permission-Based Data Sharing: Directory-Based Protocols manage data sharing through permissions. When a cache wants to read or write a memory block, it requests permission from the directory. The directory grants permission based on the current state of the block and the coherence protocol in use. Caches coordinate with the directory to ensure that they have the required permissions before performing operations on shared memory blocks.
 
 Directory-Based Protocols generally have higher overhead due to the centralized directory. However, they can provide better scalability and reduce bus contention compared to Snoopy Bus Protocols in large-scale multiprocessor systems.
+
+## Flynn’s taxonomy
+
+It is a classification scheme for computer architectures proposed by Michael Flynn in 1966.
+
+The classification is based on the number of instruction streams and data streams that can be processed simultaneously by a computer architecture.
+
+There are four categories in Flynn’s taxonomy:
+
+1. SISD
+2. SIMD
+3. MISD
+4. MIMD
+
+##### SISD
+
+SISD stands for Single Instruction Single Data.
+
+This is the simplest and most common type of computer architecture.
+
+It is easy to program and debug and can handle a wide range of applications.
+
+However, it does not offer significant performance gains over traditional computing systems.
+
+##### SIMD
+
+SIMD stands for Single Instruction Multiple Data.
+
+This type of architecture is highly parallel and can offer significant performance gains for applications that can be parallelized.
+
+However, it requires specialized hardware and software and is not well-suited for applications that cannot be parallelized.
+
+##### MISD
+
+MISD stands for Multiple Instruction Single Data.
+
+This type of architecture is not commonly used in practice, as it is difficult to find applications that can be decomposed into independent instruction streams.
+
+##### MIMD
+
+MIMD stands for Multiple Instruction Multiple Data.
+
+This type of architecture is highly parallel and can offer significant performance gains for applications that can be parallelized.
+
+It is well-suited for distributed computing, parallel processing, and other high-performance computing applications.
+
+However, it requires specialized hardware and software and can be challenging to program and debug.
