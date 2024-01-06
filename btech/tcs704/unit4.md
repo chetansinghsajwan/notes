@@ -103,7 +103,13 @@ It's implemented at hardware level.
 
 It's costly than static branch prediction, but the accuracy is high.
 
-##### Direction Predictor
+#### Direction Predictor
+
+A direction predictor is a component of branch prediction in computer architecture that specifically focuses on predicting the outcome or direction of a branch instruction.
+
+The goal of a direction predictor is to anticipate whether a branch will be taken (resulting in a change in program flow) or not taken (allowing the program to continue along its current path).
+
+#### Heirarchical Predictor
 
 
 ### RAW Hazard
