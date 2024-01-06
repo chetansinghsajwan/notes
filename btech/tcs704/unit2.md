@@ -91,3 +91,133 @@ It refers to a phenomenon in which a computer program tends to access same set 
 
 The property of locality of reference is mainly shown by loops and subroutine calls in a program.
 
+###### Cache Operation
+
+It is based on the principle of locality of reference. There are two ways with which data or instruction is fetched from main memory and get stored in cache memory. These two ways are the following:
+
+1. **Temporal Locality**
+    
+    Temporal locality means current data or instruction that is being fetched may be needed soon. So we should store that data or instruction in the cache memory so that we can avoid again searching in main memory for the same data.
+
+2. **Spatial Locality**
+    
+    Spatial locality means instruction or data near to the current memory location that is being fetched, may be needed soon in the near future.
+
+###### Spatial Locality and Temporal Locality
+
+1. In Spatial Locality, nearby instructions to recently executed instruction are likely to be executed soon.
+    
+    In Temporal Locality, a recently executed instruction is likely to be executed again very soon.
+
+2. It refers to the tendency of execution which involve a number of memory locations.
+    
+    It refers to the tendency of execution where memory location that have been used recently have a access.
+
+3. It is also known as locality in space.
+    
+    It is also known as locality in time.
+
+4. It only refers to data item which are closed together in memory.
+    
+    It repeatedly refers to same data in short time span.
+
+5. Each time new data comes into execution.
+    
+    Each time same useful data comes into execution.
+
+6. Example: Data elements accessed in array (where each time different (or just next) element is being accessing).
+    
+    Example: Data elements accessed in loops (where same data elements are accessed multiple times).
+
+###### Cache Performance
+
+The performance of the cache is measured in terms of hit ratio.
+
+**Cache Hit**: When CPU refers to memory and find the data or instruction within the cache memory, it is known as cache hit.
+
+**Cache Miss**: If the desired data or instruction is not found in the cache memory and CPU refers to the main memory to find that data or instruction, it is known as a cache miss.
+
+We can improve Cache performance using higher cache block size, higher associativity, reduce miss rate, reduce miss penalty, and reduce the time to hit in the cache.
+
+## Virtual Memory
+
+It is a storage allocation scheme in which secondary memory is treated as primary memory.
+
+It is implemented using two methods:
+
+1. Demand Paging
+2. Demand Segmentation
+
+##### Demand Paging
+
+The process of loading the page into memory on demand (whenever a page fault occurs) is known as demand paging.
+
+The process includes the following steps are as follows:
+
+1. If the CPU tries to refer to a page that is currently not available in the main memory, it generates an interrupt indicating a memory access fault.
+
+2. The OS puts the interrupted process in a blocking state. For the execution to proceed the OS must bring the required page into the memory.
+
+3. The OS will search for the required page in the logical address space.
+
+4. The required page will be brought from logical address space to physical address space. The page replacement algorithms are used for the decision-making of replacing the page in physical address space.
+
+5. The page table will be updated accordingly.
+
+6. The signal will be sent to the CPU to continue the program execution and it will place the process back into the ready state.
+
+**Page Fault Time**: The time taken to complete all the above steps.
+
+###### Advantages
+
+- More processes may be maintained in the main memory.
+
+- Very Large Process
+    
+    A process larger than the main memory can be executed because of demand paging. The OS itself loads pages of a process in the main memory as required.
+
+- It makes it possible to run more applications at once.
+
+- Memory allocation is comparatively cheap.
+
+- Users are spared from having to add memory modules when ram space runs out
+
+- Memory isolation has increased security.
+
+- It makes it possible for several larger applications to run at once.
+
+###### Disadvantages
+
+- It can slow down the system performance, as data needs to be constantly transferred between the physical memory and the hard disk.
+
+- It can increase the risk of data loss or corruption, as data can be lost if the hard disk fails or if there is a power outage while data is being transferred to or from the hard disk.
+
+- It can increase the complexity of the memory management system, as the operating system needs to manage both physical and virtual memory.
+
+##### Swapping
+
+It is the process of moving a process between primary memory and virtual memory.
+
+Example: suspending or resuming a process.
+
+##### Thrashing
+
+It is the situation when the os is busy swapping process, and cannot give enough time to actually execute the process.
+
+This could happen because of low memory space remaining in primary memory.
+
+###### Causes
+
+- High Degree of Multiprogramming
+    
+    If the number of processes keeps on increasing in the memory then the number of frames allocated to each process will be decreased. So, fewer frames will be available for each process. Due to this, a page fault will occur more frequently
+
+- Lacks of Frames
+    
+    If a process has fewer frames then fewer pages of that process will be able to reside in memory and hence more frequent swapping in and out will be required.
+
+###### Recovery
+
+- Do not allow the system to go into thrashing by instructing the long-term scheduler not to bring the processes into memory after the threshold.
+
+- If the system is already thrashing then instruct the mid-term scheduler to suspend some of the processes so that we can recover the system from thrashing.
