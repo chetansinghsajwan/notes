@@ -158,9 +158,21 @@ It includes:
 
 - Optional Custom Extensions
 
+### 5 Stages
+
+![](riscv-five-stage-pipeline.png)
+
+1. IF – Instruction Fetch – In this stage the CPU reads instructions from the address in the memory whose value is present in the program counter.
+
+2. ID – Instruction Decode – In this stage, instruction is decoded and the register file is accessed to get the values from the registers used in the instruction.
+
+3. EX- Execute – In this stage, ALU operations are performed.
+
+4. MEM- Memory Access – In this stage, memory operands are read and written from/to the memory that is present in the instruction.
+
+5. WB- Write Back – In this stage, computed/fetched value is written back to the register present in the instructions.
+
 ## Performance Issues in Pipelining
-
-
 
 ## Pipeline Hazards
 
@@ -176,9 +188,22 @@ It is the situation when more than one instruction tries to access the same reso
 
 This resources could be ALU, memory or register.
 
+**Solution for structural dependency**
+
+To minimize structural dependency stalls in the pipeline, we use a hardware mechanism called Renaming.
+
+**Renaming:** According to renaming, we divide the memory into two independent modules used to store the instruction and data separately called Code memory(CM) and Data memory(DM) respectively. CM will contain all the instructions and DM will contain all the operands that are required for the instructions.
+
 ### Data Hazard
 
 It is the situation when the execution of instruction depends on the result of another instruction that is still being processed in the pipeline.
+
+**Solution**
+
+To minimize data dependency stalls in the pipeline, operand forwarding is used.
+
+**Operand Forwarding:**
+In operand forwarding, we use the interface registers present between the stages to hold intermediate output so that dependent instruction can access new value from the interface register directly.
 
 ### Control Hazard
 

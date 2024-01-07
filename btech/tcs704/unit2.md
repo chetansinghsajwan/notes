@@ -139,6 +139,53 @@ The performance of the cache is measured in terms of hit ratio.
 
 We can improve Cache performance using higher cache block size, higher associativity, reduce miss rate, reduce miss penalty, and reduce the time to hit in the cache.
 
+##### Cache Mapping
+
+There are three different types of mapping used for the purpose of cache memory which is as follows:
+
+- Direct Mapping
+- Associative Mapping
+- Set-Associative Mapping
+
+###### Direct Mapping
+
+The simplest technique, known as direct mapping, maps each block of main memory into only one possible cache line. or In Direct mapping, assign each memory block to a specific line in the cache. If a line is previously taken up by a memory block when a new block needs to be loaded, the old block is trashed. An address space is split into two parts index field and a tag field. The cache is used to store the tag field whereas the rest is stored in the main memory. Direct mapping's performance is directly proportional to the Hit ratio.
+
+###### Associative Mapping
+
+In this type of mapping, associative memory is used to store the content and addresses of the memory word. Any block can go into any line of the cache. This means that the word id bits are used to identify which word in the block is needed, but the tag becomes all of the remaining bits. This enables the placement of any word at any place in the cache memory. It is considered to be the fastest and most flexible mapping form. In associative mapping, the index bits are zero.
+
+###### Set Associative Mapping
+
+This form of mapping is an enhanced form of direct mapping where the drawbacks of direct mapping are removed. Set associative addresses the problem of possible thrashing in the direct mapping method. It does this by saying that instead of having exactly one line that a block can map to in the cache, we will group a few lines together creating a _**set**_.
+
+#### Cache optimization Techniques
+
+Optimization of cache performance ensures that it is utilized in a very efficient manner.
+
+###### AMAT
+
+AMAT stands for Average Memory Access Time.
+
+AMAT helps in analyzing the cache memory and its performance. The lesser the AMAT, the better the performance is.
+
+AMAT can be calculated as,
+AMAT = Hit Ratio * Cache access time + Miss Ratio * Main memory access time
+=> (h * tc) + (1-h) * (tc + tm)
+
+**Example 1:** What is the average memory access time for a machine with a cache hit rate of 75% and cache access time of 3 ns and main memory access time of 110 ns.
+
+**Solution:**
+Average Memory Access Time(AMAT) = = (h * tc) + (1-h) * (tc + tm)
+Given,
+Hit Ratio(h) = 75/100 = 3/4 = 0.75
+Miss Ratio (1-h) = 1-0.75 = 0.25
+Cache access time(tc) = 3ns
+Main memory access time(effectively) = tc + tm = 3 + 110 = 113 ns
+Average Memory Access Time(AMAT) = (0.75 * 3) + (0.25 * (3+110))
+= 2.25 + 28.25
+= 30.5 ns
+
 ## Virtual Memory
 
 It is a storage allocation scheme in which secondary memory is treated as primary memory.
