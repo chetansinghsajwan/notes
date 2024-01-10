@@ -185,7 +185,7 @@ Closes the socket and frees up the ports used by it.
 
 ## TCP Client Server
 
-![](resources/client-server-model.webp)
+![](client-server-model.webp)
 
 Steps for establishing a connection on the client side are:
 
