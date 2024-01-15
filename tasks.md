@@ -13,4 +13,4 @@
 
 - C++ with Nix in 2023, Part 1: Developer Shells: https://nixcademy.com/2023/10/31/cpp-with-nix-in-2023-part-1-shell/
 
-- std c++ 20 header units in open-std: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1502r1.html
+- libc++ modules: https://libcxx.llvm.org/Modules.html
