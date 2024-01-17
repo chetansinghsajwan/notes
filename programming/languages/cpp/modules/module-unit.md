@@ -29,14 +29,36 @@ where,
 
 ---
 
-The **module-name** consists of one or more identifiers separated by dots (for example: `mymodule`, `mymodule.mysubmodule`, `mymodule2`...). Dots have no intrinsic meaning, however they are used informally to represent hierarchy.
+The module-name consists of one or more identifiers separated by dots (for example: `mymodule`, `mymodule.mysubmodule`, `mymodule2`...). Dots have no intrinsic meaning, however they are used informally to represent hierarchy.
 
 #### Global Module Fragement
 ^global-module-fragement
 
-Module units can be prefixed by a _global module fragment_, which can be used to include headers when importing the headers is not possible.
+It is an optional section at the top of module unit, which can be used to include headers when importing the headers is not possible.
 
-If a module-unit has a global module fragment, then its first declaration must be `**module;**`. Then, only [preprocessing directives](https://en.cppreference.com/w/cpp/preprocessor#Directives "cpp/preprocessor") can appear in the global module fragment. Then, a standard module declaration marks the end of the global module fragment and the start of the module content.
+It is declared before module-declaration using `module;` statement.
+
+A standard module-declaration marks the end of the global module fragment and the start of the module content.
+
+---
+
+**Example**:
+
+```cpp
+module;
+// global-module-fragement starts here
+
+#define SOME_MACRO 0
+#include <stdlib.h>
+
+// global-module-fragement ends here
+export module my_module;
+import std.core;
+
+// ... 
+```
+
+---
 
 #### Private Module Fragement
 ^private-module-fragement
