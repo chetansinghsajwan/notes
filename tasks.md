@@ -18,3 +18,9 @@
 - libc++ modules: https://libcxx.llvm.org/Modules.html
 
 - save this in flakes after pull: https://fzakaria.com/2021/08/02/a-minimal-nix-shell.html
+
+- https://phaazon.net/blog/c++-constructors
+
+- https://geo-ant.github.io/blog/2023/rust-for-cpp-developers-constructors/
+
+- https://www.google.com/search?client=firefox-b-d&q=c%2B%2B+named+constructors
