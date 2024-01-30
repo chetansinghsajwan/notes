@@ -1,6 +1,6 @@
 # `Function` Object
 
-Inherits: [Object](object)
+**Inherits**: [Object](object)
 
 ## Properties
 
