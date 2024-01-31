@@ -25,7 +25,7 @@ Note: as with all type specifiers, any order is permitted.
 
 **since**: cpp11
 
-The extended integer types are implementation-defined.
+The extended integer types are implementation-defined. However standard provides a framework for implementing such extensions in a way that doesn’t interfere with the behavior of standard compliant programs.
 
 - `**int8_t**`**,** `**int16_t**`**,** `**int32_t**`**,** `**int64_t**`(optional)
     
