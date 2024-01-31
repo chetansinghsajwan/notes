@@ -1,6 +1,7 @@
 # Integer Types
 
 ## **Standard integer types**
+
 `int`: basic integer type.
 - The keyword int may be omitted if any of the modifiers listed below are used.
 - If no length modifiers are present, it's guaranteed to have a width of at least 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits.
@@ -19,7 +20,8 @@ Note: as with all type specifiers, any order is permitted.
 `size_t`: unsigned integer type of the result of the [sizeof](https://en.cppreference.com/w/cpp/language/sizeof) operator as well as the [sizeof...](https://en.cppreference.com/w/cpp/language/sizeof...) operator and the [alignof](https://en.cppreference.com/w/cpp/language/alignof) operator (since C++11).
 - The bit width of `std::size_t` is not less than 16.
 `ptrdiff_t`: Type for the difference of two pointers.
-### Fixed width integer types
+
+## Fixed width integer types
 - `**int8_t**`**,** `**int16_t**`**,** `**int32_t**`**,** `**int64_t**`(optional)
     
     Signed integer type with width of exactly 8, 16, 32 and 64 bits respectively with no padding bits and using 2's complement for negative values(provided if and only if the implementation directly supports the type)
@@ -55,14 +57,14 @@ Note: as with all type specifiers, any order is permitted.
 - `**uintmax_t**`
     
     Maximum-width unsigned integer type
-    
+
 - `**uintptr_t**`(optional)
     
     Unsigned integer type capable of holding a pointer to void
-    
+
 ## Extended integer types
 
-si
+**since**: cpp11
 
 The extended integer types are implementation-defined.
 
