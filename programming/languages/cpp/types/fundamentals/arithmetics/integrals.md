@@ -21,11 +21,16 @@ Note: as with all type specifiers, any order is permitted.
 - The bit width of `std::size_t` is not less than 16.
 `ptrdiff_t`: Type for the difference of two pointers.
 
-## Fixed width integer types
+## Extended integer types
+
+**since**: cpp11
+
+The extended integer types are implementation-defined.
+
 - `**int8_t**`**,** `**int16_t**`**,** `**int32_t**`**,** `**int64_t**`(optional)
     
     Signed integer type with width of exactly 8, 16, 32 and 64 bits respectively with no padding bits and using 2's complement for negative values(provided if and only if the implementation directly supports the type)
-    
+
 - `**int_fast8_t**`**,** `**int_fast16_t**`**,** `**int_fast32_t**`**,** `**int_fast64_t**`
     
     Fastest signed integer type with width of at least 8, 16, 32 and 64 bits respectively.
@@ -61,12 +66,6 @@ Note: as with all type specifiers, any order is permitted.
 - `**uintptr_t**`(optional)
     
     Unsigned integer type capable of holding a pointer to void
-
-## Extended integer types
-
-**since**: cpp11
-
-The extended integer types are implementation-defined.
 
 # References
 
