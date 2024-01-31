@@ -2,28 +2,32 @@
 
 ## Standard integer types
 
-`int`: basic integer type.
+There are 8 standard integer types:
 
-The keyword int may be omitted if any of the modifiers listed below are used.
+- `signed short int`, `signed short`, `short`
+- `signed int`, `signed`, `int`
+- `signed long int`, `signed long`, `long`
+- `signed long long int`, `signed long long`, `long long`
+- `unsigned short int`, `unsigned short`
+- `unsigned int`, `unsigned`
+- `unsigned long int`, `unsigned long`
+- `unsigned long long int`, `unsigned long long`
 
-If no length modifiers are present, it's guaranteed to have a width of at least 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to haveAlas, I realized shortly thereafter that I'd miscounted and hence committed an off-by-one error during the talk: there are 14 (not 15) type classifications. See width of at least 32 bits.
-
-**Modifiers**
-
-Modifies the basic integer type. Can be mixed in any order. Only one of each group can be present in type name.
+These types are formed by modifying the basic integer type `int`.
 
 **Signedness modifiers**
 
 `signed`: target type will have signed representation (this is the default if omitted)
+
 `unsigned`: target type will have unsigned representation
 
 **Size modifiers**
 
 `short`: target type will be optimized for space and will have width of at least 16 bits.
+
 `long`: target type will have width of at least 32 bits.
+
 `long long`: target type will have width of at least 64 bits.
-Note: as with all type specifiers, any order is permitted.
-`unsigned long long int` and `long int unsigned long` name the same type.
 
 ### Other integer types
 
@@ -78,6 +82,8 @@ The extended integer types are implementation-defined. However standard provides
 - `uintptr_t`
     
     Unsigned integer type capable of holding a pointer to void
+
+The implementation may define typedef names `int_N__t`, `int_fast_N__t`, `int_least_N__t`, `uint_N__t`, `uint_fast_N__t`, and `uint_least_N__t` when _N_ is not 8, 16, 32 or 64. Typedef names of the form `int_N__t` may only be defined if the implementation supports an integer type of that width with no padding. Thus, `std::uint24_t` denotes an unsigned integer type with a width of exactly 24 bits.
 
 # References
 
