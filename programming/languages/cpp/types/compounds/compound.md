@@ -3,9 +3,9 @@ A [**compound type**](https://www.oreilly.com/library/view/c-primer-fifth/97801
   
 [[Reference Types]]
 [[Pointer Types]]
-[[Pointer To Member Types]]
+[[pointer-to-member]]
 [[arrays]]
-[[Function Types]]
+[[programming/languages/cpp/types/compounds/function]]
 [[Enumeration Types]]
 [[class]]
 # References
