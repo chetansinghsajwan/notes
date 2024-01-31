@@ -60,8 +60,12 @@ Note: as with all type specifiers, any order is permitted.
     
     Unsigned integer type capable of holding a pointer to void
     
-### **Extended integer types (since C++11)**
+## Extended integer types
+
+si
+
 The extended integer types are implementation-defined.
+
 # References
 
 > [!info]  
