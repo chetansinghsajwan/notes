@@ -4,7 +4,7 @@
 
 `int`: basic integer type.
 - The keyword int may be omitted if any of the modifiers listed below are used.
-- If no length modifiers are present, it's guaranteed to have a width of at least 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits.
+- If no length modifiers are present, it's guaranteed to have a width of at least 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to haveAlas, I realized shortly thereafter that I'd miscounted and hence committed an off-by-one error during the talk: there are 14 (not 15) type classifications. See width of at least 32 bits.
 **Modifiers**
 Modifies the basic integer type. Can be mixed in any order. Only one of each group can be present in type name.
 **Signedness modifiers**
