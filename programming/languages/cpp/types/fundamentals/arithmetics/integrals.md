@@ -60,61 +60,63 @@ These types are formed by modifying the basic integer type `int`.
 **aliases**: `unsigned long long`
 **size**: >= 64 bits.
 
-### Other integer types
-
-`size_t`: unsigned integer type of the result of the [sizeof](https://en.cppreference.com/w/cpp/language/sizeof) operator as well as the [sizeof...](https://en.cppreference.com/w/cpp/language/sizeof...) operator and the [alignof](https://en.cppreference.com/w/cpp/language/alignof) operator (since C++11).
-
-The bit width of `std::size_t` is not less than 16.
-
-`ptrdiff_t`: Type for the difference of two pointers.
-
 ## Extended integer types
 
 **since**: cpp11
 
 The extended integer types are implementation-defined. However standard provides a framework for implementing such extensions in a way that doesn’t interfere with the behavior of standard compliant programs.
 
-- `int8_t`, `int16_t`, `int32_t`, `int64_t`
-    
-    Signed integer type with width of exactly 8, 16, 32 and 64 bits respectively with no padding bits and using 2's complement for negative values(provided if and only if the implementation directly supports the type)
+###### `intN_t`
 
-- `int_fast8_t`, `int_fast16_t`, `int_fast32_t`, `int_fast64_t`
-    
-    Fastest signed integer type with width of at least 8, 16, 32 and 64 bits respectively.
-    
-- `int_least8_t`, `int_least16_t`, `int_least32_t, int_least64_t`
-    
-    Smallest signed integer type with width of at least 8, 16, 32 and 64 bits respectively
-    
-- `intmax_t`
-    
-    Maximum-width signed integer type
-    
-- `intptr_t`
-    
-    Signed integer type capable of holding a pointer to void.
-    
-- `uint8_t`, `uint16_t`, `uint32_t`, `uint64_t`(optional)
-    
-    Unsigned integer type with width of exactly 8, 16, 32 and 64 bits respectively (provided if and only if the implementation directly supports the type)
-    
-- `uint_fast8_t`, `uint_fast16_t`, `uint_fast32_t`, `uint_fast64_t`
-    
-    Fastest unsigned integer type with width of at least 8, 16, 32 and 64 bits respectively
-    
-- `uint_least8_t`, `uint_least16_t`, `uint_least32_t`, `uint_least64_t`
-    
-    Smallest unsigned integer type with width of at least 8, 16, 32 and 64 bits respectively
-    
-- `uintmax_t`
-    
-    Maximum-width unsigned integer type
+Signed integer type with width of exactly `N` bits with no padding bits and using 2's complement for negative values.
 
-- `uintptr_t`
-    
-    Unsigned integer type capable of holding a pointer to void
+**Example**: `int8_t`, `int16_t`, `int32_t`, `int64_t`.
 
-The implementation may define typedef names `int_N__t`, `int_fast_N__t`, `int_least_N__t`, `uint_N__t`, `uint_fast_N__t`, and `uint_least_N__t` when _N_ is not 8, 16, 32 or 64. Typedef names of the form `int_N__t` may only be defined if the implementation supports an integer type of that width with no padding. Thus, `std::uint24_t` denotes an unsigned integer type with a width of exactly 24 bits.
+###### `int_fastN_t`
+
+Fastest signed integer type with width of at least `N` bits and using 2's complement for negative values.
+
+**Example**: `int_fast8_t`, `int_fast16_t`, `int_fast32_t`, `int_fast64_t`
+
+###### `int_leastN_t`
+
+Smallest signed integer type with width of at least `N` bits.
+
+**Example**: `int_least8_t`, `int_least16_t`, `int_least32_t, int_least64_t`
+    
+###### `intmax_t`
+
+Maximum-width signed integer type
+    
+###### `intptr_t`
+
+Signed integer type capable of holding a pointer to void.
+
+###### `unitN_t`
+
+Unsigned integer type with width of exactly `N` bits.
+
+**Example**: `uint8_t`, `uint16_t`, `uint32_t`, `uint64_t`
+
+###### `unit_fastN_t`
+
+Fastest unsigned integer type with width of at least `N` bits.
+
+**Example**: `uint_fast8_t`, `uint_fast16_t`, `uint_fast32_t`, `uint_fast64_t`
+
+###### `unit_leastN_t`
+
+Smallest unsigned integer type with width of at least `N` bits.
+
+**Example**: `uint_least8_t`, `uint_least16_t`, `uint_least32_t`, `uint_least64_t`
+
+###### `uintmax_t`
+
+Maximum-width unsigned integer type.
+
+###### `uintptr_t`
+
+Unsigned integer type capable of holding a pointer to void
 
 # References
 
