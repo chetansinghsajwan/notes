@@ -62,6 +62,8 @@ It has the same size, signedness, and alignment as `[std::uint_least32_t](https
 
 ## References
 
+- https://twiserandom.com/cpp/cpp-character-types-char-wchar_t-char8_t-char16_t-and-char32_t-a-tutorial/index.html
+
 - https://stackoverflow.com/questions/16503373/why-is-char-distinct-from-signed-char-and-unsigned-char
 
 - https://stackoverflow.com/questions/436513/char-signed-char-char-unsigned-char
