@@ -2,9 +2,7 @@
 
 ## Standard Integer Types
 
-There are 8 standard integer types:
-
-These types are formed by modifying the basic integer type `int`.
+There are 8 standard integer types. These types are formed by modifying the basic integer type `int`.
 
 **Signedness modifiers**
 
@@ -74,7 +72,7 @@ Signed integer type with width of exactly `N` bits with no padding bits and usin
 
 ###### `int_fastN_t`
 
-Fastest signed integer type with width of at least `N` bits and using 2's complement for negative values.
+Fastest signed integer type with width of at least `N` bits.
 
 **Example**: `int_fast8_t`, `int_fast16_t`, `int_fast32_t`, `int_fast64_t`
 
@@ -86,11 +84,11 @@ Smallest signed integer type with width of at least `N` bits.
     
 ###### `intmax_t`
 
-Maximum-width signed integer type
+Signed integer type of maximum width.
     
 ###### `intptr_t`
 
-Signed integer type capable of holding a pointer to void.
+Signed integer type capable of holding a pointer to `void`.
 
 ###### `unitN_t`
 
@@ -112,16 +110,18 @@ Smallest unsigned integer type with width of at least `N` bits.
 
 ###### `uintmax_t`
 
-Maximum-width unsigned integer type.
+Unsigned integer type of maximum width.
 
 ###### `uintptr_t`
 
-Unsigned integer type capable of holding a pointer to void
+Unsigned integer type capable of holding a pointer to void.
 
-# References
+## References
+
+- https://en.cppreference.com/w/cpp/language/types
+
+- https://en.cppreference.com/w/cpp/types/integer
 
 - https://www.open-std.org/jtc1/sc22/wg14/www/docs/n2709.pdf
 
 - https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n1988.pdf
-
-- https://64.github.io/cpp-faq/fixed-width-integers
