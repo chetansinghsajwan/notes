@@ -1,17 +1,8 @@
 # Integer Types
 
-## Standard integer types
+## Standard Integer Types
 
 There are 8 standard integer types:
-
-- `signed short int`, `signed short`, `short`
-- `signed int`, `signed`, `int`
-- `signed long int`, `signed long`, `long`
-- `signed long long int`, `signed long long`, `long long`
-- `unsigned short int`, `unsigned short`
-- `unsigned int`, `unsigned`
-- `unsigned long int`, `unsigned long`
-- `unsigned long long int`, `unsigned long long`
 
 These types are formed by modifying the basic integer type `int`.
 
@@ -28,6 +19,46 @@ These types are formed by modifying the basic integer type `int`.
 `long`: target type will have width of at least 32 bits.
 
 `long long`: target type will have width of at least 64 bits.
+
+###### `signed short int`
+
+**aliases**: `signed short`, `short`
+**size**: >= 16 bits.
+
+###### `signed int`
+
+**aliases**: `signed`, `int`
+**size**: >= 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits.
+
+###### `signed long int`
+
+**aliases**: `signed long`, `long`
+**size**: >= 32 bits
+
+###### `signed long long int`
+
+**aliases**: `signed long long`, `long long`
+**size:** >= 64 bits
+
+###### `unsigned short int`
+
+**aliases**: `unsigned short`
+**size**: >= 16 bits.
+
+###### `unsigned int`
+
+**aliases**: `unsigned`
+**size**: >= 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits.
+
+###### `unsigned long int`
+
+**aliases**: `unsigned long`
+**size**: >= 32 bits.
+
+###### `unsigned long long int`
+
+**aliases**: `unsigned long long`
+**size**: >= 64 bits.
 
 ### Other integer types
 
