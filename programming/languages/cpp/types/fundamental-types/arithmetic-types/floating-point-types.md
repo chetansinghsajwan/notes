@@ -4,21 +4,23 @@
 
 The following three types and their cv-qualified versions are collectively called standard floating-point types.
 
-- `float`: Single precision floating-point type.
-    
-    Matches [IEEE-754 binary32 format](https://en.wikipedia.org/wiki/Single-precision_floating-point_format) if supported.
+###### `float` type
 
-- `double`
-    
-    Double precision floating-point type.
-    
-    Matches [IEEE-754 binary64 format](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) if supported.
+Single precision floating-point type.
 
-- `long double`
-    
-    Extended precision floating-point type.
-    
-    - The most well known IEEE-754 binary64-extended format is [x87 80-bit extended precision format](https://en.wikipedia.org/wiki/Extended_precision#x86_extended_precision_format). It is used by many x86 and x86-64 implementations (a notable exception is MSVC, which implements long double in the same format as double, i.e. binary64).
+Matches [IEEE-754 binary32 format](https://en.wikipedia.org/wiki/Single-precision_floating-point_format) if supported.
+
+###### `double` type
+
+Double precision floating-point type.
+
+Matches [IEEE-754 binary64 format](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) if supported.
+
+###### `long double` type
+
+Extended precision floating-point type.
+
+The most well known IEEE-754 binary64-extended format is [x87 80-bit extended precision format](https://en.wikipedia.org/wiki/Extended_precision#x86_extended_precision_format). It is used by many x86 and x86-64 implementations (a notable exception is MSVC, which implements long double in the same format as double, i.e. binary64).
 
 ## Extended Floating Point Types
 
@@ -51,4 +53,4 @@ See [Limits of floating-point types](https://en.cppreference.com/w/cpp/types/cl
 
 ## References
 
-- 
+- https://en.cppreference.com/w/cpp/language/types

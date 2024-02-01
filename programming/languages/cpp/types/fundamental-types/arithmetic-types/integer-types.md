@@ -4,17 +4,17 @@
 
 The character types `char`, `signed char`, `unsigned char` and `char8_t` are considered as narrow character types and `char16_t`, `char32_t` and `wchar_t` are considered as wide character types.
 
-###### `signed char`
+###### `signed char` type
 ^signed-char
 
 Type for signed character representation.
 
-###### `unsigned char`
+###### `unsigned char` type
 ^unsigned-char
 
 Type for unsigned character representation.
 
-###### `char`
+###### `char` type
 ^char
 
 Type for character representation which can be most efficiently processed on the target system.
@@ -27,7 +27,8 @@ The signedness of `char` is implementation defined. The defaults for ARM and P
 
 A `char`, a `signed char`, and an `unsigned char` occupy the same amount of storage and have the same alignment requirements.
 
-###### `wchar_t`
+###### `wchar_t` type
+^wchar
 
 Type for wide character representation (see [wide strings](https://en.cppreference.com/w/cpp/string/wide)). It has the same size, signedness, and alignment as one of the integer types, but is a distinct type.
 
@@ -41,9 +42,10 @@ Character encoding represented by `whar_t` is also implementation defined. It ge
 
 **Standard Library Support:**
 
-The C++ Standard Library provides various functions and templates for working with wide characters and strings, such as `**std::wcin**`, `**std::wcout**`, and functions like `**std::wstrlen()**` and `**std::wprintf()**`.
+The C++ Standard Library provides various functions and templates for working with wide characters and strings, such as `std::wcin`, `std::wcout`, and functions like `std::wstrlen()` and `std::wprintf()`.
 
-###### `char8_t`
+###### `char8_t` type
+^char8
 
 **since:** cpp20
 
@@ -51,21 +53,23 @@ Type for UTF-8 character representation, required to be large enough to represen
 
 It has the same size, signedness, and alignment as `unsigned char`, but is a distinct type.
 
-###### `char16_t`
+###### `char16_t` type
+^char16
 
 **since**: cpp11
 
 Type for utf16 character representation, required to be large enough to represent any UTF-16 code unit (16 bits).
 
-It has the same size, signedness, and alignment as `[std::uint_least16_t](https://en.cppreference.com/w/cpp/types/integer)`, but is a distinct type.
+It has the same size, signedness, and alignment as [`std::uint_least16_t`](https://en.cppreference.com/w/cpp/types/integer), but is a distinct type.
 
-###### `char32_t`
+###### `char32_t` type
+^char32
 
 **since**: cpp11
 
 Type for utf32 character representation, required to be large enough to represent any UTF-32 code unit (32 bits).
 
-It has the same size, signedness, and alignment as `[std::uint_least32_t](https://en.cppreference.com/w/cpp/types/integer)`, but is a distinct type.
+It has the same size, signedness, and alignment as [`std::uint_least32_t`](https://en.cppreference.com/w/cpp/types/integer), but is a distinct type.
 
 ## Signed Integer Types
 
