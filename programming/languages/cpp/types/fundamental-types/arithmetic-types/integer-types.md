@@ -1,5 +1,7 @@
 # Integer Types
 
+###### `bool` type
+
 ## Character Types
 
 ### Narrow Character Types
