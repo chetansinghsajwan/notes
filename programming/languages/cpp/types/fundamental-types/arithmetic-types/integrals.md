@@ -4,7 +4,9 @@
 
 
 
-## Standard Integer Types
+## Signed Integer Types
+
+### Standard Signed Integer Types
 
 There are 8 standard integer types. These types are formed by modifying the basic integer type `int`.
 
@@ -42,27 +44,7 @@ There are 8 standard integer types. These types are formed by modifying the basi
 **aliases**: `signed long long`, `long long`
 **size:** >= 64 bits
 
-###### `unsigned short int`
-
-**aliases**: `unsigned short`
-**size**: >= 16 bits.
-
-###### `unsigned int`
-
-**aliases**: `unsigned`
-**size**: >= 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits.
-
-###### `unsigned long int`
-
-**aliases**: `unsigned long`
-**size**: >= 32 bits.
-
-###### `unsigned long long int`
-
-**aliases**: `unsigned long long`
-**size**: >= 64 bits.
-
-## Extended integer types
+### Extended Signed Integer Types
 
 **since**: cpp11
 
@@ -93,6 +75,36 @@ Signed integer type of maximum width.
 ###### `intptr_t`
 
 Signed integer type capable of holding a pointer to `void`.
+
+## Unsigned Integer Types
+
+### Standard Unsigned Integer Types
+
+###### `unsigned short int`
+
+**aliases**: `unsigned short`
+**size**: >= 16 bits.
+
+###### `unsigned int`
+
+**aliases**: `unsigned`
+**size**: >= 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits.
+
+###### `unsigned long int`
+
+**aliases**: `unsigned long`
+**size**: >= 32 bits.
+
+###### `unsigned long long int`
+
+**aliases**: `unsigned long long`
+**size**: >= 64 bits.
+
+### Extended Unsigned Integer Types
+
+**since**: cpp11
+
+The extended integer types are implementation-defined. However standard provides a framework for implementing such extensions in a way that doesn’t interfere with the behavior of standard compliant programs.
 
 ###### `unitN_t`
 

@@ -2,26 +2,27 @@
 
 The types are classified as follows:
 
-- [fundamental types](fundamentals)
-    - [`void` type](fundamentals/void)
-    - [`nullptr_t` type](fundamentals/nullptr)
-    - [integer types](fundamentals/integrals)
-        - [`bool` type](fundamentals/integrals#^bool)
-        - [character types](fundamentals/integrals#^character-types)
-            - [narrow character types](fundamentals/integrals#^narrow-character-types)
-            - [wide character types](fundamentals/integrals#^wide-character-types)
-        - [signed integer types]
-            - [standard signed integer types]
-            - [extended signed integer types]
-        - [unsigned integer types]
-            - [standard unsigned integer types]
-            - [extended unsigned integer types]
-    - [floating point types]
+- [fundamental types](fundamental-types)
+    - [`void` type](fundamental-types/void)
+    - [`nullptr_t` type](fundamental-types/nullptr)
+    - [arithmetic types](fundamental-types/arithmetic-types)
+        - [integer types](fundamental-types/integrals)
+            - [`bool` type](fundamental-types/integrals#^bool)
+            - [character types](fundamental-types/integrals#^character-types)
+                - [narrow character types](fundamental-types/integrals#^narrow-character-types)
+                - [wide character types](fundamental-types/integrals#^wide-character-types)
+            - [signed integer types](fundamental-types/integrals#^signed-integer-types)
+                - [standard signed integer types](fundamental-types/integrals#^standard-signed-integer-types)
+                - [extended signed integer types](fundamental-types/integrals#^extended-signed-integer-types)
+            - [unsigned integer types](fundamental-types/integrals#^unsigned-integer-types)
+                - [standard unsigned integer types](fundamental-types/integrals#^standard-unsigend-integer-types)
+                - [extended unsigned integer types](fundamental-types/integrals#^extended-unsigned-integer-types)
+        - [floating point types](fundamental-types/floating-point-types)
 - [compound types](compound-types)
-    - reference types
-    - pointer types
-    - pointer to member types
-    - array types
-    - function types
-    - enumeration types
-    - class types
+    - [reference types](compound-types/reference-types)
+    - [pointer types](compound-types/pointer-types)
+    - [pointer to member types](compound-types/pointer-to-member-types)
+    - [array types](compound-types/array-types)
+    - [function types](compound-types/function-types)
+    - [enumeration types](compound-types/enumeration-types)
+    - [class types](compound-types/class-types)

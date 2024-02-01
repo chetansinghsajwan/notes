@@ -4,7 +4,7 @@
 
 The C++ type system consists of the following types:
 
-- [[fundamentals]].
+- [[fundamental-types]].
     - `void` type
     - `std::nullptr_t` type
     - Arithmetic Types
