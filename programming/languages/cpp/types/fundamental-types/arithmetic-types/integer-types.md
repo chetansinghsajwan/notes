@@ -2,6 +2,8 @@
 
 ## Character Types
 
+### Narrow Character Types
+
 The character types `char`, `signed char`, `unsigned char` and `char8_t` are considered as narrow character types and `char16_t`, `char32_t` and `wchar_t` are considered as wide character types.
 
 ###### `signed char` type
@@ -26,6 +28,8 @@ Size of `char` is always `1`.
 The signedness of `char` is implementation defined. The defaults for ARM and PowerPC are typically unsigned, the defaults for x86 and x64 are typically signed.
 
 A `char`, a `signed char`, and an `unsigned char` occupy the same amount of storage and have the same alignment requirements.
+
+### Wide Character Types
 
 ###### `wchar_t` type
 ^wchar
