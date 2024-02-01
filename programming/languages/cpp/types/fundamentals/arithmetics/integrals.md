@@ -1,5 +1,9 @@
 # Integer Types
 
+## Character Types
+
+
+
 ## Standard Integer Types
 
 There are 8 standard integer types. These types are formed by modifying the basic integer type `int`.
