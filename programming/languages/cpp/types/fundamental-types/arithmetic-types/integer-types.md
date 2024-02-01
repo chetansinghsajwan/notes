@@ -2,15 +2,20 @@
 
 ## Character Types
 
+The character types `char`, `signed char`, `unsigned char` and `char8_t` are considered as narrow character types and `char16_t`, `char32_t` and `wchar_t` are considered as wide character types.
+
 ###### `signed char`
+^signed-char
 
 Type for signed character representation.
 
 ###### `unsigned char`
+^unsigned-char
 
 Type for unsigned character representation.
 
 ###### `char`
+^char
 
 Type for character representation which can be most efficiently processed on the target system.
 

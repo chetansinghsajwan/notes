@@ -1,7 +1,5 @@
 # Floating Point Types
 
-## `float` type
-
 ## Standard Floating Point Types
 
 The following three types and their cv-qualified versions are collectively called standard floating-point types.
@@ -22,15 +20,13 @@ The following three types and their cv-qualified versions are collectively calle
     
     - The most well known IEEE-754 binary64-extended format is [x87 80-bit extended precision format](https://en.wikipedia.org/wiki/Extended_precision#x86_extended_precision_format). It is used by many x86 and x86-64 implementations (a notable exception is MSVC, which implements long double in the same format as double, i.e. binary64).
 
-## Fixed width floating
-
 ## Extended Floating Point Types
 
 **since**: cpp23
 
 The extended floating-point types are implementation-defined. They may include [fixed width floating-point types](https://en.cppreference.com/w/cpp/types/floating-point).
 
-## **Properties**
+## Properties
 
 Floating-point types may support [special values](https://en.cppreference.com/w/cpp/types/numeric_limits):
 
