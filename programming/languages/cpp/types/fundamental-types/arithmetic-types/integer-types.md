@@ -66,7 +66,7 @@ It has the same size, signedness, and alignment as `unsigned char`, but is a d
 
 Type for utf16 character representation, required to be large enough to represent any UTF-16 code unit (16 bits).
 
-It has the same size, signedness, and alignment as [`std::uint_least16_t`](https://en.cppreference.com/w/cpp/types/integer), but is a distinct type.
+It has the same size, signedness, and alignment as [`uint_least16_t`](https://en.cppreference.com/w/cpp/types/integer), but is a distinct type.
 
 ###### `char32_t` type
 ^char32
@@ -75,7 +75,7 @@ It has the same size, signedness, and alignment as [`std::uint_least16_t`](http
 
 Type for utf32 character representation, required to be large enough to represent any UTF-32 code unit (32 bits).
 
-It has the same size, signedness, and alignment as [`std::uint_least32_t`](https://en.cppreference.com/w/cpp/types/integer), but is a distinct type.
+It has the same size, signedness, and alignment as [`uint_least32_t`](https://en.cppreference.com/w/cpp/types/integer), but is a distinct type.
 
 ## Signed Integer Types
 
