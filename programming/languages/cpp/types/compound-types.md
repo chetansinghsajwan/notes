@@ -1,8 +1,29 @@
 # Compound Types
 
-A [compound type](https://www.oreilly.com/library/view/c-primer-fifth/9780133053043/ch02lev1sec8.html#ch02term10a) is a type that is defined in terms of another type
-**Compound data types** (also sometimes called **composite data types**) are data types that can be constructed from fundamental data types (or other compound data types). Each compound data type has its own unique properties as well.
+It is a type that is defined in terms of another type (fundamental types or other compound types).
+
+It is classified as follows:
+
+- compound
+    - [reference types](compound-types/reference-types)
+        - [lvalue reference types]()
+        - [rvalue reference types]()
+    - [pointer types](compound-types/pointer-types)
+        - [pointer-to-object types]()
+        - [pointer-to-function types]()
+    - [pointer-to-member types](compound-types/pointer-to-member-types)
+        - [pointer-to-data-member types]()
+        - [pointer-to-member-function types]()
+    - [array types](compound-types/array-types)
+    - [function types](compound-types/function-types)
+    - [enumeration types](compound-types/enumeration-types)
+        - [unscoped enumeration types]()
+        - [scoped enumeration types]()
+    - [class types](compound-types/class-types)
+        - [non-union types]()
+        - [union types]()
+^classification
 
 ## References
 
-> - https://www.learncpp.com/cpp-tutorial/introduction-to-compound-data-types
+- https://www.learncpp.com/cpp-tutorial/introduction-to-compound-data-types
