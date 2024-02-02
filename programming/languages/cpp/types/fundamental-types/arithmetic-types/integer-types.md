@@ -118,6 +118,7 @@ There are 8 standard integer types. These types are formed by modifying the basi
 **size:** >= 64 bits
 
 ### Extended Signed Integer Types
+^extendend-signed-integer-types
 
 **since**: cpp11
 
@@ -152,6 +153,7 @@ Signed integer type capable of holding a pointer to `void`.
 ## Unsigned Integer Types
 
 ### Standard Unsigned Integer Types
+^standard-unsigned-integer-types
 
 ###### `unsigned short int` type
 
@@ -174,6 +176,7 @@ Signed integer type capable of holding a pointer to `void`.
 **size**: >= 64 bits.
 
 ### Extended Unsigned Integer Types
+^extendend-unsigned-integer-types
 
 **since**: cpp11
 
