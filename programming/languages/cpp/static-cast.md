@@ -1,1 +1,1 @@
-# `static_cast()`
+# `static_cast`

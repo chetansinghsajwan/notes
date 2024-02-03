@@ -1,4 +1,4 @@
-# `reinterpret_cast()`
+# `reinterpret_cast`
 
 ##### `reinterpret_cast` with `constexpr`
 
@@ -11,6 +11,4 @@ One notorious source of UB is `reinterpret_cast`. There are very few valid uses
 
 ## References
 
-> [!info] Why is reinterpret_cast not constexpr?  
-> 
-> [[https://stackoverflow.com/questions/59913275/why-is-reinterpret-cast-not-constexpr]]
+- https://stackoverflow.com/questions/59913275/why-is-reinterpret-cast-not-constexpr
