@@ -1,4 +1,4 @@
-# 
+# Prefix Decrement Operator
 
 **category**:: arithmetic
 **associativity**:: right-to-left

@@ -1,4 +1,4 @@
-# 
+# Size Of Operator
 
 **category**:: other
 **associativity**:: right-to-left

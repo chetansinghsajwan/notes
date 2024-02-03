@@ -1,4 +1,4 @@
-# 
+# Equal To Operator
 
 **category**:: comparision
 **associativity**:: left-to-right

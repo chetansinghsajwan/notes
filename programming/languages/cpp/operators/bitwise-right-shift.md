@@ -1,4 +1,4 @@
-# 
+# Bitwise Right Shift Operator
 
 **category**:: bitwise
 **associativity**:: left-to-right

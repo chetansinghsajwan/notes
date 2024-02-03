@@ -1,4 +1,4 @@
-# 
+# Modulo Assignment Operator
 
 **category**:: assignment
 **associativity**:: right-to-left

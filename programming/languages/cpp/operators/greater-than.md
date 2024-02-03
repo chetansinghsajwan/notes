@@ -1,4 +1,4 @@
-# 
+# Greater Than Operator
 
 **category**:: comparision
 **associativity**:: left-to-right

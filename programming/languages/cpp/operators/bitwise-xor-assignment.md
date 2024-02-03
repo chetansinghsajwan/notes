@@ -1,4 +1,4 @@
-# 
+# Bitwise Xor Assignment Operator
 
 **category**:: assignment
 **alias**:: xor_eq

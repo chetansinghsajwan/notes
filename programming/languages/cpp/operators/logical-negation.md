@@ -1,4 +1,4 @@
-# 
+# Logical Negation
 
 **category**:: Logical
 **alias**:: not

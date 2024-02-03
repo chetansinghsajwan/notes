@@ -1,4 +1,4 @@
-# 
+# Multiplication Operator
 
 **category**:: arithmetic
 **associativity**:: left-to-right

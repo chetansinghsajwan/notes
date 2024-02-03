@@ -1,4 +1,4 @@
-# 
+# Logical And Operator
 
 **category**:: Logical
 **alias**:: and

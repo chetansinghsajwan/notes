@@ -1,4 +1,4 @@
-# 
+# C Style Cast Operator
 
 **category**:: other
 **associativity**:: right-to-left

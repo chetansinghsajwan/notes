@@ -1,4 +1,4 @@
-# 
+# Modulo Operator
 
 **category**:: arithmetic
 **associativity**:: left-to-right

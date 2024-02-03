@@ -1,4 +1,4 @@
-# 
+# Functional Cast Operator
 
 **category**:: other
 **associativity**:: left-to-right

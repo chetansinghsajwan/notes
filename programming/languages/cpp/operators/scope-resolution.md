@@ -1,4 +1,4 @@
-# 
+# Scope Resolution Operator
 
 **category**:: other
 **associativity**:: none

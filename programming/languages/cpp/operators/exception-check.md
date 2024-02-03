@@ -1,4 +1,4 @@
-# 
+# Exception Check Operator
 
 **category**:: other
 **associativity**:: none

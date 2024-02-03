@@ -1,4 +1,4 @@
-# 
+# Not Equal To Operator
 
 **category**:: comparision
 **alias**:: not_eq

@@ -1,4 +1,4 @@
-# 
+# Indirection Operator
 
 **category**:: member-access
 **associativity**:: right-to-left

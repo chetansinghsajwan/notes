@@ -1,4 +1,4 @@
-# 
+# Coroutine Yield Operator
 
 **category**:: coroutine
 **associativity**:: right-to-left

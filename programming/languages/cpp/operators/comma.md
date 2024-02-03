@@ -1,4 +1,4 @@
-# 
+# Comma Operator
 
 **category**:: other
 **associativity**:: left-to-right

@@ -1,4 +1,4 @@
-# 
+# Bitwise Xor
 
 **category**:: bitwise
 **alias**:: xor

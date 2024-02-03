@@ -1,4 +1,4 @@
-# 
+# Delete Operator
 
 **category**:: other
 **associativity**:: right-to-left
