@@ -1,11 +1,10 @@
-# 
+# Unary Plus Operator
 
 **category**:: arithmetic
 **associativity**:: right-to-left
-**in-class-definition**:: R K::operator +();
 **inheritance**:: inherited
-**out-class-definition**:: R operator +(K a);
+**in-class-definition**:: `R K::operator +();`
+**out-class-definition**:: `R operator +(K a);`
 **priority**:: 3
-**since**:: cpp
-**syntax**:: +a
+**syntax**:: `+a`
 **type**:: unary

@@ -6,6 +6,5 @@
 **inheritance**:: inherited
 **out-class-definition**:: R& operator <<=(K& a, S b);
 **priority**:: 17
-**since**:: cpp
 **syntax**:: a <<= b
 **type**:: binary

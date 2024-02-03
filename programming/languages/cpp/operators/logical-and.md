@@ -7,6 +7,5 @@
 **inheritance**:: inherited
 **out-class-definition**:: bool K::operator &&(K a, S b);
 **priority**:: 14
-**since**:: cpp
 **syntax**:: a && b
 **type**:: binary

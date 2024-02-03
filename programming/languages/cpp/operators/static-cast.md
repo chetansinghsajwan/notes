@@ -7,6 +7,5 @@
   `explicit K::operator R();`
 **inheritance**:: inherited
 **priority**:: 2
-**since**:: cpp
 **syntax**:: `static_cast<type>(a)`
 **type**:: unary

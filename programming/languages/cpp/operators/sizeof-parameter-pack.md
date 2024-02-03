@@ -4,6 +4,5 @@
 **associativity**:: none
 **inheritance**:: inherited
 **priority**:: -1
-**since**:: cpp
-**syntax**:: sizeof…(Args)
+**syntax**:: `sizeof…(Args)`
 **type**:: unary

@@ -6,6 +6,5 @@
 **inheritance**:: inherited
 **out-class-definition**:: void operator delete[](void* a);
 **priority**:: 3
-**since**:: cpp
 **syntax**:: delete[] a
 **type**:: unary
