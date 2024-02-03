@@ -3,9 +3,9 @@
 **category**:: bitwise
 **alias**:: compl
 **associativity**:: right-to-left
-**in-class-definition**:: R K::operator ~();
+**in-class-definition**:: `R K::operator ~();`
+**out-class-definition**:: `R operator ~(K a);`
 **inheritance**:: inherited
-**out-class-definition**:: R operator ~(K a);
 **priority**:: 3
-**syntax**:: ~a
+**syntax**:: `~a`
 **type**:: unary

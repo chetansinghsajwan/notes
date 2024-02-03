@@ -4,5 +4,5 @@
 **associativity**:: left-to-right
 **inheritance**:: inherited
 **priority**:: 2
-**syntax**:: type(a)
+**syntax**:: `type(a)`
 **type**:: unary

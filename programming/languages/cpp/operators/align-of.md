@@ -4,5 +4,5 @@
 **associativity**:: right-to-left
 **inheritance**:: inherited
 **priority**:: 3
-**syntax**:: alignof(type)
+**syntax**:: `alignof(type)`
 **type**:: unary

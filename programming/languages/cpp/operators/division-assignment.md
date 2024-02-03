@@ -2,9 +2,9 @@
 
 **category**:: assignment
 **associativity**:: right-to-left
-**in-class-definition**:: R& K::operator /=(S b);
+**in-class-definition**:: `R& K::operator /=(S b);`
+**out-class-definition**:: `R& operator /=(K& a, S b);`
 **inheritance**:: inherited
-**out-class-definition**:: R& operator /=(K& a, S b);
 **priority**:: 17
-**syntax**:: a /= b
+**syntax**:: `a /= b`
 **type**:: binary

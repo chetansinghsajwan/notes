@@ -2,9 +2,9 @@
 
 **category**:: coroutine
 **associativity**:: right-to-left
-**in-class-definition**:: Unknwon
+**in-class-definition**:: unknwon
 **inheritance**:: inherited
 **priority**:: 16
 **since**:: cpp20
-**syntax**:: co_yield a
+**syntax**:: `co_yield a`
 **type**:: unary

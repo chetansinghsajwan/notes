@@ -2,8 +2,8 @@
 
 **category**:: other
 **associativity**:: right-to-left
-**in-class-definition**:: K::operator R();
+**in-class-definition**:: `K::operator R();`
 **inheritance**:: inherited
 **priority**:: 3
-**syntax**:: (type)a
+**syntax**:: `(type)a`
 **type**:: unary

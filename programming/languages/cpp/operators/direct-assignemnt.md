@@ -2,10 +2,10 @@
 
 **category**:: assignment
 **associativity**:: right-to-left
-**in-class-definition**:: R& K::operator =(S b);
+**in-class-definition**:: `R& K::operator =(S b);`
 **inheritance**:: hidden
 **priority**:: 17
-**syntax**:: a = b
+**syntax**:: `a = b`
 **type**:: binary
 
 # Direct Assignment

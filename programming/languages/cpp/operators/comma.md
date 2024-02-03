@@ -2,9 +2,9 @@
 
 **category**:: other
 **associativity**:: left-to-right
-**in-class-definition**:: R K::operator ,(S b);
+**in-class-definition**:: `R K::operator ,(S b);`
+**out-class-definition**:: `R operator ,(K a, S b);`
 **inheritance**:: inherited
-**out-class-definition**:: R operator ,(K a, S b);
 **priority**:: 18
-**syntax**:: a, b
+**syntax**:: `a, b`
 **type**:: binary

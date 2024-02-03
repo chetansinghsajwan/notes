@@ -4,5 +4,5 @@
 **associativity**:: none
 **inheritance**:: inherited
 **priority**:: -1
-**syntax**:: noexcept(a)
+**syntax**:: `noexcept(a)`
 **type**:: other
