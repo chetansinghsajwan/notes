@@ -7,12 +7,6 @@ TABLE syntax, category, priority, inheritance, in-class-definition, out-class-de
 WHERE file.folder = "programming/languages/cpp/operators"
 ```
 
-## Operator Inheritance
-
-> [!related]
-> 
-> [Why `operator=` is not inherited?](operators/direct-assignment/#inheritance)
-
 ## References
 
 - https://en.wikipedia.org/wiki/Operators_in_C_and_C++
