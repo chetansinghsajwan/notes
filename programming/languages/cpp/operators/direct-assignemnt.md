@@ -1,13 +1,13 @@
----
-category: assignment
-associativity: right-to-left
-in-class-definition: R& K::operator =(S b);
-inheritance: hidden
-priority: 17
-since: cpp
-syntax: a = b
-type: binary
----
+# 
+
+**category**:: assignment
+**associativity**:: right-to-left
+**in-class-definition**:: R& K::operator =(S b);
+**inheritance**:: hidden
+**priority**:: 17
+**since**:: cpp
+**syntax**:: a = b
+**type**:: binary
 
 # Direct Assignment
 
