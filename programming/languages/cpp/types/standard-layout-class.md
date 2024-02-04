@@ -24,4 +24,6 @@ A _standard-layout class_ is a class that
 
     - If X is a non-class, non-array type, the set M(X) is empty.
 
-A _standard-layout struct_ is a standard-layout class defined with the class keyword [struct](https://en.cppreference.com/w/cpp/keyword/struct "cpp/keyword/struct") or the class keyword [class](https://en.cppreference.com/w/cpp/keyword/class "cpp/keyword/class"). A _standard-layout union_ is a standard-layout class defined with the class keyword [union](https://en.cppreference.com/w/cpp/keyword/union "cpp/keyword/union").
+## References
+
+- https://en.cppreference.com/w/cpp/language/classes#Standard-layout_class
