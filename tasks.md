@@ -24,3 +24,9 @@
 - https://geo-ant.github.io/blog/2023/rust-for-cpp-developers-constructors/
 
 - https://www.google.com/search?client=firefox-b-d&q=c%2B%2B+named+constructors
+
+## Today
+
+- [ ] rename `to_checked_unwrapped()` to `to_unwrapped_checked()`
+- [ ] driving license
+- [ ] pubg sensitivity
