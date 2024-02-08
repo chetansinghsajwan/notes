@@ -26,7 +26,7 @@ developed by facebook is a javascript library for building user interfaces.
 - large ecosystem
 - strong community
 
-
+    
 ###### postgres
 
 it is an open-source relational database management system.
