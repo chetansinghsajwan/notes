@@ -42,3 +42,10 @@ it is an open-source relational database management system.
 - open source and free
 - feature rich
 - extensible
+
+## Status
+
+santosh: user profile page
+suresh: company home page
+sai: home page redesign, user home page, job posting
+lovish: job search page
