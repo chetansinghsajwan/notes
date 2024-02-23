@@ -45,7 +45,8 @@ it is an open-source relational database management system.
 
 ## Status
 
-santosh: user profile page
-suresh: company home page
-sai: user home page, job posting
-lovish: job search page
+santosh: user profile page 80% (by tommorow)
+suresh: company profile page 80% (by tommorow)
+sai: user home page (by tommorow), job posting (by sunday)
+lovish: job search page (job search page)
+chetan: modals
