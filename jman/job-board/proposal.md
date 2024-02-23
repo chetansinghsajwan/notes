@@ -49,4 +49,4 @@ santosh: user profile page 80% (by tommorow), company edit page
 suresh: company home page 80% (by tommorow), company edit page
 sai: user home page (by tommorow), job posting (by sunday)
 lovish: job search page (job search page), user home page buttons
-chetan: modals
+chetan: modals, api
