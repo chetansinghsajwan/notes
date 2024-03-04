@@ -8,7 +8,7 @@
 	- add resume field.
 
 - user profile page:
-	- 
+	- built it, by **santosh**.
 
 - company home page:
 	- add details
@@ -43,3 +43,6 @@
 
 - user controller:
 	- accept resume.
+
+- applicants page:
+- 
