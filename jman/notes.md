@@ -1,4 +1,3 @@
-# JMAN Team 2 Sunday Meeting
+# Notes
 
-- add job post company field (maybe remove industry?)
 - 
