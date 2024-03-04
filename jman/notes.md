@@ -5,7 +5,7 @@
 - reset navigation to start.
 
 - user signup page:
-	- add resume field.
+	- add resume field, by **chetan**..
 
 - user profile page:
 	- built it, by **santosh**.
@@ -39,10 +39,11 @@
 	- feed data into cards, by **lovish**.
 
 - job controller:
-	- add `applied` field to `getJobs` api. by **chetan**.
+	- add `applied` field to `getJobs` api, by **chetan**.
+	- add `get applicants` api, by **chetan**.
 
 - user controller:
-	- accept resume.
+	- accept resume, by **chetan**.
 
 - applicants page:
-- 
+	- built it, by **sai**.
