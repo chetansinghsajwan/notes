@@ -5,10 +5,10 @@
 - reset navigation to start.
 
 - user signup page:
-	- add resume field,
+	- add resume field, **shivkesh**
 
 - user profile page:
-	- built it, by **santosh**.
+	- built it, by **santosh** and **hari**.
 
 - company home page:, by **sai**.
 	- add details
