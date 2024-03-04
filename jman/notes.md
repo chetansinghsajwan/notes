@@ -2,13 +2,7 @@
 
 - alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
-- reset navigation to start.
-
-- user signup page:
-	- add resume field, **shivkesh**
-
-- user profile page:
-	- built it, by **santosh** and **hari**.
+- user profile page: by **santosh** and **hari**
 
 - company home page:, by **sai**.
 	- add details
@@ -27,7 +21,7 @@
 - posted jobs page:
 	- build it. by **suresh**.
 
-- job info page:
+- job info page: by **shivkesh**
 	- rename from apply to job-info
 	- remove save job button
 	- add apply now functionality
@@ -35,15 +29,14 @@
 	- redirect to find job page
 	- remove map
 
-- find job page:
-	- feed data into cards, by **lovish**.
+- find job page: by **lovish**
+	- feed data into cards.
 
-- applicants page:
-	- built it, by **sai**.
+- applicants page: by **sai**
 
-- job controller:
-	- add `applied` field to `getJobs` api, by **chetan**.
-	- add `get applicants` api, by **chetan**.
+- job controller: by **chetan**
+	- add `applied` field to `getJobs` api.
+	- add `get applicants` api.
 
-- user controller:
-	- accept resume, by **chetan**.
+- user controller: by **chetan**
+	- accept resume.
