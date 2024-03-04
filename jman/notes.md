@@ -4,12 +4,23 @@
 
 - reset navigation to start.
 
-- add company signup details
-	- name
-	- owner
-	- address
-	- contact_email
-	- contact_no
-	- email
-	- password
-	- about
+- company home page:
+	- add details
+		- name
+		- owner
+		- address
+		- contact_email
+		- contact_no
+		- email
+		- password
+		- about
+	
+	- view 3 latest jobs on company home page
+	- redirect to posted jobs
+
+- posted jobs page:
+	- build it
+
+- job info page:
+	- rename from apply to job-info
+	- remove save job button
