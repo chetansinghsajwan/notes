@@ -1,16 +1,16 @@
 # Notes
 
-- alert notification on wrong details on company signup, login, user signup, login. by sai vikas reddy.
+- alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
 - reset navigation to start.
 
 - user signup page:
-	- add resume field, by **chetan**..
+	- add resume field,
 
 - user profile page:
 	- built it, by **santosh**.
 
-- company home page:
+- company home page:, by **sai**.
 	- add details
 		- name
 		- owner
