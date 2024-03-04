@@ -38,12 +38,12 @@
 - find job page:
 	- feed data into cards, by **lovish**.
 
+- applicants page:
+	- built it, by **sai**.
+
 - job controller:
 	- add `applied` field to `getJobs` api, by **chetan**.
 	- add `get applicants` api, by **chetan**.
 
 - user controller:
 	- accept resume, by **chetan**.
-
-- applicants page:
-	- built it, by **sai**.
