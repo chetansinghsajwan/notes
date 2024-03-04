@@ -24,3 +24,10 @@
 - job info page:
 	- rename from apply to job-info
 	- remove save job button
+	- add apply now functionality
+	- change apply button to applied
+	- redirect to find job page
+	- remove map
+
+- find job page:
+	- feed data into cards
