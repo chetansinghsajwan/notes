@@ -31,3 +31,7 @@
 
 - find job page:
 	- feed data into cards
+
+- job controller:
+	- add `applied` field to `getJobs` api. by **chetan**.
+
