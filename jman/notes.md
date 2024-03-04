@@ -4,6 +4,12 @@
 
 - reset navigation to start.
 
+- user signup page:
+	- add resume field.
+
+- user profile page:
+	- 
+
 - company home page:
 	- add details
 		- name
@@ -19,7 +25,7 @@
 	- redirect to posted jobs
 
 - posted jobs page:
-	- build it
+	- build it. by **suresh**.
 
 - job info page:
 	- rename from apply to job-info
@@ -30,8 +36,10 @@
 	- remove map
 
 - find job page:
-	- feed data into cards
+	- feed data into cards, by **lovish**.
 
 - job controller:
 	- add `applied` field to `getJobs` api. by **chetan**.
 
+- user controller:
+	- accept resume.
