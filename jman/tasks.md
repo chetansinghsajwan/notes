@@ -1,15 +1,17 @@
 # Tasks
 
-- [z] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
+- [x] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
 - [ ] user profile page: by **santosh** and **hari**
-	- add upload and download resume button
-	- add upload and delete image button
+	- [ ] style the page.
+	- [ ] fetch info from backend.
+	- [x] add upload and download resume button
+	- [x] add upload and delete image button
 
 - [ ] company home page:, by **sai**.
-	- add these fields: name, owner, address, contact_email, contact_no, email, password, about
-	- view 3 latest jobs on company home page
-	- redirect to posted jobs
+	- [ ] add these fields: name, owner, address, contact_email, contact_no, email, password, about
+	- [ ] view 3 latest jobs on company home page
+	- [ ] redirect to posted jobs
 
 - [ ] user home page: by **shivkesh** 
 	- [ ] add `jobs` button in nav bar.
@@ -18,7 +20,7 @@
 	- [ ] burger menu.
 
 - [ ] posted jobs page:
-	- build it. by **suresh**.
+	- [ ] build it. by **suresh**.
 
 - [ ] applicants page: by **sai**
 
@@ -30,7 +32,7 @@
 	- [x] remove map
 
 - [ ] find job page: by **lovish**
-	- feed data into cards.
+	- [ ] feed data into cards.
 
 - [ ] job controller: by **chetan**
 	- [ ] add `applied` field to `getJobs` api.
@@ -38,4 +40,4 @@
 	- [x] add job info api.
 
 - [ ] user controller: by **chetan**
-	- accept resume.
+	- [ ] accept resume.
