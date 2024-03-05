@@ -15,6 +15,7 @@
 	- [ ] add `jobs` button in nav bar.
 	- [ ] add `profile` button in nav bar.
 	- [ ] remove search bar.
+	- [ ] burger menu.
 
 - [ ] posted jobs page:
 	- build it. by **suresh**.
@@ -38,7 +39,3 @@
 
 - [ ] user controller: by **chetan**
 	- accept resume.
-
-## Future Tasks
-
-- [ ] responsive nav bar.
