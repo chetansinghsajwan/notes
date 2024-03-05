@@ -35,7 +35,6 @@
 	- [ ] feed data into cards.
 
 - [ ] job controller: by **chetan**
-	- [ ] add `applied` field to `getJobs` api.
 	- [x] add `get applications` api.
 	- [x] update company api.
 	- [x] add job info api.
