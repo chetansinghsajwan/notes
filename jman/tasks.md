@@ -1,35 +1,34 @@
 # Tasks
 
-- alert notification on wrong details on company signup, login, user signup, login. by **sai**.
+- [-] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
-- user profile page: by **santosh** and **hari**
+- [ ] user profile page: by **santosh** and **hari**
 	- add upload and download resume button
 	- add upload and delete image button
 
-- company home page:, by **sai**.
+- [ ] company home page:, by **sai**.
 	- add these fields: name, owner, address, contact_email, contact_no, email, password, about
 	- view 3 latest jobs on company home page
 	- redirect to posted jobs
 
-- posted jobs page:
+- [ ] posted jobs page:
 	- build it. by **suresh**.
 
-- applicants page: by **sai**
+- [ ] applicants page: by **sai**
 
-- job info page: by **shivkesh**
-	- rename from apply to job-info
-	- remove save job button
-	- add apply now functionality
-	- change apply button to applied
-	- redirect to find job page
-	- remove map
+- [ ] job info page: by **shivkesh**
+	- [x] rename from apply to job-info
+	- [x] remove save job button
+	- [ ] add apply now functionality
+	- [ ] change apply button to applied
+	- [x] remove map
 
-- find job page: by **lovish**
+- [ ] find job page: by **lovish**
 	- feed data into cards.
 
-- job controller: by **chetan**
+- [ ] job controller: by **chetan**
 	- add `applied` field to `getJobs` api.
 	- add `get applicants` api.
 
-- user controller: by **chetan**
+- [ ] user controller: by **chetan**
 	- accept resume.
