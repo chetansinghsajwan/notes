@@ -1,6 +1,6 @@
 # Tasks
 
-- [-] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
+- [z] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
 - [ ] user profile page: by **santosh** and **hari**
 	- add upload and download resume button
@@ -27,8 +27,9 @@
 	- feed data into cards.
 
 - [ ] job controller: by **chetan**
-	- add `applied` field to `getJobs` api.
-	- add `get applicants` api.
+	- [ ] add `applied` field to `getJobs` api.
+	- [ ] add `get applicants` api.
+	- [x] add job info api.
 
 - [ ] user controller: by **chetan**
 	- accept resume.
