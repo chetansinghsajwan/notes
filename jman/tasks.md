@@ -36,8 +36,10 @@
 
 - [ ] job controller: by **chetan**
 	- [ ] add `applied` field to `getJobs` api.
-	- [ ] add `get applicants` api.
+	- [x] add `get applications` api.
+	- [x] update company api.
 	- [x] add job info api.
 
-- [ ] user controller: by **chetan**
-	- [ ] accept resume.
+- [x] user controller: by **chetan**
+	- [x] post resume.
+	- [x] get resume.
