@@ -11,6 +11,11 @@
 	- view 3 latest jobs on company home page
 	- redirect to posted jobs
 
+- [ ] user home page: by **shivkesh** 
+	- [ ] add `jobs` button in nav bar.
+	- [ ] add `profile` button in nav bar.
+	- [ ] remove search bar.
+
 - [ ] posted jobs page:
 	- build it. by **suresh**.
 
@@ -33,3 +38,7 @@
 
 - [ ] user controller: by **chetan**
 	- accept resume.
+
+## Future Tasks
+
+- [ ] responsive nav bar.
