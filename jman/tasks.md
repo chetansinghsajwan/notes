@@ -34,7 +34,7 @@
 - [ ] find job page: by **lovish**
 	- [ ] feed data into cards.
 
-- [ ] job controller: by **chetan**
+- [x] job controller: by **chetan**
 	- [x] add `get applications` api.
 	- [x] update company api.
 	- [x] add job info api.
