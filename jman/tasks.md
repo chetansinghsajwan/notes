@@ -19,8 +19,7 @@
 	- [ ] remove search bar.
 	- [ ] burger menu.
 
-- [ ] posted jobs page:
-	- [ ] build it. by **suresh**.
+- [ ] posted jobs page: by **suresh**, by march 6 12pm.
 
 - [ ] applicants page: by **sai**
 
