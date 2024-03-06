@@ -3,10 +3,10 @@
 - [x] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
 - [ ] user profile page: by **santosh** and **hari**
-	- [ ] style the page.
+	- [x] style the page.
+	- [ ] update fields.
 	- [ ] fetch info from backend.
-	- [x] add upload and download resume button
-	- [x] add upload and delete image button
+	- [x] add upload and download resume button.
 
 - [x] company home page:, by **sai**.
 	- [x] add these fields: name, owner, address, contact_email, contact_no, email, password, about
@@ -45,7 +45,7 @@
 	- [x] post resume.
 	- [x] get resume.
 
-## User Profile
+##### User Profile 
 
 - username
 - password
