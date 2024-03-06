@@ -43,3 +43,14 @@
 - [x] user controller: by **chetan**
 	- [x] post resume.
 	- [x] get resume.
+
+## User Profile
+
+- username
+- password
+- email
+- skills
+- location
+- languages
+- resume
+- photo
