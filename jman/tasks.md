@@ -17,7 +17,6 @@
 	- [ ] add `jobs` button in nav bar.
 	- [ ] add `profile` button in nav bar.
 	- [ ] remove search bar.
-	- [ ] burger menu.
 	- [ ] add footer
 	- [ ] remove `search jobs` and `learn more` button from bottom. by **lovish**.
 
@@ -28,13 +27,14 @@
 - [ ] job info page: by **shivkesh**
 	- [x] rename from apply to job-info
 	- [x] remove save job button
-	- [ ] add apply now functionality
-	- [ ] change apply button to applied
+	- [ ] add apply now functionality, by **lovish**
+	- [ ] change apply button to applied, by **lovish**
 	- [x] remove map
 
 - [ ] find job page: by **lovish**
 	- [x] feed data into cards.
 	- [ ] remove dummy numbers.
+	- [ ] search bar functionality.
 
 - [x] job controller: by **chetan**
 	- [x] add `get applications` api.
@@ -55,3 +55,4 @@
 - languages
 - resume
 - photo
+- about
