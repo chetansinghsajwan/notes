@@ -8,10 +8,10 @@
 	- [x] add upload and download resume button
 	- [x] add upload and delete image button
 
-- [ ] company home page:, by **sai**.
-	- [ ] add these fields: name, owner, address, contact_email, contact_no, email, password, about
-	- [ ] view 3 latest jobs on company home page
-	- [ ] redirect to posted jobs
+- [x] company home page:, by **sai**.
+	- [x] add these fields: name, owner, address, contact_email, contact_no, email, password, about
+	- [x] view 3 latest jobs on company home page
+	- [x] redirect to posted jobs
 
 - [ ] user home page: by **shivkesh** 
 	- [ ] add `jobs` button in nav bar.
