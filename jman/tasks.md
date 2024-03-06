@@ -14,11 +14,11 @@
 	- [x] redirect to posted jobs
 
 - [ ] user home page: by **shivkesh** 
-	- [ ] add `jobs` button in nav bar.
-	- [ ] add `profile` button in nav bar.
-	- [ ] remove search bar.
+	- [x] add `jobs` button in nav bar.
+	- [x] add `profile` button in nav bar.
+	- [x] remove search bar.
 	- [ ] add footer
-	- [ ] remove `search jobs` and `learn more` button from bottom. by **lovish**.
+	- [x] remove `search jobs` and `learn more` button from bottom. by **lovish**.
 
 - [ ] posted jobs page: by **suresh**, by march 6 12pm.
 
