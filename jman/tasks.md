@@ -33,7 +33,8 @@
 	- [x] remove map
 
 - [ ] find job page: by **lovish**
-	- [ ] feed data into cards.
+	- [x] feed data into cards.
+	- [ ] remove dummy numbers.
 
 - [x] job controller: by **chetan**
 	- [x] add `get applications` api.
