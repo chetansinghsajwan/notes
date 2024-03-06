@@ -18,6 +18,8 @@
 	- [ ] add `profile` button in nav bar.
 	- [ ] remove search bar.
 	- [ ] burger menu.
+	- [ ] add footer
+	- [ ] remove `search jobs` and `learn more` button from bottom. by **lovish**.
 
 - [ ] posted jobs page: by **suresh**, by march 6 12pm.
 
