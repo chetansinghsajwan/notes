@@ -1,3 +1,3 @@
-- [] slide down login notification.
+- slide down login notification.
 - add link to user profile in applicants page.
 - add skills heading in job preview.
