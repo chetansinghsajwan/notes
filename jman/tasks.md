@@ -1,15 +1,22 @@
 # Tasks
 
-- [ ] slide down login notification.
-- [ ] add link to user profile in applicants page.
-- [ ] add skills heading in job preview.
-- [ ] add extra options in the text area.
+#### By tomorrow 12 PM
+
+- [ ] slide down login notification, by **shivkesh**.
+- [ ] add link to user profile in applicants page, by **lovish**.
+- [ ] add skills heading in job preview, by **lovish**.
 - [ ] remove dummy jobs, by **lovish**.
 - [ ] send a list of pages to dhanasekar, by **chetan**.
 - [ ] refactor company home page. by **chetan**.
 - [ ] refactor database, by **chetan**.
+
+#### Future
+
+- [ ] add extra options in the text area, by **chetan**.
 - [ ] make docs, by **chetan**.
 - [ ] make presentation video, by **shivkesh**.
+
+#### Completed
 
 - [x] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
