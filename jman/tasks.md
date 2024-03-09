@@ -5,10 +5,10 @@
 - [ ] add skills heading in job preview.
 - [ ] add extra options in the text area.
 - [ ] feed home page dummy jobs with live data.
-- [ ] send a list of pages to dhanasekar.
+- [ ] send a list of pages to dhanasekar, by **chetan**.
 - [ ] posted jobs page. by **suresh**.
-- [ ] make docs.
-- [ ] make presentation video.
+- [ ] make docs, by **chetan**.
+- [ ] make presentation video, by **shivkesh**.
 
 - [x] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
