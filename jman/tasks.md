@@ -6,7 +6,7 @@
 - [ ] add link to user profile in applicants page, by **lovish**.
 - [ ] add skills heading in job preview, by **lovish**.
 - [ ] remove dummy jobs, by **lovish**.
-- [ ] send a list of pages to dhanasekar, by **chetan**.
+- [x] send a list of pages to dhanasekar, by **chetan**.
 - [ ] refactor company home page. by **chetan**.
 - [ ] refactor database, by **chetan**.
 
