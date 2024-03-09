@@ -5,8 +5,9 @@
 3. Signup Page
 4. User Home Page
 5. User Profile Page
-6. Company Profile Page
-7. Job Posting Page
-8. Applicants Page
-9. 
+6. Find Job Page
+7. Company Home Page
+8. Job Posting Page
+9. Applicants Page
 10. 
+11. 
