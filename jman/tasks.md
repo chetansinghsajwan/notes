@@ -1,5 +1,15 @@
 # Tasks
 
+- [ ] slide down login notification.
+- [ ] add link to user profile in applicants page.
+- [ ] add skills heading in job preview.
+- [ ] add extra options in the text area.
+- [ ] feed home page dummy jobs with live data.
+- [ ] send a list of pages to dhanasekar.
+- [ ] posted jobs page. by **suresh**.
+- [ ] make docs.
+- [ ] make presentation video.
+
 - [x] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
 - [x] user profile page: by **santosh** and **hari**
@@ -20,9 +30,7 @@
 	- [x] add footer
 	- [x] remove `search jobs` and `learn more` button from bottom. by **lovish**.
 
-- [ ] posted jobs page: by **suresh**, by march 6 12pm.
-
-- [ ] applicants page: by **sai**
+- [x] applicants page: by **sai** and **lovish**.
 
 - [x] job info page: by **shivkesh**
 	- [x] rename from apply to job-info
