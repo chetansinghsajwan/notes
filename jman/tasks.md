@@ -4,9 +4,10 @@
 - [ ] add link to user profile in applicants page.
 - [ ] add skills heading in job preview.
 - [ ] add extra options in the text area.
-- [ ] feed home page dummy jobs with live data.
+- [ ] remove dummy jobs, by **lovish**.
 - [ ] send a list of pages to dhanasekar, by **chetan**.
-- [ ] posted jobs page. by **suresh**.
+- [ ] refactor company home page. by **chetan**.
+- [ ] refactor database, by **chetan**.
 - [ ] make docs, by **chetan**.
 - [ ] make presentation video, by **shivkesh**.
 
