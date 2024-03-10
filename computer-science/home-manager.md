@@ -2,4 +2,4 @@
 
 ## References
 
-> official-docs: https://nix-community.github.io/home-manager
+- official-docs: https://nix-community.github.io/home-manager

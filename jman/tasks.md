@@ -4,8 +4,8 @@
 
 - [ ] slide down login notification, by **shivkesh**.
 - [ ] add link to user profile in applicants page, by **lovish**.
-- [ ] add skills heading in job preview, by **lovish**.
-- [ ] remove dummy jobs, by **lovish**.
+- [x] add skills heading in job preview, by **lovish**.
+- [x] remove dummy jobs, by **lovish**.
 - [x] send a list of pages to dhanasekar, by **chetan**.
 - [x] refactor company home page. by **chetan**.
 - [ ] refactor database, by **chetan**.
