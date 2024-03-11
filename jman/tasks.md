@@ -11,8 +11,18 @@
 - [ ] Loading UI by **shivkesh**.
 - [ ] Hash password, by **chetan**.
 - [ ] Reduce the signup requirements.
+- [ ] Session management. by **lovish**.
 
-#### By tomorrow 12 PM
+#### By tommorrow 12 PM
+
+- sync database among team members. by **hari**
+
+#### Future
+
+- [ ] make docs, by **chetan**.
+- [ ] make presentation video, by **shivkesh**.
+
+#### Completed
 
 - [x] slide down login notification, by **shivkesh**.
 - [x] add link to user profile in applicants page, by **lovish**.
@@ -21,13 +31,6 @@
 - [x] send a list of pages to dhanasekar, by **chetan**.
 - [x] refactor company home page. by **chetan**.
 - [x] add extra options in the text area, by **sai**.
-
-#### Future
-
-- [ ] make docs, by **chetan**.
-- [ ] make presentation video, by **shivkesh**.
-
-#### Completed
 
 - [x] alert notification on wrong details on company signup, login, user signup, login. by **sai**.
 
