@@ -1,5 +1,10 @@
 # Tasks
 
+#### Ideas
+
+- [ ] Big buttons in login and signup page
+- [ ] 
+
 #### By tomorrow 12 PM
 
 - [ ] slide down login notification, by **shivkesh**.
