@@ -3,7 +3,14 @@
 #### Ideas
 
 - [ ] Big buttons in login and signup page
-- [ ] 
+- [ ] Refactor the backend. by **chetan**.
+- [ ] Add github actions.
+- [ ] Responsive navbar. by **lovish**.
+- [ ] Delete job.
+- [ ] User profile edit page. by **sai** and **hari**.
+- [ ] Reduce the signup requirements.
+- [ ] Loading UI by **shivkesh**.
+- [ ] Hash password, by **chetan**.
 
 #### By tomorrow 12 PM
 
