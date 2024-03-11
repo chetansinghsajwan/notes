@@ -12,6 +12,7 @@
 - [ ] Hash password, by **chetan**.
 - [ ] Reduce the signup requirements.
 - [ ] Session management. by **lovish**.
+- [ ] sorting by created date. by **lovish**.
 
 #### By tommorrow 12 PM
 
