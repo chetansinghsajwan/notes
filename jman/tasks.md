@@ -3,16 +3,15 @@
 #### By tomorrow 12 PM
 
 - [ ] slide down login notification, by **shivkesh**.
-- [ ] add link to user profile in applicants page, by **lovish**.
+- [x] add link to user profile in applicants page, by **lovish**.
 - [x] add skills heading in job preview, by **lovish**.
 - [x] remove dummy jobs, by **lovish**.
 - [x] send a list of pages to dhanasekar, by **chetan**.
 - [x] refactor company home page. by **chetan**.
-- [ ] refactor database, by **chetan**.
+- [x] add extra options in the text area, by **sai**.
 
 #### Future
 
-- [ ] add extra options in the text area, by **chetan**.
 - [ ] make docs, by **chetan**.
 - [ ] make presentation video, by **shivkesh**.
 
