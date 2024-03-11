@@ -2,19 +2,19 @@
 
 #### Ideas
 
-- [ ] Big buttons in login and signup page
+- [ ] Big buttons in login and signup page, by **chetan**.
 - [ ] Refactor the backend. by **chetan**.
-- [ ] Add github actions.
+- [ ] Add github actions. by **chetan**.
 - [ ] Responsive navbar. by **lovish**.
-- [ ] Delete job.
+- [ ] Delete job. by **santosh**.
 - [ ] User profile edit page. by **sai** and **hari**.
-- [ ] Reduce the signup requirements.
 - [ ] Loading UI by **shivkesh**.
 - [ ] Hash password, by **chetan**.
+- [ ] Reduce the signup requirements.
 
 #### By tomorrow 12 PM
 
-- [ ] slide down login notification, by **shivkesh**.
+- [x] slide down login notification, by **shivkesh**.
 - [x] add link to user profile in applicants page, by **lovish**.
 - [x] add skills heading in job preview, by **lovish**.
 - [x] remove dummy jobs, by **lovish**.
