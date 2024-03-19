@@ -4,162 +4,163 @@
 
 ## Basic Expressions
 
-> ##### `<constant>`
-> 
-> `true` if the constant is `1`, `ON`, `YES`, `TRUE`, `Y`, or a non-zero number (including floating point numbers).
-> 
-> `false` if the constant is `0`, `OFF`, `NO`, `FALSE`, `N`, `IGNORE`, `NOTFOUND`, the empty string, or ends in the suffix `-NOTFOUND`.
-> 
-> If the argument is not one of these specific constants, it is treated as a variable or string.
+##### `<constant>`
 ^constants
 
-> ##### `<variable>`
-> 
-> `true` if the variable is defined and its value is not [false constant](#^constants).
+`true` if the constant is `1`, `ON`, `YES`, `TRUE`, `Y`, or a non-zero number (including floating point numbers).
+
+`false` if the constant is `0`, `OFF`, `NO`, `FALSE`, `N`, `IGNORE`, `NOTFOUND`, the empty constantsstring, or ends in the suffix `-NOTFOUND`.
+
+If the argument is not one of these specific constants, it is treated as a variable or string.
+
+##### `<variable>`
 ^variable
 
-> ##### `<string>`
-> 
-> `true` if the strings value is one of the [true constants](#^constants).
+`true` if the variable is defined and its value is not [false constant](#^constants).
+
+##### `<string>`
 ^string
+
+`true` if the strings value is one of the [true constants](#^constants).
 
 ## Logic Operators
 
-> ##### `NOT <condition>`
-> 
-> `true` if the condition is not true.
+##### `NOT <condition>`
 ^not
 
-> ##### `<cond1> AND <cond2>`
-> 
-> `true` if both conditions are `true`.
+`true` if the condition is not true.
+
+##### `<cond1> AND <cond2>`
 ^and
 
-> ##### `<cond1> OR <cond2>`
-> 
-> `true` if either condition is `true`.
+`true` if both conditions are `true`.
+
+##### `<cond1> OR <cond2>`
 ^or
 
-> ##### `(condition) AND (condition OR (condition))`
-> 
-> The conditions inside the parenthesis are evaluated first and then the remaining conditions are evaluated.
+`true` if either condition is `true`.
+
+##### `(condition) AND (condition OR (condition))`
 ^parenthesis
+
+The conditions inside the parenthesis are evaluated first and then the remaining conditions are evaluated.
 
 ## Numeric Comparisons
 
-> ##### `<variable|string> <num-cmp-op> <variable|string>`
-> 
-> where `<num-cmp-op>` is one of:
-> - `EQUAL`
-> - `LESS`
-> - `GREATER`
-> - `LESS_EQUAL`
-> - `GREATER_EQUAL`
-> 
-> `true` if the given string or variable's value parses as a real number and the relevant comparison is also `true`.
+##### `<variable|string> <num-cmp-op> <variable|string>`
+
+where `<num-cmp-op>` is one of:
+- `EQUAL`
+- `LESS`
+- `GREATER`
+- `LESS_EQUAL`
+- `GREATER_EQUAL`
+
+`true` if the given string or variable's value parses as a real number and the relevant comparison is also `true`.
 
 ## String Comparisons
 
-> ##### `<variable|string> <string-cmp-op> <variable|string>`
->
-> where `<string-cmp-op>` is one of:
-> - `STREQUAL`
-> - `STRLESS`
-> - `STRGREATER`
-> - `STRLESS_EQUAL`
-> - `STRGREATER_EQUAL`
->
-> Performs relevant lexicographical comparison.
-> 
-> If any argument is a defined variable, its value is used, else the literal itself is used.
+##### `<variable|string> <string-cmp-op> <variable|string>`
 
-> ##### `<variable|string> MATCHES <regex>`
-> 
-> `true` if the given string or variable's value matches the given [regex](cmake-langauge/regex).
+where `<string-cmp-op>` is one of:
+
+- `STREQUAL`
+- `STRLESS`
+- `STRGREATER`
+- `STRLESS_EQUAL`
+- `STRGREATER_EQUAL`
+
+Performs relevant lexicographical comparison.
+
+If any argument is a defined variable, its value is used, else the literal itself is used.
+
+##### `<variable|string> MATCHES <regex>`
+
+`true` if the given string or variable's value matches the given [regex](cmake-langauge/regex).
 
 ## Version Comparisons
 
-> ##### `<variable|string> <version-cmp-op> <variable|string>`
+##### `<variable|string> <version-cmp-op> <variable|string>`
+
+where `<version-cmp-op>` is one of:
+- `VERSION_EQUAL`
+- `VERSION_LESS`
+- `VERSION_GREATER`
+- `VERSION_LESS_EQUAL`
+- `VERSION_GREATER_EQUAL`
+
+Performs component-wise integer number comparison.
+
+Omitted components are treated as zero.
+
+If any argument is a defined variable, its value is used, else the literal itself is used.
+
+> [!note]
 > 
-> where `<version-cmp-op>` is one of:
-> - `VERSION_EQUAL`
-> - `VERSION_LESS`
-> - `VERSION_GREATER`
-> - `VERSION_LESS_EQUAL`
-> - `VERSION_GREATER_EQUAL`
-> 
-> Performs component-wise integer number comparison.
-> 
-> Omitted components are treated as zero.
-> 
-> If any argument is a defined variable, its value is used, else the literal itself is used.
-> 
-> > [!note]
-> > 
-> > Stops parsing the version components when first non-integer component is encountered.
+> Stops parsing the version components when first non-integer component is encountered.
 
 ## Path Comparisons
 
-> ##### `<variable|string> PATH_EQUAL <variable|string>`
-> 
-> Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](cmake_path.md#^query)
+##### `<variable|string> PATH_EQUAL <variable|string>`
+
+Same as [`cmake_path(COMPARE <variable|string> EQUAL <variable|string>)`](cmake_path.md#^query)
 
 ### Existence Checks
 
-> ##### `COMMAND <command-name>`
-> 
-> `true` if the given name is a command, macro or function.
+##### `COMMAND <command-name>`
 
-> ##### `POLICY <policy-id>`
-> 
-> `true` if the given id is a policy.
-> 
-> `<policy-id>` is of the from `CMP<NNNN>`.
+`true` if the given name is a command, macro or function.
 
-> ##### `TARGET <target-name>`
-> 
-> `true` if a target of name `<target-name>` exists.
+##### `POLICY <policy-id>`
 
-> ##### `TEST <test-name>`
-> 
-> `true` if a test of name `<test-name>` exists.
+`true` if the given id is a policy.
 
-> ##### `DEFINED <name>`
-> 
-> `true` if a variable, cache variable of environment variable of name `<name>` is defined.
+`<policy-id>` is of the from `CMP<NNNN>`.
 
-> ##### `<variable|string> IN_LIST <variable>`
-> 
-> `true` if the given element is contained in the named list `<variable>`.
+##### `TARGET <target-name>`
+
+`true` if a target of name `<target-name>` exists.
+
+##### `TEST <test-name>`
+
+`true` if a test of name `<test-name>` exists.
+
+##### `DEFINED <name>`
+
+`true` if a variable, cache variable of environment variable of name `<name>` is defined.
+
+##### `<variable|string> IN_LIST <variable>`
+
+`true` if the given element is contained in the named list `<variable>`.
 
 ## File Checks
 
-> ##### `EXISTS <path-to-file-or-directory>`
-> 
-> `true` if the named file or directory exists and is readable.
-> 
-> Resolves symbolic links, i.e. if the named file or directory is a symbolic link, returns true if the target of the symbolic link exists.
+##### `EXISTS <path-to-file-or-directory>`
 
-> ##### `<file1> IS_NEWER_THAN <file2>`
-> 
-> `true` if `<file1>` is newer than or same old as `<file2>` or if one of the two files doesn't exist.
+`true` if the named file or directory exists and is readable.
 
-> ##### `IS_DIRECTORY <path>`
-> 
-> `true` if the path exists and is a directory.
+Resolves symbolic links, i.e. if the named file or directory is a symbolic link, returns true if the target of the symbolic link exists.
 
-> ##### `IS_SYMLINK <path>`
-> 
-> `true` if the given path is a symbolic link.
+##### `<file1> IS_NEWER_THAN <file2>`
 
-> ##### `IS_ABSOLUTE <path>`
-> 
-> `true` if the given path is an absolute path and not empty.
-> 
-> #review
-> On windows, any `path` that begins with a drive letter and colon (e.g. `C:`), a forward slash or a backslash will evaluate to true. This means a path like `C:no\base\dir` will evaluate to true, even though the non-drive part of the path is relative.
-> 
-> On non windows, any `path` that begins with a tilde (`~`) evaluates to `true`.
+`true` if `<file1>` is newer than or same old as `<file2>` or if one of the two files doesn't exist.
+
+##### `IS_DIRECTORY <path>`
+
+`true` if the path exists and is a directory.
+
+##### `IS_SYMLINK <path>`
+
+`true` if the given path is a symbolic link.
+
+##### `IS_ABSOLUTE <path>`
+
+`true` if the given path is an absolute path and not empty.
+
+#review
+On windows, any `path` that begins with a drive letter and colon (e.g. `C:`), a forward slash or a backslash will evaluate to true. This means a path like `C:no\base\dir` will evaluate to true, even though the non-drive part of the path is relative.
+
+On non windows, any `path` that begins with a tilde (`~`) evaluates to `true`.
 
 ## Precedence
 

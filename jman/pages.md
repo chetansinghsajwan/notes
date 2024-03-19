@@ -22,7 +22,7 @@
 
 4. Signup Page
 	
-	Same login page for both users and companies.
+	Same singup page for both users and companies.
 
 ---
 
