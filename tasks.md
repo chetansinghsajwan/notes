@@ -1,14 +1,5 @@
 # Tasks
 
-## Today
-
-- [ ] seminar paper and presentation.
-- [-] fix audio problem on nixos.
-- [ ] job-board docs.
-- [ ] cherno game engine next video.
-- [ ] jman 5pm meeting.
-- [ ] obsidian config sync solution.
-- [ ] obsidian task system.
 
 ## Future
 
