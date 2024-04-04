@@ -66,7 +66,6 @@ There are three kinds of patterns:
   > 
   > The @-pattern makes mainly sense with an ellipsis(...) as you can access attribute names as a, using args.a, which was given as an additional attribute to the function.
 
-
 ## References
 
 - https://nixos.org/manual/nix/stable/language/constructs#functions

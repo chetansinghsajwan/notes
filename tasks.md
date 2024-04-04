@@ -1,7 +1,6 @@
 # Tasks
 
-
-## Future
+- [ ] Checkout evolve2024 website.
 
 - [ ] Read about obsidian plugin system.
 
