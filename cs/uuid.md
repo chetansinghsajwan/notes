@@ -21,7 +21,7 @@ In that case, the chance of collision changes from impossible to very very small
 This guaranteed uniqueness comes at the cost of anonymity. Because UUID v1 takes the time and your MAC address into consideration, this also means that someone could potentially identify the time and place(i.e.  
 computer) of creation.
 
-![](uuid/v1-diagram.svg)
+![](v1-diagram.svg)
 
 ## V4 : Randomness
 
@@ -32,7 +32,7 @@ The bits that comprise a UUID v4 are generated randomly and with no inherent log
 Because of this, there is no way to identify information about the  
 source by looking at the UUID.
 
-![](uuid/v4-diagram.png)
+![](v4-diagram.png)
 
 However, there is now a chance that a UUID could be duplicated. The question is, do you need to worry about it?
 

@@ -2,7 +2,7 @@
 
 Commonly known as TCP/IP.
 
-It is a framework for organizing the set of [communication-protocols](computer-science/networking/communication-protocols) used in the [internet](computer-science/networking/internet).
+It is a framework for organizing the set of [communication-protocols](computer-science/networking/communication-protocols) used in the [internet](internet.md).
 
 The foundational protocols in the suite are the [Transmission Control Protocol](https://www.wikiwand.com/en/Transmission_Control_Protocol "Transmission Control Protocol") (TCP), the [User Datagram Protocol](https://www.wikiwand.com/en/User_Datagram_Protocol "User Datagram Protocol") (UDP), and the [Internet Protocol](https://www.wikiwand.com/en/Internet_Protocol "Internet Protocol") (IP).
 

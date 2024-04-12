@@ -2,7 +2,7 @@
 
 POSIX stands for Portable Operating System Interface.
 
-It’s a family of standards specified by [IEEE](ieee) for maintaining compatibility among operating systems.
+It’s a family of standards specified by [IEEE](ieee.md) for maintaining compatibility among operating systems.
 
 It does not define an operating system, it only defines the interface between an application and an operating system.
 
