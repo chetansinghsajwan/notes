@@ -1,3 +1,3 @@
 [[dev-drive]]
-[[refs]]
+[[cs/os/windows/refs]]
 [[virtual-hard-disk]]
