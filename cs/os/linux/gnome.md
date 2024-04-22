@@ -1,1 +1,0 @@
-gnome-shell-extension-manager: [https://itsfoss.com/extension-manager/](https://itsfoss.com/extension-manager/)

@@ -4,21 +4,19 @@ The following attributes are supported in `flake.nix`:
 
 ##### `description`
 
-type: `string`
+**Type:** `string`
 
-A short, one-line description of the flake.
+**Description:** A short, one-line description of the flake.
 
 ##### `inputs`
 
-type: `set`
+**Type:** `set`
 
-An attrset specifying the dependencies of the flake (described below).
+**Description:** An attrset specifying the dependencies of the flake (described below).
 
 ##### `outputs`
 
-type: `func { self, inputs, ... }` -> `set`
-
-A function that, given an attribute set containing the outputs of each of the input flakes keyed by their identifier, yields the Nix values provided by this flake (described below).
+**Type:** `func { self, inputs, ... }` -> `set`
 
 **Parameters:**
 
@@ -27,6 +25,22 @@ A function that, given an attribute set containing the outputs of each of the in
 `...`: all the inputs specified in the `inputs` set.
 
 Inputs attributes `...` and inside `inputs` set are same.
+
+**Description:**
+
+A function that, given an attribute set containing the outputs of each of the input flakes keyed by their identifier, yields the Nix values provided by this flake (described below).
+
+##### `nixConfig`
+
+**Type:** `set`
+
+A set of `nix.conf` options to be set when evaluating any part of a flake. In the interests of security, only a small set of set of options is allowed to be set without confirmation so long as [`accept-flake-config`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-accept-flake-config) is not enabled in the global configuration:
+
+- [`bash-prompt`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-bash-prompt)
+- [`bash-prompt-prefix`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-bash-prompt-prefix)
+- [`bash-prompt-suffix`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-bash-prompt-suffix)
+- [`flake-registry`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-flake-registry)
+- [`commit-lockfile-summary`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-commit-lockfile-summary)
 
 --- 
 
@@ -60,7 +74,9 @@ Here is a simple `flake.nix` that depends on the Nixpkgs flake and provides a si
 
 ## Flake inputs
 
-The attribute `inputs` specifies the dependencies of a flake, as an attrset mapping input names to flake references. For example, the following specifies a dependency on the `nixpkgs` and `import-cargo` repositories:
+The attribute `inputs` specifies the dependencies of a flake, as an attrset mapping input names to flake references.
+
+For example, the following specifies a dependency on the `nixpkgs` and `import-cargo` repositories:
 
 ```nix
 # A GitHub repository.
@@ -170,14 +186,6 @@ In addition to the outputs of each input, each input in `inputs` also contains s
 - `narHash`: The SHA-256 (in SRI format) of the NAR serialization of the flake's source tree.
     
     The value returned by the `outputs` function must be an attribute set. The attributes can have arbitrary values; however, various `nix` subcommands require specific attributes to have a specific value (e.g. `packages.x86_64-linux` must be an attribute set of derivations built for the `x86_64-linux` platform).
-
-- `nixConfig`: a set of `nix.conf` options to be set when evaluating any part of a flake. In the interests of security, only a small set of set of options is allowed to be set without confirmation so long as [`accept-flake-config`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-accept-flake-config) is not enabled in the global configuration:
-    
-    - [`bash-prompt`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-bash-prompt)
-    - [`bash-prompt-prefix`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-bash-prompt-prefix)
-    - [`bash-prompt-suffix`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-bash-prompt-suffix)
-    - [`flake-registry`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-flake-registry)
-    - [`commit-lockfile-summary`](https://nixos.org/manual/nix/stable/command-ref/conf-file#conf-commit-lockfile-summary)
 
 ## References
 
