@@ -8,7 +8,7 @@ three stages of disaster management:
 2. emergency state (during disaster): to enusre that the needs and provisions of victims are met to alleviate and minimize suffering
 3. post disaster stage (after disaster): to achive durable and rapid recovery
 
-![[resources/disaster-management-cycle.png]]
+![[disaster-management-cycle.png]]
 
 ## Pre Disaster Stage
 
