@@ -1,6 +1,7 @@
 name: Squash old commits
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # Runs at 12 AM UTC every day
 
