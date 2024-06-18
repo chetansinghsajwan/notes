@@ -1,0 +1,36 @@
+name: Squash old commits
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at 12 AM UTC every day
+
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+    
+    - name: Squash commits older than 30 days
+      run: |
+        # Fetch all branches
+        git fetch --all
+        
+        # Find commits older than 30 days
+        old_commit=$(git rev-list --max-age=30.days --reverse HEAD | head -n 1)
+        
+        # Squash commits if old_commit is not empty
+        if [ -n "$old_commit" ]; then
+          git reset --soft $old_commit
+          git commit --amend -m "Squashed commits older than 30 days"
+          git push --force
+        else
+          echo "No commits older than 30 days to squash."
+        fi
+
