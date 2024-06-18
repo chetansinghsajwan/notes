@@ -20,7 +20,7 @@ These are the refs that are the heads of your local branches.
 
 These are the refs that are your tags.
 
-See [tag](tag) for more info.
+See [tag](tag.md) for more info.
 
 ## `remotes`
 

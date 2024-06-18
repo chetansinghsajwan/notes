@@ -1,6 +1,6 @@
 # `break` command
 
-Break from an enclosing [[foreach]] or [[while]] loop.
+Break from an enclosing [[foreach]] or [[cmake/language/commands/while]] loop.
 
 ## Syntax
 

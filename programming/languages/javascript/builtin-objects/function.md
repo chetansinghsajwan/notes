@@ -1,6 +1,6 @@
 # `Function` Object
 
-**Inherits**: [Object](object)
+**Inherits**: [Object](git/concepts/object.md)
 
 ## Properties
 
@@ -76,7 +76,7 @@ It is used when the function is used as a constructor with the [`new`](operators
 
 **Returns:** A [string]() representing the source code of this function.
 
-**Overrides:** [`object.toString()`](object#^methods.to_string)
+**Overrides:** [`object.toString()`](git/concepts/object.md#^methods.to_string)
 
 **Description:**
 

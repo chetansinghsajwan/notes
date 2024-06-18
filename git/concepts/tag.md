@@ -1,6 +1,6 @@
 # Tag
 
-Tags are just [references](ref) to commits. What makes the different than other references is their usage. They are used to mark specific points in your repo history.
+Tags are just [references](ref.md) to commits. What makes the different than other references is their usage. They are used to mark specific points in your repo history.
 
 These points are generally released versions.
 

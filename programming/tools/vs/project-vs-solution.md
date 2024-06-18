@@ -1,1 +1,0 @@
-A project is contained within a _solution_. Despite its name, a solution isn't an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.

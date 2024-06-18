@@ -1,3 +1,0 @@
-# Pester
-
-## References

@@ -6,7 +6,7 @@ Git stores all data in form of files, these files are reffered as objects.
 
 Objects are the atoms of a git repo.
 
-They are stored in `.git/objects` directory. This directory is called the [obejct-store](object-store) of git.
+They are stored in `.git/objects` directory. This directory is called the [obejct-store](object-store.md) of git.
 
 There are three types of objects git uses to manage the repo:
 

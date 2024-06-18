@@ -20,7 +20,7 @@ target_compile_definitions(<target>
 > 
 > `INTERFACE`, `PUBLIC` and `PRIVATE` are used to specify the scope of the definitions.
 > 
-> `PRIVATE` and `PUBLIC` items will populate the [compile_defintions](programming/tools/cmake/language/properties/target/compile_defintions.md) property of the `<target>`.
+> `PRIVATE` and `PUBLIC` items will populate the [compile_defintions](cmake/language/properties/target/compile_defintions.md) property of the `<target>`.
 > 
 > `PUBLIC` and `INTERFACE` items will populate the [interface_compile_defintions](interface_compile_defintions.md) property of the `<target>`.
 > 

@@ -1,6 +1,6 @@
 # `endwhile` command
 
-Marks the end of a while loop. This command is used with [[while]] command.
+Marks the end of a while loop. This command is used with [[cmake/language/commands/while]] command.
 
 ## Syntax
 
