@@ -1,6 +1,6 @@
 # `new` Operator
 
-The `new` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a [constructor](constructor) function.
+The `new` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a [constructor](constructor.md) function.
 
 **Syntax:** 
 

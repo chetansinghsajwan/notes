@@ -1,6 +1,6 @@
 # Function
 
-A function is an object of type [function](javascript/builtin-objects/function).
+A function is an object of type [function](javascript/builtin-objects/function.md).
 
 ---
 

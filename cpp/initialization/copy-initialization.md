@@ -12,7 +12,7 @@ Copy-initialization is performed in the following situations:
 
 - When [throwing](https://en.cppreference.com/w/cpp/language/throw "cpp/language/throw") or [catching](https://en.cppreference.com/w/cpp/language/try_catch "cpp/language/try catch") an exception by value.
 
-- As part of [aggregate initialization](aggregate-initialization), to initialize each element for which an initializer is provided.
+- As part of [aggregate initialization](aggregate-initialization.md), to initialize each element for which an initializer is provided.
 
 The effects of copy-initialization are:
 

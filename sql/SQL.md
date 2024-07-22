@@ -13,9 +13,9 @@ An expression is a combination of one or more values, operators, and SQL functio
   
 [[tables]]
   
-[[programming/languages/sql/comments]]
-[[programming/languages/sql/operators|operators]]
-[[programming/languages/sql/databases|databases]]
+[[sql/comments]]
+[[sql/operators|operators]]
+[[sql/databases|databases]]
   
 [[constraints]]
 [[create-database]]
@@ -29,7 +29,7 @@ An expression is a combination of one or more values, operators, and SQL functio
 [[WHERE Clause]]
 [[insert-into]]
 [[UPDATE Statement]]
-[[programming/languages/sql/statements/delete]]
+[[sql/statements/delete]]
 [[ORDER BY Keyword]]
 [[limit]]
 [[join]]

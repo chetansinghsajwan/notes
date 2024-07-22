@@ -56,7 +56,7 @@ A map containing vendor-specific information.
 
 ###### `generator`
 
-- type: [`string`](programming/languages/json/data-types/string)
+- type: [`string`](json/data-types/string.md)
 - required: until version 2
 
 Generator to use for the preset.
@@ -78,7 +78,7 @@ Value must be one from [cmake-generators](generators.md).
 > [!todo]
 > Review this.
 
-- type: [`string`](programming/languages/json/data-types/string)
+- type: [`string`](json/data-types/string.md)
 - required: no
 
 Represents the platform and toolset, respectively, for [`generators`](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#manual:cmake-generators(7)) that support them.  
@@ -109,7 +109,7 @@ Each may be either a string or an object with the following fields:
 
 ###### `toolchainFile`
 
-- type: [`string`](programming/languages/json/data-types/string)
+- type: [`string`](json/data-types/string.md)
 - required: no
 - since: version 3
 

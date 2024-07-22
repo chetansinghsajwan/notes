@@ -68,7 +68,7 @@ console.log(((a, b = 1, c) => {}).length);
 **Required:** no
 **Writable:** yes
 
-It is used when the function is used as a constructor with the [`new`](operators/new) operator. It will become the new object's prototype.
+It is used when the function is used as a constructor with the [`new`](cpp/operators/new.md) operator. It will become the new object's prototype.
 
 ## Methods
 

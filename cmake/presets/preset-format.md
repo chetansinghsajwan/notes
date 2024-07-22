@@ -4,7 +4,7 @@ The root object contains these fields:
 
 ###### `version`
 
-- type: [`number`](programming/languages/json/data-types/number)
+- type: [`number`](json/data-types/number.md)
 - required: yes
 
 A integer representing the version of the JSON schema.
@@ -21,29 +21,29 @@ The supported versions are:
 
 ###### `cmakeMinimumRequired`
 
-- type: [`object`](programming/languages/json/data-types/object)
+- type: [`object`](json/data-types/object.md)
 - required: no
 
 Object containing minimum version of cmake required to build this project.
 
 - `major`
   
-  - type: [`integer`](programming/languages/json/data-types/number)
+  - type: [`integer`](json/data-types/number.md)
   - required: no
 
 - `minor`
   
-  - type: [`integer`](programming/languages/json/data-types/number)
+  - type: [`integer`](json/data-types/number.md)
   - required: no
 
 - `patch`
   
-  - type: [`integer`](programming/languages/json/data-types/number)
+  - type: [`integer`](json/data-types/number.md)
   - required: no
 
 ###### `include`
 
-- type: [`array`](programming/languages/json/data-types/array) of [`string`](programming/languages/json/data-types/string)
+- type: [`array`](array.md) of [`string`](json/data-types/string.md)
 - required: no
 - since: version 4
 
