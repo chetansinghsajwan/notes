@@ -1,7 +1,5 @@
 # `nix flake metadata` command
 
-## Name
-
 Shows flake metadata.
 
 ## Synopsis

@@ -4,7 +4,7 @@ It stands for Embedded [SIM](sim.md).
 
 It is directly embedded into the device.
 
-It consists of software installed onto a **eUICC** chip permanently attached to a device. If the eSIM is eUICC-compatible, it can be re-programmed with new SIM information. Otherwise, the eSIM is programmed with its ICCID/IMSI and other information at the time it is manufactured, and cannot be changed
+It consists of software installed onto a [eUICC](networking/telecom/euicc) chip permanently attached to a device. If the eSIM is eUICC-compatible, it can be re-programmed with new SIM information. Otherwise, the eSIM is programmed with its ICCID/IMSI and other information at the time it is manufactured, and cannot be changed
 
 ## History
 
