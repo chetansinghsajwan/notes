@@ -1,6 +1,6 @@
 # eSIM
 
-It stands for Embedded [SIM](networking/sim).
+It stands for Embedded [SIM](sim.md).
 
 It is directly embedded into the device.
 
