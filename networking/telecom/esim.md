@@ -26,4 +26,5 @@ Samsung shipped Galaxy S21 and S20 series smartphones in North America with eSIM
 
 ## References
 
-https://en.wikipedia.org/wiki/ESIM
+- https://en.wikipedia.org/wiki/ESIM
+
