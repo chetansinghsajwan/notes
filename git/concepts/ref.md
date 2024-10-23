@@ -1,8 +1,8 @@
-# References
+# Reference
 
-References are simple names that point to a commit.
+A reference is a simple name that points to a commit.
 
-These names make it easy for us humans to remember a commit by a name instead of its hash.
+This name makes it easy for us humans to remember a commit by a name instead of its hash.
 
 These references are stored inside `.git/refs/` directory as files. Each file stores only the hash of the commit.
 

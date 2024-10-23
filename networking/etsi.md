@@ -10,7 +10,6 @@ It is the officially recognized body with a responsibility for the standardizati
 
 It was setup in 1988 by [CEPT](networking/cept).
 
-
 ## References
 
 - https://www.wikiwand.com/en/articles/ETSI

@@ -1,4 +1,4 @@
-# Resources
+# Learning Sources
 
 - https://git-scm.com/doc
 
