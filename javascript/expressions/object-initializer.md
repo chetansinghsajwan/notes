@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # Object Initializer Expression
 
 It is a comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces `{}`.
