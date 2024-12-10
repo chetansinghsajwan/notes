@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "fc9a3cf854ec71ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "38fc72552ef0a753",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b385753586cea2aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/css.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "css"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9d58e446bff0321",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b93b64c7eec10fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ef7a9ec5da6f0b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3af50667628f03a1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "705592ce0dafe7bc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.5086555480957
+  },
+  "right": {
+    "id": "61469f4e32c93a3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac60572fa15dcb7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e343e0b46467842a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "47a1eb00ddafec04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e9e03e76a2698efb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e4d26073bb7641c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "b385753586cea2aa",
+  "lastOpenFiles": [
+    "html/html.md",
+    "css/css.md",
+    "css/selectors.md",
+    "Untitled",
+    "software/development/design-patterns/prototype.md",
+    "software/development/design-pattern.md",
+    "software/development/principle.md",
+    "software/development/platform.md",
+    "software/development/design-patterns",
+    "software/open-source-software.md",
+    "software/pkg-config.md",
+    "software/open-source-software-definition.md",
+    "software/open-source-initiative.md",
+    "software/jpg.md",
+    "software/free-vs-open-source-software.md",
+    "software/free-software.md",
+    "software/free-software-definition.md",
+    "software/development",
+    "software",
+    "semver/v1.md",
+    "semver/v2.md",
+    "semver/semver.md",
+    "semver",
+    "rust/rust.md",
+    "rust",
+    "react/components.md",
+    "react",
+    "ramdisk/ramdisk.md",
+    "ramdisk",
+    "python/statements/import.md",
+    "python/statements",
+    "python/packages/regular-packages.md",
+    "python/packages/namespace-packages.md",
+    "python/packages",
+    "python/package/regular-package.md",
+    "python/package/namespace-package.md",
+    "btech/tdm811-disaster-management/resources/disaster-management-cycle.png",
+    "uuid/v4-diagram.png",
+    "uuid/v1-diagram.svg",
+    "btech/tit704/kerberos-process.png",
+    "btech/tit704/ipsec-ah-packet.jpg",
+    "btech/tit704/ipsec-esp-packet.jpg",
+    "btech/tit704/ipsec-arch.jpg",
+    "btech/tit704/block-cipher-ctr.png",
+    "btech/tit704/block-cipher-ofb.png",
+    "btech/tit704/block-cipher-ecb.png"
+  ]
+}
