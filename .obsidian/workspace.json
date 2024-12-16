@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/layout/layout.md",
+                "file": "css/layout/flexbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "layout"
+              "title": "flexbox"
             }
           }
         ]
@@ -161,8 +161,9 @@
   },
   "active": "b385753586cea2aa",
   "lastOpenFiles": [
-    "css/css.md",
     "css/layout/layout.md",
+    "css/layout/flexbox.md",
+    "css/css.md",
     "css/layout",
     "html/html.md",
     "css/selectors.md",
@@ -196,7 +197,6 @@
     "python/statements",
     "python/packages/regular-packages.md",
     "python/packages/namespace-packages.md",
-    "python/package/regular-package.md",
     "btech/tdm811-disaster-management/resources/disaster-management-cycle.png",
     "uuid/v4-diagram.png",
     "uuid/v1-diagram.svg",
