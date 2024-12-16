@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/css.md",
+                "file": "css/layout/layout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "css"
+              "title": "layout"
             }
           }
         ]
@@ -162,6 +162,8 @@
   "active": "b385753586cea2aa",
   "lastOpenFiles": [
     "css/css.md",
+    "css/layout/layout.md",
+    "css/layout",
     "html/html.md",
     "css/selectors.md",
     "Untitled",
@@ -194,9 +196,7 @@
     "python/statements",
     "python/packages/regular-packages.md",
     "python/packages/namespace-packages.md",
-    "python/packages",
     "python/package/regular-package.md",
-    "python/package/namespace-package.md",
     "btech/tdm811-disaster-management/resources/disaster-management-cycle.png",
     "uuid/v4-diagram.png",
     "uuid/v1-diagram.svg",
