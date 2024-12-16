@@ -1,6 +1,6 @@
 # Positioning
 
-
+Positioning allows you to move an element from where it would otherwise be placed in normal flow over to another location. Positioning isn't a method for creating the main layouts of a page; it's more about managing and fine-tuning the position of specific items on a page.
 
 There are five types of positioning you should know about:
 
