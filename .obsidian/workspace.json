@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "38fc72552ef0a753",
+        "id": "da59008fa81e564b",
         "type": "tabs",
         "children": [
           {
-            "id": "b385753586cea2aa",
+            "id": "473c16ea2856669f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "uuid/uuid.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "uuid"
+              "title": "New tab"
             }
           }
         ]
@@ -159,15 +155,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b385753586cea2aa",
+  "active": "473c16ea2856669f",
   "lastOpenFiles": [
-    "uuid/v3.md",
-    "uuid/v4.md",
-    "uuid/v4-diagram.png",
     "uuid/v5.md",
-    "uuid/uuid.md",
-    "uuid/v1.md",
+    "uuid/v4.md",
     "uuid/v2.md",
+    "uuid/v1.md",
+    "uuid/uuid.md",
+    "uuid/v3.md",
+    "uuid/v4-diagram.png",
     "rust/rust.md",
     "react/components.md",
     "css/positioning.md",
