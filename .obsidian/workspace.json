@@ -11,10 +11,12 @@
             "id": "473c16ea2856669f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "uuid/v1-diagram.svg"
+              },
+              "icon": "lucide-image",
+              "title": "v1-diagram"
             }
           }
         ]
@@ -157,10 +159,11 @@
   },
   "active": "473c16ea2856669f",
   "lastOpenFiles": [
+    "uuid/v1.md",
+    "uuid/v1-diagram.svg",
     "uuid/v5.md",
     "uuid/v4.md",
     "uuid/v2.md",
-    "uuid/v1.md",
     "uuid/uuid.md",
     "uuid/v3.md",
     "uuid/v4-diagram.png",
@@ -194,7 +197,6 @@
     "ramdisk",
     "python/statements",
     "btech/tdm811-disaster-management/resources/disaster-management-cycle.png",
-    "uuid/v1-diagram.svg",
     "btech/tit704/kerberos-process.png",
     "btech/tit704/ipsec-ah-packet.jpg",
     "btech/tit704/ipsec-esp-packet.jpg",
