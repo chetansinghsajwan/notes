@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/positioning.md",
+                "file": "uuid/v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "positioning"
+              "title": "v2"
             }
           }
         ]
@@ -161,8 +161,13 @@
   },
   "active": "b385753586cea2aa",
   "lastOpenFiles": [
-    "css/layout/flexbox.md",
+    "uuid/v1.md",
+    "uuid/v2.md",
+    "uuid/uuid.md",
+    "rust/rust.md",
+    "react/components.md",
     "css/positioning.md",
+    "css/layout/flexbox.md",
     "css/layout/layout.md",
     "css/css.md",
     "css/layout",
@@ -188,15 +193,10 @@
     "semver/v2.md",
     "semver/semver.md",
     "semver",
-    "rust/rust.md",
     "rust",
-    "react/components.md",
     "react",
-    "ramdisk/ramdisk.md",
     "ramdisk",
-    "python/statements/import.md",
     "python/statements",
-    "python/packages/regular-packages.md",
     "btech/tdm811-disaster-management/resources/disaster-management-cycle.png",
     "uuid/v4-diagram.png",
     "uuid/v1-diagram.svg",
