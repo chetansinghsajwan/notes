@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uuid/max.md",
+                "file": "ietf/rfc/9562.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "max"
+              "title": "9562"
             }
           }
         ]
@@ -161,9 +161,9 @@
   },
   "active": "a4ceced96268cb24",
   "lastOpenFiles": [
+    "uuid/v2.md",
     "uuid/nil.md",
     "uuid/max.md",
-    "uuid/v2.md",
     "ietf/rfc/9562.md",
     "uuid/v4.md",
     "uuid/v1.md",
