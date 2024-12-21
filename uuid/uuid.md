@@ -2,17 +2,17 @@
 
 UUID stands for Universally unique identifier. Also known as GUID in Microsoft systems. It is a 128 bit of data that is used to uniquely identify objects in computer systems.
 
-It is standardized by [IETF](/ietf/ietf). Well not actually standardized, as of 2024 December, it is a proposed standard tracked in [RFC 4122](/ietf/rfc/4122) which was proposed in 2005. Then came a new standard [RFC 9562] proposed in 2024 which obsolo
+It is standardized by [IETF](/ietf/ietf). Well not actually standardized, as of 2024 December, it is a proposed standard tracked in [RFC 4122](/ietf/rfc/4122) which was proposed in 2005. Then came a new rfc [RFC 9562] proposed in 2024 which obsoletes RFC 4122. This new RFC is now responsible to standardize UUID.
 
-UUIDs are standardized by the Open Software Foundation (OSF) as part of the [Distributed Computing Environment](https://www.wikiwand.com/en/articles/Distributed_Computing_Environment "Distributed Computing Environment").
-
-Types of UUIDs:
-
+There are 8 versions of UUID:
 - [v1](/uuid/v1)
 - [v2](/uuid/v2)
 - [v3](/uuid/v3)
 - [v4](/uuid/v4)
 - [v5](/uuid/v5)
+- [v6](/uuid/v6)
+- [v7](/uuid/v7)
+- [v8](/uuid/v8)
 
 #### Nil UUID
 
