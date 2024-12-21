@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ietf/9562.md",
+                "file": "ietf/rfc/4122.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9562"
+              "title": "4122"
             }
           }
         ]
@@ -159,11 +159,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ef7a9ec5da6f0b6",
+  "active": "5030267716fb25ce",
   "lastOpenFiles": [
-    "ietf/rfc4122.md",
-    "ietf/9562.md",
     "ietf/ietf.md",
+    "ietf/rfc/4122.md",
+    "ietf/rfc/9562.md",
+    "ietf/rfc",
     "future-ideas.md",
     "ietf",
     "uuid/uuid.md",
@@ -191,14 +192,12 @@
     "software/development/platform.md",
     "software/development/design-patterns",
     "software/open-source-software.md",
-    "software/pkg-config.md",
     "software/development",
     "software",
     "semver",
     "rust",
     "react",
     "ramdisk",
-    "python/statements",
     "btech/tdm811-disaster-management/resources/disaster-management-cycle.png",
     "btech/tit704/kerberos-process.png",
     "btech/tit704/ipsec-ah-packet.jpg",
