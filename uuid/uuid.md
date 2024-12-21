@@ -14,6 +14,14 @@ Types of UUIDs:
 - [v4](/uuid/v4)
 - [v5](/uuid/v5)
 
+#### Nil UUID
+
+The "nil" UUID is the UUID `00000000-0000-0000-0000-000000000000`; that is, all bits set to zero.[](https://www.wikiwand.com/en/articles/Universally_unique_identifier#cite_note-RFC_9562-1)
+
+#### Max UUID
+
+The "max" UUID, sometimes also called the "omni" UUID, is the UUID `FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF`; that is, all bits set to one.[](https://www.wikiwand.com/en/articles/Universally_unique_identifier#cite_note-RFC_9562-1)
+
 ## References
 
 - https://www.sohamkamani.com/uuid-versions-explained
