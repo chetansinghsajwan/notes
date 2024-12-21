@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ietf/rfc4122.md",
+                "file": "ietf/9562.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rfc4122"
+              "title": "9562"
             }
           }
         ]
@@ -159,10 +159,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5030267716fb25ce",
+  "active": "4ef7a9ec5da6f0b6",
   "lastOpenFiles": [
-    "ietf/ietf.md",
     "ietf/rfc4122.md",
+    "ietf/9562.md",
+    "ietf/ietf.md",
     "future-ideas.md",
     "ietf",
     "uuid/uuid.md",
@@ -191,7 +192,6 @@
     "software/development/design-patterns",
     "software/open-source-software.md",
     "software/pkg-config.md",
-    "software/open-source-initiative.md",
     "software/development",
     "software",
     "semver",
