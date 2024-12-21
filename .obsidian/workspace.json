@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d196782ea113908b",
+        "id": "8d9f4b47b57e52ac",
         "type": "tabs",
         "children": [
           {
-            "id": "ee783767be0de315",
+            "id": "a4ceced96268cb24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ietf/rfc/9562.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "9562"
@@ -159,10 +159,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee783767be0de315",
+  "active": "a4ceced96268cb24",
   "lastOpenFiles": [
-    "uuid/v1.md",
+    "uuid/v4.md",
+    "uuid/v2.md",
     "ietf/rfc/9562.md",
+    "uuid/v1.md",
     "uuid/uuid.md",
     "ietf/rfc/4122.md",
     "ietf/ietf.md",
@@ -171,10 +173,8 @@
     "ietf",
     "software/open-source-software-definition.md",
     "oci/oci.md",
-    "uuid/v4.md",
     "uuid/v5.md",
     "uuid/v1-diagram.svg",
-    "uuid/v2.md",
     "uuid/v3.md",
     "uuid/v4-diagram.png",
     "rust/rust.md",
