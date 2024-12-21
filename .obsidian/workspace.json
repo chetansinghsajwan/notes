@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uuid/uuid.md",
+                "file": "networking/ietf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uuid"
+              "title": "ietf"
             }
           }
         ]
@@ -161,8 +161,8 @@
   },
   "active": "5030267716fb25ce",
   "lastOpenFiles": [
-    "software/open-source-software-definition.md",
     "uuid/uuid.md",
+    "software/open-source-software-definition.md",
     "oci/oci.md",
     "uuid/v4.md",
     "uuid/v5.md",
