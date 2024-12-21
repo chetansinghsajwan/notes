@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uuid/nil.md",
+                "file": "uuid/max.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "nil"
+              "title": "max"
             }
           }
         ]
@@ -161,8 +161,9 @@
   },
   "active": "a4ceced96268cb24",
   "lastOpenFiles": [
-    "uuid/v2.md",
     "uuid/nil.md",
+    "uuid/max.md",
+    "uuid/v2.md",
     "ietf/rfc/9562.md",
     "uuid/v4.md",
     "uuid/v1.md",
@@ -192,7 +193,6 @@
     "software/development/principle.md",
     "software/development/platform.md",
     "software/development/design-patterns",
-    "software/open-source-software.md",
     "software/development",
     "software",
     "semver",
