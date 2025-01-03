@@ -20,6 +20,12 @@ Between the Web browser and the server, numerous computers and machines relay th
 - authentication (to control access to different resources)
 - logging (allowing the storage of historical information)
 
+
+### [HTTP and connections](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_and_connections)
+
+A connection is controlled at the transport layer, and therefore fundamentally out of scope for HTTP. HTTP doesn't require the underlying transport protocol to be connection-based; it only requires it to be _reliable_, or not lose messages (at minimum, presenting an error in such cases). Among the two most common transport protocols on the Internet, TCP is reliable and UDP isn't. HTTP therefore relies on the TCP standard, which is connection-based.
+
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/HTTP
