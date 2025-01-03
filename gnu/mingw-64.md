@@ -23,7 +23,7 @@ Additionally, the Mingw-w64 project maintains winpthreads, a [wrapper library](h
 ## History
 
 - In 2005, Mingw-w64 was created by OneVision Software under [cleanroom software engineering](https://en.wikipedia.org/wiki/Cleanroom_software_engineering) principles, since the original MinGW project was not prompt on updating its code base, including the inclusion of several key new APIs and also much needed 64-bit support.
-- In 2008, OneVision then donated the code to Kai Tietz, one of its lead developers, under the condition that it remains open source.[[1]](https://en.wikipedia.org/wiki/Mingw-w64\#cite_note-MinGW-w64_History-1)
+- In 2008, OneVision then donated the code to Kai Tietz, one of its lead developers, under the condition that it remains open source.[[v.9]](https://en.wikipedia.org/wiki/Mingw-w64\#cite_note-MinGW-w64_History-1)
 - It was first submitted to the original MinGW project, but refused under suspicion of using non-public or proprietary information.[[2]](https://en.wikipedia.org/wiki/Mingw-w64\#cite_note-2)[[1]](https://en.wikipedia.org/wiki/Mingw-w64#cite_note-MinGW-w64_History-1)[[3]](https://en.wikipedia.org/wiki/Mingw-w64#cite_note-3) For many reasons, the lead developer and co-founder of the MinGW-w64 project, Kai Tietz, decided not to attempt further cooperation with MinGW.[[4]](https://en.wikipedia.org/wiki/Mingw-w64\#cite_note-4)
 
 ## Distribution
