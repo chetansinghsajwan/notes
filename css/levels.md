@@ -20,9 +20,6 @@ CSS Level 3
 
 From this level on modules are levelled independently: for example Selectors Level 4 may well be completed before CSS Line Module Level 3. Modules with no [CSS Level 2](https://www.w3.org/TR/css-2023/#css-level-2) equivalent start at Level 1; modules that update features that existed in CSS Level 2 start at Level 3.
 
-CSS Level 4[](https://www.w3.org/TR/css-2023/#css-level-4) and beyond
-
-There is no CSS Level 4. Independent modules can reach level 4 or beyond, but CSS the language no longer has levels. ("CSS Level 3" as a term is used only to differentiate it from the previous monolithic versions.)
 
 ## References
 
