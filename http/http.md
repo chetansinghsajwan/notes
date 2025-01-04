@@ -30,4 +30,5 @@ A connection is controlled at the transport layer, and therefore fundamentally o
 
 ## References
 
+- https://httpwg.org/specs
 - https://developer.mozilla.org/en-US/docs/Web/HTTP
