@@ -2,4 +2,4 @@
 
 ## References
 
-- https://httpwg.org/specs/rfc9110.html#safe.methods
+- https://httpwg.org/specs/rfc9110.html#cacheable.methods
