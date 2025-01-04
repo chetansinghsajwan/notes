@@ -17,3 +17,4 @@ When the `POST` request is sent following a [`fetch()`](https://developer.mozill
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
+- https://httpwg.org/specs/rfc9110.html
