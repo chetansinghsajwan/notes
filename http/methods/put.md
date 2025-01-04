@@ -2,10 +2,10 @@
 
 This method is used to create a new resource or update the target resource.
 
-- Request has body.
-- Request is safe.
-- Request is impudent.
-- Request is cacheable.
+- Request has [body](/http/body).
+- Request is [safe](/http/requests/safe).
+- Request is [impudent](/http/requests/impudent).
+- Request is [cacheable](/http/req.
 
 ## References
 
