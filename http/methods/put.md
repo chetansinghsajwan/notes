@@ -1,4 +1,4 @@
-# HTTP Trace Method
+# HTTP Put Method
 
 ## References
 
