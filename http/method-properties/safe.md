@@ -1,6 +1,6 @@
 # HTTP Method Safe Property
 
-A request method is safe it is a read only operation. For example, [GET](/http/methods/get) method.
+A request method is safe it its defined semantics are read only operation. For example, [GET](/http/methods/get) method.
 
 ## References
 
