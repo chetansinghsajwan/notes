@@ -1,7 +1,9 @@
 # HTTP Put Method
 
-- Request supports body.
-- Request 
+- Request has body.
+- Request is safe.
+- Request is impudent.
+- Request is safe.
 
 ## References
 
