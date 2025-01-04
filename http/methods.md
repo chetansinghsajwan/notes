@@ -10,7 +10,7 @@ Following are the 9 methods of HTTP:
 - [options](/http/methods/options)
 - [patch](/http/methods/patch)
 - [head](/http/methods/head)
-- [connect](/http/methods/connect)
+- [trace](/http/methods/trace)
 - [connect](/http/methods/connect)
 
 ## References
