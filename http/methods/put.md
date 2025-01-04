@@ -1,9 +1,11 @@
 # HTTP Put Method
 
+This method is used to create a new resource or update the target resource.
+
 - Request has body.
 - Request is safe.
 - Request is impudent.
-- Request is safe.
+- Request is cacheable.
 
 ## References
 
