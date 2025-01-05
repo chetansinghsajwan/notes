@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # Semantic Versioning
 
 It is a versioning scheme developed by [Tom Preston-Werner](people/tom-preston-verner) in 2011.
