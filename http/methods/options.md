@@ -9,4 +9,4 @@ This method is used to request information abut communication options available 
 
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS
+- https://httpwg.org/specs/rfc9110.html#OPTIONS
