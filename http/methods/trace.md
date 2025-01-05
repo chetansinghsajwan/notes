@@ -2,7 +2,7 @@
 
 - Request has [body](/http/body).
 - Request is [safe](/http/requests/safe).
-- Request is [impudent](/http/requests/impudent).
+- Request is [idempotent](/http/requests/idempotent).
 - Request is not [cacheable](/http/requests/cacheable).
 
 This method is used to request the final recipent to return the request recieved in the form of response. This allows client to see what is being received by the other end of the request chain.

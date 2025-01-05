@@ -4,7 +4,7 @@ This method is used to create a new resource or update the target resource if al
 
 - Request has [body](/http/body).
 - Request is [safe](/http/requests/safe).
-- Request is [impudent](/http/requests/impudent).
+- Request is [idempotent](/http/requests/idempotent).
 - Request is [cacheable](/http/requests/cacheable).
 
 ## References
