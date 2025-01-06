@@ -7,9 +7,9 @@ This method is used to send data to the server. The data is stored in the reques
 - Request is not [idempotent](/http/requests/idempotent).
 - Request is sometimes [cacheable](/http/requests/cacheable) (see below).
 
-almost all of the status codes defined by this specification could be received in a response to POST (the exceptions being [206 (Partial Content)](https://httpwg.org/specs/rfc9110.html#status.206), [304 (Not Modified)](https://httpwg.org/specs/rfc9110.html#status.304), and [416 (Range Not Satisfiable)](https://httpwg.org/specs/rfc9110.html#status.416)).
+Almost all of the status codes defined in HTTP specification could be received in a response to POST (the exceptions being [206 (Partial Content)](https://httpwg.org/specs/rfc9110.html#status.206), [304 (Not Modified)](https://httpwg.org/specs/rfc9110.html#status.304), and [416 (Range Not Satisfiable)](https://httpwg.org/specs/rfc9110.html#status.416)).
 
-If one or more resources has been created on the origin server as a result of successfully processing a POST request, the origin server _SHOULD_ send a [201 (Created)](https://httpwg.org/specs/rfc9110.html#status.201) response containing a [Location](https://httpwg.org/specs/rfc9110.html#field.location) header field that provides an identifier for the primary resource created ([Section 10.2.2](https://httpwg.org/specs/rfc9110.html#field.location "Location")) and a representation that describes the status of the request while referring to the new resource(s).
+If one or more resources has been created on the origin server as a result of successfully processing a POST request, the origin server should send a [201 (Created)](/http/status/201) response containing a [Location](/http/headers/location) header field that provides an identifier for the primary resource created and a representation of the new resources in the body.
 
 If the result of processing a POST would be equivalent to a representation of an existing resource, an origin server _MAY_ redirect the user agent to that resource by sending a [303 (See Other)](/http/status/303) response with the existing resource's identifier in the [Location](/http/fields/location) field.
 
