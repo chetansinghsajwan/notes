@@ -13,4 +13,4 @@ An origin server _MUST NOT_ send a validator field ([Section 8.8](https://httpwg
 
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT
+- https://httpwg.org/specs/rfc9110.html#PUT
