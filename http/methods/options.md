@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # HTTP Options Method
 
 This method is used to request information abut communication options available for the target resource at either the origin server or an intervening intermediary.
@@ -17,7 +21,7 @@ The response content, if any, might also describe the communication options in a
 
 A client maysend a [Max-Forwards](/http/headers/max-forwards) header field in an OPTIONS request to target a specific recipient in the request chain. A proxy must not generate a Max-Forwards header field while forwarding a request unless that request was received with a Max-Forwards field.
 
-A client that generates an this request containing content must send a valid [Content-Type](https://httpwg.org/specs/rfc9110.html#field.content-type) header field describing the representation media type. Note that this specification does not define any use for such content.
+A client that generates an this request containing content must send a valid [Content-Type](/http/headers/content-type) header field describing the representation media type.
 
 ## References
 
