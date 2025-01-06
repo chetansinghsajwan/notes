@@ -1,6 +1,6 @@
 # HTTP Put Method
 
-This method is used to create a new resource or update the target resource if already exists.
+This method request the server to create a new resource or update the target resource if already exists.
 
 - Request has [body](/http/body).
 - Request is [safe](/http/requests/safe).
