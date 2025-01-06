@@ -7,6 +7,8 @@ This method is used to send data to the server. The data is stored in the reques
 - Request is not [idempotent](/http/requests/idempotent).
 - Request is [cacheable](/http/requests/cacheable) only if freshness information is included.
 
+almost all of the status codes defined by this specification could be received in a response to POST (the exceptions being [206 (Partial Content)](https://httpwg.org/specs/rfc9110.html#status.206), [304 (Not Modified)](https://httpwg.org/specs/rfc9110.html#status.304), and [416 (Range Not Satisfiable)](https://httpwg.org/specs/rfc9110.html#status.416)).
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
