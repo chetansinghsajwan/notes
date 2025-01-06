@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # HTTP Post Method
 
 This method is used to send data to the server. The data is stored in the requests body and the type of data is represented by [`Content-Type`](/http/headers/content-type) header.
@@ -7,7 +11,7 @@ This method is used to send data to the server. The data is stored in the reques
 - Request is not [idempotent](/http/requests/idempotent).
 - Request is sometimes [cacheable](/http/requests/cacheable) (see below).
 
-Almost all of the status codes defined in HTTP specification could be received in a response to POST (the exceptions being [206 (Partial Content)](https://httpwg.org/specs/rfc9110.html#status.206), [304 (Not Modified)](https://httpwg.org/specs/rfc9110.html#status.304), and [416 (Range Not Satisfiable)](https://httpwg.org/specs/rfc9110.html#status.416)).
+Almost all of the status codes defined in HTTP specification can be used in response to POST, except [206 (Partial Content)](/http/status/206), [304 (Not Modified)](/http/status/304), and [416 (Range Not Satisfiable)](/http/status/416).
 
 If one or more resources has been created on the origin server as a result of successfully processing a POST request, the origin server should send a [201 (Created)](/http/status/201) response containing a [Location](/http/headers/location) header field that provides an identifier for the primary resource created and a representation of the new resources in the body.
 
@@ -17,5 +21,4 @@ Responses to POST requests are only cacheable when they include explicit freshne
 
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
-- https://httpwg.org/specs/rfc9110.html
+- https://httpwg.org/specs/rfc9110.html#POST
