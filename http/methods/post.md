@@ -5,7 +5,7 @@ This method is used to send data to the server. The data is stored in the reques
 - Request has [body](/http/body).
 - Request is not [safe](/http/requests/safe).
 - Request is not [idempotent](/http/requests/idempotent).
-- Request is [cacheable](/http/requests/cacheable) only if freshness information is included.
+- Request is [cacheable](/http/requests/cacheable) only if freshness information is included in response.
 
 almost all of the status codes defined by this specification could be received in a response to POST (the exceptions being [206 (Partial Content)](https://httpwg.org/specs/rfc9110.html#status.206), [304 (Not Modified)](https://httpwg.org/specs/rfc9110.html#status.304), and [416 (Range Not Satisfiable)](https://httpwg.org/specs/rfc9110.html#status.416)).
 
