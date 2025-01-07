@@ -7,7 +7,9 @@ The **`CONNECT`** HTTP method requests that a [proxy](https://developer.mozilla.
 - Request is not [idempotent](/http/requests/idempotent).
 - Request is not [cacheable](/http/requests/cacheable).
 
-A server must reject the request that targets an empty or invalid port number, typically by responding with a 400 (Bad Request) status code.
+A server must reject the request that targets an empty or invalid port number, typically by responding with a [400 (Bad Request)](/http/status/400) status code.
+
+The recipient can establish a tunnel either by directly connecting to the server identified by the request target or, if configured to use another proxy, by forwarding the request to the next inbound proxy.
 
 ## References
 
