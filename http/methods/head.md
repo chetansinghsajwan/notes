@@ -15,6 +15,8 @@ The server should send the same header fields in response to a HEAD request as i
 
 This method has no defined semantics for the body, so it should be empty. Some implementations might reject the request because of its potential as a [request smuggling attack](/http/security/request-smuggling-attack).
 
+The response to a GET request can be used to satisfy subsequent HEAD requests. A HEAD response might also affect previously cached responses to GET.
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#HEAD
