@@ -26,3 +26,4 @@ A client that generates an this request containing content must send a valid [
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#OPTIONS
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS

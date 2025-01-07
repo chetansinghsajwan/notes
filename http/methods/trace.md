@@ -17,4 +17,5 @@ The server should respond with status code [200 OK](/http/status-codes/200-ok) a
 
 ## References
 
+- https://httpwg.org/specs/rfc9110.html#TRACE
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/TRACE

@@ -22,3 +22,4 @@ Responses to POST requests are only cacheable when they include explicit freshne
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#POST
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST

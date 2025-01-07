@@ -18,3 +18,4 @@ An origin server must send a [validator field](/http/fields/validator-fields) in
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#PUT
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT
