@@ -1,5 +1,7 @@
 # HTTP Delete Method
 
+
+
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE
+- https://httpwg.org/specs/rfc9110.html#DELETE
