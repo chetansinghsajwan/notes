@@ -11,6 +11,10 @@ A server must reject the request that targets an empty or invalid port number, t
 
 The recipient can establish a tunnel either by directly connecting to the server identified by the request target or, if configured to use another proxy, by forwarding the request to the next inbound proxy.
 
+Any [2xx (Successful)](/http/status/2xx) response indicates that the sender (and all inbound proxies) will switch to tunnel mode immediately after the response header section; data received after that header section is from the server identified by the request target. Any response other than a successful response indicates that the tunnel has not yet been formed.
+
+A tunnel is closed when a tunnel intermediary detects that either side has closed its connection: the intermediary _MUST_ attempt to send any outstanding data that came from the closed side to the other side, close both connections, and then discard any remaining data left undelivered.
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#CONNECT
