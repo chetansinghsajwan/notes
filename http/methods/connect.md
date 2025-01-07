@@ -2,6 +2,13 @@
 
 The **`CONNECT`** HTTP method requests that a [proxy](https://developer.mozilla.org/en-US/docs/Glossary/Proxy_server) establish a HTTP tunnel to a destination server, and if successful, blindly forward data in both directions until the tunnel is closed.
 
+- Request does not have [body](/http/body).
+- Request is not [safe](/http/requests/safe).
+- Request is not [idempotent](/http/requests/idempotent).
+- Request is not [cacheable](/http/requests/cacheable).
+
+A server must reject the request that targets an empty or invalid port number, typically by responding with a 400 (Bad Request) status code.
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#CONNECT
