@@ -12,7 +12,7 @@ The server should respond with status code [200 OK](/http/status-codes/200-ok) a
 
 - Request must not have [body](/http/body).
 - Request is [safe](/http/requests/safe).
-- Request is [idempotent](/http/requests/idempotent).
+- Request is [idempotent](http/request/idempotent.md).
 - Request is not [cacheable](/http/requests/cacheable).
 
 ## References

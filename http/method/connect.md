@@ -8,7 +8,7 @@ The **`CONNECT`** HTTP method requests that the recipient establish a tunnel to 
 
 - Request does not have [body](/http/body).
 - Request is not [safe](/http/requests/safe).
-- Request is not [idempotent](/http/requests/idempotent).
+- Request is not [idempotent](http/request/idempotent.md).
 - Request is not [cacheable](/http/requests/cacheable).
 
 This method requires the target to be the address of the host in the form `host:port`. There is no default port. the client must send the port number. For example,

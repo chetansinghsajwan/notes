@@ -8,7 +8,7 @@ This method request the server to create a new resource or update the target res
 
 - Request has [body](/http/body).
 - Request is not [safe](/http/requests/safe).
-- Request is [idempotent](/http/requests/idempotent).
+- Request is [idempotent](http/request/idempotent.md).
 - Request is not [cacheable](/http/requests/cacheable).
 
 If the target resource does not have a current representation and the PUT successfully creates one, then the origin server must inform the user agent by sending a [201 (Created)](http/status/201) response. If the target resource does have a current representation and that representation is successfully modified according to the content in the request, then the origin server must send either a [200 (OK)](http/status/200) or a [204 (No Content)](http/status/204) response to indicate successful completion of the request.
