@@ -7,9 +7,9 @@ status: completed
 This method is used to request information abut communication options available for the target resource at either the origin server or an intervening intermediary.
 
 - Request has [body](/http/body).
-- Request is [safe](/httpmethod-property/safe).
+- Request is [safe](/http/method-property/safe).
 - Request is [idempotent](http/method-property/idempotent).
-- Request is not [cacheable](/http/requests/cacheable).
+- Request is not [cacheable](/http/method-property/cacheable).
 
 This method allows a client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action.
 

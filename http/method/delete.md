@@ -7,9 +7,9 @@ status: completed
 This method is used to request the server to delete a resource.
 
 - Request does not have [body](/http/body).
-- Request is not [safe](/httpmethod-property/safe).
+- Request is not [safe](/http/method-property/safe).
 - Request is [idempotent](http/method-property/idempotent).
-- Request is not [cacheable](/http/requests/cacheable).
+- Request is not [cacheable](/http/method-property/cacheable).
 
 This method has no defined semantics for the body, so it should be empty. Some implementations might reject the request because of its potential as a [request smuggling attack](/http/security/request-smuggling-attack).
 
