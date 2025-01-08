@@ -7,9 +7,9 @@ status: completed
 This method is used to send data to the server. The data is stored in the requests body and the type of data is represented by [`Content-Type`](/http/headers/content-type) header.
 
 - Request has [body](/http/body).
-- Request is not [safe](/httpmethod-property/safe).
+- Request is not [safe](/http/method-property/safe).
 - Request is not [idempotent](http/method-property/idempotent).
-- Request is sometimes [cacheable](/http/requests/cacheable) (see below).
+- Request is sometimes [cacheable](/http/method-property/cacheable) (see below).
 
 Almost all of the status codes defined in HTTP specification can be used in response to POST, except [206 (Partial Content)](/http/status/206), [304 (Not Modified)](/http/status/304), and [416 (Range Not Satisfiable)](/http/status/416).
 

@@ -11,9 +11,9 @@ The final recipient is either the origin server or the first server to receive a
 The server should respond with status code [200 OK](/http/status-codes/200-ok) and with [Content-Type](/http/headers/content-type) of `message/http`. The server should exclude any fields that are likely to contain sensitive data when responding.
 
 - Request must not have [body](/http/body).
-- Request is [safe](/httpmethod-property/safe).
+- Request is [safe](/http/method-property/safe).
 - Request is [idempotent](http/method-property/idempotent).
-- Request is not [cacheable](/http/requests/cacheable).
+- Request is not [cacheable](/http/method-property/cacheable).
 
 ## References
 
