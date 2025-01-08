@@ -18,6 +18,9 @@ The following 8 methods are standardized by [RFC 9110](/ietf/rfc/9110):
 - [CONNECT](/http/methods/connect)
 
 All general-purpose servers must support the methods GET and HEAD. All other methods are optional.
+
+An origin server that receives a request method that is unrecognized or not implemented _SHOULD_ respond with the [501 (Not Implemented)](/http/status/501) status code. An origin server that receives a request method that is recognized and implemented, but not allowed for the target resource, _SHOULD_ respond with the [405 (Method Not Allowed)](/http/status/405) status code.
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#method.overview
