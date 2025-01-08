@@ -8,14 +8,14 @@ HTTP Methods are used to define the purpose of the request. For example, `GET` m
 
 The following 8 methods are standardized by [RFC 9110](/ietf/rfc/9110):
 
-- [GET](/http/methods/get)
-- [POST](/http/methods/post)
-- [PUT](/http/methods/put)
-- [DELETE](/http/methods/delete)
-- [OPTIONS](/http/methods/options)
-- [HEAD](/http/methods/head)
-- [TRACE](/http/methods/trace)
-- [CONNECT](/http/methods/connect)
+- [GET](get.md)
+- [POST](post.md)
+- [PUT](put.md)
+- [DELETE](http/method/delete.md)
+- [OPTIONS](options.md)
+- [HEAD](head.md)
+- [TRACE](trace.md)
+- [CONNECT](connect.md)
 
 All general-purpose servers must support the methods GET and HEAD. All other methods are optional.
 
