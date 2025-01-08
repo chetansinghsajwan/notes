@@ -1,6 +1,6 @@
 # HTTP Connect Method
 
-The **`CONNECT`** HTTP method requests that a [proxy](https://developer.mozilla.org/en-US/docs/Glossary/Proxy_server) establish a HTTP tunnel to a destination server, and if successful, blindly forward data in both directions until the tunnel is closed.
+The **`CONNECT`** HTTP method requests that the recipient establish a tunnel to the destination server, and if successful, blindly forward data in both directions until the tunnel is closed.
 
 - Request does not have [body](/http/body).
 - Request is not [safe](/http/requests/safe).
@@ -24,7 +24,7 @@ A tunnel is closed when a tunnel intermediary detects that either side has close
 
 A server _MUST NOT_ send any [Transfer-Encoding](https://httpwg.org/specs/rfc9112.html#field.transfer-encoding) or [Content-Length](https://httpwg.org/specs/rfc9110.html#field.content-length) header fields in a [2xx (Successful)](https://httpwg.org/specs/rfc9110.html#status.2xx) response to CONNECT. A client _MUST_ ignore any Content-Length or Transfer-Encoding header fields received in a successful response to CONNECT.
 
-A CONNECT request message does not have content. The interpretation of data sent after the header section of the CONNECT request message is specific to the version of HTTP in use.
+A CONNECT request message does not have body. The interpretation of data sent after the header section of the CONNECT request message is specific to the version of HTTP in use.
 
 ## References
 
