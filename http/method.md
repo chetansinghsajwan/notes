@@ -6,7 +6,7 @@ status: completed
 
 HTTP Methods are used to define the purpose of the request. For example, `GET` method is used when the client wants to get data from the server, while `POST` method is used when client wants to post data to server.
 
-Following are the 8 methods of HTTP:
+The following 8 methods are standardized by [RFC 9110](/ietf/rfc/9110):
 
 - [GET](/http/methods/get)
 - [POST](/http/methods/post)
@@ -17,6 +17,7 @@ Following are the 8 methods of HTTP:
 - [TRACE](/http/methods/trace)
 - [CONNECT](/http/methods/connect)
 
+All general-purpose servers must support the methods GET and HEAD. All other methods are optional.
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#method.overview
