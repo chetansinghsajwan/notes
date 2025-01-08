@@ -7,7 +7,7 @@ The **`CONNECT`** HTTP method requests that the recipient establish a tunnel to 
 - Request is not [idempotent](/http/requests/idempotent).
 - Request is not [cacheable](/http/requests/cacheable).
 
-CONNECT uses a special form of request target, unique to this method, consisting of only the host and port number of the tunnel destination, separated by a colon. There is no default port; a client _MUST_ send the port number even if the CONNECT request is based on a URI reference that contains an authority component with an elided port ([Section 4.1](https://httpwg.org/specs/rfc9110.html#uri.references "URI References")). For example,
+This method requires the target to be the address of the host in the form `host:port`. There is no default port. the client must send the port number. For example,
 
 ```
 CONNECT server.example.com:80 HTTP/1.1
