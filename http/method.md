@@ -21,6 +21,8 @@ All general-purpose servers must support the methods GET and HEAD. All other met
 
 An origin server that receives a request method that is unrecognized or not implemented _SHOULD_ respond with the [501 (Not Implemented)](/http/status/501) status code. An origin server that receives a request method that is recognized and implemented, but not allowed for the target resource, _SHOULD_ respond with the [405 (Method Not Allowed)](/http/status/405) status code.
 
+Additional methods other than the one specified in the specification are registered in [HTTP Method Registry](/http/method-registry).
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#method.overview
