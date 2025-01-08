@@ -9,9 +9,8 @@ The **`CONNECT`** HTTP method requests that the recipient establish a tunnel to 
 
 This method requires the target to be the address of the host in the form `host:port`. There is no default port. the client must send the port number. For example,
 
-```
+```http
 CONNECT server.example.com:80 HTTP/1.1
-Host: server.example.com
 ```
 
 A server must reject the request that targets an empty or invalid port number, typically by responding with a [400 (Bad Request)](/http/status/400) status code.
@@ -22,7 +21,7 @@ Any [2xx (Successful)](/http/status/2xx) response indicates that the sender (and
 
 A tunnel is closed when a tunnel intermediary detects that either side has closed its connection: the intermediary _MUST_ attempt to send any outstanding data that came from the closed side to the other side, close both connections, and then discard any remaining data left undelivered.
 
-A server _MUST NOT_ send any [Transfer-Encoding](https://httpwg.org/specs/rfc9112.html#field.transfer-encoding) or [Content-Length](https://httpwg.org/specs/rfc9110.html#field.content-length) header fields in a [2xx (Successful)](https://httpwg.org/specs/rfc9110.html#status.2xx) response to CONNECT. A client _MUST_ ignore any Content-Length or Transfer-Encoding header fields received in a successful response to CONNECT.
+A server must not send any [Transfer-Encoding](/http/headers/transfer-encoding) or [Content-Length](/http/headers/content-length) header fields in a [2xx (Successful)](/http/status/2xx) response to CONNECT. The client must also ignore those fields received in a successful response to CONNECT.
 
 A CONNECT request message does not have body. The interpretation of data sent after the header section of the CONNECT request message is specific to the version of HTTP in use.
 
