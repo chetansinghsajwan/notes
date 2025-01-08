@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # HTTP Connect Method
 
 The **`CONNECT`** HTTP method requests that the recipient establish a tunnel to the destination server, and if successful, blindly forward data in both directions until the tunnel is closed.
