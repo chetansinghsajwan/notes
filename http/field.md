@@ -42,7 +42,7 @@ contains two field lines, both with the field name `Example-Field`. The first fi
 
 HTTP does not place a predefined limit on the length of each field line, field value, or on the length of a header or trailer section as a whole
 
-A server that receives a request header field line, field value, or set of fields larger than it wishes to process _MUST_ respond with an appropriate [4xx (Client Error)](https://httpwg.org/specs/rfc9110.html#status.4xx) status code. Ignoring such header fields would increase the server's vulnerability to request smuggling attacks ([Section 11.2](https://httpwg.org/specs/rfc9112.html#request.smuggling "Request Smuggling") of [[HTTP/1.1]](https://httpwg.org/specs/rfc9110.html#HTTP11)).
+A server that receives a request header field line, field value, or set of fields larger than it wishes to process _MUST_ respond with an appropriate [4xx (Client Error)](https://httpwg.org/specs/rfc9110.html#status.4xx) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
 
 ## References
 
