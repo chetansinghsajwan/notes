@@ -13,20 +13,20 @@ target_compile_options(<target> [BEFORE]
 ## Parameters
 
 > ###### `<target>`
-> 
+>
 > The target to set options for.
-> 
-> The target cannot be an [alias-target](cmake-language/alias-target).
+>
+> The target cannot be an [alias-target](cmake/language/alias-target).
 
 > ###### `[BEFORE]` (optional)
-> 
+>
 > If `BEFORE` is specified, the content will be prepended to the property instead of being appended.
 
 > ###### `<INTERFACE|PUBLIC|PRIVATE> <items...>` (required|optional)
-> 
-> `PRIVATE` and `PUBLIC` items will populate the [`COMPILE_OPTIONS`](cmake-language/variables/compile_options) property of `<target>`.
-> 
-> `PUBLIC` and `INTERFACE` items will populate the [`INTERFACE_COMPILE_OPTIONS`](cmake-language/variables/interface_compile_options) property of `<target>`.
+>
+> `PRIVATE` and `PUBLIC` items will populate the [`COMPILE_OPTIONS`](cmake/language/variables/compile_options) property of `<target>`.
+>
+> `PUBLIC` and `INTERFACE` items will populate the [`INTERFACE_COMPILE_OPTIONS`](cmake/language/variables/interface_compile_options) property of `<target>`.
 
 ## Option Deduplication
 
