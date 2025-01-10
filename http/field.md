@@ -30,7 +30,7 @@ Example-Field: Foo, Bar
 Example-Field: Baz
 ```
 
-contains two field lines, both with the field name `Example-Field`". The first field line has a field line value of "Foo, Bar", while the second field line value is "Baz". The field value for "Example-Field" is the list "Foo, Bar, Baz".
+contains two field lines, both with the field name `Example-Field`. The first field line has a field line value of `Foo, Bar`, while the second field line value is `Baz`. So the combined field value for `Example-Field` is the list `Foo, Bar, Baz`.
 
 ---
 
