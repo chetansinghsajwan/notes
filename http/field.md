@@ -9,11 +9,11 @@ A http field is a key value pair, which adds semantic meaning to the message.
 - Field names are case insensitive.
 - Field names are ought to be registered [HTTP Field Name Registry](/http/field-registry).
 
-According to the specification, new fields can be introduced without changing the protocol version if their defined semantics allow them to be safely ignored by recipients that do not recognize them.
+New fields can be introduced without changing the protocol version if their defined semantics allow them to be safely ignored by recipients that do not recognize them.
 
-A proxy must forward unrecognized header fields unless the field name is listed in the [Connection](https://httpwg.org/specs/rfc9110.html#field.connection) header field ([Section 7.6.1](https://httpwg.org/specs/rfc9110.html#field.connection "Connection")) or the proxy is specifically configured to block, or otherwise transform, such fields. Other recipients _SHOULD_ ignore unrecognized header and trailer fields. Adhering to these requirements allows HTTP's functionality to be extended without updating or removing deployed intermediaries.
+A proxy must forward unrecognized header fields unless the field name is listed in the [Connection](/http/field/connection) header field or the proxy is specifically configured to block, or otherwise transform, such fields. Other recipients should ignore unrecognized header and trailer fields. Adhering to these requirements allows HTTP's functionality to be extended without updating or removing deployed intermediaries.
 
-A sender must not generate multiple field lines with the same name in a message, unless that field's definition allows multiple field line values to be recombined.
+A sender must not generate multiple field lines with the same field name in a message, unless that field's definition allows multiple field line values to be recombined.
 
 **Note:** In practice, the [Set-Cookie](/http/field/set-cookie) header field often appears in a response message across multiple field lines and does not use the list syntax, violating the above requirements on multiple field lines with the same field name. Since it cannot be combined into a single field value, recipients ought to handle "Set-Cookie" as a special case while processing fields.
 
@@ -23,18 +23,9 @@ A sender must not generate multiple field lines with the same name in a message,
 A field is a pair of field name and field value.
 
 ---
-**FIeld Name**
-
-It is just a name that denotes the field.
-
----
-**FIeld Value**
-
-It is the value of the field.
-
----
-**FIeld Line**
-
+**FIeld Name**: It is just a name that denotes the field.
+**FIeld Value**: It is the value of the field.
+**FIeld Line**: 
 It is the line containing the field.
 
 ---
