@@ -11,7 +11,7 @@ A proxy must forward unrecognized header fields unless the field name is listed 
 
 A sender must not generate multiple field lines with the same name in a message, unless that field's definition allows multiple field line values to be recombined.
 
-**Note:** In practice, the [Set-Cookie]" header field often appears in a response message across multiple field lines and does not use the list syntax, violating the above requirements on multiple field lines with the same field name. Since it cannot be combined into a single field value, recipients ought to handle "Set-Cookie" as a special case while processing fields. (See Appendix A.2.3 of [[Kri2001]](https://httpwg.org/specs/rfc9110.html#Kri2001) for details.)
+**Note:** In practice, the [Set-Cookie](/http/field/set-cookie) header field often appears in a response message across multiple field lines and does not use the list syntax, violating the above requirements on multiple field lines with the same field name. Since it cannot be combined into a single field value, recipients ought to handle "Set-Cookie" as a special case while processing fields.
 
 ---
 **FIeld Line**
