@@ -8,7 +8,7 @@ This method is used to request the final recipent to return the request recieved
 
 The final recipient is either the origin server or the first server to receive a [Max-Forwards](/http/field/max-forwards) value of zero in the request.
 
-The server should respond with status code [200 OK](/http/status-codes/200-ok) and with [Content-Type](/http/fields/content-type) of `message/http`. The server should exclude any fields that are likely to contain sensitive data when responding.
+The server should respond with status code [200 OK](/http/status-codes/200-ok) and with [Content-Type](/http/field/content-type) of `message/http`. The server should exclude any fields that are likely to contain sensitive data when responding.
 
 - Request must not have [body](/http/body).
 - Request is [safe](/http/method-property/safe).
