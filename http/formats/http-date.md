@@ -14,7 +14,7 @@ IMF-fixdate format is defined [here](/http/formats/imf-fixdate).
 RFC 850 uses this syntax, "Sunday, 06-Nov-94 08:49:37 GMT".
 ANSI C's asctime() uses this syntax, "Sun Nov  6 08:49:37 1994"
 
-Since 1995, HTTP has 
+Since 1995, HTTP has set IMF-fixdate as the preferred format for datetime. However, HTTP continues to support the other two formats to support legacy implementations.
 
 A recipient that parses a timestamp value in an HTTP field must accept all three HTTP-date formats.
 
