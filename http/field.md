@@ -11,6 +11,22 @@ A proxy _MUST_ forward unrecognized header fields unless the field name is liste
 
 **FIeld Line**: A line containing a field-name and value pair.
 
+---
+**Combined Field Value**
+
+When a field name is only present once in a section, the combined field value for that field consists of the corresponding field line value. When a field name is repeated within a section, its combined field value consists of the list of corresponding field line values within that section, concatenated in order, with each field line value separated by a comma.
+
+For example, this section:
+
+```http
+Example-Field: Foo, Bar
+Example-Field: Baz
+```
+
+contains two field lines, both with the field name "Example-Field". The first field line has a field line value of "Foo, Bar", while the second field line value is "Baz". The field value for "Example-Field" is the list "Foo, Bar, Baz".
+
+---
+
 
 ## References
 
