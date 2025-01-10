@@ -6,7 +6,6 @@
 - the linux foundation: 3
 - linux command.org: 5
 - learn linux tv youtube: 4
-- 
 
 ## References
 
