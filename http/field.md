@@ -17,9 +17,11 @@ A line containing a field-name and value pair.
 ---
 **Combined Field Value**
 
-It is the value for a field by combining all the occurrences of that field.
+It is the value for a field by combining all the occurrences of that field within a section.
 
-When a field name is only present once in a section, the combined field value for that field consists of the corresponding field line value. When a field name is repeated within a section, its combined field value consists of the list of corresponding field line values within that section, concatenated in order, with each field line value separated by a comma.
+If a field name is only present once in a section, the combined field value for that field is that value of that field itself.
+
+If a field name is repeated within a section, the combined field value consists of the list of corresponding values within that section, concatenated in order, with each field line value separated by a comma and optional space.
 
 For example, this section:
 
@@ -28,7 +30,7 @@ Example-Field: Foo, Bar
 Example-Field: Baz
 ```
 
-contains two field lines, both with the field name "Example-Field". The first field line has a field line value of "Foo, Bar", while the second field line value is "Baz". The field value for "Example-Field" is the list "Foo, Bar, Baz".
+contains two field lines, both with the field name `Example-Field`". The first field line has a field line value of "Foo, Bar", while the second field line value is "Baz". The field value for "Example-Field" is the list "Foo, Bar, Baz".
 
 ---
 
