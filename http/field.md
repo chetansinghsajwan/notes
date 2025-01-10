@@ -1,8 +1,10 @@
 ---
 statu: pending
 ---
-todo: add datetime format
-todo: add field-name info
+TODO
+
+- Add datetime format
+- Add field-name info
 
 # HTTP Field
 
