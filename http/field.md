@@ -9,6 +9,10 @@ According to the specification, new fields can be introduced without changing th
 
 A proxy must forward unrecognized header fields unless the field name is listed in the [Connection](https://httpwg.org/specs/rfc9110.html#field.connection) header field ([Section 7.6.1](https://httpwg.org/specs/rfc9110.html#field.connection "Connection")) or the proxy is specifically configured to block, or otherwise transform, such fields. Other recipients _SHOULD_ ignore unrecognized header and trailer fields. Adhering to these requirements allows HTTP's functionality to be extended without updating or removing deployed intermediaries.
 
+A sender must not generate multiple field lines with the same name in a message, unless that field's definition allows multiple field line values to be recombined.
+
+**Note:** In practice, the [Set-Cookie]" header field often appears in a response message across multiple field lines and does not use the list syntax, violating the above requirements on multiple field lines with the same field name. Since it cannot be combined into a single field value, recipients ought to handle "Set-Cookie" as a special case while processing fields. (See Appendix A.2.3 of [[Kri2001]](https://httpwg.org/specs/rfc9110.html#Kri2001) for details.)
+
 ---
 **FIeld Line**
 
@@ -33,7 +37,6 @@ Example-Field: Baz
 contains two field lines, both with the field name `Example-Field`. The first field line has a field line value of `Foo, Bar`, while the second field line value is `Baz`. So the combined field value for `Example-Field` is the list `Foo, Bar, Baz`.
 
 ---
-
 
 ## References
 
