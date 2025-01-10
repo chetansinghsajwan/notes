@@ -35,11 +35,11 @@ The target name has scope in the directory in which it is created and below.
 >
 > List of source files.
 >
-> The source files can be omitted if they are added later using [`target_sources()`](cmake-commands/target-sources").
+> The source files can be omitted if they are added later using [`target_sources()`](cmake/commands/target-sources").
 
 ## Imported Target
 
-Creates an [imported target](cmake-buildsystem/imported-targets) of name `<name>` for `<target>`.
+Creates an [imported target](cmake/buildsystem/imported-targets) of name `<name>` for `<target>`.
 
 ### Syntax
 
@@ -59,7 +59,7 @@ Creates an [imported target](cmake-buildsystem/imported-targets) of name `<name>
 
 ## Alias Target
 
-Creates an [alias target](cmake-buildsystem/alias-target) of name `<name>` for `<target>`.
+Creates an [alias target](cmake/buildsystem/alias-target) of name `<name>` for `<target>`.
 
 ### Syntax
 
