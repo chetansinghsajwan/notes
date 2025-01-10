@@ -1,3 +1,9 @@
+---
+statu: pending
+---
+todo: add datetime format
+todo: add field-name info
+
 # HTTP Field
 
 A http field is a key value pair, which adds semantic meaning to the message.
