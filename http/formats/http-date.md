@@ -2,7 +2,13 @@
 
 This format is referred as "HTTP-date".
 
-HTTP uses IMF-fixdate 
+HTTP used to use 3 formats:
+
+- IMF-fixdate
+- RFC 850
+- ANSI C's asctime()
+
+IMF-fixdate 
 
 ## References
 
