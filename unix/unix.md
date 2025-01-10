@@ -6,7 +6,7 @@ It is comprised of **Unix Kernel**.
 
 It is not **open source**.
 
-The word "UNIX" refers to an operating system specification AND the original implementation of it at Bell Labs.
+The word "UNIX" refers to an operating system specification and also the original implementation of it at Bell Labs.
 
 ## History
 
