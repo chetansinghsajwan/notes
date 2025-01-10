@@ -44,6 +44,10 @@ HTTP does not place a predefined limit on the length of each field line, field v
 
 A server that receives a request header field line, field value, or set of fields larger than it wishes to process _MUST_ respond with an appropriate [4xx (Client Error)](https://httpwg.org/specs/rfc9110.html#status.4xx) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
 
+Fields that only anticipate a single member as the field value are referred to as singleton fields.
+
+Fields that allow multiple members as the field value are referred to as list-based fields.
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#fields
