@@ -21,35 +21,35 @@ add_custom_target(Name [ALL] [command1 [args1...]]
 ## Parameters
 
 > ###### `ALL` (optional)
-> 
-> Adds this target to the [all target](unknown/cmake-language/all-target).
+>
+> Adds this target to the [all target](cmake/language/all-target).
 
 > ###### `COMMENT` (optional)
-> 
+>
 > Display the given message before the commands are executed at build time.
 
 > ###### `COMMAND_EXPAND_LISTS` (optional)
-> 
+>
 > Lists in `COMMAND` arguments will be expanded.
 
 > ###### `SOURCES` (optional)
-> 
-> Specify additional source files to be included in the custom target. 
-> 
+>
+> Specify additional source files to be included in the custom target.
+>
 > Specified source files will be added to IDE project files for convenience in editing even if they have no build rules.
 
 > ###### `VERBATIM` (optional) (recommended)
-> 
-> All arguments to the commands will be escaped properly for the build tool so that the invoked command receives each argument unchanged. 
-> 
+>
+> All arguments to the commands will be escaped properly for the build tool so that the invoked command receives each argument unchanged.
+>
 > Use of `VERBATIM` is recommended as it enables correct behavior. When `VERBATIM` is not given the behavior is platform specific because there is no protection of tool-specific special characters.
 
 > ###### `USES_TERMINAL` (optional)
-> 
+>
 > The command will be given direct access to the terminal if possible.
 
 > ###### `WORKING_DIRECTORY` (optional)
-> 
+>
 > Execute the command with the given current working directory
 
 ## References
