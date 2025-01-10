@@ -6,8 +6,11 @@ statu: refactor
 
 A http field is a key value pair, which adds semantic meaning to the message.
 
-- Field names are case insensitive.
-- Field names are ought to be registered [HTTP Field Name Registry](/http/field-registry).
+**FIeld Name**: It is the name that denotes the field.
+**FIeld Value**: It is the value of the field.
+**FIeld Line**: It is the line containing the field.
+
+Field names are case insensitive. They are ought to be registered HTTP Field Name Registry.
 
 New fields can be introduced without changing the protocol version if their defined semantics allow them to be safely ignored by recipients that do not recognize them.
 
@@ -16,17 +19,6 @@ A proxy must forward unrecognized header fields unless the field name is listed 
 A sender must not generate multiple field lines with the same field name in a message, unless that field's definition allows multiple field line values to be recombined.
 
 **Note:** In practice, the [Set-Cookie](/http/field/set-cookie) header field often appears in a response message across multiple field lines and does not use the list syntax, violating the above requirements on multiple field lines with the same field name. Since it cannot be combined into a single field value, recipients ought to handle "Set-Cookie" as a special case while processing fields.
-
----
-**FIeld**
-
-A field is a pair of field name and field value.
-
----
-**FIeld Name**: It is just a name that denotes the field.
-**FIeld Value**: It is the value of the field.
-**FIeld Line**: 
-It is the line containing the field.
 
 ---
 **Combined Field Value**
@@ -52,7 +44,7 @@ contains two field lines, both with the field name `Example-Field`. The first fi
 
 HTTP does not place a predefined limit on the length of each field line, field value, or on the length of a header or trailer section as a whole
 
-A server that receives a request header field line, field value, or set of fields larger than it wishes to process _MUST_ respond with an appropriate [4xx (Client Error)](https://httpwg.org/specs/rfc9110.html#status.4xx) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
+A server that receives a request header field line, field value, or set of fields larger than it wishes to process must respond with an appropriate [4xx (Client Error)](/http/status/4xx) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
 
 Fields that only anticipate a single member as the field value are referred to as singleton fields.
 
