@@ -17,20 +17,20 @@ add_library(<name> [STATIC | SHARED | MODULE [EXCLUDE_FROM_ALL] [<source>...])
 ```
 
 ### Parameters
- 
+
 > ###### `STATIC | SHARED | MODULE`
-> 
+>
 > `STATIC` libraries are archives of object files for use when linking other targets.
-> 
+>
 > `SHARED` libraries are linked dynamically and loaded at runtime.
-> 
+>
 > `MODULE` libraries are plugins that are not linked into other targets but may be loaded dynamically at runtime using dlopen-like functionality.
 >
 > If no type is given explicitly the type is `STATIC` or `SHARED` based on whether the current value of the variable [`BUILD_SHARED_LIBS`](https://cmake.org/cmake/help/latest/variable/BUILD_SHARED_LIBS.html#variable:BUILD_SHARED_LIBS "BUILD_SHARED_LIBS") is `ON`.
 
 ## Object Library
 
-Creates an [Object Library](cmake-build-system/object-libraries).
+Creates an [Object Library](cmake/build-system/object-libraries).
 
 ### Syntax
 
@@ -40,7 +40,7 @@ add_library(<name> OBJECT [<source>...])
 
 ## Interface Libary
 
-Creates an [Interface Library](cmake-build-system/interface-libraries).
+Creates an [Interface Library](cmake/build-system/interface-libraries).
 
 ### Syntax
 
@@ -50,7 +50,7 @@ add_library(<name> INTERFACE [<source>...] [EXCLUDE_FROM_ALL])
 
 ## Alias Library
 
-Creates an [Alias Target](cmake-build-system/alias-targets), for`<target>`.
+Creates an [Alias Target](cmake/build-system/alias-targets), for`<target>`.
 
 ### Syntax
 
@@ -61,11 +61,11 @@ add_library(<name> ALIAS <target>)
 ### Parameters
 
 > ##### `<name>`
-> 
+>
 > The `<name>` does not appear in the generated build-system as a make target.
 
 > ##### `<target>`
-> 
+>
 > The `<target>` itself cannot be an `ALIAS`.
 
 ## References

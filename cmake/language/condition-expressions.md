@@ -76,7 +76,7 @@ If any argument is a defined variable, its value is used, else the literal itsel
 
 ##### `<variable|string> MATCHES <regex>`
 
-`true` if the given string or variable's value matches the given [regex](cmake-langauge/regex).
+`true` if the given string or variable's value matches the given [regex](cmake/langauge/regex).
 
 ## Version Comparisons
 
