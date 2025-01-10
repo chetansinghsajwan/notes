@@ -1,9 +1,6 @@
 ---
 statu: refactor
 ---
-TODO
-
-- Add field-name info
 
 # HTTP Field
 
@@ -33,17 +30,17 @@ It is just a name that denotes the field.
 ---
 **FIeld Value**
 
-This is the value of the fie
+It is the value of the field.
 
 ---
 **FIeld Line**
 
-A line containing a field-name and value pair.
+It is the line containing the field.
 
 ---
 **Combined Field Value**
 
-It is the value for a field by combining all the occurrences of that field within a section.
+It is the final value for a field by combining all the occurrences of field line with the same field name within a section.
 
 If a field name is only present once in a section, the combined field value for that field is that value of that field itself.
 
