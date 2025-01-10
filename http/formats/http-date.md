@@ -2,7 +2,7 @@
 
 This format is referred as "HTTP-date".
 
-
+HTTP uses IMF-fixdate 
 
 ## References
 
