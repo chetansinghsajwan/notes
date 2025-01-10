@@ -1,5 +1,5 @@
 ---
-statu: refactor
+status: completed
 ---
 
 # HTTP Field
@@ -11,6 +11,10 @@ A http field is a key value pair, which adds semantic meaning to the message.
 **FIeld Line**: It is the line containing the field.
 
 Field names are case insensitive. They are ought to be registered HTTP Field Name Registry.
+
+Fields that only anticipate a single member as the field value are referred to as singleton fields.
+
+Fields that allow multiple members as the field value are referred to as list-based fields.
 
 New fields can be introduced without changing the protocol version if their defined semantics allow them to be safely ignored by recipients that do not recognize them.
 
@@ -45,10 +49,6 @@ contains two field lines, both with the field name `Example-Field`. The first fi
 HTTP does not place a predefined limit on the length of each field line, field value, or on the length of a header or trailer section as a whole
 
 A server that receives a request header field line, field value, or set of fields larger than it wishes to process must respond with an appropriate [4xx (Client Error)](/http/status/4xx) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
-
-Fields that only anticipate a single member as the field value are referred to as singleton fields.
-
-Fields that allow multiple members as the field value are referred to as list-based fields.
 
 ## References
 
