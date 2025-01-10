@@ -25,7 +25,7 @@ Any [2xx (Successful)](/http/status/2xx) response indicates that the sender (and
 
 A tunnel is closed when a tunnel intermediary detects that either side has closed its connection: the intermediary _MUST_ attempt to send any outstanding data that came from the closed side to the other side, close both connections, and then discard any remaining data left undelivered.
 
-A server must not send any [Transfer-Encoding](/http/headers/transfer-encoding) or [Content-Length](/http/headers/content-length) header fields in a [2xx (Successful)](/http/status/2xx) response to CONNECT. The client must also ignore those fields received in a successful response to CONNECT.
+A server must not send any [Transfer-Encoding](/http/fields/transfer-encoding) or [Content-Length](/http/fields/content-length) header fields in a [2xx (Successful)](/http/status/2xx) response to CONNECT. The client must also ignore those fields received in a successful response to CONNECT.
 
 A CONNECT request message does not have body. The interpretation of data sent after the header section of the CONNECT request message is specific to the version of HTTP in use.
 

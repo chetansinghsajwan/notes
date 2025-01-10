@@ -19,9 +19,9 @@ A server generating a successful response to OPTIONS _SHOULD_ send any header th
 
 The response content, if any, might also describe the communication options in a machine or human-readable representation.
 
-A client maysend a [Max-Forwards](/http/headers/max-forwards) header field in an OPTIONS request to target a specific recipient in the request chain. A proxy must not generate a Max-Forwards header field while forwarding a request unless that request was received with a Max-Forwards field.
+A client maysend a [Max-Forwards](/http/fields/max-forwards) header field in an OPTIONS request to target a specific recipient in the request chain. A proxy must not generate a Max-Forwards header field while forwarding a request unless that request was received with a Max-Forwards field.
 
-A client that generates an this request containing content must send a valid [Content-Type](/http/headers/content-type) header field describing the representation media type.
+A client that generates an this request containing content must send a valid [Content-Type](/http/fields/content-type) header field describing the representation media type.
 
 ## References
 
