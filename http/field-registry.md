@@ -19,8 +19,9 @@ Registration requests must include the following information:
 And optionally:
 
 - Comments
+- Additional information.
 
-The expert(s) can define additional information to be collected in the registry.
+Standards-defined names have a status of "permanent". Other names can also be registered as permanent.
 
 ## References
 
