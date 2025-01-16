@@ -13,7 +13,7 @@ The party generating the registration request should follow the guidelines for t
 Registration requests must include the following information:
 
 - Field name
-- Status: "permanent", "provisional", "deprecated", or "obsoleted".
+- Status ("permanent", "provisional", "deprecated", or "obsoleted")
 - Specification document(s)
 
 And optionally:
