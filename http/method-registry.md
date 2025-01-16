@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # HTTP Method Registry
 
 It is a centralized list maintained by [IANA](iana/iana) that defines standard HTTP methods.
