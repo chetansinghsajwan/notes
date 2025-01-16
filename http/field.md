@@ -18,7 +18,7 @@ Fields that allow multiple members as the field value are referred to as list-ba
 
 New fields can be introduced without changing the protocol version if their defined semantics allow them to be safely ignored by recipients that do not recognize them.
 
-A proxy must forward unrecognized header fields unless the field name is listed in the [Connection](/http/field/connection) header field or the proxy is specifically configured to block, or otherwise transform, such fields. Other recipients should ignore unrecognized header and trailer fields. Adhering to these requirements allows HTTP's functionality to be extended without updating or removing deployed intermediaries.
+A proxy must forward unrecognized header fields unless the field name is listed in the [Connection](http/field/connection) header field or the proxy is specifically configured to block, or otherwise transform, such fields. Other recipients should ignore unrecognized header and trailer fields. Adhering to these requirements allows HTTP's functionality to be extended without updating or removing deployed intermediaries.
 
 A sender must not generate multiple field lines with the same field name in a message, unless that field's definition allows multiple field line values to be recombined.
 
