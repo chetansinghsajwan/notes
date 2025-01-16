@@ -1,6 +1,8 @@
 # HTTP Field Name Registry
 
-This registry is located at https://www.iana.org/assignments/http-fields.
+It is a centralized list maintained by [IANA](iana/iana) that defines standard HTTP fields.
+
+The registry is located at https://www.iana.org/assignments/http-fields.
 
 ## References
 
