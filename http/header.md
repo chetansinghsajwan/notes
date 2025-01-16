@@ -1,6 +1,8 @@
 # HTTP Header
 
-HTTP Header refers to a field present in the header section of message 
+HTTP Header refers to a field present in the header section of message. Headers refers to complete section.
+
+Header Field is used to refer to the fields which can only be used in header section of the message.
 
 Custom proprietary headers have historically been used with an `X-` prefix, but this convention was deprecated in 2012 because of the inconveniences it caused when nonstandard fields became standard.
 
@@ -8,5 +10,6 @@ A server must not apply a request to the target resource until it receives the e
 
 ## References
 
+- https://httpwg.org/specs/rfc9110.html#header.fields
 - https://httpwg.org/specs/rfc9110.html#fields
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
