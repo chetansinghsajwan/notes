@@ -8,7 +8,7 @@ It is a centralized list maintained by [IANA](iana/iana) that defines standard H
 
 The registry is located at https://www.iana.org/assignments/http-methods.
 
-HTTP method registrations _MUST_ include the following fields:
+HTTP method registrations must include the following fields:
 
 - Method Name
 - Safe ("yes" or "no")
