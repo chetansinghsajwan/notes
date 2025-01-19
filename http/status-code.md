@@ -4,13 +4,17 @@ It is a three digit number which defines the result of a request. It is used onl
 
 All valid status codes are within the range of 100 to 599, inclusive.
 
-The first digit of the status code defines the category. There are five categories:
+The first digit of the status code defines the class. There are five classes:
 
 - [1xx (Informational)](http/status-code/1xx)
 - [2xx (Successful)](http/status-code/2xx)
 - [3xx (Redirection)](http/status-code/3xx)
-- [4xx (Client Error)](https://httpwg.org/specs/rfc9110.html#status.4xx): The request contains bad syntax or cannot be fulfilled
-- [5xx (Server Error)](https://httpwg.org/specs/rfc9110.html#status.5xx): The server failed to fulfill an apparently valid request
+- [4xx (Client Error)](http/status-code/4xx)
+- [5xx (Server Error)](http/status-code/5xx)
+
+HTTP status codes are extensible.
+
+A client is not required to understand the meaning of all registered status codes, though such understanding is obviously desirable. However, a client must understand the class of any status code, as indicated by the first digit, and treat an unrecognized status code as being equivalent to the x00 status code of that class.
 
 ## References
 
