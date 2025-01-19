@@ -16,6 +16,8 @@ HTTP status codes are extensible.
 
 A client is not required to understand the meaning of all registered status codes, though such understanding is obviously desirable. However, a client must understand the class of any status code, as indicated by the first digit, and treat an unrecognized status code as being equivalent to the x00 status code of that class.
 
+Values outside the range 100..599 are invalid. Implementations often use values outside of that range for internal communication of non-HTTP status (For example, library errors). A client that receives a response with an invalid status code should process the response as if it had a [5xx (Server Error)](http/status-code/5xx) status code.
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#status.codes
