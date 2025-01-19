@@ -48,7 +48,7 @@ contains two field lines, both with the field name `Example-Field`. The first fi
 
 HTTP does not place a predefined limit on the length of each field line, field value, or on the length of a header or trailer section as a whole
 
-A server that receives a request header field line, field value, or set of fields larger than it wishes to process must respond with an appropriate [4xx (Client Error)](/http/status/4xx) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
+A server that receives a request header field line, field value, or set of fields larger than it wishes to process must respond with an appropriate [4xx (Client Error)](4xx.md) status code. Ignoring such header fields would increase the server's vulnerability to [request smuggling attacks](/http/security/request-smuggling-attack).
 
 ## References
 
