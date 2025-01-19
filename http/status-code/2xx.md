@@ -1,6 +1,12 @@
+---
+status: completed
+---
+
 # HTTP Status Code 2xx Class
 
-The 2xx (Successful) class of status code indicates that the client's request was successfully received, understood, and accepted.
+This class is known as **Successful** class of status code.
+
+This class indicates that the client's request was successfully received, understood, and accepted.
 
 ## References
 
