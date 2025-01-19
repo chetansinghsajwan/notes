@@ -22,7 +22,7 @@ Strings can be written in three ways.
    ''
    ```
 
-3. Finally, as a convenience, [URIs](uri.md) can be written as is, without quotes.
+3. Finally, as a convenience, [URIs](uri/uri) can be written as is, without quotes.
 
     ---
     
