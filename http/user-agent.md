@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # HTTP User Agent
 
 It refers to any of the various client programs that initiate a request.
