@@ -4,7 +4,7 @@ Each major version of HTTP defines its own syntax for communicating messages. Th
 
 A message consists of the following in this order:
 
-- control data to describe and route the message
+- control data to describe and route the message (like method and resource)
 - a header section too convey additional information
 - a potentially unbounded stream of content
 - a trailer section too convey additional information
