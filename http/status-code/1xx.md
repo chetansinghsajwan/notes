@@ -6,4 +6,4 @@ This class of status code indicates an interim (non-final) response.
 
 ## References
 
-- 
+- https://httpwg.org/specs/rfc9110.html#status.codes
