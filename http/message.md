@@ -5,9 +5,9 @@
 A message consists of the following in this order:
 
 - Control Data
-- a header section too convey additional information
-- a potentially unbounded stream of content
-- a trailer section too convey additional information
+- Header
+- Content
+- Trailer
 
 Messages are expected to be processed as a stream, wherein the purpose of that stream and its continued processing is revealed while being read. Hence, control data describes what the recipient needs to know immediately, header fields describe what needs to be known before receiving content, the content (when present) presumably contains what the recipient wants or needs to fulfill the message semantics, and trailer fields provide optional metadata that was unknown prior to sending the content.
 
