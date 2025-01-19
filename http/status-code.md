@@ -18,7 +18,7 @@ A client is not required to understand the meaning of all registered status code
 
 Values outside the range 100..599 are invalid. Implementations often use values outside of that range for internal communication of non-HTTP status (For example, library errors). A client that receives a response with an invalid status code should process the response as if it had a [5xx (Server Error)](http/status-code/5xx) status code.
 
-A single request can have multiple associated responses: zero or more interim (non-final) responses with status codes in the "informational" ([1xx](https://httpwg.org/specs/rfc9110.html#status.1xx)) range, followed by exactly one final response with a status code in one of the other ranges.
+A single request can have multiple associated responses: zero or more interim (non-final) responses with status codes in the [1xx Informational](http/status-code/1xx) range, followed by exactly one final response with a status code in one of the other ranges.
 
 ## References
 
