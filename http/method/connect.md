@@ -17,15 +17,15 @@ This method requires the target to be the address of the host in the form `host:
 CONNECT server.example.com:80 HTTP/1.1
 ```
 
-A server must reject the request that targets an empty or invalid port number, typically by responding with a [400 (Bad Request)](/http/status/400) status code.
+A server must reject the request that targets an empty or invalid port number, typically by responding with a [400 (Bad Request)](400.md) status code.
 
 The recipient can establish a tunnel either by directly connecting to the server identified by the request target or, if configured to use another proxy, by forwarding the request to the next inbound proxy.
 
-Any [2xx (Successful)](/http/status/2xx) response indicates that the sender (and all inbound proxies) will switch to tunnel mode immediately after the response header section; data received after that header section is from the server identified by the request target. Any response other than a successful response indicates that the tunnel has not yet been formed.
+Any [2xx (Successful)](2xx.md) response indicates that the sender (and all inbound proxies) will switch to tunnel mode immediately after the response header section; data received after that header section is from the server identified by the request target. Any response other than a successful response indicates that the tunnel has not yet been formed.
 
 A tunnel is closed when a tunnel intermediary detects that either side has closed its connection: the intermediary _MUST_ attempt to send any outstanding data that came from the closed side to the other side, close both connections, and then discard any remaining data left undelivered.
 
-A server must not send any [Transfer-Encoding](/http/field/transfer-encoding) or [Content-Length](/http/field/content-length) header fields in a [2xx (Successful)](/http/status/2xx) response to CONNECT. The client must also ignore those fields received in a successful response to CONNECT.
+A server must not send any [Transfer-Encoding](/http/field/transfer-encoding) or [Content-Length](/http/field/content-length) header fields in a [2xx (Successful)](2xx.md) response to CONNECT. The client must also ignore those fields received in a successful response to CONNECT.
 
 A CONNECT request message does not have body. The interpretation of data sent after the header section of the CONNECT request message is specific to the version of HTTP in use.
 

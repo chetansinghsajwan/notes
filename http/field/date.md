@@ -10,7 +10,7 @@ The field is value is [HTTP-date](http/format/http-date).
 
 A sender that generates a this field should generate its field value as the best available approximation of the date and time of message generation. In theory, the date ought to represent the moment just before generating the message content. In practice, a sender can generate the date value at any time during message origination.
 
-An [origin server](http/origin-server) with a clock must generate this field in all [2xx (Successful)](http/status/2xx), [3xx (Redirection)](http/status/3xx), and [4xx (Client Error)](http/status/4xx) responses, and may generate a Date header field in [1xx (Informational)](http/status/1xx) and [5xx (Server Error)](http/status/5xx) responses.
+An [origin server](http/origin-server) with a clock must generate this field in all [2xx (Successful)](2xx.md), [3xx (Redirection)](3xx.md), and [4xx (Client Error)](4xx.md) responses, and may generate a Date header field in [1xx (Informational)](1xx.md) and [5xx (Server Error)](5xx.md) responses.
 
 An origin server without a clock must not generate this field.
 
