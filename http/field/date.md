@@ -1,6 +1,6 @@
 # HTTP Date Field
 
-This field represents the date and time at which the message was originated. The field is value is [HTTP-date](http/format/http-date).
+It is a [header field](http/header-field) that represents the date and time at which the message was originated. The field is value is [HTTP-date](http/format/http-date).
 
 A sender that generates a this header field _SHOULD_ generate its field value as the best available approximation of the date and time of message generation. In theory, the date ought to represent the moment just before generating the message content. In practice, a sender can generate the date value at any time during message origination.
 
