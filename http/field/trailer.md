@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # HTTP Trailer Field
 
 It is a header field to provide a list of field names that the sender might send as trailer fields within that message. This allows a recipient to prepare for receipt of the indicated metadata before it starts processing the content.
