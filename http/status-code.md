@@ -20,6 +20,8 @@ Values outside the range 100..599 are invalid. Implementations often use values 
 
 A single request can have multiple associated responses: zero or more interim (non-final) responses with status codes in the [1xx Informational](http/status-code/1xx) range, followed by exactly one final response with a status code in one of the other ranges.
 
+HTTP status codes are registered in [HTTP status code regsitry](http/status-code-registry).
+
 ## References
 
 - https://httpwg.org/specs/rfc9110.html#status.codes
