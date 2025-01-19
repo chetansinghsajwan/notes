@@ -2,7 +2,7 @@
 
 The target of an HTTP request is called a resource.
 
-Most resources are identified by a [URI](uri/uri).
+HTTP relies upon the [URI standard](uri/uri) to indicate the target resource and relationships between resources.
 
 ## References
 
