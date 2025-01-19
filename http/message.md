@@ -1,10 +1,10 @@
 # HTTP Message
 
-Each major version of HTTP defines its own syntax for communicating messages. This section defines an abstract data type for HTTP messages.
+**Note:** Each major version of HTTP defines its own syntax for communicating messages. This section defines an abstract data type for HTTP messages.
 
 A message consists of the following in this order:
 
-- control data to describe and route the message (like method and resource)
+- Control Data
 - a header section too convey additional information
 - a potentially unbounded stream of content
 - a trailer section too convey additional information
