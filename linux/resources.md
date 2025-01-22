@@ -3,6 +3,8 @@
 - https://linuxhandbook.com
 - https://github.com/mikeroyal/Linux-Guide
 
+- Someone's notes: https://www.billdietrich.me/Linux.html
+
 - arch wiki: 5
 - linux journey: 1
 - linux for scratch: 3
