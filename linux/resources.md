@@ -1,5 +1,6 @@
 # Linux Learning Resources
 
+- https://linuxhandbook.com
 - https://github.com/mikeroyal/Linux-Guide
 
 - arch wiki: 5
