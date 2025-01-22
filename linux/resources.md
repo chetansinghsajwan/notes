@@ -1,5 +1,7 @@
 # Linux Learning Resources
 
+- https://github.com/mikeroyal/Linux-Guide
+
 - arch wiki: 5
 - linux journey: 1
 - linux for scratch: 3
