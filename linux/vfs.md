@@ -1,4 +1,8 @@
-# Linux VS
+# Linux VFS
+
+VFS stands for Virtual File System.
+
+It is not an actual file system, instead an abstraction layer that hides the underlying file system.
 
 ## References
 
