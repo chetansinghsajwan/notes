@@ -16,3 +16,7 @@ This layer is used by the kernel itself to intereact with different filesystems.
 
 - https://docs.kernel.org/filesystems/vfs.html
 - https://www.starlab.io/blog/introduction-to-the-linux-virtual-filesystem-vfs-part-i-a-high-level-tour
+
+## Read Later
+
+- https://dl.acm.org/doi/fullHtml/10.5555/328437.328458
