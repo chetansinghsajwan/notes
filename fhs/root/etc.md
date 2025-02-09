@@ -4,6 +4,13 @@ The `/etc` hierarchy contains configuration files. A "configuration file" is a l
 
 It is recommended that files be stored in subdirectories of `/etc` rather than directly in `/etc`.
 
+No binaries may be located under `/etc`.
+
+The following directories, or symbolic links to directories are required in `/etc`:
+
+| Directory | Description            |
+| :-------- | :--------------------- |
+| opt       | Configuration for /opt |
 ## References
 
-- 
+- https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#etcHostspecificSystemConfiguration
