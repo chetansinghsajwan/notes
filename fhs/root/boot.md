@@ -1,0 +1,5 @@
+# FHS `/boot` dir
+
+## References
+
+- 

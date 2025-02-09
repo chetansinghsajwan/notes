@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # FHS `/bin` dir
 
 `/bin` contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). It may also contain commands which are used indirectly by scripts.
@@ -54,4 +58,8 @@ The following programs, or symbolic links to programs, must be in `/bin` if the 
 - `netstat`: The network statistics utility (optional)
 - `ping`: The ICMP network test utility (optional)
 
-**/bin/csh** may be a symbolic link to **/bin/tcsh** or **/usr/bin/tcsh**.
+`/bin/csh` may be a symbolic link to `/bin/tcsh` or `/usr/bin/tcsh`.
+
+## References
+
+- 
