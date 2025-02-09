@@ -10,6 +10,8 @@ If it is possible that devices in `/dev` will need to be manually created, `/dev
 
 If required, `MAKEDEV` must have provisions for creating any device that may be found on the system, not just those that a particular distribution installs.
 
+Note, 
+
 ## References
 
 - https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#devDeviceFiles
