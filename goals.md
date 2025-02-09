@@ -75,9 +75,9 @@
 - [x] `/lib` dir
 - [x] `/lib<qual>` dir
 - [x] `/media` dir
-- [ ] `/mnt` dir
+- [x] `/mnt` dir
 - [ ] `/opt` dir
-- [ ] `/root` dir
+- [x] `/root` dir
 - [ ] `/run` dir
 - [ ] `/sbin` dir
 - [ ] `/srv` dir
