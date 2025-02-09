@@ -44,12 +44,21 @@
 	- [ ] v2
 	- [ ] v3
 
-## Linux
+### Linux VFS
 
-- [ ] File System
-
-Linux VFS
-- Networking
+- [ ] Inode
+- [ ] 
+- [ ] `struct filesystem_type`
+- [ ] `struct inode`
+- [ ] `struct inode_operations`
+- [ ] `struct superblock`
+- [ ] `struct superblock_operations`
+- [ ] `struct file`
+- [ ] `struct file_operations`
+- [ ] `struct dentry`
+- [ ] `struct dcache`
+- [ ] permissions
+- [ ] attibutes
 
 ## FHS
 
