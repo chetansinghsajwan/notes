@@ -1,6 +1,6 @@
 # FHS `/dev` dir
 
-
+The `/dev` directory is the location of special or device files.
 
 ## References
 
