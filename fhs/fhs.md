@@ -1,6 +1,9 @@
-# Linux FHS
+# FHS
+
+It stands for Filesystem Heirarchy Standard.
+
+It is being managed by Linux Foundation as of 2025 Feb.
 
 ## References
 
-- https://refspecs.linuxfoundation.org/fhs.shtml
 - https://www.wikiwand.com/en/articles/Filesystem_Hierarchy_Standard
