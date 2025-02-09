@@ -12,15 +12,11 @@ Programs may have a subdirectory of `/run`. This is encouraged for programs that
 
 `/run` should not be writable for unprivileged users. It is a major security problem if any user can write in this directory. User-specific subdirectories should be writable only by each directory's owner.
 
-### 3.15.2. Requirements
-
 Process identifier (PID) files, which were originally placed in `/etc`, must be placed in `/run`. The naming convention for PID files is `<program-name>.pid`. For example, the **crond** PID file is named `/run/crond.pid`.
 
 The internal format of PID files remains unchanged. The file must consist of the process identifier in ASCII-encoded decimal, followed by a newline character. For example, if **crond** was process number 25, `/run/crond.pid` would contain three characters: two, five, and newline.
 
 Programs that read PID files should be somewhat flexible in what they accept; i.e., they should ignore extra whitespace, leading zeroes, absence of the trailing newline, or additional lines in the PID file. Programs that create PID files should use the simple specification located in the above paragraph.
-
-System programs that maintain transient UNIX-domain sockets must place them in this directory or an appropriate subdirectory as outlined above.
 
 ## References
 
