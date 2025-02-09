@@ -4,11 +4,13 @@ status: completed
 
 # FHS `/run` dir
 
-This directory contains system information data describing the system since it was booted. Files under this directory must be cleared (removed or truncated as appropriate) at the beginning of the boot process.
+This directory contains system information data describing the system since it was booted.
 
-The purposes of this directory were once served by `/var/run`. In general, programs may continue to use `/var/run` to fulfill the requirements set out for `/run` for the purposes of backwards compatibility. Programs which have migrated to use `/run` should cease their usage of `/var/run`, except as noted in the section on `/var/run`.
+The purposes of this directory were once served by `/var/run`. In general, programs may continue to use `/var/run` to fulfill the requirements set out for `/run` for the purposes of backwards compatibility.
 
-Programs may have a subdirectory of `/run`; this is encouraged for programs that use more than one run-time file. Users may also have a subdirectory of `/run`, although care must be taken to appropriately limit access rights to prevent unauthorized use of `/run` itself and other subdirectories. [[17]](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#ftn.idm236088274176)
+Programs may have a subdirectory of `/run`. This is encouraged for programs that use more than one run-time file. Users may also have a subdirectory of `/run`.
+
+`/run` should not be writable for unprivileged users. It is a major security problem if any user can write in this directory. User-specific subdirectories should be writable only by each directory's owner.
 
 ### 3.15.2. Requirements
 
@@ -19,3 +21,7 @@ The internal format of PID files remains unchanged. The file must consist of the
 Programs that read PID files should be somewhat flexible in what they accept; i.e., they should ignore extra whitespace, leading zeroes, absence of the trailing newline, or additional lines in the PID file. Programs that create PID files should use the simple specification located in the above paragraph.
 
 System programs that maintain transient UNIX-domain sockets must place them in this directory or an appropriate subdirectory as outlined above.
+
+## References
+
+- https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#runRuntimeVariableData
