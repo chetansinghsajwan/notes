@@ -28,6 +28,15 @@ The following directories, or symbolic links to directories, are required in `/`
 - `tmp`: Temporary files
 - `usr`: Secondary hierarchy
 - `var`: Variable data
+
+The following directories, or symbolic links to directories, must be in `/`, if the corresponding subsystem is installed:
+
+| Directory         | Description                                            |
+| :---------------- | :----------------------------------------------------- |
+| `home`            | User home directories (optional)                       |
+| ``lib_`<qual>`_`` | Alternate format essential shared libraries (optional) |
+| `root`            | Home directory for the root user (optional)            |
+
 ## References
 
 - https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03.html
