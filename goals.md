@@ -4,34 +4,35 @@
 
 - [ ] History of HTTP
 - [ ] Who manages HTTP now?
-- [ ] Methods
-	- [ ] GET Method
-	- [ ] POST Method
-	- [ ] PUT Method
+- [x] Methods
+	- [x] GET Method
+	- [x] POST Method
+	- [x] PUT Method
 	- [ ] PATCH Method
-	- [ ] HEAD Method
-	- [ ] DELETE Method
-	- [ ] TRACE Method
-	- [ ] CONNECT Method
-	- [ ] OPTIONS Method
-- [ ] Method Properties
-	- [ ] Safe
-	- [ ] Cacheable
-	- [ ] Idempotent
-- [ ] Method Registry
-- [ ] Field Registry
-- [ ] Status Code Registry
-- [ ] Status Code
+	- [x] HEAD Method
+	- [x] DELETE Method
+	- [x] TRACE Method
+	- [x] CONNECT Method
+	- [x] OPTIONS Method
+- [x] Method Properties
+	- [x] Safe
+	- [x] Cacheable
+	- [x] Idempotent
+- [x] Method Registry
+- [x] Field Registry
+- [x] Status Code Registry
+- [x] Status Code
 	- [ ] 1xx Codes
 	- [ ] 2xx Codes
 	- [ ] 3xx Codes
 	- [ ] 4xx Codes
 	- [ ] 5xx Codes
-- [ ] Fields
-- [ ] Message
-- [ ] Request
-- [ ] Response
+- [x] Fields
+- [x] Message
+- [x] Request
+- [x] Response
 - [ ] Header
+- [ ] Trailer
 - [ ] Server
 - [ ] Client
 - [ ] Origin Server
@@ -45,7 +46,7 @@
 
 ### Linux
 
-- File System
+- [ ] File System
 - VFS
 - Networking
 - FHS
