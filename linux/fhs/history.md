@@ -6,7 +6,7 @@ In early 1995, the goal of developing a more comprehensive version of FSSTND to 
 
 It is currently being mantained by [Linux Foundation](/linux-foundation/linux-foundation) as of 2025 Feb.
 
-**Todo::** When they started managing it, I dont know.
+**Todo::** When did linux foundation started managing FHS?
 
 ## References
 
