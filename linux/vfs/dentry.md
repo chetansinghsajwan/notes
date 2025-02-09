@@ -2,6 +2,8 @@
 
 Dentry stands directory entry.
 
+The dentry structure is defined in [include/linux/dcache.h](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/dcache.h#L89) (and shortened here for brevity):
+
 ```cpp
 struct dentry {
   struct hlist_bl_node d_hash; // lookup hash list
@@ -15,3 +17,9 @@ struct dentry {
   struct list_head d_subdirs; // our children
 };
 ```
+
+`d_name` contains the name of the file and `d_inode` points to its associated inode.
+
+## Refefences
+
+- https://www.starlab.io/blog/introduction-to-the-linux-virtual-filesystem-vfs-part-i-a-high-level-tour
