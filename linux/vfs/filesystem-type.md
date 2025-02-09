@@ -30,3 +30,10 @@ Note: All data structures mentioned here are shown as they were in Linux [v5.18.
 - ... and the list goes on.
 
 The VFS maintains a linked-list of known filesystem types, which can be viewed in userspace by executing `cat /proc/filesystems`.
+
+Filesystem types are registered and unregistered in the kernel via [these functions in include/linux/fs.h](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L2325):
+
+```cpp
+int register_filesystem(struct file_system_type*);
+int unregister_filesystem(struct file_system_type*);
+```
