@@ -71,7 +71,7 @@
 - [x] `/boot` dir
 - [x] `/dev` dir
 - [ ] `/etc` dir
-- [ ] `/home` dir
+- [x] `/home` dir
 - [ ] `/lib` dir
 - [ ] `/lib<qual>` dir
 - [ ] `/media` dir
