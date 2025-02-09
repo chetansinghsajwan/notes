@@ -80,7 +80,7 @@
 - [x] `/root` dir
 - [x] `/run` dir
 - [x] `/sbin` dir
-- [ ] `/srv` dir
+- [x] `/srv` dir
 - [x] `/tmp` dir
 - [ ] `/usr` heirarchy
 - [ ] `/var` heirarchy
