@@ -18,7 +18,7 @@ struct file {
 };
 ```
 
-The field `f_op` here contains a pointer to `struct file_operations` type which contains pointers to functions which knows how to perform  operations on t
+The field `f_op` here contains a pointer to `struct file_operations` type which contains pointers to functions which knows how to perform  operations on a file.
 
 ## References
 
