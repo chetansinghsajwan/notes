@@ -72,7 +72,7 @@
 - [x] `/dev` dir
 - [ ] `/etc` dir
 - [x] `/home` dir
-- [ ] `/lib` dir
+- [x] `/lib` dir
 - [ ] `/lib<qual>` dir
 - [ ] `/media` dir
 - [ ] `/mnt` dir
