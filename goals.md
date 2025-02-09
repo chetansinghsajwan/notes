@@ -78,8 +78,8 @@
 - [x] `/mnt` dir
 - [ ] `/opt` dir
 - [x] `/root` dir
-- [ ] `/run` dir
-- [ ] `/sbin` dir
+- [x] `/run` dir
+- [x] `/sbin` dir
 - [ ] `/srv` dir
 - [ ] `/tmp` dir
 - [ ] `/usr` heirarchy
