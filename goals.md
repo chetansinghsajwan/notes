@@ -1,6 +1,6 @@
 # Goals
 
-### HTTP
+## HTTP
 
 - [ ] History of HTTP
 - [ ] Who manages HTTP now?
@@ -44,9 +44,21 @@
 	- [ ] v2
 	- [ ] v3
 
-### Linux
+## Linux
 
 - [ ] File System
 - VFS
 - Networking
-- FHS
+
+## FHS
+
+- [ ] `/` dir
+- [ ] `/bin` dir
+- [ ] `/boot` dir
+- [ ] `/dev` dir
+- [ ] `/bin` dir
+- [ ] `/bin` dir
+- [ ] `/bin` dir
+
+## Networking
+
