@@ -56,9 +56,19 @@
 - [ ] `/bin` dir
 - [ ] `/boot` dir
 - [ ] `/dev` dir
-- [ ] `/bin` dir
-- [ ] `/bin` dir
-- [ ] `/bin` dir
+- [ ] `/etc` dir
+- [ ] `/home` dir
+- [ ] `/lib` dir
+- [ ] `/lib<qual>` dir
+- [ ] `/media` dir
+- [ ] `/mnt` dir
+- [ ] `/opt` dir
+- [ ] `/root` dir
+- [ ] `/run` dir
+- [ ] `/sbin` dir
+- [ ] `/srv` dir
+- [ ] `/tmp` dir
+- [ ] `/usr` heirarchy
 
 ## Networking
 
