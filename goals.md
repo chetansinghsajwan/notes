@@ -16,14 +16,26 @@
 	- [ ] OPTIONS Method
 - [ ] Method Properties
 	- [ ] Safe
-	- [ ] Cacheb
+	- [ ] Cacheable
+	- [ ] Idempotent
+- [ ] Method Registry
+- [ ] Field Registry
+- [ ] Status Code Registry
+- [ ] Status Code
+	- [ ] 1xx Codes
+	- [ ] 2xx Codes
+	- [ ] 3xx Codes
+	- [ ] 4xx Codes
+	- [ ] 5xx Codes
 - [ ] Fields
 - [ ] Message
 - [ ] Request
 - [ ] Response
+- [ ] Header
 - [ ] Server
 - [ ] Client
 - [ ] Origin Server
+- [ ] User agent
 - [ ] Version History
 	- [ ] v.9
 	- [ ] v1
