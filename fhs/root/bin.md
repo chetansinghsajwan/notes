@@ -62,4 +62,4 @@ The following programs, or symbolic links to programs, must be in `/bin` if the 
 
 ## References
 
-- 
+- https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#binEssentialUserCommandBinaries
