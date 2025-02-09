@@ -35,13 +35,15 @@ struct inode {
 };
 ```
 
-Note the fields [i_op](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1868) and [i_fop](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1826). These are again function pointers that describe the filesystem’s implementation. struct inode_operations defines the set of callback functions that operate on the inode. These functions do things like:
+Note the fields [i_op](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1868) and [i_fop](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1826). These are function pointers that describe the filesystem’s implementation. `struct inode_operations` defines the set of callback functions that operate on the inode. These functions do things like:
 
 - change permissions
 - create files
 - make symlinks
 - make directories    
 - rename files
+
+Similarly, `struct file_operations` defines the set of callback operations that can be called on a `struct file` object.
 
 ## References
 
