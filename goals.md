@@ -47,11 +47,13 @@
 ## Linux
 
 - [ ] File System
-- VFS
+
+Linux VFS
 - Networking
 
 ## FHS
 
+- [ ] history
 - [ ] `/` dir
 - [ ] `/bin` dir
 - [ ] `/boot` dir
@@ -69,6 +71,7 @@
 - [ ] `/srv` dir
 - [ ] `/tmp` dir
 - [ ] `/usr` heirarchy
+- [ ] `/var` heirarchy
 
 ## Networking
 
