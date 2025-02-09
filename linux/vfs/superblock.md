@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # VFS Superblock
 
 The superblock is a structure that represents an instance of a filesystem, i.e., a mounted filesystem. The superblock is defined in [include/linux/fs.hs](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1430) (and greatly shortened here for brevity):
