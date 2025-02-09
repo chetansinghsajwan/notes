@@ -39,3 +39,19 @@ The following commands, or symbolic links to commands, are required in `/bin`:
 - `true`: Utility to do nothing, successfully
 - `umount`: Utility to unmount file systems
 - `uname`: Utility to print system information
+
+If `/bin/sh` is not the POSIX compatible shell command itself, it must be a hard or symbolic link to the real shell command.
+
+The following programs, or symbolic links to programs, must be in `/bin` if the corresponding subsystem is installed:
+
+- `csh`: The C shell (optional)
+- `ed`: The `ed' editor (optional)
+- `tar`: The tar archiving utility (optional)
+- `cpio`: The cpio archiving utility (optional)
+- `gzip`: The GNU compression utility (optional)
+- `gunzip`: The GNU uncompression utility (optional)
+- `zcat`: The GNU uncompression utility (optional)
+- `netstat`: The network statistics utility (optional)
+- `ping`: The ICMP network test utility (optional)
+
+**/bin/csh** may be a symbolic link to **/bin/tcsh** or **/usr/bin/tcsh**.
