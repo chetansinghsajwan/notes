@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # VFS Filesystem Type
 
 In order to use a filesystem, the kernel must know the filesystem type, defined in [include/linux/fs.h](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L2234) (and shorted here for brevity):
