@@ -31,9 +31,17 @@ Note: All data structures mentioned here are shown as they were in Linux [v5.18.
 
 The VFS maintains a linked-list of known filesystem types, which can be viewed in userspace by executing `cat /proc/filesystems`.
 
+The member `struct hlist_head fs_supers`  is a hash table of all [superblocks](/linux/vfs/superblock) of the same filesystem type. This means that `fs_supers` provides a list of all mounts of the containing `file_system_type`.
+
 Filesystem types are registered and unregistered in the kernel via [these functions in include/linux/fs.h](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L2325):
 
 ```cpp
 int register_filesystem(struct file_system_type*);
 int unregister_filesystem(struct file_system_type*);
 ```
+
+Once a filesystem type is known to the kernel (i.e. registered), a filesystem of that type may be mounted to a location in the directory tree.
+
+## References
+
+- https://www.starlab.io/blog/introduction-to-the-linux-virtual-filesystem-vfs-part-i-a-high-level-tour
