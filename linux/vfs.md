@@ -12,7 +12,13 @@ This allows the user to open a file by calling `open` function without worrying 
 
 This layer is used by the kernel itself to intereact with different filesystems. The kernel then exposes system calls like `open` function which allows programs in user space to interact with files.
 
-Following are the primary structures that make
+Following are the primary structures that makes up VFS:
+
+1.  Filesystem Type
+2. Superblock
+3. Dentry and Dentry cache
+4. Inode
+5. File
 
 ## References
 
