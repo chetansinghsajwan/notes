@@ -24,7 +24,11 @@ Learn about [magic numbers here](https://superuser.com/questions/239088/whats-a-
 
 The superblock is typically stored on the storage device itself and loaded into memory when mounted.
 
-There are a few fields we want to pay special attention to. First, `s_list` is a linked list to the other superblocks of the same filesystem type. Second, `s_inodes` is the list of [inodes](/linux/vfs/inode) within this filesystem mount. And third, [s_op](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1947), which points to a struct that defines a set of functions that provide data about the superblock. struct super_operations is a prime example of the VFS’s abstraction that we will see again. It contains a group of function pointers provided per filesystem type that describe the filesystem’s implementation. This keeps the VFS agnostic to the details of a particular filesystem’s inner workings.
+There are a few fields we want to pay special attention to.
+
+- `s_list` is a linked list to the other superblocks of the same filesystem type.
+- `s_inodes` is the list of [inodes](/linux/vfs/inode) within this filesystem mount.
+- [s_op](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/fs.h#L1947), which points to a struct that defines a set of functions that provide data about the superblock. `struct super_operations` is a prime example of the VFS’s abstraction that we will see again. It contains a group of function pointers provided per filesystem type that describe the filesystem’s implementation. This keeps the VFS agnostic to the details of a particular filesystem’s inner workings.
 
 ## References
 

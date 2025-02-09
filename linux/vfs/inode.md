@@ -1,6 +1,6 @@
 # VFS Inode
 
-
+Inode is s
 
 ## References
 
