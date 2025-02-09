@@ -81,7 +81,7 @@
 - [x] `/run` dir
 - [x] `/sbin` dir
 - [ ] `/srv` dir
-- [ ] `/tmp` dir
+- [x] `/tmp` dir
 - [ ] `/usr` heirarchy
 - [ ] `/var` heirarchy
 
