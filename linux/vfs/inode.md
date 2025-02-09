@@ -1,6 +1,15 @@
 # VFS Inode
 
-Inode is s
+Inode stands for Index node.
+
+It represents a file system object, which can be any of the following:
+- socket
+- symbolic link
+- regular file
+- block device
+- directory
+- character device
+- FIFO
 
 ## References
 
