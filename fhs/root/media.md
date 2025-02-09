@@ -6,12 +6,10 @@ Historically there have been a number of other different places used to mount re
 
 The following directories, or symbolic links to directories, must be in `/media`, if the corresponding subsystem is installed:
 
-| Directory    | Description             |
-| :----------- | :---------------------- |
-| `floppy`     | Floppy drive (optional) |
-| `cdrom`      | CD-ROM drive (optional) |
-| `cdrecorder` | CD writer (optional)    |
-| `zip`        | Zip drive (optional)    |
+- `floppy`: Floppy drive (optional)
+- `cdrom`: CD-ROM drive (optional)
+- `cdrecorder`: CD writer (optional)
+- `zip`: Zip drive (optional)
 
 On systems where more than one device exists for mounting a certain type of media, mount directories can be created by appending a digit to the name of those available above starting with '0', but the unqualified name must also exist.
 
