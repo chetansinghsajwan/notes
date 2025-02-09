@@ -74,7 +74,7 @@
 - [x] `/home` dir
 - [x] `/lib` dir
 - [x] `/lib<qual>` dir
-- [ ] `/media` dir
+- [x] `/media` dir
 - [ ] `/mnt` dir
 - [ ] `/opt` dir
 - [ ] `/root` dir
