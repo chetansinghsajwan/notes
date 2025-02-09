@@ -1,4 +1,4 @@
-# Goals
+# Learning Goals
 
 ## HTTP
 
@@ -47,7 +47,12 @@
 ### Linux VFS
 
 - [ ] Inode
-- [ ] 
+- [ ] Superblock
+- [ ] File
+- [ ] Dentry
+- [ ] Dentry Cache
+- [ ] File Permissions
+- [ ] File Attibutes
 - [ ] `struct filesystem_type`
 - [ ] `struct inode`
 - [ ] `struct inode_operations`
@@ -57,16 +62,14 @@
 - [ ] `struct file_operations`
 - [ ] `struct dentry`
 - [ ] `struct dcache`
-- [ ] permissions
-- [ ] attibutes
 
 ## FHS
 
-- [ ] history
-- [ ] `/` dir
-- [ ] `/bin` dir
-- [ ] `/boot` dir
-- [ ] `/dev` dir
+- [x] history
+- [x] `/` dir
+- [x] `/bin` dir
+- [x] `/boot` dir
+- [x] `/dev` dir
 - [ ] `/etc` dir
 - [ ] `/home` dir
 - [ ] `/lib` dir
