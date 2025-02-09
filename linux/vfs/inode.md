@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # VFS Inode
 
 Inode stands for Index node.

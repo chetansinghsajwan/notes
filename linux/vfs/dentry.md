@@ -1,6 +1,12 @@
+---
+status: completed
+---
+
 # VFS Dentry
 
 Dentry stands directory entry.
+
+A dentry is the glue that holds inodes and files together by relating inode numbers to file names. The struct inode itself does not contain a name or any friendly identifier, this is where dentry comes in. It assigns inode objects a friendly name in a tree like structure.
 
 The dentry structure is defined in [include/linux/dcache.h](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/linux/dcache.h#L89) (and shortened here for brevity):
 
