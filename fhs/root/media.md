@@ -1,3 +1,7 @@
+---
+status: completed
+---
+
 # FHS `/media` dir
 
 This directory contains subdirectories which are used as mount points for removable media such as floppy disks, cdroms and zip disks.
