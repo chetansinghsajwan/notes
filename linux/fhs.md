@@ -2,5 +2,4 @@
 
 ## References
 
-- 
-https://refspecs.linuxfoundation.org/fhs.shtml
+- https://refspecs.linuxfoundation.org/fhs.shtml
