@@ -1,4 +1,10 @@
+---
+status: completed
+---
+
 # FHS `/usr` heirarchy
+
+It contains read-only data that is shared among all the users. It is the second major section of the filesystem.
 
 The following directories, or symbolic links to directories, are required in `/usr`.
 
@@ -15,6 +21,12 @@ The following directories, or symbolic links to directories, must be in `/usr`, 
 - `libexec`: Binaries run by other programs (optional)
 - `lib<qual>`: Alternate Format Libraries (optional)
 - `src`: Source code (optional)
+
+The following symbolic links to directories may be present. This possibility is based on the need to preserve compatibility with older systems until all distribution can be assumed to use the `/var` hierarchy.
+
+- `usr/spool` -> `/var/spool`
+- `/usr/tmp` -> `/var/tmp`
+- `/usr/spool/locks` -> `/var/lock`
 
 ## References
 
