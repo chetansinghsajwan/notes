@@ -32,7 +32,7 @@ The following directories, or symbolic links to directories, are required in `/`
 The following directories, or symbolic links to directories, must be in `/`, if the corresponding subsystem is installed:
 
 - `home`: User home directories (optional)
-- ``lib_`<qual>`_``: Alternate format essential shared libraries (optional)
+- `lib<qual>`: Alternate format essential shared libraries (optional)
 - `root`: Home directory for the root user (optional)
 
 ## References
