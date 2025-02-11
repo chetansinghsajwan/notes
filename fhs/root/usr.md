@@ -8,12 +8,13 @@ The following directories, or symbolic links to directories, are required in `/
 - `sbin`: Non-vital system binaries
 - `share`: Architecture-independent data
 
+The following directories, or symbolic links to directories, must be in `/usr`, if the corresponding subsystem is installed:
 
-- `games`|Games and educational binaries (optional)|
-- `include`|Header files included by C programs|
-- `libexec`|Binaries run by other programs (optional)|
-- ``lib_`<qual>`_``|Alternate Format Libraries (optional)|
-- `src`|Source code (optional)|
+- `games`: Games and educational binaries (optional)
+- `include`: Header files included by C programs
+- `libexec`: Binaries run by other programs (optional)
+- `lib<qual>`: Alternate Format Libraries (optional)
+- `src`: Source code (optional)
 
 ## References
 
