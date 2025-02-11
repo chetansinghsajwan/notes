@@ -84,6 +84,7 @@
 - [x] `/tmp` dir
 - [ ] `/usr` heirarchy
 - [ ] `/var` heirarchy
+- [ ] `/usr` merge
 
 ## Networking
 
