@@ -6,6 +6,10 @@ status: completed
 
 It contains read-only data that is shared among all the users. It is the second major section of the filesystem.
 
+Really good explanation about why `/usr` dir exists: https://askubuntu.com/questions/130186/what-is-the-rationale-for-the-usr-directory.
+
+Checkout the case for `/usr` merge: https://systemd.io/THE_CASE_FOR_THE_USR_MERGE.
+
 The following directories, or symbolic links to directories, are required in `/usr`.
 
 - `bin`: Most user commands
@@ -31,3 +35,4 @@ The following symbolic links to directories may be present. This possibility is 
 ## References
 
 - https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch04.html
+- https://askubuntu.com/questions/130186/what-is-the-rationale-for-the-usr-directory
