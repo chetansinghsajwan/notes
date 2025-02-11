@@ -1,6 +1,6 @@
 # Recursive Sets
 
-Recursive sets are like normal [attribute sets](data-types.md), but the attributes can refer to each other.
+Recursive sets are like normal [attribute sets](nix/language/data-types.md), but the attributes can refer to each other.
 
 ```
 <rec-attrset> =  rec { [ <name> = <expr>; ]... }

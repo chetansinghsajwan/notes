@@ -1,6 +1,6 @@
 # `builtins` constant
 
-**type**:: [set](data-types.md)
+**type**:: [set](nix/language/data-types.md)
 
 Contains all the [built-in functions](builtin-functions.md) and values.
 
