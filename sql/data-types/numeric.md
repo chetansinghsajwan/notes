@@ -1,0 +1,2 @@
+# Postgres Numeric Data Type
+
