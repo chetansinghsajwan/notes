@@ -86,5 +86,24 @@
 - [ ] `/var` heirarchy
 - [ ] `/usr` merge
 
+## CSS
+
+- [ ] Modules
+	- [ ] Box Alignment Module
+- [ ] Properties
+	- [ ] `background` Properties
+	- [ ] `border` Properties
+	- [ ] `animation` Properties
+	- [ ] `font` Properties
+	- [ ] `text` Properties
+	- [ ] `flex` Properties
+- [ ] Selectors
+- [ ] Combinators
+- [ ] Pseudo Classes
+- [ ] Pseudo Elements
+- [ ] Functions
+- [ ] Types
+- [ ] At Rules
+
 ## Networking
 
