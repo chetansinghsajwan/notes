@@ -13,6 +13,13 @@ You can pass any of the following inputs as the context for a build:
 - A remote URL of a Git repository, tarball, or plain-text file
 - A plain-text file or tarball piped to the `docker build` command through standard input
 
+Build contexts have been divided into following types:
+
+- [Local Context](/docker/build-context/)
+- Remote Context
+- Empty Context
+- Named Context
+
 ## References
 
 - https://docs.docker.com/build/concepts/context/
