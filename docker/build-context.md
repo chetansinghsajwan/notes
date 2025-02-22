@@ -15,10 +15,10 @@ You can pass any of the following inputs as the context for a build:
 
 Build contexts have been divided into following types:
 
-- [Local Context](/docker/build-context/)
-- Remote Context
-- Empty Context
-- Named Context
+- [Local Context](/docker/build-context/local-context)
+- [Remote Context](/docker/build-context/remote-context)
+- [Empty Context](/docker/build-context/empty-context)
+- [Named Context](/docker/build-context/named-context)
 
 ## References
 
