@@ -1,3 +1,4 @@
+# CSS Color Type
 
 A `<color>` value can be specified using one of the methods listed below:
 
