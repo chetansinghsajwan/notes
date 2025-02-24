@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/run` dir
 
 This directory contains system information data describing the system since it was booted.

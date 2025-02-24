@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Post Method
 
 This method is used to send data to the server. The data is stored in the requests body and the type of data is represented by [`Content-Type`](/http/field/content-type) header.

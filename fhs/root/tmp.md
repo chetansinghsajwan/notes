@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/tmp` dir
 
 The `/tmp` directory must be made available for programs that require temporary files.

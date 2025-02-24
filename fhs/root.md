@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/`
 
 The contents of the root filesystem must be adequate to boot, restore, recover, and/or repair the system.

@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/srv` dir
 
 `/srv` contains site-specific data which is served by this system.

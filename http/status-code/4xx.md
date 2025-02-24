@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Status Code 4xx Class
 
 This class is known as **Client Error** class of status code.

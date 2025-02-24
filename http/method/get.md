@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Get Method
 
 This method is used to request the server to return a representation of the resource.

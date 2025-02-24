@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # VFS Inode
 
 Inode stands for Index node.
@@ -19,19 +15,19 @@ It is defined in [include/linux/fs.h](https://elixir.bootlin.com/linux/v5.7-rc4/
 
 ```cpp
 struct inode {
-  umode_t i_mode; // access permissions, i.e., readable or writeable     
-  kuid_t i_uid; // user id of owner     
-  kgid_t i_gid; // group id of owner     
+  umode_t i_mode; // access permissions, i.e., readable or writeable
+  kuid_t i_uid; // user id of owner
+  kgid_t i_gid; // group id of owner
   unsigned int i_flags;
   const struct inode_operations * i_op;
   struct super_block * i_sb;
   struct address_space * i_mapping;
-  unsigned long i_ino; // unique number identifying this inode     
-  const unsigned int i_nlink; // number of hard links     
+  unsigned long i_ino; // unique number identifying this inode
+  const unsigned int i_nlink; // number of hard links
   dev_t i_rdev;
   loff_t i_size; // size of inode contents in bytes     struct
-  timespec64 i_atime; // access time     
-  struct timespec64 i_mtime; // modify time     
+  timespec64 i_atime; // access time
+  struct timespec64 i_mtime; // modify time
   struct timespec64 i_ctime; // creation time
   unsigned short i_bytes; // bytes consumed
   const struct file_operations * i_fop;
@@ -44,7 +40,7 @@ Note the fields [i_op](https://elixir.bootlin.com/linux/v5.7-rc4/source/include/
 - change permissions
 - create files
 - make symlinks
-- make directories    
+- make directories
 - rename files
 
 Similarly, `struct file_operations` defines the set of callback operations that can be called on a `struct file` object.

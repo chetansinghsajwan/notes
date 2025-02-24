@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Field Name Registry
 
 It is a centralized list maintained by [IANA](iana/iana) that defines standard HTTP fields.

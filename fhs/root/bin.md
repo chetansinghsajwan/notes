@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/bin` dir
 
 `/bin` contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). It may also contain commands which are used indirectly by scripts.

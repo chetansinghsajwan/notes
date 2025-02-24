@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # VFS Dentry
 
 Dentry stands directory entry.

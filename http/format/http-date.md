@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Date Time Format
 
 This format is referred as "HTTP-date".

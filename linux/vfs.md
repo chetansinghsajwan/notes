@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # Linux VFS
 
 VFS stands for Virtual File System.

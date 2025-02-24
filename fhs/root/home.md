@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/home` dir
 
 This is an optional directory, and its presence depends on the distribution.

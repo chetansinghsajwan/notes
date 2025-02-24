@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Header
 
 HTTP Header refers to a field present in the header section of message. Headers refers to complete section.
