@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Field
 
 A http field is a key value pair, which adds semantic meaning to the message.

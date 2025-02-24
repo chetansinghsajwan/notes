@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Method Property
 
 Method properties in HTTP define characteristics of HTTP methods, specifying their intended use and behavior.

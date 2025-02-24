@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/boot` dir
 
 This directory contains everything required for the boot process, except configuration files not needed at boot time and the map installer. Thus `/boot` stores data that is used before the kernel begins executing user-mode programs.

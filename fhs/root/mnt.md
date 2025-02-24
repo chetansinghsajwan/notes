@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/mnt` dir
 
 This directory is provided so that the system administrator may temporarily mount a filesystem as needed. The content of this directory is a local issue and should not affect the manner in which any program is run.

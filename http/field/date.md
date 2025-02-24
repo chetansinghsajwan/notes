@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Date Field
 
 It is a [header field](http/header-field) that represents the date and time at which the message was originated.

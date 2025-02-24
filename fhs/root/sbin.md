@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `sbin` dir
 
 `/sbin` contains binaries essential for booting, restoring, recovering, and/or repairing the system in addition to the binaries in `/bin`.

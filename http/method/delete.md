@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Delete Method
 
 This method is used to request the server to delete a resource.

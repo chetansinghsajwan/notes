@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Put Method
 
 This method request the server to create a new resource or update the target resource if already exists.

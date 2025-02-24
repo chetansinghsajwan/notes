@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Status Code 5xx Class
 
 The class is known as **Server Error** class of status code.

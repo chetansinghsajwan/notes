@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Options Method
 
 This method is used to request information abut communication options available for the target resource at either the origin server or an intervening intermediary.

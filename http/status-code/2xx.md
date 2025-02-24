@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Status Code 2xx Class
 
 This class is known as **Successful** class of status code.

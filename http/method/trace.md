@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # HTTP Trace Method
 
 This method is used to request the final recipent to return the request recieved in the form of response. This allows client to see what is being received by the other end of the request chain.

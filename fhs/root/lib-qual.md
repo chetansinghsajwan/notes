@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/lib<qual>` dir
 
 There may be one or more variants of the `/lib` directory on systems which support more than one binary format requiring separate libraries.

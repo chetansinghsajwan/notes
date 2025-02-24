@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/root` dir
 
 This is an optional dir.

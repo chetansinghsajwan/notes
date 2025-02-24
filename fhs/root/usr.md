@@ -1,7 +1,3 @@
----
-status: completed
----
-
 # FHS `/usr` heirarchy
 
 It contains read-only data that is shared among all the users. It is the second major section of the filesystem.
