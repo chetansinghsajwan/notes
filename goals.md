@@ -112,6 +112,10 @@
 ## Git
 
 - [ ] Index
+- [ ] Branch
+- [ ] Object
+- [ ] References
+- [ ] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
 - [ ] `reset`
