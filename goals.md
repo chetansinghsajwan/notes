@@ -115,6 +115,7 @@
 - [ ] Branch
 - [ ] Object
 - [ ] References
+- [ ] Credentials
 - [ ] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
