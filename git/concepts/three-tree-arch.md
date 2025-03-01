@@ -21,4 +21,3 @@ Working Tree is the root folder, where you work. This is where all your current 
 ## References
 
 - https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
-- https://www.darwinbiler.com/understanding-the-3-tree-architecture-of-git
