@@ -1,5 +1,5 @@
 # Branch
 
-A branch is nothing but a [reference](ref.md) to a commit.
+A branch represents a line of work. In implementation, a branch is just a [reference](ref.md) to the latest commit in that line of work.
 
-They are used to point to the head of a line of development.
+## Ref
