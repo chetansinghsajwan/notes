@@ -16,7 +16,7 @@ git switch [<options>] --orphan <new-branch>
 git switch [<options>] (-c|-C) <new-branch> [<start-point>]
 ```
 
-This form is used to create a new branch
+This form is used to create a new branch wit name `<new-branch>`. 
 
 ---
 
