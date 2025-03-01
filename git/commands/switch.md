@@ -22,34 +22,23 @@ This form is used to create a new branch wit name `<new-branch>`.
 
 ## OPTIONS
 
-`<branch>`: Branch to switch to.
-
-[](https://git-scm.com/docs/git-switch#Documentation/git-switch.txt-ltnew-branchgt)<new-branch>
-
-Name for the new branch.
-
-[](https://git-scm.com/docs/git-switch#Documentation/git-switch.txt-ltstart-pointgt)<start-point>
-
-The starting point for the new branch. Specifying a `<start-point>` allows you to create a branch based on some other point in history than where HEAD currently points. (Or, in the case of `--detach`, allows you to inspect and detach from some other point.)
+- `<branch>`: Branch to switch to.
+- `<new-branch>`: Name for the new branch.
+- `<start-point>`:  The starting point for the new branch. Specifying a `<start-point>` allows you to create a branch based on some other point in history than where HEAD currently points. (Or, in the case of `--detach`, allows you to inspect and detach from some other point.)
 
 You can use the `@{-N}` syntax to refer to the N-th last branch/commit switched to using "git switch" or "git checkout" operation. You may also specify `-` which is synonymous to `@{-1}`. This is often used to switch quickly between two branches, or to undo a branch switch by mistake.
 
 As a special case, you may use `A...B` as a shortcut for the merge base of `A` and `B` if there is exactly one merge base. You can leave out at most one of `A` and `B`, in which case it defaults to `HEAD`.
 
-[](https://git-scm.com/docs/git-switch#Documentation/git-switch.txt--cltnew-branchgt)-c <new-branch>
+---
+- `-c <new-branch>`
+- `--create <new-branch>`
 
-[](https://git-scm.com/docs/git-switch#Documentation/git-switch.txt---createltnew-branchgt)--create <new-branch>
+Create a new branch named `<new-branch>` starting at `<start-point>` before switching to the branch. The branch is not reset/created unless "git switch" is successful (e.g., when the branch is in use in another worktree, not just the current branch stays the same, but the branch is not reset to the start-point, either).
 
-Create a new branch named `<new-branch>` starting at `<start-point>` before switching to the branch. This is the transactional equivalent of
-
-$ git branch <new-branch>
-$ git switch <new-branch>
-
-that is to say, the branch is not reset/created unless "git switch" is successful (e.g., when the branch is in use in another worktree, not just the current branch stays the same, but the branch is not reset to the start-point, either).
-
-[](https://git-scm.com/docs/git-switch#Documentation/git-switch.txt--Cltnew-branchgt)-C <new-branch>
-
-[](https://git-scm.com/docs/git-switch#Documentation/git-switch.txt---force-createltnew-branchgt)--force-create <new-branch>
+---
+- `-C <new-branch>`
+- `--force-create <new-branch>`
 
 Similar to `--create` except that if `<new-branch>` already exists, it will be reset to `<start-point>`. This is a convenient shortcut for:
 
