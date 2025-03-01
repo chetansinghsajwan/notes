@@ -12,6 +12,4 @@
 - Git's Database Internals Part 5: Scalability - https://github.blog/2022-09-02-gits-database-internals-v-scalability
 - https://www.atlassian.com/git
 - https://www.gitkraken.com/learn/git
-- Complete Git and Github Tutorial on Youtube by Kunal Kushwaha. - https://youtu.be/apGV9Kg7ics
-- Lean Git in One Hour on Youtube by Programming With Mosh. - https://youtu.be/8JJ101D3knE
 - https://gitexcited.com/git-learning-recommendations
