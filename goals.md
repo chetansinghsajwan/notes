@@ -109,5 +109,16 @@
 
 - [ ] Build Context
 
+## Git
+
+- [ ] Index
+- [ ] The three tree architecture
+- [ ] Configuration
+- [ ] `reset`
+- [ ] `checkout`
+- [ ] `switch`
+- [ ] `restore`
+- [ ] 
+
 ## Networking
 
