@@ -11,6 +11,15 @@ git switch [<options>] (-c|-C) <new-branch> [<start-point>]
 git switch [<options>] --orphan <new-branch>
 ```
 
+---
+```shell
+git switch [<options>] (-c|-C) <new-branch> [<start-point>]
+```
+
+This form is used to create a new branch
+
+---
+
 ## References
 
 - https://git-scm.com/docs/git-switch
