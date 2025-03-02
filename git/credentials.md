@@ -25,6 +25,10 @@ By default, git comes with two credential helpers:
 	
 	Store credentials on disk in plain text. See [git-credential-store](git/credential-store) for details.
 
+You can use `git help -a | grep credential-` to list all available credential helpers.
+
+The community maintains a comprehensive list of Git credential helpers at https://git-scm.com/doc/credential-helpers.
+
 ## References
 
 - https://git-scm.com/docs/gitcredentials
