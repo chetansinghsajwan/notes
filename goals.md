@@ -116,6 +116,9 @@
 - [ ] Object
 - [x] References
 - [ ] Credentials
+- [ ] Credential Helper
+- [ ] Cache Credential Helper
+- [ ] Store Credential Helper
 - [ ] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
