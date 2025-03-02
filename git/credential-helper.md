@@ -1,4 +1,4 @@
-# Git Credentials
+# Git Credential Helper
 
 Git supports external tools to store and access credentials, these tools are called credential helpers.
 
