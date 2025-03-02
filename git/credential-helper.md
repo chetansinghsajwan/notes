@@ -54,7 +54,7 @@ When a helper is executed, it will have one "operation" argument appended to its
 - `store`: Store the credential, if applicable to the helper.
 - `erase`: Remove matching credentials, if any, from the helper’s storage.
 
-The credentials are read and write using helper's `stdin` and `stdout` streams. See [input/output format](git/credential-helper-io-format) of credential helper to learn more.
+The credentials are read and write using helper's `stdin` and `stdout` streams. See [input/output format](credential-helper-iofmt.md) of credential helper to learn more.
 
 ---
 
