@@ -8,6 +8,14 @@ The credential helper to use can be defined in the configuration using:
 credential.helper <helper>
 ```
 
+By default, git comes with two credential helpers:
+
+- cache
+	
+	Cache credentials in memory for a short period of time. See [git-credential-cache[1]](https://git-scm.com/docs/git-credential-cache) for details.
+
+- store
+
 Without any credential helpers defined, Git will try the following strategies to ask the user for usernames and passwords:
 
 1. If the `GIT_ASKPASS` environment variable is set, the program specified by the variable is invoked. A suitable prompt is provided to the program on the command line, and the user’s input is read from its standard output.
