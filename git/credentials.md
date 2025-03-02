@@ -10,3 +10,6 @@ Without any credential helpers defined, Git will try the following strategies to
     
 4. Otherwise, the user is prompted on the terminal.
 
+## References
+
+- https://git-scm.com/docs/gitcredentials
