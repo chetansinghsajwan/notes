@@ -1,6 +1,6 @@
 # Git Credentials
 
-Git supports external tools to store and access credentials, these tools are called credential helpers. See [credential helper] to learn mo
+Git supports external tools to store and access credentials, these tools are called credential helpers. See [credential helper](git/credential-helper) to learn more.
 
 Without any credential helpers defined, Git will try the following strategies to ask the user for usernames and passwords:
 
