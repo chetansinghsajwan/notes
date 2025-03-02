@@ -115,8 +115,8 @@
 - [ ] Branch
 - [ ] Object
 - [x] References
-- [ ] Credentials
-- [ ] Credential Helper
+- [x] Credentials
+- [x] Credential Helper
 - [ ] Cache Credential Helper
 - [ ] Store Credential Helper
 - [ ] Tags
