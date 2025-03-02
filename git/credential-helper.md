@@ -8,9 +8,9 @@ The credential helper to use is defined using the following configuraiton option
 credential.helper <helper>
 ```
 
-This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns some credentials.
+This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns the credentials.
 
-The string is transformed by Git into a command to be executed using these rules:
+The `<helper>` string is transformed by Git into a command to be executed using these rules:
 
 1. If the helper string begins with "!", it is considered a shell snippet, and everything  after the "!" becomes the command.
 2. Otherwise, if the helper string begins with an absolute path, the verbatim helper string becomes the command.
