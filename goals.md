@@ -118,7 +118,7 @@
 - [x] Credentials
 - [x] Credential Helper
 - [x] Cache Credential Helper
-- [ ] Store Credential Helper
+- [x] Store Credential Helper
 - [ ] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
