@@ -12,9 +12,11 @@ By default, git comes with two credential helpers:
 
 - cache
 	
-	Cache credentials in memory for a short period of time. See [git-credential-cache[1]](https://git-scm.com/docs/git-credential-cache) for details.
+	Cache credentials in memory for a short period of time. See [git-credential-cache](git/credential-cache) for details.
 
 - store
+	
+	Store credentials on disk in plain text. See [git-credential-store](git/credential-store) for details.
 
 Without any credential helpers defined, Git will try the following strategies to ask the user for usernames and passwords:
 
