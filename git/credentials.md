@@ -1,5 +1,13 @@
 # Git Credentials
 
+Git supports external tools to store and access credentials, these tools are called credential helpers.
+
+The credential helper to use can be defined in the configuration using:
+
+```
+credential.helper <helper>
+```
+
 Without any credential helpers defined, Git will try the following strategies to ask the user for usernames and passwords:
 
 1. If the `GIT_ASKPASS` environment variable is set, the program specified by the variable is invoked. A suitable prompt is provided to the program on the command line, and the user’s input is read from its standard output.
