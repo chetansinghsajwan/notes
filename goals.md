@@ -114,7 +114,7 @@
 - [ ] Index
 - [ ] Branch
 - [ ] Object
-- [ ] References
+- [x] References
 - [ ] Credentials
 - [ ] Tags
 - [ ] The three tree architecture
