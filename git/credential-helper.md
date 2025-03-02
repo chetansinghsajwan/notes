@@ -16,6 +16,38 @@ The `<helper>` string is transformed by Git into a command to be executed using 
 2. Otherwise, if the helper string begins with an absolute path, the verbatim helper string becomes the command.
 3. Otherwise, the string "git credential-" is prepended to the helper string, and the result becomes the command.
 
+Here are some example specifications:
+
+```shell
+# run "git credential-foo"
+[credential]
+	helper = foo
+
+# same as above, but pass an argument to the helper
+[credential]
+	helper = "foo --bar=baz"
+
+# the arguments are parsed by the shell, so use shell
+# quoting if necessary
+[credential]
+	helper = "foo --bar='whitespace arg'"
+
+# store helper (discouraged) with custom location for the db file;
+# use `--file ~/.git-secret.txt`, rather than `--file=~/.git-secret.txt`,
+# to allow the shell to expand tilde to the home directory.
+[credential]
+	helper = "store --file ~/.git-secret.txt"
+
+# you can also use an absolute path, which will not use the git wrapper
+[credential]
+	helper = "/path/to/my/helper --with-arguments"
+
+# or you can specify your own shell snippet
+[credential "https://example.com"]
+	username = your_user
+	helper = "!f() { test \"$1\" = get && echo \"password=$(cat $HOME/.secret)\"; }; f"
+```
+
 When a helper is executed, it will have one "operation" argument appended to its command line, which is one of:
 
 - `get`: Return a matching credential, if any exists.
