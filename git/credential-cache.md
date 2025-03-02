@@ -10,7 +10,6 @@ If you would like the daemon to exit early, forgetting all cached credentials be
 git credential-cache exit
 ```
 
-
 ## References
 
 - https://git-scm.com/docs/git-credential-cache
