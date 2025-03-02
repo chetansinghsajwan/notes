@@ -22,6 +22,8 @@ When a helper is executed, it will have one "operation" argument appended to its
 - `store`: Store the credential, if applicable to the helper.
 - `erase`: Remove matching credentials, if any, from the helper’s storage.
 
+The details of the credential will be provided on the helper’s stdin stream. The exact format is the same as the input/output format of the `git credential` plumbing command (see the section `INPUT/OUTPUT FORMAT` in [git-credential[1]](https://git-scm.com/docs/git-credential) for a detailed specification).
+
 By default, git comes with two credential helpers:
 
 - `cache`: Cache credentials in memory for a short period of time. See [git-credential-cache](git/credential-cache) for details.

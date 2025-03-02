@@ -1,4 +1,4 @@
-# Git Credential Cache Helper
+# Git Cache Credential Helper
 
 ## References
 
