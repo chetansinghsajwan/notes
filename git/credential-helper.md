@@ -10,16 +10,28 @@ credential.helper <helper>
 
 This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns some credentials.
 
-Each helper is specified by a single string in the configuration variable `credential.helper` (and others, see [git-config[1]](https://git-scm.com/docs/git-config)). The string is transformed by Git into a command to be executed using these rules:
+The string is transformed by Git into a command to be executed using these rules:
 
-1. If the helper string begins with "!", it is considered a shell snippet, and everything after the "!" becomes the command.
-    
+1. If the helper string begins with "!", it is considered a shell snippet, and everything  after the "!" becomes the command.
 2. Otherwise, if the helper string begins with an absolute path, the verbatim helper string becomes the command.
-    
 3. Otherwise, the string "git credential-" is prepended to the helper string, and the result becomes the command.
-    
 
 The resulting command then has an "operation" argument appended to it (see below for details), and the result is executed by the shell.
+
+When a helper is executed, it will have one "operation" argument appended to its command line, which is one of:
+
+[](https://git-scm.com/docs/gitcredentials#Documentation/gitcredentials.txt-codegetcode)`get`
+
+Return a matching credential, if any exists.
+
+[](https://git-scm.com/docs/gitcredentials#Documentation/gitcredentials.txt-codestorecode)`store`
+
+Store the credential, if applicable to the helper.
+
+[](https://git-scm.com/docs/gitcredentials#Documentation/gitcredentials.txt-codeerasecode)`erase`
+
+Remove matching credentials, if any, from the helper’s storage.
+
 By default, git comes with two credential helpers:
 
 - cache
