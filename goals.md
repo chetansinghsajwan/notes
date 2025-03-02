@@ -117,7 +117,7 @@
 - [x] References
 - [x] Credentials
 - [x] Credential Helper
-- [ ] Cache Credential Helper
+- [x] Cache Credential Helper
 - [ ] Store Credential Helper
 - [ ] Tags
 - [ ] The three tree architecture
