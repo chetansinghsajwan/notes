@@ -20,7 +20,7 @@ It is a reference to the constructor function that created the instance object.
 
 A string representing the boolean value, which is either `"true"` or `"false"`.
 
-**Overrides:** [`Object.toString()`](git/concepts/object.md#^to_string)
+**Overrides:** [`Object.toString()`](object.md#^to_string)
 
 **Example:**
 
@@ -40,7 +40,7 @@ Primitive value of the given object.
 
 This method is usually called internally by JavaScript and not explicitly in code.
 
-**Overrides:** [`Object.valueOf()`](git/concepts/object.md#^value_of)
+**Overrides:** [`Object.valueOf()`](object.md#^value_of)
 
 ## References
 

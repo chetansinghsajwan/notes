@@ -26,6 +26,8 @@ https://user:pass@example.com
 
 No other kinds of lines (e.g. empty lines or comment lines) are allowed in the file, even though some may be silently ignored.
 
+When Git needs authentication for a particular URL context, credential-store will consider that context a pattern to match against each entry in the credentials file. If the protocol, hostname, and username (if we already have one) match, then the password is returned to Git
+
 ## References
 
 - https://git-scm.com/docs/git-credential-store
