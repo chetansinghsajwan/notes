@@ -1,5 +1,6 @@
 {
   "interfaceFontFamily": "Poppins",
   "textFontFamily": "Poppins",
-  "monospaceFontFamily": "JetBrains Mono"
+  "monospaceFontFamily": "JetBrains Mono",
+  "theme": "moonstone"
 }
