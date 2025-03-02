@@ -16,31 +16,16 @@ The string is transformed by Git into a command to be executed using these rules
 2. Otherwise, if the helper string begins with an absolute path, the verbatim helper string becomes the command.
 3. Otherwise, the string "git credential-" is prepended to the helper string, and the result becomes the command.
 
-The resulting command then has an "operation" argument appended to it (see below for details), and the result is executed by the shell.
-
 When a helper is executed, it will have one "operation" argument appended to its command line, which is one of:
 
-[](https://git-scm.com/docs/gitcredentials#Documentation/gitcredentials.txt-codegetcode)`get`
-
-Return a matching credential, if any exists.
-
-[](https://git-scm.com/docs/gitcredentials#Documentation/gitcredentials.txt-codestorecode)`store`
-
-Store the credential, if applicable to the helper.
-
-[](https://git-scm.com/docs/gitcredentials#Documentation/gitcredentials.txt-codeerasecode)`erase`
-
-Remove matching credentials, if any, from the helper’s storage.
+- `get`: Return a matching credential, if any exists.
+- `store`: Store the credential, if applicable to the helper.
+- `erase`: Remove matching credentials, if any, from the helper’s storage.
 
 By default, git comes with two credential helpers:
 
-- cache
-	
-	Cache credentials in memory for a short period of time. See [git-credential-cache](git/credential-cache) for details.
-
-- store
-	
-	Store credentials on disk in plain text. See [git-credential-store](git/credential-store) for details.
+- `cache`: Cache credentials in memory for a short period of time. See [git-credential-cache](git/credential-cache) for details.
+- `store`: Store credentials on disk in plain text. See [git-credential-store](git/credential-store) for details.
 
 You can use `git help -a | grep credential-` to list all available credential helpers.
 
