@@ -11,6 +11,7 @@ HEAD is the pointer to the current branch reference, which is in turn a pointer 
 ## Index
 
 Also known as **Staging Area**.
+
 This tree is tracking Working Directory changes, that have been promoted with `git add`, to be stored in the next commit. This tree is a complex internal caching mechanism.
 
 ## Working Tree
