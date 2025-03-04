@@ -2,7 +2,7 @@
 
 Tags are just [references](ref.md) to commits. What makes the different than other references like branches is their usage. They are used to mark specific points in your repo history.
 
-For exa
+For example, tags are used to mark released versions.
 
 The files for tags are stored in `.git/refs/tags/` directory.
 
