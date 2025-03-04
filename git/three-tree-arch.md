@@ -6,7 +6,7 @@ Git as a system manages and manipulates three trees in its normal operation:
 
 ## Head
 
-HEAD is the pointer to the current branch reference, which is in turn a pointer to the last commit made on that branch.
+Head is just a reference to a commit. Git uses this reference to determine the current state of the repository. For example, Git uses head to compare Head Tree with the working tree to determine what are 
 
 ## Index
 
