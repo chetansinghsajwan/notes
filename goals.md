@@ -122,7 +122,7 @@
 - [x] Cache Credential Helper
 - [x] Store Credential Helper
 - [ ] Git environment variables
-- [ ] Tags
+- [x] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
 - [ ] `reset`
