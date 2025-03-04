@@ -2,13 +2,13 @@
 
 Git supports external tools to store and access credentials, these tools are called credential helpers.
 
-The credential helper to use is defined using the following configuraiton option:
+The credential helper to use is defined using the following configuration option:
 
 ```
 credential.helper <helper>
 ```
 
-This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns the credentials.
+This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns the credentials, even.
 
 The `<helper>` string is transformed by Git into a command to be executed using these rules:
 
