@@ -52,7 +52,7 @@
 - [ ] Dentry
 - [ ] Dentry Cache
 - [ ] File Permissions
-- [ ] File Attibutes
+- [ ] File Attributes
 - [ ] `struct filesystem_type`
 - [ ] `struct inode`
 - [ ] `struct inode_operations`
@@ -82,8 +82,8 @@
 - [x] `/sbin` dir
 - [x] `/srv` dir
 - [x] `/tmp` dir
-- [ ] `/usr` heirarchy
-- [ ] `/var` heirarchy
+- [ ] `/usr` hierarchy
+- [ ] `/var` hierarchy
 - [ ] `/usr` merge
 
 ## CSS
