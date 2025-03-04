@@ -8,7 +8,7 @@ The credential helper to use is defined using the following configuration option
 credential.helper <helper>
 ```
 
-This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns the credentials, even.
+This option can be specified multiple times, in which case each entry will be tried in sequence until one helper returns the credentials.
 
 The `<helper>` string is transformed by Git into a command to be executed using these rules:
 
