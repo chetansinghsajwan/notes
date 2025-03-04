@@ -10,6 +10,8 @@ Attributes with keys that end with C-style array brackets `[]` can have multiple
 
 In all cases, all bytes are treated as-is (i.e., there is no quoting, and one cannot transmit a value with newline or NUL in it). The list of attributes is terminated by a blank line or end-of-file.
 
+See this [link](https://git-scm.com/docs/git-credential#IOFMT) for a list of attributes recognized by git. Unrecognized attributes and capabilities are silently discarded.
+
 ## References
 
 - https://git-scm.com/docs/git-credential#IOFMT
