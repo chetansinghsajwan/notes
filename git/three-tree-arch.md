@@ -1,6 +1,7 @@
 # The Three Tree Architecture
 
 By “tree” here, we really mean “collection of files”, not specifically the data structure. There are a few cases where the index doesn’t exactly act like a tree, but for our purposes it is easier to think about it this way for now.
+
 Git as a system manages and manipulates three trees in its normal operation:
 
 ## Head
