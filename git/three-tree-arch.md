@@ -6,7 +6,9 @@ Git as a system manages and manipulates three trees in its normal operation:
 
 ## Head
 
-Head is just a reference to a commit. Git uses this reference to determine the current state of the repository. For example, Git uses head to compare Head Tree with the working tree to determine what are 
+Head is just a reference to a commit. Git uses this reference to determine the current state of the repository.
+
+For example, Git uses head to compare Head Tree with the working tree to determine what are the changes made in the working tree, that is, how is working tree different from the commit head points to.
 
 ## Index
 
