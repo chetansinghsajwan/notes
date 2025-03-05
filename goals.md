@@ -117,9 +117,10 @@
 - [x] References
 - [x] Credentials
 - [x] Credential Helper
+- [x] Credential Helper IO Format
+- [ ] Credential Helper Attributes
 - [x] Cache Credential Helper
 - [x] Store Credential Helper
-- [ ] Store Credential Helper IO Format
 - [ ] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
