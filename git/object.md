@@ -1,5 +1,7 @@
 # Object
 
+Comment:: Needs more specific details for all three object types.
+
 Git is a content-addressable filesystem. It means that at the core of git is a simple key-value data store.
 
 Git stores all data in form of files, these files are referred as objects. These object are the atoms of a git repo.
@@ -70,7 +72,7 @@ version 1
 
 A single tree object contains one or more entries, each of which is the SHA-1 hash of a blob or subtree with its associated mode, type, and filename.
 
-This is where the file name and other properites of the file are stored.
+This is where the file name and other properties of the file are stored.
 
 ## Commit
 
