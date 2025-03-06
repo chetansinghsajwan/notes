@@ -48,8 +48,7 @@ $ find .git/objects -type f
 
 This will create an object for the content of the file.
 
-> [!note]
-> This will create the object for the contents of the file and not for the file itself. This means that git doesn't store the name of the file, only its content.
+**Note:** This will create the object for the contents of the file and not for the file itself. This means that git doesn't store the name of the file, only its content.
 
 ```shell
 $ echo 'version 1' > test.txt
