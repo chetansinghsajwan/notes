@@ -111,7 +111,8 @@
 
 ## Git
 
-- [ ] Index
+- [x] Index
+- [x] Head
 - [ ] Branch
 - [ ] Object
 - [x] References
