@@ -1,25 +1,16 @@
 # The Three Tree Architecture
 
-By “tree” here, we really mean “collection of files”, not specifically the data structure. There are a few cases where the index doesn’t exactly act like a tree, but for our purposes it is easier to think about it this way for now.
-
-Git as a system manages and manipulates three trees in its normal operation:
+Git refers to these three elements as trees:
 
 - [Head](git/head)
 - [Index](git/index)
 - Working Directory
 
+They dontnot actually follow tree structure but they are conceptually referred as trees.
 
-## Index
-
-Also known as **Staging Area**.
-
-This tree is used to track Working Directory changes, that have been promoted to be stored in the next commit.
-
-## Working Tree
+## Working Directory
 
 Working Tree is the root folder, where you work. This is where all your current changes are.
-
-## Why git follows three tree Architecture?
 
 ## References
 
