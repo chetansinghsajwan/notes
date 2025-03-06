@@ -2,10 +2,13 @@
 
 Also known as **Staging Area**.
 
-This tree is used to track Working Directory changes, that have been promoted to be stored in the next commit.
+The index is a binary file (`.git/index`) that stores a sorted list of file names, along with file metadata and pointers to the object database—the files that contain the contents of these files at the time they were added to the index.
+
+This is used to track Working Directory changes, that have been promoted to be stored in the next commit.
 
 This allows to commit only some of the changes you made.
 
 ## References
 
 - https://git-scm.com/about/staging-area
+- https://graphite.dev/guides/git-index

@@ -119,7 +119,6 @@
 - [x] Credentials
 - [x] Credential Helper
 - [x] Credential Helper IO Format
-- [ ] Credential Helper Attributes
 - [x] Cache Credential Helper
 - [x] Store Credential Helper
 - [ ] Git environment variables
