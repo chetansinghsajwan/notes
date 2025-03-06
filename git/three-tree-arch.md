@@ -14,7 +14,7 @@ For example, Git uses head to compare Head Tree with the working tree to determi
 
 Also known as **Staging Area**.
 
-This tree is tracking Working Directory changes, that have been promoted with `git add`, to be stored in the next commit. This tree is a complex internal caching mechanism.
+This tree is used to track Working Directory changes, that have been promoted to be stored in the next commit.
 
 ## Working Tree
 
