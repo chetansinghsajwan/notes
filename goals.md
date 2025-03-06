@@ -129,6 +129,5 @@
 - [ ] `checkout`
 - [ ] `switch`
 - [ ] `restore`
-- [ ] 
 
 ## Networking
