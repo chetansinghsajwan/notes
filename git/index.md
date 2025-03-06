@@ -8,6 +8,10 @@ This is used to track Working Directory changes, that have been promoted to be s
 
 This allows to commit only some of the changes you made.
 
+## Read Later
+
+- https://git-scm.com/docs/index-format
+
 ## References
 
 - https://git-scm.com/about/staging-area
