@@ -2,11 +2,9 @@
 
 Git is a content-addressable filesystem. It means that at the core of git is a simple key-value data store.
 
-Git stores all data in form of files, these files are referred as objects.
+Git stores all data in form of files, these files are referred as objects. These object are the atoms of a git repo.
 
-Objects are the atoms of a git repo.
-
-They are stored in `.git/objects` directory. This directory is called the [obejct-store](object-store.md) of git.
+They are stored in `.git/objects` directory. This directory is called the [object-store](object-store.md) of git.
 
 There are three types of objects git uses to manage the repo:
 
@@ -16,15 +14,11 @@ There are three types of objects git uses to manage the repo:
 
 To every content git adds a header before creating the object. This header stores the type of the object and the size of the content.
 
----
-
-**Example**
+For example,
 
 ```
 blob 16\u0000
 ```
-
----
 
 Git stores content in a manner similar to a UNIX filesystem, but a bit simplified. All the content is stored as tree and blob objects, with trees corresponding to UNIX directory entries and blobs corresponding more or less to inodes or file contents.
 
