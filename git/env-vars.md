@@ -2,3 +2,7 @@
 
 - `GIT_ASKPASS`
 - `SSH_ASKPASS`
+
+## References
+
+- 
