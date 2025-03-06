@@ -9,7 +9,7 @@ The following 8 methods are standardized by [RFC 9110](/ietf/rfc/9110):
 - [PUT](put.md)
 - [DELETE](http/method/delete.md)
 - [OPTIONS](options.md)
-- [HEAD](head.md)
+- [HEAD](http/method/head.md)
 - [TRACE](trace.md)
 - [CONNECT](connect.md)
 
