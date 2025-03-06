@@ -2,7 +2,7 @@
 
 Git is a content-addressable filesystem. It means that at the core of git is a simple key-value data store.
 
-Git stores all data in form of files, these files are reffered as objects.
+Git stores all data in form of files, these files are referred as objects.
 
 Objects are the atoms of a git repo.
 
