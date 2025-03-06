@@ -114,7 +114,7 @@
 - [x] Index
 - [x] Head
 - [ ] Branch
-- [ ] Object
+- [x] Object
 - [x] References
 - [x] Credentials
 - [x] Credential Helper
