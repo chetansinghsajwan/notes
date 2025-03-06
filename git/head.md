@@ -6,6 +6,10 @@ For example, Git uses head to compare Head Tree with the working tree to determi
 
 The reference file for head is stored at `.git/HEAD`.
 
+The head can refer to either a branch or the commit. If it refers to a branch, any commit moves the branch forward.
+
+If it refers to a commit, the head is said to be in a detached head state.
+
 ## References
 
 - https://git-scm.com/book/ms/v2/Git-Internals-Git-References
