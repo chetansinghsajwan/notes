@@ -1,6 +1,6 @@
 # Object
 
-Comment:: Needs more specific details for all three object types.
+**Comment::** Needs more specific details for all three object types.
 
 Git is a content-addressable filesystem. It means that at the core of git is a simple key-value data store.
 
