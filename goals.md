@@ -113,7 +113,7 @@
 
 - [x] Index
 - [x] Head
-- [ ] Branch
+- [x] Branch
 - [x] Object
 - [x] References
 - [x] Credentials
