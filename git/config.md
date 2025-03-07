@@ -19,3 +19,4 @@ The lower level overrides values in the higher level, which means local has the 
 ## References
 
 - https://git-scm.com/book/ms/v2/Customizing-Git-Git-Configuration
+- https://git-scm.com/docs/git-config
