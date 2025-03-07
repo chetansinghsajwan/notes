@@ -5,6 +5,25 @@ Git divides the configuration in three levels:
 1. System Level
 2. Global or User Level
 3. Local Level
+4. Worktree Level
+
+system
+
+$(prefix)/etc/gitconfig
+
+[](https://git-scm.com/docs/git-config#Documentation/git-config.txt-global)global
+
+$XDG_CONFIG_HOME/git/config
+
+~/.gitconfig
+
+[](https://git-scm.com/docs/git-config#Documentation/git-config.txt-local)local
+
+$GIT_DIR/config
+
+[](https://git-scm.com/docs/git-config#Documentation/git-config.txt-worktree)worktree
+
+$GIT_DIR/config.worktree
 
 System Level is applied throughout the whole system, for each user. The configuration file for this level is stored at `/etc/gitconfig` file.
 
