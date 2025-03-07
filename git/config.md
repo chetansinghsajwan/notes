@@ -14,6 +14,8 @@ Local level is specific to each repository. The configuration file for this leve
 
 You can use `git config` to read and write configuration for each level using the flags `--system`, `--global` and `--local`. `--local` is the default flag if no flag is specified.
 
+T
+
 ## References
 
 - https://git-scm.com/book/ms/v2/Customizing-Git-Git-Configuration
