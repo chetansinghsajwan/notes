@@ -113,6 +113,7 @@
 
 - [x] Index
 - [x] Head
+- [ ] Worktree
 - [x] Branch
 - [x] Object
 - [x] References
@@ -123,7 +124,7 @@
 - [x] Store Credential Helper
 - [x] Git environment variables
 - [x] Tags
-- [ ] The three tree architecture
+- [x] The three tree architecture
 - [x] Configuration
 
 ## Networking
