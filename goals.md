@@ -125,9 +125,5 @@
 - [x] Tags
 - [ ] The three tree architecture
 - [x] Configuration
-- [ ] `reset`
-- [ ] `checkout`
-- [ ] `switch`
-- [ ] `restore`
 
 ## Networking
