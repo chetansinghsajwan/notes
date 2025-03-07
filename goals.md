@@ -124,7 +124,7 @@
 - [x] Git environment variables
 - [x] Tags
 - [ ] The three tree architecture
-- [ ] Configuration
+- [x] Configuration
 - [ ] `reset`
 - [ ] `checkout`
 - [ ] `switch`
