@@ -1,5 +1,5 @@
 # Git Environment Variables
-### Global Behavior
+See [Git-Internals-Environment-Variables](https://git-scm.com/book/ms/v2/Git-Internals-Environment-Variables) for more details.
 
 - `GIT_EXEC_PATH`
 - `HOME`
@@ -44,8 +44,7 @@
 - `GIT_NAMESPACE`
 - `GIT_FLUSH`
 - `GIT_REFLOG_ACTION`
--
-- ## References
--
-- - https://git-scm.com/book/ms/v2/Git-Internals-Environment-Variables
--
+
+## References
+
+- https://git-scm.com/book/ms/v2/Git-Internals-Environment-Variables

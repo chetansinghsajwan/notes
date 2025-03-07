@@ -121,7 +121,7 @@
 - [x] Credential Helper IO Format
 - [x] Cache Credential Helper
 - [x] Store Credential Helper
-- [ ] Git environment variables
+- [x] Git environment variables
 - [x] Tags
 - [ ] The three tree architecture
 - [ ] Configuration
