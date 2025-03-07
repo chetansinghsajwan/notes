@@ -4,16 +4,19 @@ This command is used to switch branches.
 
 ## Synopsis
 
-```shell
+```text
 git switch [<options>] [--no-guess] <branch>
+
+# second form
 git switch [<options>] --detach [<start-point>]
+
 git switch [<options>] (-c|-C) <new-branch> [<start-point>]
 git switch [<options>] --orphan <new-branch>
 ```
 
 ## Description
 
-Switching branches does not require a clean index and working tree (i.e. no differences compared to `HEAD`). The operation is aborted however if the operation leads to loss of local changes, unless told otherwise with `--`.
+Switching branches does not require a clean index and working tree. The operation is aborted however if the operation leads to loss of local changes, unless told otherwise with `--discard-changes` or `--merge`.
 
 ---
 ```shell
