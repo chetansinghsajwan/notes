@@ -10,7 +10,9 @@ System Level is applied throughout the whole system, for each user. The configur
 
 Global Level is specific to each user. The configuration file for this level is stored at `~/.gitconfig` or `~/.config/git/config`.
 
-Local level is specific to each repository. The configuration file for this level is stored at `.git/config`
+Local level is specific to each repository. The configuration file for this level is stored at `.git/config`.
+
+You can use `git config` to read and write configuration for each level using the flags `--system`, `--global` and `--local`. `--local` is the default flag if no flag is specified.
 
 ## References
 
