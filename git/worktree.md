@@ -7,10 +7,10 @@ You can use the following commands to manage worktrees.
 ```
 git worktree add
 git worktree list
-git worktree lock_ [--reason <string>] <worktree>
-git worktree move_ <worktree> <new-path>
-git worktree prune_ [-n] [-v] [--expire <expire>]
-git worktree remove_ [-f] <worktree>
+git worktree lock
+git worktree move
+git worktree prune
+git worktree remove
 git worktree repair
 git worktree unlock
 ```
