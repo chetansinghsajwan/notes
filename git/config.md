@@ -13,14 +13,12 @@ Global Level is specific to each user. The configuration file for this level is 
 
 Local level is specific to each repository. The configuration file for this level is stored at `$GIT_DIR/config`.
 
-Worktree level is specific to each [worktree](git/worktree).
-`$GIT_DIR/config.worktree`
+Worktree level is specific to all [worktrees](git/worktree) for each repository. The configuration file for this level is stored at `$GIT_DIR/config.worktree`.
 
-You can use `git config` to read and write configuration for each level using the flags `--system`, `--global` and `--local`. `--local` is the default flag if no flag is specified.
+You can use `git config` to read and write configuration for each level using the flags `--system`, `--global`, `--local` and `--worktree`. `--local` is the default flag if no flag is specified.
 
-The lower level overrides values in the higher level, which means local has the highest priority, and system has the least.
+The lower level overrides values in the higher level, which means worktree has the highest priority, and system has the lowest.
 
 ## References
 
-- https://git-scm.com/book/ms/v2/Customizing-Git-Git-Configuration
 - https://git-scm.com/docs/git-config
