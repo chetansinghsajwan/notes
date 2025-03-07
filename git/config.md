@@ -8,9 +8,9 @@ Git divides the configuration in three levels:
 
 System Level is applied throughout the whole system, for each user. The configuration file for this level is stored at `/etc/gitconfig` file.
 
-Global Level is applied specific to one user. global level, the configuration file is stored at `~/.gitconfig` or `~/.config/git/config`. This level is specific to each user.
+Global Level is specific to each user. The configuration file for this level is stored at `~/.gitconfig` or `~/.config/git/config`.
 
-For local level
+Local level is specific to each repository. The configuration file for this level is stored at `.git/config`
 
 ## References
 
