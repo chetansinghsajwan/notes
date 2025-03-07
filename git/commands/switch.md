@@ -4,7 +4,7 @@ This command is used to switch branches.
 
 ## Synopsis
 
-```text
+```
 git switch [<options>] [--no-guess] <branch>
 
 # second form
@@ -24,6 +24,8 @@ git switch [<options>] (-c|-C) <new-branch> [<start-point>]
 ```
 
 This form is used to create a new branch wit name `<new-branch>`. 
+
+---
 
 ## References
 
