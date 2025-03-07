@@ -113,7 +113,7 @@
 
 - [x] Index
 - [x] Head
-- [ ] Worktree
+- [x] Worktree
 - [x] Branch
 - [x] Object
 - [x] References
