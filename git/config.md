@@ -21,7 +21,11 @@ The lower level overrides values in the higher level, which means worktree has t
 
 You can use the following commands to manage configs:
 
-`git config 
+- `git config get <name>`
+- `git config set <name> <value>`
+- `git config unset <name>`
+
+See [git-config](https://git-scm.com/docs/git-config) for list of all configuration options.
 
 ## References
 
