@@ -19,6 +19,10 @@ You can use `git config` to read and write configuration for each level using th
 
 The lower level overrides values in the higher level, which means worktree has the highest priority, and system has the lowest.
 
+You can use the following commands to manage configs:
+
+`git config 
+
 ## References
 
 - https://git-scm.com/docs/git-config
