@@ -127,4 +127,17 @@
 - [x] The three tree architecture
 - [x] Configuration
 
+
+## Python
+
+- How python installs executables
+- How to create a library
+- Dependency management
+- Documentation comments
+- Code formatters
+- Project management tools
+- How importing works
+- What is jupyter
+- Python jupyter notebooks
+
 ## Networking
