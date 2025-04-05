@@ -12,3 +12,7 @@
 - Dr. Rhonda Patrick
 - Chris Kresser
 - Robb Wolf
+
+## Read Later
+
+- https://fastlifehacks.com/dr-rhonda-patrick-diet-and-exercise/
