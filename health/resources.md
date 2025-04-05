@@ -16,6 +16,10 @@
 - Chris Kresser
 - Robb Wolf
 
+## Books
+
+- https://open.umn.edu/opentextbooks/textbooks/human-nutrition
+
 ## Read Later
 
 - https://fastlifehacks.com/dr-rhonda-patrick-diet-and-exercise/
