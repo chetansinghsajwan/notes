@@ -16,25 +16,15 @@ Nutrients are classified in different ways:
 
 ### Based on Quantity Required
 
-- Macronutrients** (needed in large amounts)
+- Macronutrients (needed in large amounts)
+	- Carbohydrates
+	- Proteins
+	- Fats
+	- Water
 
-- **Carbohydrates**
-    
-- **Proteins**
-    
-- **Fats**
-    
-- **Water**
-    
-
-#### **Micronutrients** (needed in small amounts)
-
-- **Vitamins**
-    
-- **Minerals**
-    
-
----
+- Micronutrients (needed in small amounts)
+	- Vitamins
+	- Minerals
 
 ### **2. Based on Function:**
 
