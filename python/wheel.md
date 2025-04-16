@@ -13,6 +13,12 @@ A wheel is a type of [**built distribution**](https://packaging.python.org/glos
 
 **Note**: It’s worth mentioning that despite the use of the term _built_, a wheel doesn’t contain `.pyc` files, or compiled Python bytecode.
 
+A wheel filename is broken down into parts separated by hyphens:
+
+Text
+
+`{dist}-{version}(-{build})?-{python}-{abi}-{platform}.whl`
+
 ---
 
 ## References
