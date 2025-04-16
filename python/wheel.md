@@ -66,6 +66,18 @@ You can break this down into its tags:
 
 The `py2.py3-none-any.whl` segment of the wheel name is common. This is a **universal wheel** that will install with Python 2 or 3 on any platform with any [ABI](https://stackoverflow.com/a/2456882/7954504). If the wheel ends in `none-any.whl`, then it’s very likely a pure-Python package that doesn’t care about a specific Python ABI or CPU architecture.
 
+---
+
+Another example is the `jinja2` templating engine. If you navigate to the [downloads page](https://pypi.org/project/Jinja2/3.0.0a1/#files) for the Jinja 3.x alpha release, then you’ll see the following wheel:
+
+Text
+
+`Jinja2-3.0.0a1-py3-none-any.whl`
+
+Notice the lack of `py2` here. This is a pure-Python project that will work on any Python 3.x version, but it’s not a universal wheel because it doesn’t support Python 2. Instead, it’s called a **pure-Python wheel**.
+
+---
+
 ## References
 
 - https://realpython.com/python-wheels
