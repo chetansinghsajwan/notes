@@ -18,6 +18,7 @@ A wheel filename is broken down into parts separated by hyphens:
 `{dist}-{version}(-{build})?-{python}-{abi}-{platform}.whl`
 
 Each section in `{brackets}` is a **tag**, or a component of the wheel name that carries some meaning about what the wheel contains and where the wheel will or will not work.
+
 ---
 
 ## References
