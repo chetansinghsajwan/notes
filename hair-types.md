@@ -35,3 +35,11 @@ Hair types are generally categorized based on curl pattern:
 - 4A: Soft, tight coils
 - 4B: Z-shaped, less defined
 - 4C: Very tight, fragile, little definition
+
+### **Why Type 1 is often just "1"**
+
+- Straight hair has **less visible variation** than curly/coily types.
+    
+- So many people don’t feel the need to break it down.
+    
+- Some sources still use 1A/1B/1C, but it's less emphasized.
