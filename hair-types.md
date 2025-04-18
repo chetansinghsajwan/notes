@@ -43,3 +43,8 @@ Hair types are generally categorized based on curl pattern:
 - So many people don’t feel the need to break it down.
     
 - Some sources still use 1A/1B/1C, but it's less emphasized.
+
+## References
+
+- chatgpt
+- https://www.youtube.com/watch?v=498BHAYzYPE
