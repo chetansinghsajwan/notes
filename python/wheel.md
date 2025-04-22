@@ -112,8 +112,6 @@ $ python -m pip install -U wheel setuptools
 
 - I don't know why `setuptools` is needed. But I think it is used by wheel internally. Can it be replaced with something else? I don't know.
 
-
-
 ## Todo
 
 - Make notes on `manylinux`.
