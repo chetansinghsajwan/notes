@@ -91,6 +91,27 @@ Notice the lack of `py2` here. This is a pure-Python project that will work on
 
 A wheel file is essentially a `.zip` archive. You can unzip it using `unzip` tool.
 
+---
+### Security Considerations With Platform Wheels
+
+One feature of wheels worth considering from a user security standpoint is that wheels are [potentially subject to version rot](https://github.com/asottile/no-manylinux#what-why) because they bundle a binary dependency rather than allowing that dependency to be updated by your system package manager.
+
+For example, if a wheel incorporates the [`libfortran`](https://gcc.gnu.org/fortran/) shared library, then distributions of that wheel will use the `libfortran` version that they were bundled with even if you upgrade your own machine’s version of `libfortran` with a package manager such as `apt`, `yum`, or `brew`.
+
+If you’re developing in an environment with heightened security precautions, this feature of some platform wheels is something to be mindful of.
+
+---
+
+## Building Wheels
+
+The first thing you need to do to build a wheel locally is to install `wheel`. It doesn’t hurt to make sure that `setuptools` is up to date, too:
+
+```bash
+$ python -m pip install -U wheel setuptools
+```
+
+- I don't know wh
+
 ## References
 
 - https://realpython.com/python-wheels
