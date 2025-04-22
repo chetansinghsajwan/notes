@@ -87,6 +87,10 @@ Notice the lack of `py2` here. This is a pure-Python project that will work on
 - `pip` automatically generates `.pyc` files in the wheel that match the right Python interpreter.
 - Wheels provide consistency by cutting many of the variables involved in installing a package out of the equation.
 
+---
+
+A wheel file is essentially a `.zip` archive. You can unzip it using `unzip` tool.
+
 ## References
 
 - https://realpython.com/python-wheels
