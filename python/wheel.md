@@ -78,6 +78,15 @@ Notice the lack of `py2` here. This is a pure-Python project that will work on
 
 ---
 
+## Benifits of Wheel
+
+- Wheels install faster than source distributions.
+- Wheels are smaller than source distributions.
+- Wheels cut `setup.py` execution out of the equation.
+- There’s no need for a compiler to install wheels that contain compiled extension modules.
+- `pip` automatically generates `.pyc` files in the wheel that match the right Python interpreter.
+- Wheels provide consistency by cutting many of the variables involved in installing a package out of the equation.
+
 ## References
 
 - https://realpython.com/python-wheels
