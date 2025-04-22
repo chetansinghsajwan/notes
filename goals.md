@@ -139,5 +139,9 @@
 - How importing works
 - What is jupyter
 - Python jupyter notebooks
+- pypa
+- pypi
+- Wheels
+- setuptools
 
 ## Networking
