@@ -140,7 +140,7 @@
 - [ ] What is jupyter
 - [ ] Python jupyter notebooks
 - [x] pypa
-- [ ] pypi
+- [x] pypi
 - [ ] Wheels
 - [ ] setuptools
 
