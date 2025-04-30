@@ -4,4 +4,4 @@ Flexbox is the short name for the [Flexible Box Layout](https://developer.mozil
 
 ## References
 
-- [Introduction to CSS layout - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction
