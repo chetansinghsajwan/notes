@@ -4,6 +4,7 @@
 **Cross axis**: Axis perpendicular to the main axis.
 **Flex container**: The element with display property defined to `flex` or `inline-flex`.
 **Flex item**: Direct children of flex container.
+**Flexbox**: Commonly used name for the layout model for displaying items in a single dimension, as a row or as a column.
 
 ## References
 
