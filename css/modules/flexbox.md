@@ -6,6 +6,8 @@
 **Flex item**: Direct children of flex container.
 **Flexbox**: Commonly used name for the layout model for displaying items in a single dimension, as a row or as a column.
 
+Properties affecting flexbox.
+
 ## References
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
