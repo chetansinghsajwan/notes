@@ -9,6 +9,8 @@ The concept of roles subsumes the concepts of “users” and “groups”. In P
 - To drop a role, use [`drop role`](postgres/commands/droprole) sql command.
 - To set the current role, use [`set role`](postgres/commands/setrole) sql command.
 
+For convenience, the programs [createuser](https://www.postgresql.org/docs/current/app-createuser.html "createuser") and [dropuser](https://www.postgresql.org/docs/current/app-dropuser.html "dropuser") are provided as wrappers around these SQL commands that can be called from the shell command line:
+
 ## References
 
 - https://www.postgresql.org/docs/current/user-manag.html
