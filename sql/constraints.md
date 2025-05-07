@@ -33,6 +33,17 @@ CREATE TABLE products (
 );
 ```
 
+When specifying multiple constraints, the order doesn't matter. It does not necessarily determine in which order the constraints are checked.
+
+For example,
+
+```sql
+CREATE TABLE products (
+    product_no integer NOT NULL,
+    price numeric NOT NULL CHECK (price > 0) -- multiple constraints
+);
+```
+
 The following constraints are commonly used in SQL:
   
 - [`NOT NULL`](https://www.w3schools.com/sql/sql_notnull.asp) - Ensures that a column cannot have a NULL value
