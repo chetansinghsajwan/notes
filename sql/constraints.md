@@ -19,10 +19,19 @@ create table products (
 
 Column constraints can also be written as table constraints, while the reverse is not necessarily possible, since a column constraint is supposed to refer to only the column it is attached to.
 
----
-**NOTE**: PostgreSQL doesn't enforce that rule, but you should follow it if you want your table definitions to work with other database systems.
+Note: PostgreSQL doesn't enforce that rule, but you should follow it if you want your table definitions to work with other database systems.
 
----
+Names can be assigned to constraints. This clarifies error messages and allows you to refer to the constraint when you need to change it.
+
+For example,
+
+```sql
+CREATE TABLE products (
+    product_no integer,
+    name text,
+    price numeric CONSTRAINT positive_price CHECK (price > 0)
+);
+```
 
 The following constraints are commonly used in SQL:
   
