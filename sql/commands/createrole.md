@@ -1,6 +1,6 @@
 # `CREATE ROLE` Command
 
-Adds a new role to a PostgreSQL database cluster.
+Adds a new role to a PostgreSQL database cluster. A role is an entity that can own database objects and have database privileges; a role can be considered a “user”, a “group”, or both depending on how it is used.
 
 ```
 CREATE ROLE _`name`_ [ [ WITH ] _`option`_ [ ... ] ]
