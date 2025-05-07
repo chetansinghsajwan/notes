@@ -11,11 +11,18 @@ For example,
 create table products (
     product_no integer,
     name text,
-    price numeric check (price > 0),
-    discounted_price numeric check (discounted_price > 0),
-    check (price > discounted_price)
+    price numeric check (price > 0), -- column constraint
+    discounted_price numeric check (discounted_price > 0), -- column constraint
+    check (price > discounted_price) -- table constraint
 );
 ```
+
+Column constraints can also be written as table constraints, while the reverse is not necessarily possible, since a column constraint is supposed to refer to only the column it is attached to.
+
+---
+**NOTE**: PostgreSQL doesn't enforce that rule, but you should follow it if you want your table definitions to work with other database systems.
+
+---
 
 The following constraints are commonly used in SQL:
   
