@@ -64,6 +64,8 @@ Unique constraints ensure that the data contained in a column, or a group of col
 
 For example,
 
+This constraint can be specified as column constraint and table constraint.
+
 ```sql
 CREATE TABLE products (
     product_no integer UNIQUE,
@@ -78,6 +80,17 @@ CREATE TABLE products (
     name text,
     price numeric,
     UNIQUE (product_no)
+);
+```
+
+To define a unique constraint for a group of columns, write it as a table constraint with the column names separated by commas:
+
+```sql
+CREATE TABLE example (
+    a integer,
+    b integer,
+    c integer,
+    UNIQUE (a, c)
 );
 ```
 
