@@ -8,12 +8,12 @@ Constraints can be column level or table level. Column level constraints apply t
 For example,
 
 ```sql
-create table products (
+CREATE TABLE products (
     product_no integer,
     name text,
-    price numeric check (price > 0), -- column constraint
-    discounted_price numeric check (discounted_price > 0), -- column constraint
-    check (price > discounted_price) -- table constraint
+    price numeric CHECK (price > 0), -- column constraint
+    discounted_price numeric CHECK (discounted_price > 0), -- column constraint
+    CHECK (price > discounted_price) -- table constraint
 );
 ```
 
@@ -21,7 +21,7 @@ Column constraints can also be written as table constraints, while the reverse i
 
 Note: PostgreSQL doesn't enforce that rule, but you should follow it if you want your table definitions to work with other database systems.
 
-Names can be assigned to constraints. This clarifies error messages and allows you to refer to the constraint when you need to change it.
+Names can be assigned to constraints. This clarifies error messages and allows you to refer to the constraint when you need to change it. If you don't specify a constraint name, the system chooses a name for you.
 
 For example,
 
