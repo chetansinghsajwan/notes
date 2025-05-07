@@ -9,7 +9,15 @@ The concept of roles subsumes the concepts of “users” and “groups”. In P
 - To drop a role, use [`drop role`](postgres/commands/droprole) sql command.
 - To set the current role, use [`set role`](postgres/commands/setrole) sql command.
 
+To list existing roles, examine the `pg_roles` system catalog, for example:
+
+```sql
+SELECT rolname FROM pg_roles;
+```
+
 For convenience, the programs [createuser](https://www.postgresql.org/docs/current/app-createuser.html "createuser") and [dropuser](https://www.postgresql.org/docs/current/app-dropuser.html "dropuser") are provided as wrappers around these SQL commands that can be called from the shell command line:
+
+In order to bootstrap the database system, a freshly initialized system always contains one predefined login-capable role. This role is always a “superuser”, and it will have the same name as the operating system user that initialized the database cluster with `initdb` unless a different name is specified. This role is often named `postgres`. In order to create more roles you first have to connect as this initial role.
 
 ## References
 
