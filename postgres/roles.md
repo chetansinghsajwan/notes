@@ -4,9 +4,10 @@ PostgreSQL manages database access permissions using the concept of _roles_. A r
 
 The concept of roles subsumes the concepts of “users” and “groups”. In PostgreSQL versions before 8.1, users and groups were distinct kinds of entities, but now there are only roles. Any role can act as a user, a group, or both.
 
-Use [`create role`](postgres/commands/createrole) sql command.
+- To create a role, use [`create role`](postgres/commands/createrole) sql command.
 - To alter a role, use [`alter role`](postgres/commands/alterrole) sql command.
-- To drop a role, use [`alter role`](postgres/commands/alterrole) sql command.
+- To drop a role, use [`drop role`](postgres/commands/droprole) sql command.
+- To set the current role, use [`set role`](postgres/commands/setrole) sql command.
 
 ## References
 
