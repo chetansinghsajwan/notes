@@ -102,6 +102,8 @@ NOT COMPLETE
 
 A primary key constraint indicates that a column, or group of columns, can be used as a unique identifier for rows in the table. This requires that the values be both unique and not null.
 
+A table can have at most one primary key.
+
 ```sql
 CREATE TABLE products (
     product_no integer PRIMARY KEY,
