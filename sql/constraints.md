@@ -58,7 +58,8 @@ CREATE TABLE products (
 );
 ```
 
-tod
+NOT COMPLETE
+
 ## UNIQUE Constraint
 
 Unique constraints ensure that the data contained in a column, or a group of columns, is unique among all the rows in the table.
@@ -95,15 +96,7 @@ CREATE TABLE example (
 );
 ```
 
-The following constraints are commonly used in SQL:
-  
-- [`NOT NULL`](https://www.w3schools.com/sql/sql_notnull.asp) - Ensures that a column cannot have a NULL value
-- [`UNIQUE`](https://www.w3schools.com/sql/sql_unique.asp) - Ensures that all values in a column are different
-- [`PRIMARY KEY`](https://www.w3schools.com/sql/sql_primarykey.asp) - A combination of a `NOT NULL` and `UNIQUE`. Uniquely identifies each row in a table
-- [`FOREIGN KEY`](https://www.w3schools.com/sql/sql_foreignkey.asp) - Prevents actions that would destroy links between tables
-- [`CHECK`](https://www.w3schools.com/sql/sql_check.asp) - Ensures that the values in a column satisfies a specific condition
-- [`DEFAULT`](https://www.w3schools.com/sql/sql_default.asp) - Sets a default value for a column if no value is specified
-- [`CREATE INDEX`](https://www.w3schools.com/sql/sql_create_index.asp) - Used to create and retrieve data from the database very quickly
+NOT COMPLETE
 
 ## References
 
