@@ -44,6 +44,11 @@ CREATE TABLE products (
 );
 ```
 
+## NOT NULL Constraint
+
+This constraint ensures that the column does not store null values. This constraint can only 
+
+
 The following constraints are commonly used in SQL:
   
 - [`NOT NULL`](https://www.w3schools.com/sql/sql_notnull.asp) - Ensures that a column cannot have a NULL value
