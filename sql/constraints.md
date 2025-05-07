@@ -98,6 +98,39 @@ CREATE TABLE example (
 
 NOT COMPLETE
 
+## PRIMARY KEY Constraint
+
+A primary key constraint indicates that a column, or group of columns, can be used as a unique identifier for rows in the table. This requires that the values be both unique and not null.
+
+```sql
+CREATE TABLE products (
+    product_no integer PRIMARY KEY,
+    name text,
+    price numeric
+);
+```
+
+This sql query is same as the following
+
+```sql
+CREATE TABLE products (
+    product_no integer UNIQUE NOT NULL,
+    name text,
+    price numeric
+);
+```
+
+Primary keys can span more than one column; the syntax is similar to unique constraints:
+
+```sql
+CREATE TABLE example (
+    a integer,
+    b integer,
+    c integer,
+    PRIMARY KEY (a, c)
+);
+```
+
 ## References
 
 - https://www.postgresql.org/docs/current/ddl-constraints.html
