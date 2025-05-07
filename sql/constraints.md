@@ -46,8 +46,40 @@ CREATE TABLE products (
 
 ## NOT NULL Constraint
 
-This constraint ensures that the column does not store null values. This constraint can only 
+This constraint ensures that the column does not store null values. This is a column only constraint.
 
+For example,
+
+```sql
+CREATE TABLE products (
+    product_no integer NOT NULL,
+    name text NOT NULL,
+    price numeric
+);
+```
+
+## UNIQUE Constraint
+
+Unique constraints ensure that the data contained in a column, or a group of columns, is unique among all the rows in the table.
+
+For example,
+
+```sql
+CREATE TABLE products (
+    product_no integer UNIQUE,
+    name text,
+    price numeric
+);
+```
+
+```sql
+CREATE TABLE products (
+    product_no integer,
+    name text,
+    price numeric,
+    UNIQUE (product_no)
+);
+```
 
 The following constraints are commonly used in SQL:
   
