@@ -6,6 +6,8 @@ DROP ROLE [ IF EXISTS ] name [, ...]
 
 Drops the specified role.
 
+To remove a superuser role, you need to be a superuser. To drop non-superuser roles, you need to have the `CREATEROLE` privilege.
+
 Before a role can be dropped, following conditions must be met:
 
 - The role must not own any database objects.
