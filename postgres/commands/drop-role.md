@@ -1,7 +1,7 @@
 # `DROP ROLE` Command
 
 ```
-DROP ROLE [ IF EXISTS ] <name> [, ...]
+DROP ROLE [ IF EXISTS ] name [, ...]
 ```
 
 Drops the specified role.
