@@ -1,11 +1,11 @@
 # `CREATE ROLE` Command
 
-Adds a new role to a PostgreSQL database cluster. A role is an entity that can own database objects and have database privileges; a role can be considered a “user”, a “group”, or both depending on how it is used.
+Adds a new [role](postgres/role) to the database cluster.
 
 ```
-CREATE ROLE _`name`_ [ [ WITH ] _`option`_ [ ... ] ]
+CREATE ROLE <name> [ [ WITH ] <option> [ ... ] ]
 
-where _`option`_ can be:
+where <option> can be:
 
       SUPERUSER | NOSUPERUSER
     | CREATEDB | NOCREATEDB
@@ -14,8 +14,8 @@ where _`option`_ can be:
     | LOGIN | NOLOGIN
     | REPLICATION | NOREPLICATION
     | BYPASSRLS | NOBYPASSRLS
-    | CONNECTION LIMIT _`connlimit`_
-    | [ ENCRYPTED ] PASSWORD '_`password`_' | PASSWORD NULL
+    | CONNECTION LIMIT connlimit
+    | [ ENCRYPTED ] PASSWORD 'password' | PASSWORD NULL
     | VALID UNTIL '_`timestamp`_'
     | IN ROLE _`role_name`_ [, ...]
     | ROLE _`role_name`_ [, ...]
