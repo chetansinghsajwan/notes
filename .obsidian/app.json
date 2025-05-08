@@ -1,5 +1,6 @@
 {
   "showInlineTitle": false,
   "spellcheck": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute"
 }
