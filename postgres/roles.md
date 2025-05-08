@@ -7,9 +7,9 @@ The concept of roles subsumes the concepts of “users” and “groups”. In P
 Every connection to the database server is made using the name of some particular role.
 
 - To create a role, use [`create role`](postgres/commands/create-role.md) sql command.
-- To alter a role, use [`alter role`](postgres/commands/alterrole) sql command.
-- To drop a role, use [`drop role`](postgres/commands/droprole) sql command.
-- To set the current role, use [`set role`](postgres/commands/setrole) sql command.
+- To alter a role, use [`alter role`](postgres/commands/alter-role) sql command.
+- To drop a role, use [`drop role`](postgres/commands/drop-role) sql command.
+- To set the current role, use [`set role`](postgres/commands/set-role) sql command.
 
 To list existing roles, examine the `pg_roles` system catalog, for example:
 
