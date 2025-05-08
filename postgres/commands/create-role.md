@@ -2,6 +2,9 @@
 
 Adds a new [role](postgres/role) to the database cluster.
 
+You must have `CREATEROLE` privilege or be a database superuser to use this command.
+
+
 ```
 CREATE ROLE name [ [ WITH ] option [ ... ] ]
 
