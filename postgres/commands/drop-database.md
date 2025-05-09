@@ -1,7 +1,11 @@
 # `DROP DATABASE` Command
 
 ```
-DROP DATABASE name;
+DROP DATABASE [ IF EXISTS ] name [ [ WITH ] ( option [, ...] ) ]
+
+where option can be:
+
+    FORCE
 ```
 
 Only the owner of the database, or a superuser, can drop a database. Dropping a database removes all objects that were contained within the database. The destruction of a database cannot be undone.
