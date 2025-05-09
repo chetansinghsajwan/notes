@@ -10,7 +10,15 @@ To create a tablespace use [`CREATE TABLESPACE`](postgres/commands/create-tables
 To alter a tablespace use [`ALTER TABLESPACE`](postgres/commands/alter-tablespace) command.
 To drop a tablespace use [`DROP TABLESPACE`](postgres/commands/drop-tablespace) command.
 
+To determine the set of existing tablespaces, examine the [`pg_tablespace`](https://www.postgresql.org/docs/current/catalog-pg-tablespace.html "51.56. pg_tablespace") system catalog, for example
+
+```sql
+SELECT spcname FROM pg_tablespace;
+```
+
 There is usually not much point in making more than one tablespace per logical file system, since you cannot control the location of individual files within a logical file system. However, PostgreSQL does not enforce any such limitation, and indeed it is not directly aware of the file system boundaries on your system. It just stores files in the directories you tell it to use.
+
+Two tablespaces are automatically created when the database cluster is initialized. The `pg_global` tablespace is used only for shared system catalogs. The `pg_default` tablespace is the default tablespace of the `template1` and `template0` databases (and, therefore, will be the default tablespace for other databases as well, unless overridden by a `TABLESPACE` clause in `CREATE DATABASE`).
 
 ## References
 
