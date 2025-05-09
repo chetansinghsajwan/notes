@@ -3,7 +3,8 @@
 This command changes the attributes of the database.
 
 ---
-## Change
+**Change options**
+
 ```
 ALTER DATABASE name [ [ WITH ] option [ ... ] ]
 
@@ -29,6 +30,7 @@ _`istemplate`_
 If true, then this database can be cloned by any user with `CREATEDB` privileges; if false, then only superusers or the owner of the database can clone it.
 
 ---
+**Rename database**
 
 ```
 ALTER DATABASE name RENAME TO new_name
@@ -37,6 +39,7 @@ ALTER DATABASE name RENAME TO new_name
 Renames the database.
 
 ---
+**Change owner**
 
 ```
 ALTER DATABASE name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
@@ -45,6 +48,7 @@ ALTER DATABASE name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION
 Changes the owner of the database.
 
 ---
+**Change tablespace**
 
 ```
 ALTER DATABASE name SET TABLESPACE new_tablespace
@@ -53,6 +57,7 @@ ALTER DATABASE name SET TABLESPACE new_tablespace
 Changes the default tablespace of the database. Only the database owner or a superuser can do this; you must also have create privilege for the new tablespace. This command physically moves any tables or indexes in the database's old default tablespace to the new tablespace. The new default tablespace must be empty for this database, and no one can be connected to the database. Tables and indexes in non-default tablespaces are unaffected.
 
 ---
+****
 
 ```
 ALTER DATABASE name REFRESH COLLATION VERSION
