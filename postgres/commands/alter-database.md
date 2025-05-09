@@ -3,7 +3,7 @@
 This command changes the attributes of the database.
 
 ---
-
+## Change
 ```
 ALTER DATABASE name [ [ WITH ] option [ ... ] ]
 
@@ -14,7 +14,7 @@ where option can be:
     IS_TEMPLATE istemplate
 ```
 
-Changes certain per-database settings. (See below for details.) Only the database owner or a superuser can change these settings.
+Changes certain database settings. Only the database owner or a superuser can change these settings.
 
 _`allowconn`_
 
@@ -22,7 +22,7 @@ If false then no one can connect to this database.
 
 _`connlimit`_
 
-How many concurrent connections can be made to this database. -1 means no limit.
+How many concurrent connections can be made to this database. `-1` means no limit.
 
 _`istemplate`_
 
