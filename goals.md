@@ -150,3 +150,6 @@
 - [ ] Numeric data types
 - [ ] Monetary data types
 - [ ] Character data types
+- [ ] Binary data types
+- [ ] Datetime types
+- [ ] 
