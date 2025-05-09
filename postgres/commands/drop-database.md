@@ -10,7 +10,7 @@ where option can be:
 
 Only the owner of the database, or a superuser, can drop a database.
 
-Dropping a database removes all objects that were contained within the database.
+It removes the catalog entries for the database and deletes the directory containing the data.
 
 This action cannot be undone.
 
@@ -20,4 +20,4 @@ If anyone else is connected to the target database, this command will fail unles
 
 ## References
 
-- https://www.postgresql.org/docs/current/manage-ag-dropdb.html
+- https://www.postgresql.org/docs/current/sql-dropdatabase.html
