@@ -154,9 +154,9 @@
 - [ ] Operators
 - [ ] Triggers
 - [ ] Tables
+- [ ] Catalogs
 - [ ] Schemas
 - [ ] Tablespaces
-- [ ] Namespaces
 - [ ] Data types
 	- [ ] Numeric data types
 	- [ ] Monetary data types
