@@ -25,6 +25,30 @@ ALTER DATABASE name RESET ALL
 
 This command changes the attributes of the database.
 
+---
+
+```
+ALTER DATABASE name RENAME TO new_name
+```
+
+Renames the database.
+
+---
+
+```
+ALTER DATABASE name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
+```
+
+Changes the owner of the database.
+
+---
+
+```
+ALTER DATABASE name SET TABLESPACE new_tablespace
+```
+
+
+
 ## References
 
 - https://www.postgresql.org/docs/current/sql-alterdatabase.html
