@@ -146,7 +146,6 @@
 
 ## Postgres
 
-- [ ] Data types
 - [ ] Numeric data types
 - [ ] Monetary data types
 - [ ] Character data types
@@ -164,3 +163,4 @@
 - [ ] Array data types
 - [ ] Composite data types
 - [ ] Range data types
+- [ ] Domain data types
