@@ -146,7 +146,18 @@
 
 ## Postgres
 
-- Data types
+- [ ] Procedures
+- [ ] Functions
+- [ ] Routines
+- [ ] Roles
+- [ ] Constraints
+- [ ] Operators
+- [ ] Triggers
+- [ ] Tables
+- [ ] Schemas
+- [ ] Tablespaces
+- [ ] Namespaces
+- [ ] Data types
 	- [ ] Numeric data types
 	- [ ] Monetary data types
 	- [ ] Character data types
@@ -165,9 +176,3 @@
 	- [ ] Composite data types
 	- [ ] Range data types
 	- [ ] Domain data types
-- [ ] Procedures
-- [ ] Functions
-- [ ] Routines
-- [ ] Roles
-- [ ] Constraints
-- [ ] 
