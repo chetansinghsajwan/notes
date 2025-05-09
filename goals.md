@@ -151,5 +151,16 @@
 - [ ] Monetary data types
 - [ ] Character data types
 - [ ] Binary data types
-- [ ] Datetime types
-- [ ] 
+- [ ] Datetime data types
+- [ ] Boolean data types
+- [ ] Enumerated data types
+- [ ] Geometric data types
+- [ ] Network address data types
+- [ ] Bit string data types
+- [ ] Text search data types
+- [ ] Uuuid data type
+- [ ] XML data type
+- [ ] Json data types
+- [ ] Array data types
+- [ ] Composite data types
+- [ ] Range data types
