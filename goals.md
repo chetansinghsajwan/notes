@@ -146,4 +146,7 @@
 
 ## Postgres
 
-- [ ] Data y
+- [ ] Data types
+- [ ] Numeric data types
+- [ ] Monetary data types
+- [ ] Character data types
