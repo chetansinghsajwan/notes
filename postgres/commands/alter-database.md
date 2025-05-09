@@ -23,6 +23,8 @@ ALTER DATABASE name RESET configuration_parameter
 ALTER DATABASE name RESET ALL
 ```
 
+This command changes the attributes of the database.
+
 ## References
 
 - https://www.postgresql.org/docs/current/sql-alterdatabase.html
