@@ -2,7 +2,7 @@
 
 SSH is a protocol to connect to a remote computer over an unsecured network.
 
-It is defined by [IETF](ietf).
+It is defined by [IETF](ietf/ietf). It is defined in the following [RFCs]:
 
 ## References
 
