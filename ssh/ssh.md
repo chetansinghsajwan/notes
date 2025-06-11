@@ -15,9 +15,7 @@ It consists of three major components:
 
 - The User Authentication Protocol [SSH-USERAUTH] authenticates the client-side user to the server.  It runs over the transport layer protocol.
 
-   o  The Connection Protocol [SSH-CONNECT] multiplexes the encrypted
-      tunnel into several logical channels.  It runs over the user
-      authentication protocol.
+- The Connection Protocol [SSH-CONNECT] multiplexes the encrypted tunnel into several logical channels.  It runs over the user authentication protocol.
 
 
 ## References
