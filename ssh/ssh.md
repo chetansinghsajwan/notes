@@ -9,22 +9,16 @@ It is defined by [IETF](ietf/ietf). It is defined in the following [RFCs](ietf/r
 - RFC 4253 - Transport Layer
 - RFC 4254 - Connection Protocol
 
-It consists of
-   three major components:
+It consists of three major components:
 
-   o  The Transport Layer Protocol [[SSH-TRANS](https://datatracker.ietf.org/doc/html/rfc4251#ref-SSH-TRANS)] provides server
-      authentication, confidentiality, and integrity.  It may optionally
-      also provide compression.  The transport layer will typically be
-      run over a TCP/IP connection, but might also be used on top of any
-      other reliable data stream.
+- The Transport Layer Protocol [SSH-TRANS] provides server authentication, confidentiality, and integrity.  It may optionally also provide compression.  The transport layer will typically be run over a TCP/IP connection, but might also be used on top of any other reliable data stream.
 
-   o  The User Authentication Protocol [[SSH-USERAUTH](https://datatracker.ietf.org/doc/html/rfc4251#ref-SSH-USERAUTH)] authenticates the
-      client-side user to the server.  It runs over the transport layer
-      protocol.
+- The User Authentication Protocol [SSH-USERAUTH] authenticates the client-side user to the server.  It runs over the transport layer protocol.
 
-   o  The Connection Protocol [[SSH-CONNECT](https://datatracker.ietf.org/doc/html/rfc4251#ref-SSH-CONNECT)] multiplexes the encrypted
+   o  The Connection Protocol [SSH-CONNECT] multiplexes the encrypted
       tunnel into several logical channels.  It runs over the user
       authentication protocol.
+
 
 ## References
 
