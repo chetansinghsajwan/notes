@@ -180,10 +180,14 @@
 ## Networking
 
 - [ ] OSI Model
-- [ ] Internet Protocol
-- [ ] TCP
-- [ ] UDP
-- [ ] Ip addressing
-- [ ] Subnetting
-- [ ] IpV4
-- [ ] IpV6
+- [ ] Learn how IPv4 addresses work (Public IPs, Private IPs, subnets, routing tables, NAT)
+- [ ] Learn how MAC addresses work (ARP tables, switches, DHCP)
+- [ ] Learn about routers
+- [ ] Learn about switches
+- [ ] Learn the difference between routers and switches (L2 vs L3 OSI)
+- [ ] Learn about TCP and UDP (TCP = ALL the data will be received correctly, in order. UDP = All data will be sent, but it may not arrive, or it may arrive mangled, and that's OK)
+- [ ] Learn a little about VLANs (TBH I need to brush up on these)
+- [ ] Learn about DHCP (Static IPs vs Dynamic, IP reservations)
+- [ ] Learn about DNS (A records, CNAME records, MX records, NS records, SRV records)
+- [ ] Learn about IPv6 (Unfortunately, not extremely useful right now. Most companies are IPv4 only)
+- [ ] Learn about VPNs (WireGuard is an excellent one to get started with, and will probably be the standard going forward. IPSec / OpenVPN if you want a challenge)
