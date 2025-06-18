@@ -179,6 +179,7 @@
 
 ## Networking
 
+- [ ] OSI Model
 - [ ] Internet Protocol
 - [ ] TCP
 - [ ] UDP
