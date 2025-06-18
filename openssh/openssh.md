@@ -12,7 +12,7 @@ The OpenSSH suite consists of the following tools:
 - Key management with [ssh-add](https://man.openbsd.org/ssh-add.1), [ssh-keysign](https://man.openbsd.org/ssh-keysign.8), [ssh-keyscan](https://man.openbsd.org/ssh-keyscan.1), and [ssh-keygen](https://man.openbsd.org/ssh-keygen.1).
 - The service side consists of [sshd](https://man.openbsd.org/sshd.8), [sftp-server](https://man.openbsd.org/sftp-server.8), and [ssh-agent](https://man.openbsd.org/ssh-agent.1).
 
-OpenSSH is written for OpenBSD operating system. But there is a port 
+OpenSSH is written for OpenBSD operating system. But there is a port of OpenBSD's [OpenSSH](https://openssh.com) to most Unix-like operating systems, including Linux, OS X and Cygwin at [github](https://github.com/openssh/openssh-portable).
 
 To learn about what ssh specifications openssh implements, see https://www.openssh.com/specs.html.
 
