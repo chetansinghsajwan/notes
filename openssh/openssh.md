@@ -4,6 +4,8 @@ OpenSSH is an implementation of the [SSH Protocol](ssh/ssh).
 
 It is developed by a few developers of the [OpenBSD Project](https://www.openbsd.org) and made available under a BSD-style license.
 
+Our goal is simple: Since telnet and rlogin are insecure, all operating systems should ship with support for the SSH protocol included.
+
 The OpenSSH suite consists of the following tools:
 
 - Remote operations are done using [ssh](https://man.openbsd.org/ssh.1), [scp](https://man.openbsd.org/scp.1), and [sftp](https://man.openbsd.org/sftp.1).
