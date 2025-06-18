@@ -18,6 +18,8 @@ The class system defined which class a network belongs in based on its first oct
 
 - Class E network’s first octet begins with 1111. Class E is reserved for future use.
 
+Each class used a different number of bits to identify the network affecting how many networks and hosts each class could accommodate. For example, Class C’s first three octets described the network, while the fourth described the host on the network. Later the IETF replaced the class system, dubbed “classful,” with [subnet masks](https://en.wikipedia.org/wiki/IPv4#First_and_last_subnet_addresses/#First_and_last_subnet_addresses) that allowed for the dispersal of addresses on any address-bit boundary.
+
 ## References
 
 - https://www.uptrends.com/what-is/ipv4
