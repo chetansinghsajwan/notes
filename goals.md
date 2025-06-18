@@ -1,4 +1,12 @@
-# Learning Goals
+- [What is **website uptime**?](https://www.uptrends.com/what-is/website-uptime/)
+- [What is **website downtime**?](https://www.uptrends.com/what-is/website-downtime/)
+- [What is **website monitoring**?](https://www.uptrends.com/what-is/website-monitoring/)
+- [What is **synthetic monitoring**?](https://www.uptrends.com/what-is/synthetic-monitoring/)
+- [What is **web application monitoring**?](https://www.uptrends.com/what-is/web-application-monitoring/)
+- [What is **web performance monitoring**?](https://www.uptrends.com/what-is/web-performance-monitoring/)
+- [What is **API monitoring**?](https://www.uptrends.com/what-is/api-monitoring/)
+- [What is **DNS monitoring**?](https://www.uptrends.com/what-is/dns-monitoring/)
+- [What is **Real User Monitoring**?](https://www.uptrends.com/what-is/real-user-monitoring/)# Learning Goals
 
 ## HTTP
 
@@ -191,3 +199,16 @@
 - [ ] Learn about DNS (A records, CNAME records, MX records, NS records, SRV records)
 - [ ] Learn about IPv6 (Unfortunately, not extremely useful right now. Most companies are IPv4 only)
 - [ ] Learn about VPNs (WireGuard is an excellent one to get started with, and will probably be the standard going forward. IPSec / OpenVPN if you want a challenge)
+
+
+## Terminology
+
+- [What is **website uptime**?](https://www.uptrends.com/what-is/website-uptime/)
+- [What is **website downtime**?](https://www.uptrends.com/what-is/website-downtime/)
+- [What is **website monitoring**?](https://www.uptrends.com/what-is/website-monitoring/)
+- [What is **synthetic monitoring**?](https://www.uptrends.com/what-is/synthetic-monitoring/)
+- [What is **web application monitoring**?](https://www.uptrends.com/what-is/web-application-monitoring/)
+- [What is **web performance monitoring**?](https://www.uptrends.com/what-is/web-performance-monitoring/)
+- [What is **API monitoring**?](https://www.uptrends.com/what-is/api-monitoring/)
+- [What is **DNS monitoring**?](https://www.uptrends.com/what-is/dns-monitoring/)
+- [What is **Real User Monitoring**?](https://www.uptrends.com/what-is/real-user-monitoring/)
