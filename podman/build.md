@@ -1,6 +1,6 @@
 # Podman Build
 
-Podman uses code from buildah project to 
+Podman uses code from [buildah](buildah/buildah) project to build images.
 
 ## References
 
