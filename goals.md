@@ -188,6 +188,7 @@
 ## Networking
 
 - [ ] OSI Model
+- [ ] Internet Service Provider
 - [ ] Learn how IPv4 addresses work (Public IPs, Private IPs, subnets, routing tables, NAT)
 - [ ] Learn how MAC addresses work (ARP tables, switches, DHCP)
 - [ ] Learn about routers
