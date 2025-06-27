@@ -192,12 +192,20 @@
 - [ ] Unicast address
 - [ ] Multicast address
 - [ ] Loopback address
-- [ ] How addresses a
-- [ ] IPV4 addressing
-- [ ] IPV6 addressing
+- [ ] How addresses are assigned
+- [ ] IPV4 addresses
+- [ ] IPV6 addresses
+- [ ] Mac addresses
 - [ ] TCP
 - [ ] UDP
 - [ ] OSI Model
+- [ ] DHCP
+- [ ] DNS
+- [ ] ISP
+- [ ] Switches
+- [ ] Routers
+- [ ] VPNs
+- [ ] VLAN
 
 ---
 
