@@ -10,6 +10,10 @@ In the original address definition, the most significant eight bits of the 32-bi
 
 Before the introduction of address classes, the only address blocks available were these large blocks which later became known as Class A networks.[[2]](https://www.wikiwand.com/en/articles/Classful_network#cite_note-2) As a result, some organizations involved in the early development of the Internet received very large address space allocations (16,777,216 IP addresses each).
 
+## Classes
+
+This addressing technique divides networ
+
 ## References
 
 - https://www.wikiwand.com/en/articles/Classful_network
