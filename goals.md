@@ -187,6 +187,20 @@
 
 ## Networking
 
+- [ ] Classfull addressing
+- [ ] Classless addressing
+- [ ] Unicast address
+- [ ] Multicast address
+- [ ] Loopback address
+- [ ] How addresses a
+- [ ] IPV4 addressing
+- [ ] IPV6 addressing
+- [ ] TCP
+- [ ] UDP
+- [ ] OSI Model
+
+---
+
 - [ ] OSI Model
 - [ ] Internet Service Provider
 - [ ] Learn how IPv4 addresses work (Public IPs, Private IPs, subnets, routing tables, NAT)
