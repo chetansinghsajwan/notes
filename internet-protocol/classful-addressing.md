@@ -12,7 +12,14 @@ Before the introduction of address classes, the only address blocks available we
 
 ## Classes
 
-This addressing technique divides networ
+This addressing technique divides network addresses into 5 classes (A, B, C, D and E). The class of the address is recognized by reading the first 4 bits of the address.
+
+---
+**Class A**
+
+First bits: 0
+
+
 
 ## References
 
