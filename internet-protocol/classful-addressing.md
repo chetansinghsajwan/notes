@@ -1,4 +1,4 @@
-# IPV4 Classful Addressing
+# Classful Addressing
 
 A **classful network** is an obsolete [network addressing](https://www.wikiwand.com/en/articles/Network_address "Network address") architecture used in the [Internet](https://www.wikiwand.com/en/articles/Internet "Internet") from 1981 until the introduction of [Classless Inter-Domain Routing](https://www.wikiwand.com/en/articles/Classless_Inter-Domain_Routing "Classless Inter-Domain Routing") (CIDR) in 1993.
 
