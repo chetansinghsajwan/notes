@@ -21,9 +21,58 @@ First bits: 0
 Number of network bits: 8
 Number of host bits: 24
 Number of networkds: 128
-Number of hosts: 
+Number of hosts: 16,777,216
+Number of addresses: 2,147,483,648
+Start address: 0.0.0.0
+End address: 127.255.255.255
 
+---
+**Class B**
 
+First bits: 0
+Number of network bits: 8
+Number of host bits: 24
+Number of networkds: 128
+Number of hosts: 16,777,216
+Number of addresses: 2,147,483,648
+Start address: 0.0.0.0
+End address: 127.255.255.255
+
+---
+**Class C**
+
+First bits: 0
+Number of network bits: 8
+Number of host bits: 24
+Number of networkds: 128
+Number of hosts: 16,777,216
+Number of addresses: 2,147,483,648
+Start address: 0.0.0.0
+End address: 127.255.255.255
+
+---
+**Class D**
+
+First bits: 0
+Number of network bits: 8
+Number of host bits: 24
+Number of networkds: 128
+Number of hosts: 16,777,216
+Number of addresses: 2,147,483,648
+Start address: 0.0.0.0
+End address: 127.255.255.255
+
+---
+**Class E**
+
+First bits: 0
+Number of network bits: 8
+Number of host bits: 24
+Number of networkds: 128
+Number of hosts: 16,777,216
+Number of addresses: 2,147,483,648
+Start address: 0.0.0.0
+End address: 127.255.255.255
 
 ## References
 
