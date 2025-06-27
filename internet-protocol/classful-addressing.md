@@ -18,6 +18,10 @@ This addressing technique divides network addresses into 5 classes (A, B, C, D a
 **Class A**
 
 First bits: 0
+Number of network bits: 8
+Number of host bits: 24
+Number of networkds: 128
+Number of hosts: 
 
 
 
