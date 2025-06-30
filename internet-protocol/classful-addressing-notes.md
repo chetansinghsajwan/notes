@@ -1,8 +1,7 @@
 # Classfull Addressing
 
-- It is a 32 bit address.
-- Represented in decimal notation in groups of 8 bits.
-- Represented in binary notation in groups of 8 bits.
+- Introduced in 1981 in RFC 791 by IETF.
+- Replaced by CIDR in 1993.
 - Address are divided into 5 classes.
 - Class A address
 	- Starting bit `0` .
@@ -38,7 +37,7 @@ For class A, B and C, all host bits set to 0 is used to represent network addres
 - What was the idea behind classful addressing
 - How many number of hosts and networks in each class
 - What are the starting and ending address of each class
-- What is the decimal representations
+- What are the decimal representations
 
 ---
 
