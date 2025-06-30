@@ -50,4 +50,4 @@ When classfull addressing was being designed, all network address were lower tha
 
 **How was IPV4 before classful addressing?**
 
-The first 8 bits were used for network
+The first 8 bits were used for network address and the remaininb
