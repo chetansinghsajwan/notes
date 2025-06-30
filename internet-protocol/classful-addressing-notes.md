@@ -44,4 +44,10 @@ For class A, B and C, all host bits set to 0 is used to represent network addres
 
 **What was the idea behind classfull addressing?**
 
-When classfull addressing was being designed, all network address were lower than 64 in decimal. So only the 7 least significant digits were being used of the first octet. Which means the most significant digit was set to 0
+When classfull addressing was being designed, all network address were lower than 64 in decimal. So only the 7 least significant digits were being used of the first octet. Which means introducing a class with the first bit set to `0` would allow the old addresses to work perfectly fine.
+
+---
+
+**How was IPV4 before classful addressing?**
+
+The first 8 bits were used for network
