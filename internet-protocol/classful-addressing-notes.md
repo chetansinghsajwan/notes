@@ -34,3 +34,8 @@ For class A, B and C, all host bits set to 0 is used to represent network addres
 - Introduced in RFC791
 - Replaced by CIDR in 1993
 - Number of hosts is 2^n - 2
+- How was IPV4 before classful addressing
+- What was the idea behind classful addressing
+- How many number of hosts and networks in each class
+- What are the starting and ending address of each class
+- What is the decimal representations
