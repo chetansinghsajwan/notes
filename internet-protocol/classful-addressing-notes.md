@@ -32,3 +32,4 @@ For class A, B and C, all host bits set to 0 is used to represent network addres
 
 - Introduced in 1981.
 - Replaced by CIDR in 1993.
+- Number of hosts is 2^n - 8
