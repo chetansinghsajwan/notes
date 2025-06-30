@@ -18,18 +18,22 @@
 	- End address -> 127.255.255.255
 
 - Class B
+	- For general use.
 	- Starting bit `10`.
 	- 12 network bits.
 	- 12 host bits.
-	- For general use.
+	- Has 16,384 (`2^14`) networks.
+	- Has 65,536 (`2^16`) hosts.
 	- Starting address -> 128.0.0.0
 	- End address -> 191.255.255.255
 
 - Class C
+	- For general use.
 	- Starting bit `110`.
 	- 24 nework bits.
 	- 8 host bits.
-	- For general use.
+	- Has (`2^21`) networks.
+	- Has 
 	- Start address -> 192.0.0.0
 	- End address -> 223.255.255.255
 
