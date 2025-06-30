@@ -26,4 +26,9 @@
 - Class E addresses have starting bit `1111`.
 	- For future use.
 
-For class A, B and C, all host bits 
+For class A, B and C, all host bits set to 0 is used to represent network address. And similarly all host bits set to 1 represent mulitcast address for that network.
+
+---
+
+- Introduced in 1981.
+- Replaced by CIDR in 1993.
