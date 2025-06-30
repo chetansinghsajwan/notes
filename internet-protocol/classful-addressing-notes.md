@@ -3,6 +3,10 @@
 - Introduced in 1981 in RFC 791 by IETF.
 - Replaced by CIDR in 1993.
 - Address are divided into 5 classes.
+
+---
+**Classes**
+
 - Class A address
 	- Starting bit `0` .
 	- 8 network address bits.
@@ -25,17 +29,14 @@
 - Class E addresses have starting bit `1111`.
 	- For future use.
 
-For class A, B and C, all host bits set to 0 is used to represent network address. And similarly all host bits set to 1 represent mulitcast address for that network.
+For class A, B and C, all host bits set to `0` is used to represent network address.
 
-The number of hosts in a class can be calculated as `2^n - 2`, where n is number of host address bits. `- 2` is for network address and multicast address mentioned above.
+And similarly all host bits set to `1` represent mulitcast address for that network.
 
 ---
+**Number of hosts**
 
-- How was IPV4 before classful addressing
-- What was the idea behind classful addressing
-- How many number of hosts and networks in each class
-- What are the starting and ending address of each class
-- What are the decimal representations
+The number of hosts in a class can be calculated as `2^n - 2`, where n is number of host address bits. `- 2` is for network address and multicast address mentioned above.
 
 ---
 
@@ -48,3 +49,10 @@ When classfull addressing was being designed, all network address were lower tha
 **How was IPV4 before classful addressing?**
 
 There were no classes. The first 8 bits were used for network address and the remaining bits were used for host address.
+
+---
+**Questions**
+
+- How many number of hosts and networks in each class
+- What are the starting and ending address of each class
+- What are the decimal representations
