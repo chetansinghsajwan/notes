@@ -7,26 +7,30 @@
 ---
 **Classes**
 
-- Class A address
+- Class A
 	- Starting bit `0` .
-	- 8 network address bits.
-	- 24 host address bits.
+	- Has 8 network address bits.
+	- Has 24 host address bits.
 	- For general use.
 
-- Class B addresses have starting bit `10`.
+- Class B
+	- Starting bit `10`.
 	- 12 network bits.
 	- 12 host bits.
 	- For general use.
 
-- Class C addresses have starting bit `110`.
+- Class C
+	- Starting bit `110`.
 	- 24 nework bits.
 	- 8 host bits.
 	- For general use.
 
-- Class D addresses have starting bit `1110`.
+- Class D
+	- Starting bit `1110`.
 	- For multicasting.
 
-- Class E addresses have starting bit `1111`.
+- Class E
+	- Starting bit `1111`.
 	- For future use.
 
 For class A, B and C, all host bits set to `0` is used to represent network address.
