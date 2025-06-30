@@ -6,4 +6,7 @@
 - Address are divided into 5 classes.
 - Class A addresses have starting bit `0` .
 - Class B addresses have starting bit `10`.
-- Class C addresses have starting bit ``
+- Class C addresses have starting bit `110`.
+- Class D addresses have starting bit `1110`.
+- Class E addresses have starting bit `1111`.
+- 
