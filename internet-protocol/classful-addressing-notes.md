@@ -1,4 +1,4 @@
-# Classfull Addressing
+# Classful Addressing
 
 - Introduced in 1981 in RFC 791 by IETF.
 - Replaced by CIDR in 1993.
@@ -32,8 +32,8 @@
 	- Starting bit `110`.
 	- 24 nework bits.
 	- 8 host bits.
-	- Has (`2^21`) networks.
-	- Has 
+	- Has 2,097,152 (2^21) networks.
+	- Has 256 (`2^8`) hosts.
 	- Start address -> 192.0.0.0
 	- End address -> 223.255.255.255
 
@@ -70,9 +70,6 @@ When classfull addressing was being designed, all network address were lower tha
 
 There were no classes. The first 8 bits were used for network address and the remaining bits were used for host address.
 
----
-**Questions**
+## References
 
-- How many number of hosts and networks in each class
-- What are the starting and ending address of each class
-- What are the decimal representations
+- https://www.wikiwand.com/en/articles/Classful_network
