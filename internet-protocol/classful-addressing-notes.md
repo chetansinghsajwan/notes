@@ -27,6 +27,8 @@
 
 For class A, B and C, all host bits set to 0 is used to represent network address. And similarly all host bits set to 1 represent mulitcast address for that network.
 
+For the reason mentioned above number of hosts in a class can be calculated as `2^n - 2`, where n is number of host
+
 ---
 
 - Introduced in 1981
