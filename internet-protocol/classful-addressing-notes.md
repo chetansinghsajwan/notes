@@ -13,6 +13,7 @@
 	- Has 24 host address bits.
 	- For general use.
 	- Starting address -> 0.0.0.0
+	- End address -> 127.255.255.255
 
 - Class B
 	- Starting bit `10`.
@@ -20,19 +21,21 @@
 	- 12 host bits.
 	- For general use.
 	- Starting address -> 128.0.0.0
+	- End address -> 191.255.255.255
 
 - Class C
 	- Starting bit `110`.
 	- 24 nework bits.
 	- 8 host bits.
 	- For general use.
-	- Starting address -> 192.0.0.0
+	- Start address -> 192.0.0.0
+	- End address -> 223.255.255.255
 
 - Class D
 	- Starting bit `1110`.
 	- For multicasting.
 	- Start address -> 224.0.0.0
-	- End address -> 255.255.255.255
+	- End address -> 239.255.255.255
 
 - Class E
 	- Starting bit `1111`.
