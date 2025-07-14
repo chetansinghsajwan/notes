@@ -12,10 +12,11 @@
 
 ---
 **Docker Installation**: Follow the following steps:
-1. Download and extract golang archive.
-2. Create a new dir and set this path as `GOROOT` env.
-3. Create a new dir and set this path as `GOPATH` env.
-4. Add `$GOROOT/bin` and `$GOPATH/bin` to `PATH` env.
+
+1. Create a new dir and set this path as `GOROOT` env.
+2. Create a new dir and set this path as `GOPATH` env.
+3. Add `$GOROOT/bin` and `$GOPATH/bin` to `PATH` env.
+4. Download and extract golang archive in `GOROOT`.
 
 ## References
 
