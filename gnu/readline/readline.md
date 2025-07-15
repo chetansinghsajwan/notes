@@ -11,8 +11,10 @@ It reads inputrc from the following locations for configuration:
 2. If the variable is not set, then reads `~/.inputrc` file.
 3. If the above file is not found or read, then reads `/etc/inputrc` file.
 
+See https://tiswww.case.edu/php/chet/readline/readline.html for configuration options.
+
 ## References
 
 - https://www.wikiwand.com/en/articles/GNU_Readline
 - https://tiswww.case.edu/php/chet/readline/rltop.html
-- 
+- https://tiswww.case.edu/php/chet/readline/readline.html
