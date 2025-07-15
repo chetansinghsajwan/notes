@@ -4,7 +4,7 @@ It is a library that provides in-line editing and history capabilities for inter
 
 This libray is a part of the gnu project.
 
-
+It supports two editing modes - emacs and vi.
 
 ## References
 
