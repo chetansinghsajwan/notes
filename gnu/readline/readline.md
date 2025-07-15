@@ -9,3 +9,5 @@ It supports two editing modes - emacs and vi.
 ## References
 
 - https://www.wikiwand.com/en/articles/GNU_Readline
+- https://tiswww.case.edu/php/chet/readline/rltop.html
+- 
