@@ -15,6 +15,11 @@ It reads inputrc from the following locations for configuration:
 
 See https://tiswww.case.edu/php/chet/readline/readline.html for configuration options.
 
+---
+`set -o vi` is a **Bash built-in** that changes **how Bash uses Readline**. Bash uses Readline for input, and this command tells Bash to use **vi keybindings** via Readline.
+
+So while `set` is a Bash command, it **instructs Bash to configure Readline**, which it embeds internally. It doesn’t change `.inputrc`; it changes behavior at runtime.
+
 ## References
 
 - https://www.wikiwand.com/en/articles/GNU_Readline
