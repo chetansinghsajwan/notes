@@ -6,6 +6,8 @@ It is a complete and free implementation of the OpenPGP standard as defined by [
 
 It allows you to encrypt and sign your data.
 
+It is a command line tool.
+
 ## References
 
 - https://gnupg.org
