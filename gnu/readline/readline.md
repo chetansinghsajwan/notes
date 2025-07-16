@@ -2,6 +2,8 @@
 
 It is a library that provides in-line editing and history capabilities for interactive programs with a command-line interface, such as Bash.
 
+`bash` uses readline to read input from the user.
+
 This libray is a part of the gnu project.
 
 It supports two editing modes - emacs and vi.
