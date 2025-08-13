@@ -62,7 +62,7 @@ The number of hosts in a class can be calculated as `2^n - 2`, where n is number
 
 **What was the idea behind classfull addressing?**
 
-When classfull addressing was being designed, all network address were lower than 64 in decimal. So only the 7 least significant digits were being used of the first octet. Which means introducing a class with the first bit set to `0` would allow the old addresses to work perfectly fine.
+When classfull addressing was being designed, all network address were lower than 64 in decimal. So only the 7 least significant digits of the first octet were being used. Which means introducing a class with the first bit set to `0` would allow the old addresses to work perfectly fine.
 
 ---
 
