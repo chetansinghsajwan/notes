@@ -8,7 +8,7 @@ The method divides the IP address space for IPv4 into five address classes based
 
 These five classes are A, B, C, D and E.
 
-#### Class A
+##### Class A
 
 - For general use.
 - Starting bit `0` .
