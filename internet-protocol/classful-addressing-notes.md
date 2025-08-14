@@ -6,18 +6,18 @@ It is obselted by the introduction of CIDR in 1993.
 
 The method divides the IP address space for IPv4 into five address classes based on the leading four address bits.
 
----
-**Classes**
+These five classes are A, B, C, D and E.
 
-- Class A
-	- For general use.
-	- Starting bit `0` .
-	- Has 8 network address bits.
-	- Has 24 host address bits.
-	- Has 128 (`2^7`) networks.
-	- Has 16,777,216 (`2^24`) hosts.
-	- Starting address -> 0.0.0.0
-	- End address -> 127.255.255.255
+#### Class A
+
+- For general use.
+- Starting bit `0` .
+- Has 8 network address bits.
+- Has 24 host address bits.
+- Has 128 (`2^7`) networks.
+- Has 16,777,216 (`2^24`) hosts.
+- Starting address -> 0.0.0.0
+- End address -> 127.255.255.255
 
 - Class B
 	- For general use.
