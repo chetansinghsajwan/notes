@@ -1,14 +1,10 @@
 # Classful Addressing
 
+It is network addressing architecture for the Internet introduced in 1981 in RFC 791 by IETF to divide address space into mulitiple categories. These categories are called classses.
 
-A **classful network** is an obsolete [network addressing](https://www.wikiwand.com/en/articles/Network_address "Network address") architecture used in the [Internet](https://www.wikiwand.com/en/articles/Internet "Internet") to divide address space into mulitiple categories.
+It is obselted by the introduction of CIDR in 1993.
 
-These categories are 
-
-- Introduced in 1981 in RFC 791 by IETF.
-- Replaced by CIDR in 1993.
-
-The method divides the [IP address](https://www.wikiwand.com/en/articles/IP_address "IP address") space for [Internet Protocol version 4](https://www.wikiwand.com/en/articles/Internet_Protocol_version_4 "Internet Protocol version 4") (IPv4) into five address classes based on the leading four address bits.
+The method divides the IP address space for IPv4 into five address classes based on the leading four address bits.
 
 ---
 **Classes**
