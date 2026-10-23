@@ -1,0 +1,13 @@
+```
+DROP ROLE [ IF EXISTS ] name [, ...]
+```
+Drops the specified role.
+To remove a superuser role, you need to be a superuser. To drop non-superuser roles, you need to have the `CREATEROLE` privilege.
+Before a role can be dropped, following conditions must be met:
+- The role must not own any database objects.
+- The role must not have any privileges.
+The `REASSIGN OWNED` and `[[DROP ROLE Command|DROP OWNED]]` commands can be useful for this purpose.
+However, it is not necessary to remove role memberships involving the role; `DROP ROLE` automatically revokes any memberships of the target role in other roles, and of other roles in the target role. The other roles are not dropped nor otherwise affected.
+## References
+- https://www.postgresql.org/docs/current/sql-droprole.html
+- https://www.postgresql.org/docs/current/role-removal.html

@@ -1,0 +1,23 @@
+{
+  "secrets": {},
+  "outputLocations": {},
+  "outputSettings": {
+    "notion": {
+      "folder": "",
+      "attachments": {
+        "mode": "folder",
+        "path": "Assets/Images"
+      },
+      "duplicates": "update",
+      "saveSourceId": false,
+      "idProperty": "notion-id",
+      "template": "",
+      "titleTemplate": "{{title}}"
+    }
+  },
+  "onenoteAttachments": {},
+  "sourceFolders": {
+    "notion": "C:\\Users\\ChetanSinghSajwan\\Downloads"
+  },
+  "lastSourceFolder": "C:\\Users\\ChetanSinghSajwan\\Downloads"
+}

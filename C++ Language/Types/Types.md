@@ -1,0 +1,38 @@
+## Type Classification
+The types are classified as follows:
+- [[Fundamental Types]]
+- `Void`void
+- `[[Std - -nullptr_t Type|nullptr_t]]` [[Std - -nullptr_t Type|type]]
+- [[Arithmetic Types]]
+	- [[Integer Types]]
+		- `[[Integer Types#^bool|bool]]` [[Integer Types#^bool|type]]
+		- [[Integer Types#^character-types|character types]]
+			- [[Integer Types#^narrow-character-types|narrow character types]]
+			- [[Integer Types#^wide-character-types|wide character types]]
+		- [[Integer Types#^signed-integer-types|signed integer types]]
+			- [[Integer Types#^standard-signed-integer-types|standard signed integer types]]
+			- [[Integer Types#^extended-signed-integer-types|extended signed integer types]]
+		- [[Integer Types#^unsigned-integer-types|unsigned integer types]]
+			- [[Integer Types#^standard-unsigend-integer-types|standard unsigned integer types]]
+			- [[Integer Types#^extended-unsigned-integer-types|extended unsigned integer types]]
+	- [[Floating Point Types]]
+- [[Compound Types]]
+- Reference Types
+	- lvalue reference types
+	- rvalue reference types
+- pointer types
+	- pointer-to-object types
+	- pointer-to-function types
+- pointer-to-member types
+	- pointer-to-data-member types
+	- pointer-to-member-function types
+- array types
+- function types
+- enumeration types
+	- Compound Types
+	- Compound Types
+- class types
+	- non-union types
+	- union types
+## References
+- https://en.cppreference.com/w/cpp/language/type

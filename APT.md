@@ -1,0 +1,1 @@
+The **APT (Advanced Package Tool)** package manager was originally created by developers from the **Debian project**.

@@ -1,0 +1,1 @@
+On-demand, automatically managed compute that scales based on your workload requirements.

@@ -1,0 +1,1 @@
+A firm in finance is a for-profit business entity, such as a partnership or corporation, that produces goods, provides services, or engages in financial intermediation. It acts as a primary unit for economic activity, often specifically denoting professional service organizations like law, accounting, or investment firms, and serves as a synonym for "company".

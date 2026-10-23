@@ -1,0 +1,1 @@
+A software is **free software** if it follows [[Free Software Definition]].

@@ -1,0 +1,15 @@
+It is a three digit number which defines the result of a request. It is used only in response.
+All valid status codes are within the range of 100 to 599, inclusive.
+The first digit of the status code defines the class. There are five classes:
+- [[1xx Class|1xx (Informational)]]
+- [[2xx Class|2xx (Successful)]]
+- 3xx (Redirection)
+- [[4xx Class|4xx (Client Error)]]
+- [[5xx Class|5xx (Server Error)]]
+HTTP status codes are extensible.
+A client is not required to understand the meaning of all registered status codes, though such understanding is obviously desirable. However, a client must understand the class of any status code, as indicated by the first digit, and treat an unrecognized status code as being equivalent to the x00 status code of that class.
+Values outside the range 100..599 are invalid. Implementations often use values outside of that range for internal communication of non-HTTP status (For example, library errors). A client that receives a response with an invalid status code should process the response as if it had a [[5xx Class|5xx (Server Error)]] status code.
+A single request can have multiple associated responses: zero or more interim (non-final) responses with status codes in the [[1xx Class|1xx Informational]] range, followed by exactly one final response with a status code in one of the other ranges.
+HTTP status codes are registered in [[Status Code Registry|HTTP status code regsitry]].
+## References
+- https://httpwg.org/specs/rfc9110.html\#status.codes

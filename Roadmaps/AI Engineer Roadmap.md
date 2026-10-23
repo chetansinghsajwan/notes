@@ -1,0 +1,34 @@
+- [x] Git
+- [ ] GitHub
+	- [ ] GitHub Actions
+	- [ ] Pull Requests
+	- [ ]
+- [ ] Python
+	- [ ] Fundamentals
+		- [ ] Arrays
+		- [ ] String operations
+		- [ ] File operations
+		- [ ] HTTP calls
+		- [ ] Exception Handling
+	- [ ] Jupyter notebook
+	- [ ] Python Libraries
+		- [ ] `pandas`
+		- [ ] `numpy`
+		- [ ] `pyspark`
+		- [ ] `matplotlib`
+		- [ ] `seaborn`
+- [ ] SQL
+- [ ] Maths
+	- [ ] Linear Algebra
+	- [ ] Calculus
+	- [ ] Probability
+	- [ ] Statistics
+- [ ] RAG
+- [ ] MCP
+- [ ] Machine Learning Algorithims
+	- [ ] Supervised
+	- [ ] Unsupervised
+	- [ ] Tensorflow
+	- [ ] Pytorch
+	- [ ] Scikit learn
+	- [ ] NLP

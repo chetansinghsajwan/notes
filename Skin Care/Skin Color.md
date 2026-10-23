@@ -1,0 +1,1 @@
+Skin color is affected by many factors, one of them is [[Melanin]].

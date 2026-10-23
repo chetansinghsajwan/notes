@@ -1,0 +1,1 @@
+Manually managed compute resources that you create, configure, and manage for your workloads.
