@@ -1,0 +1,1 @@
+An IP address is a unique value assigned to every device connected to a network that uses the [[Internet Protocol]] for communication.

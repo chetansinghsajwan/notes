@@ -1,0 +1,6 @@
+- Releases April 28, 2026
+- New region: **Skovos Isles**
+- Two new classes: **Paladin** and **Warlock**
+- Major new features: Loot Filter, Horadric Cube crafting, Talisman set bonuses, War Plans endgame system, Fishing, Torment tiers expanded to 12, full Skill Tree rework for all classes
+- Story: Final battle against Mephisto
+- Paladin is available NOW if you pre-purchase Lord of Hatred

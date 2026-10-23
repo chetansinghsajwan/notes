@@ -1,0 +1,8 @@
+# Obsidian writes LF; keep LF everywhere
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary

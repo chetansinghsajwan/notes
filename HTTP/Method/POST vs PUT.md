@@ -1,0 +1,3 @@
+The difference between [[Put Method|HTTP Put Method]] and [[Post Method|HTTP Post Method]] is that PUT is [[Method Idempotent Property|HTTP Method Idempotent Property]], calling it once is no different from calling it several times successively. Successive identical POST requests may have additional effects, such as creating the same order several times.
+## References
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST

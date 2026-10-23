@@ -1,0 +1,6 @@
+- Released October 8, 2024
+- New region: **Nahantu** (jungle)
+- New class: **Spiritborn**
+- New features: Mercenaries, Runewords, Dark Citadel, Party Finder
+- Story: Chase Neyrelle who imprisoned Mephisto
+- From Season 7 onwards, Vessel of Hatred is required to participate in seasons

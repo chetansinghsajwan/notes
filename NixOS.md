@@ -1,0 +1,1 @@
+An operating system based on [[Nix Language|nix package mangaer]].

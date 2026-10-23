@@ -1,0 +1,75 @@
+- [ ] Concepts
+	- [ ] Data Warehouse
+	- [ ] Data Warehouse vs Database
+	- [x] Advantages of Columnar storage format
+	- [ ] OLAP vs OLTP
+	- [x] Data Lake
+	- [x] Delta Lake
+	- [x] Lakehouse Architecture
+	- [x] Medallion Architecture
+	- [x] Star Schema
+	- [x] Snowflake Schema
+	- [x] Star vs Snowflake Schema
+	- [x] Data Normalization
+	- [ ] Apache Pyspark
+	- [ ] Apache Iceberg
+	- [ ] Apache Hadoop
+	- [x] Apache Kafka
+	- [x] Apache Parquet Format
+	- [ ] Data Modeling
+- [ ] Git
+	- [ ] Credential management
+- [ ] GitHub
+	- [ ] GitHub Actions
+	- [ ] Pull Requests
+- [ ] Python
+	- [x] String operations
+	- [x] HTTP API Calls
+	- [x] Exception handling
+	- [x] Logging
+	- [x] List operations
+	- [ ] `uv` tool
+	- [ ] `ruff` tool
+- [ ] SQL
+	- [ ] Joins
+	- [ ] Indexes
+	- [ ] Optimization Techniques
+	- [ ] Window Functions
+- [ ] Pandas
+- [ ] Numpy
+- [ ] Some data visualization library
+- [ ] Apache Pyspark
+	- [ ] DataFrame API
+	- [ ] Column API
+	- [ ] Row API
+	- [ ] Spark Session
+	- [ ] Grouping
+	- [ ] Window functions
+	- [ ] Pandas API
+- [ ] Databricks
+	- [ ] Unity Catalog
+	- [ ] Permissions
+	- [ ] Compute Resources
+	- [ ] Declarative Spark Pipelines
+	- [ ] Declarative Automation Bundles
+	- [ ] Jobs
+- [ ] Certifications
+	- [ ] Databricks Associate Engineer Certification
+	- [ ] Databricks Senior Associate Engineer Certification
+	- [ ] Some AWS certification
+- [ ] Sample Projects
+	- [ ] Databricks project
+		- With `uv` and `ruff` tool
+		- With devcontainer support
+		- With test cases
+		- With CI / CD on github
+		- With docs
+		- Released on github
+	- [ ] Python project
+		- With `uv` and `ruff` tool
+		- With devcontainer support
+		- With test cases
+		- With CI / CD on github
+		- With docs
+		- With docs published
+		- Released on github

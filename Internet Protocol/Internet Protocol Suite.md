@@ -1,0 +1,8 @@
+Commonly known as TCP/IP.
+It is a framework for organizing the set of communication-protocols used in the [[Internet]].
+The foundational protocols in the suite are the [Transmission Control Protocol](https://www.wikiwand.com/en/Transmission_Control_Protocol) (TCP), the [User Datagram Protocol](https://www.wikiwand.com/en/User_Datagram_Protocol) (UDP), and the [Internet Protocol](https://www.wikiwand.com/en/Internet_Protocol) (IP).
+Early versions of this networking model were known as the **Department of Defense** (**DoD**) **model** because the research and development were funded by the [United States Department of Defense](https://www.wikiwand.com/en/United_States_Department_of_Defense) through [DARPA](https://www.wikiwand.com/en/DARPA).
+The Internet protocol suite provides [end-to-end data communication](https://www.wikiwand.com/en/End-to-end_principle) specifying how data should be packetized, addressed, transmitted, [routed](https://www.wikiwand.com/en/Routing), and received.
+This functionality is organized into four [abstraction layers](https://www.wikiwand.com/en/Abstraction_layer), which classify all related protocols according to each protocol’s scope of networking.
+An implementation of the layers for a particular application forms a [protocol stack](https://www.wikiwand.com/en/Protocol_stack).
+The [technical standards](https://www.wikiwand.com/en/Technical_standard) underlying the Internet protocol suite and its constituent protocols are maintained by the [Internet Engineering Task Force](https://www.wikiwand.com/en/Internet_Engineering_Task_Force) (IETF).

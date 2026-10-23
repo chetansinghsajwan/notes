@@ -1,0 +1,31 @@
+This page describes all securable objects in Unity Catalog. A [securable object](https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/permissions-concepts#securable-objects) is an object defined in Unity Catalog on which privileges can be granted to a principal (user, service principal, or group).
+# ==Object hierarchy==
+Securable objects in Unity Catalog are hierarchical. This hierarchical structure provides the foundation for access control in Unity Catalog.
+The [metastore](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#metastore) is the top-level securable object. Within this metastore, your data assets live in a three-level namespace that defines its [catalog](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#catalog), [schema](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#schema), and type of asset, such as [table](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#table) (`catalog.schema.table`). The following diagram highlights these securable objects.
+[![](https://docs.databricks.com/aws/en/assets/images/object-hierarchy-0c4abcfff85defd8dbdb09f71b45575d.png)](https://docs.databricks.com/aws/en/assets/images/object-hierarchy-0c4abcfff85defd8dbdb09f71b45575d.png)
+The preceding diagram shows the following:
+- **[Catalogs](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#catalog)** are the top-level layer for your data assets. Catalogs exist directly under the metastore. They are used to organize your data and AI assets, typically by organizational units or software development lifecycle scopes.
+	- **[Schemas](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#schema)** exist within catalogs. They organize data and AI assets into categories that are more granular than catalogs. A schema may represent a single use case, project, or team sandbox.
+		- **[Tables](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#table)** are collections of structured data organized by rows and columns.
+		- **[Views](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#view)** are saved queries against other tables or views.
+		- **[Volumes](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#volume)** represent collections of unstructured data in cloud object storage.
+		- **[Functions](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#function)** are units of reusable logic that return a scalar value or set of rows.
+		- **[Models](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#model)** are AI models packaged with MLflow and registered in Unity Catalog as functions.
+There are also many other securable objects in Unity Catalog. All of these objects exist directly under the metastore. The following diagram highlights these securable objects.
+[![](https://docs.databricks.com/aws/en/assets/images/object-hierarchy-non-data-475640cdebef11bd4c370890d4aeafc3.png)](https://docs.databricks.com/aws/en/assets/images/object-hierarchy-non-data-475640cdebef11bd4c370890d4aeafc3.png)
+These securable objects can be broadly categorized into two groups. The first group includes objects that manage access to cloud storage and other external data sources and services:
+- **[Storage credentials](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#storage-credential)** are objects that represent the authentication information required to access a specific path in cloud storage.
+- **[External locations](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#external-location)** are objects that represent a specific path in cloud storage. It also includes a reference to the storage credential required to access that path.
+- An **[external metadata](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#external-metadata)** object is used to define custom data lineage relationships for systems that operate outside of Unity Catalog.
+- **[Service credentials](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#service-credential)** are objects that represent the authentication information required to access external cloud services.
+- **[Connections](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#connection)** are objects that represent a connection to an external database system.
+The second group includes objects that manage access to data and AI asset sharing across metastore or organizational boundaries:
+- **[Shares](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#share)** are objects that represent a logical grouping of data assets that you intend to share with external [recipients](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#recipient).
+- **[Providers](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#provider)** are objects that represent an external organization or group of users that has shared data with your organization.
+- **[Recipients](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#recipient)** are objects that represent an external organization or group of users that a [provider](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#provider) shares data with.
+- **[Clean rooms](https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects#clean-room)** are objects that represent a secure environment for collaborating with other organizations without exposing underlying data.
+# ==References==
+
+> [!info] Unity Catalog securable objects reference | Databricks on AWS  
+> Learn about securable objects in Unity Catalog.  
+> https://docs.databricks.com/aws/en/data-governance/unity-catalog/securable-objects

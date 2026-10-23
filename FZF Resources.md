@@ -1,0 +1,3 @@
+- https://github.com/junegunn/everything.fzf
+- https://github.com/junegunn/fzf/blob/master/ADVANCED.md
+- https://github.com/junegunn/fzf/wiki/examples

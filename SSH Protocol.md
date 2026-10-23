@@ -1,0 +1,19 @@
+SSH is a protocol to securely connect to a remote computer over an unsecured network.
+It is maintained by the IETF working group [secsh](https://datatracker.ietf.org/wg/secsh/about). It is defined in the following :
+- RFC 4251 - SSH Protocol Architecture
+- RFC 4252 - Authentication
+- RFC 4253 - Transport Layer
+- RFC 4254 - Connection Protocol
+It consists of three major components:
+- The Transport Layer Protocol [SSH-TRANS] provides server authentication, confidentiality, and integrity. It may optionally also provide compression. The transport layer will typically be run over a TCP/IP connection, but might also be used on top of any other reliable data stream.
+- The User Authentication Protocol [SSH-USERAUTH] authenticates the client-side user to the server. It runs over the transport layer protocol.
+- The Connection Protocol [SSH-CONNECT] multiplexes the encrypted tunnel into several logical channels. It runs over the user authentication protocol.
+## References
+
+> [!info] An Excruciatingly Detailed Guide To SSH (But Only The Things I Actually Find Useful)  
+> Oh you like SSH?  
+> https://grahamhelton.com/blog/ssh-cheatsheet/  
+
+> [!info] Enable JavaScript to use search  
+> The browser you’re using has JavaScript turned off.  
+> https://www.google.com/search?client=firefox-b-d&channel=entpr&q=rfc+4251

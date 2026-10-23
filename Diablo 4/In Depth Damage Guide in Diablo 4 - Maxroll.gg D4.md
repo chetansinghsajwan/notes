@@ -1,0 +1,1 @@
+https://maxroll.gg/d4/resources/in-depth-damage-guide#multiplicative-damage-sources-header
